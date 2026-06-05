@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-label="AI for Caribbeans">
+  <defs>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a3d62"/>
+      <stop offset="60%" stop-color="#0d6efd"/>
+      <stop offset="100%" stop-color="#1abc9c"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffd166"/>
+      <stop offset="100%" stop-color="#ff7a3d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="500" fill="url(#sea)"/>
+  <circle cx="960" cy="140" r="220" fill="url(#glow)"/>
+  <circle cx="960" cy="140" r="80" fill="url(#sun)"/>
+
+  <g opacity="0.85">
+    <path d="M0,360 Q150,330 300,360 T600,360 T900,360 T1200,360 L1200,500 L0,500 Z" fill="#0a3d62"/>
+    <path d="M0,400 Q150,375 300,400 T600,400 T900,400 T1200,400 L1200,500 L0,500 Z" fill="#062a44"/>
+  </g>
+
+  <g fill="#1abc9c" opacity="0.9">
+    <circle cx="120" cy="345" r="14"/>
+    <circle cx="240" cy="350" r="10"/>
+    <circle cx="380" cy="342" r="18"/>
+    <circle cx="520" cy="348" r="9"/>
+    <circle cx="660" cy="345" r="13"/>
+    <circle cx="800" cy="350" r="11"/>
+    <circle cx="940" cy="345" r="16"/>
+    <circle cx="1080" cy="348" r="10"/>
+  </g>
+
+  <g stroke="#ffd166" stroke-width="2" fill="none" opacity="0.85">
+    <path d="M120,345 L240,350 L380,342 L520,348 L660,345 L800,350 L940,345 L1080,348"/>
+    <path d="M120,345 L380,342 L660,345 L940,345"/>
+    <path d="M240,350 L520,348 L800,350 L1080,348"/>
+  </g>
+
+  <g font-family="Helvetica, Arial, sans-serif" fill="#ffffff">
+    <text x="60" y="160" font-size="64" font-weight="800">AI for Caribbeans</text>
+    <text x="62" y="210" font-size="26" opacity="0.95">Machine Learning, LLMs, and GenAI, built for our islands</text>
+    <text x="62" y="260" font-size="20" opacity="0.9">Climate, Finance, Agriculture, Tourism, Health, Education</text>
+    <text x="62" y="295" font-size="18" opacity="0.8">Kids | Teens | Young Adults | Professionals | Retirees</text>
+    <text x="62" y="455" font-size="18" font-weight="700" fill="#ffd166">Created by the AI Boss, Adrian Dunkley</text>
+  </g>
+</svg>

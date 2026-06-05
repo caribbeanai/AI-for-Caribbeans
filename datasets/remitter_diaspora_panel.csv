@@ -1,0 +1,2881 @@
+year,month,from_country,to_country,volume_usd_millions
+2018,1,USA,Jamaica,215.65
+2018,1,USA,Haiti,354.62
+2018,1,USA,Dominican Republic,721.25
+2018,1,USA,Guyana,76.11
+2018,1,USA,Trinidad and Tobago,114.22
+2018,1,USA,Barbados,40.51
+2018,1,USA,Saint Lucia,36.37
+2018,1,USA,Saint Vincent,30.41
+2018,1,USA,Grenada,33.86
+2018,1,USA,Antigua and Barbuda,23.83
+2018,1,Canada,Jamaica,43.12
+2018,1,Canada,Haiti,66.79
+2018,1,Canada,Dominican Republic,122.22
+2018,1,Canada,Guyana,14.88
+2018,1,Canada,Trinidad and Tobago,20.24
+2018,1,Canada,Barbados,6.57
+2018,1,Canada,Saint Lucia,6.49
+2018,1,Canada,Saint Vincent,5.24
+2018,1,Canada,Grenada,5.69
+2018,1,Canada,Antigua and Barbuda,4.36
+2018,1,UK,Jamaica,47.36
+2018,1,UK,Haiti,77.28
+2018,1,UK,Dominican Republic,154.74
+2018,1,UK,Guyana,16.23
+2018,1,UK,Trinidad and Tobago,23.87
+2018,1,UK,Barbados,8.21
+2018,1,UK,Saint Lucia,7.21
+2018,1,UK,Saint Vincent,6.49
+2018,1,UK,Grenada,7.34
+2018,1,UK,Antigua and Barbuda,5.67
+2018,2,USA,Jamaica,213.35
+2018,2,USA,Haiti,337.57
+2018,2,USA,Dominican Republic,671.04
+2018,2,USA,Guyana,80.57
+2018,2,USA,Trinidad and Tobago,115.15
+2018,2,USA,Barbados,40.04
+2018,2,USA,Saint Lucia,36.21
+2018,2,USA,Saint Vincent,30.47
+2018,2,USA,Grenada,34.41
+2018,2,USA,Antigua and Barbuda,22.49
+2018,2,Canada,Jamaica,35.38
+2018,2,Canada,Haiti,62.37
+2018,2,Canada,Dominican Republic,130.01
+2018,2,Canada,Guyana,14.1
+2018,2,Canada,Trinidad and Tobago,20.22
+2018,2,Canada,Barbados,6.78
+2018,2,Canada,Saint Lucia,5.9
+2018,2,Canada,Saint Vincent,5.21
+2018,2,Canada,Grenada,6.0
+2018,2,Canada,Antigua and Barbuda,4.66
+2018,2,UK,Jamaica,46.67
+2018,2,UK,Haiti,77.7
+2018,2,UK,Dominican Republic,149.01
+2018,2,UK,Guyana,17.62
+2018,2,UK,Trinidad and Tobago,22.85
+2018,2,UK,Barbados,8.78
+2018,2,UK,Saint Lucia,7.42
+2018,2,UK,Saint Vincent,6.59
+2018,2,UK,Grenada,6.81
+2018,2,UK,Antigua and Barbuda,5.27
+2018,3,USA,Jamaica,221.25
+2018,3,USA,Haiti,344.09
+2018,3,USA,Dominican Republic,700.76
+2018,3,USA,Guyana,78.32
+2018,3,USA,Trinidad and Tobago,113.38
+2018,3,USA,Barbados,38.37
+2018,3,USA,Saint Lucia,36.35
+2018,3,USA,Saint Vincent,32.0
+2018,3,USA,Grenada,31.57
+2018,3,USA,Antigua and Barbuda,27.18
+2018,3,Canada,Jamaica,43.62
+2018,3,Canada,Haiti,64.4
+2018,3,Canada,Dominican Republic,117.45
+2018,3,Canada,Guyana,13.24
+2018,3,Canada,Trinidad and Tobago,19.63
+2018,3,Canada,Barbados,7.84
+2018,3,Canada,Saint Lucia,6.48
+2018,3,Canada,Saint Vincent,5.6
+2018,3,Canada,Grenada,5.69
+2018,3,Canada,Antigua and Barbuda,4.33
+2018,3,UK,Jamaica,49.3
+2018,3,UK,Haiti,72.73
+2018,3,UK,Dominican Republic,152.48
+2018,3,UK,Guyana,18.05
+2018,3,UK,Trinidad and Tobago,24.24
+2018,3,UK,Barbados,9.03
+2018,3,UK,Saint Lucia,7.53
+2018,3,UK,Saint Vincent,6.8
+2018,3,UK,Grenada,7.18
+2018,3,UK,Antigua and Barbuda,5.05
+2018,4,USA,Jamaica,208.54
+2018,4,USA,Haiti,337.34
+2018,4,USA,Dominican Republic,722.95
+2018,4,USA,Guyana,81.21
+2018,4,USA,Trinidad and Tobago,111.56
+2018,4,USA,Barbados,40.35
+2018,4,USA,Saint Lucia,36.11
+2018,4,USA,Saint Vincent,31.42
+2018,4,USA,Grenada,31.11
+2018,4,USA,Antigua and Barbuda,23.01
+2018,4,Canada,Jamaica,40.92
+2018,4,Canada,Haiti,62.34
+2018,4,Canada,Dominican Republic,126.31
+2018,4,Canada,Guyana,14.27
+2018,4,Canada,Trinidad and Tobago,18.7
+2018,4,Canada,Barbados,6.66
+2018,4,Canada,Saint Lucia,6.6
+2018,4,Canada,Saint Vincent,5.7
+2018,4,Canada,Grenada,6.03
+2018,4,Canada,Antigua and Barbuda,4.55
+2018,4,UK,Jamaica,49.05
+2018,4,UK,Haiti,75.39
+2018,4,UK,Dominican Republic,154.52
+2018,4,UK,Guyana,17.25
+2018,4,UK,Trinidad and Tobago,23.54
+2018,4,UK,Barbados,8.89
+2018,4,UK,Saint Lucia,8.35
+2018,4,UK,Saint Vincent,5.98
+2018,4,UK,Grenada,7.25
+2018,4,UK,Antigua and Barbuda,5.69
+2018,5,USA,Jamaica,206.64
+2018,5,USA,Haiti,355.49
+2018,5,USA,Dominican Republic,703.56
+2018,5,USA,Guyana,78.14
+2018,5,USA,Trinidad and Tobago,107.27
+2018,5,USA,Barbados,37.19
+2018,5,USA,Saint Lucia,37.99
+2018,5,USA,Saint Vincent,33.52
+2018,5,USA,Grenada,34.54
+2018,5,USA,Antigua and Barbuda,24.64
+2018,5,Canada,Jamaica,40.17
+2018,5,Canada,Haiti,64.19
+2018,5,Canada,Dominican Republic,120.88
+2018,5,Canada,Guyana,14.21
+2018,5,Canada,Trinidad and Tobago,20.33
+2018,5,Canada,Barbados,7.05
+2018,5,Canada,Saint Lucia,5.75
+2018,5,Canada,Saint Vincent,5.06
+2018,5,Canada,Grenada,5.83
+2018,5,Canada,Antigua and Barbuda,4.42
+2018,5,UK,Jamaica,47.68
+2018,5,UK,Haiti,82.22
+2018,5,UK,Dominican Republic,154.65
+2018,5,UK,Guyana,16.97
+2018,5,UK,Trinidad and Tobago,24.12
+2018,5,UK,Barbados,9.75
+2018,5,UK,Saint Lucia,7.27
+2018,5,UK,Saint Vincent,7.19
+2018,5,UK,Grenada,7.55
+2018,5,UK,Antigua and Barbuda,5.46
+2018,6,USA,Jamaica,216.31
+2018,6,USA,Haiti,374.83
+2018,6,USA,Dominican Republic,708.54
+2018,6,USA,Guyana,77.88
+2018,6,USA,Trinidad and Tobago,120.03
+2018,6,USA,Barbados,40.35
+2018,6,USA,Saint Lucia,35.58
+2018,6,USA,Saint Vincent,30.06
+2018,6,USA,Grenada,31.52
+2018,6,USA,Antigua and Barbuda,25.16
+2018,6,Canada,Jamaica,38.87
+2018,6,Canada,Haiti,64.6
+2018,6,Canada,Dominican Republic,132.65
+2018,6,Canada,Guyana,15.18
+2018,6,Canada,Trinidad and Tobago,20.98
+2018,6,Canada,Barbados,7.74
+2018,6,Canada,Saint Lucia,6.54
+2018,6,Canada,Saint Vincent,5.24
+2018,6,Canada,Grenada,6.04
+2018,6,Canada,Antigua and Barbuda,4.13
+2018,6,UK,Jamaica,46.67
+2018,6,UK,Haiti,78.12
+2018,6,UK,Dominican Republic,141.05
+2018,6,UK,Guyana,18.9
+2018,6,UK,Trinidad and Tobago,22.97
+2018,6,UK,Barbados,8.14
+2018,6,UK,Saint Lucia,7.41
+2018,6,UK,Saint Vincent,6.35
+2018,6,UK,Grenada,7.03
+2018,6,UK,Antigua and Barbuda,5.46
+2018,7,USA,Jamaica,231.34
+2018,7,USA,Haiti,347.09
+2018,7,USA,Dominican Republic,706.14
+2018,7,USA,Guyana,76.04
+2018,7,USA,Trinidad and Tobago,112.73
+2018,7,USA,Barbados,38.45
+2018,7,USA,Saint Lucia,31.59
+2018,7,USA,Saint Vincent,31.96
+2018,7,USA,Grenada,30.31
+2018,7,USA,Antigua and Barbuda,23.64
+2018,7,Canada,Jamaica,37.86
+2018,7,Canada,Haiti,65.05
+2018,7,Canada,Dominican Republic,116.4
+2018,7,Canada,Guyana,14.11
+2018,7,Canada,Trinidad and Tobago,20.37
+2018,7,Canada,Barbados,7.88
+2018,7,Canada,Saint Lucia,6.21
+2018,7,Canada,Saint Vincent,5.42
+2018,7,Canada,Grenada,5.51
+2018,7,Canada,Antigua and Barbuda,4.95
+2018,7,UK,Jamaica,48.06
+2018,7,UK,Haiti,76.76
+2018,7,UK,Dominican Republic,155.13
+2018,7,UK,Guyana,16.79
+2018,7,UK,Trinidad and Tobago,24.19
+2018,7,UK,Barbados,8.25
+2018,7,UK,Saint Lucia,8.27
+2018,7,UK,Saint Vincent,6.55
+2018,7,UK,Grenada,6.98
+2018,7,UK,Antigua and Barbuda,5.82
+2018,8,USA,Jamaica,243.82
+2018,8,USA,Haiti,441.94
+2018,8,USA,Dominican Republic,888.87
+2018,8,USA,Guyana,90.77
+2018,8,USA,Trinidad and Tobago,134.28
+2018,8,USA,Barbados,46.97
+2018,8,USA,Saint Lucia,43.12
+2018,8,USA,Saint Vincent,35.47
+2018,8,USA,Grenada,36.06
+2018,8,USA,Antigua and Barbuda,30.43
+2018,8,Canada,Jamaica,46.22
+2018,8,Canada,Haiti,75.01
+2018,8,Canada,Dominican Republic,155.94
+2018,8,Canada,Guyana,18.02
+2018,8,Canada,Trinidad and Tobago,24.1
+2018,8,Canada,Barbados,7.89
+2018,8,Canada,Saint Lucia,7.69
+2018,8,Canada,Saint Vincent,6.28
+2018,8,Canada,Grenada,7.16
+2018,8,Canada,Antigua and Barbuda,5.26
+2018,8,UK,Jamaica,61.18
+2018,8,UK,Haiti,93.2
+2018,8,UK,Dominican Republic,181.72
+2018,8,UK,Guyana,21.07
+2018,8,UK,Trinidad and Tobago,26.04
+2018,8,UK,Barbados,10.68
+2018,8,UK,Saint Lucia,9.14
+2018,8,UK,Saint Vincent,7.36
+2018,8,UK,Grenada,8.48
+2018,8,UK,Antigua and Barbuda,6.59
+2018,9,USA,Jamaica,223.93
+2018,9,USA,Haiti,347.98
+2018,9,USA,Dominican Republic,727.6
+2018,9,USA,Guyana,83.21
+2018,9,USA,Trinidad and Tobago,110.51
+2018,9,USA,Barbados,39.88
+2018,9,USA,Saint Lucia,34.21
+2018,9,USA,Saint Vincent,29.11
+2018,9,USA,Grenada,32.98
+2018,9,USA,Antigua and Barbuda,24.32
+2018,9,Canada,Jamaica,36.8
+2018,9,Canada,Haiti,63.77
+2018,9,Canada,Dominican Republic,132.98
+2018,9,Canada,Guyana,14.2
+2018,9,Canada,Trinidad and Tobago,20.66
+2018,9,Canada,Barbados,7.37
+2018,9,Canada,Saint Lucia,5.98
+2018,9,Canada,Saint Vincent,5.49
+2018,9,Canada,Grenada,5.73
+2018,9,Canada,Antigua and Barbuda,4.65
+2018,9,UK,Jamaica,41.66
+2018,9,UK,Haiti,80.2
+2018,9,UK,Dominican Republic,159.71
+2018,9,UK,Guyana,16.79
+2018,9,UK,Trinidad and Tobago,25.49
+2018,9,UK,Barbados,8.73
+2018,9,UK,Saint Lucia,7.77
+2018,9,UK,Saint Vincent,6.89
+2018,9,UK,Grenada,7.51
+2018,9,UK,Antigua and Barbuda,5.55
+2018,10,USA,Jamaica,227.57
+2018,10,USA,Haiti,357.81
+2018,10,USA,Dominican Republic,674.63
+2018,10,USA,Guyana,86.58
+2018,10,USA,Trinidad and Tobago,114.3
+2018,10,USA,Barbados,40.31
+2018,10,USA,Saint Lucia,36.9
+2018,10,USA,Saint Vincent,30.83
+2018,10,USA,Grenada,31.13
+2018,10,USA,Antigua and Barbuda,26.27
+2018,10,Canada,Jamaica,39.76
+2018,10,Canada,Haiti,65.0
+2018,10,Canada,Dominican Republic,132.13
+2018,10,Canada,Guyana,15.1
+2018,10,Canada,Trinidad and Tobago,21.68
+2018,10,Canada,Barbados,7.28
+2018,10,Canada,Saint Lucia,6.25
+2018,10,Canada,Saint Vincent,5.21
+2018,10,Canada,Grenada,5.59
+2018,10,Canada,Antigua and Barbuda,4.66
+2018,10,UK,Jamaica,49.49
+2018,10,UK,Haiti,73.79
+2018,10,UK,Dominican Republic,149.51
+2018,10,UK,Guyana,17.24
+2018,10,UK,Trinidad and Tobago,26.12
+2018,10,UK,Barbados,8.41
+2018,10,UK,Saint Lucia,7.85
+2018,10,UK,Saint Vincent,6.08
+2018,10,UK,Grenada,6.97
+2018,10,UK,Antigua and Barbuda,5.89
+2018,11,USA,Jamaica,243.89
+2018,11,USA,Haiti,437.58
+2018,11,USA,Dominican Republic,749.75
+2018,11,USA,Guyana,94.85
+2018,11,USA,Trinidad and Tobago,122.9
+2018,11,USA,Barbados,47.24
+2018,11,USA,Saint Lucia,40.88
+2018,11,USA,Saint Vincent,36.91
+2018,11,USA,Grenada,38.34
+2018,11,USA,Antigua and Barbuda,29.8
+2018,11,Canada,Jamaica,45.55
+2018,11,Canada,Haiti,76.15
+2018,11,Canada,Dominican Republic,143.04
+2018,11,Canada,Guyana,16.48
+2018,11,Canada,Trinidad and Tobago,22.68
+2018,11,Canada,Barbados,8.75
+2018,11,Canada,Saint Lucia,8.29
+2018,11,Canada,Saint Vincent,6.36
+2018,11,Canada,Grenada,7.46
+2018,11,Canada,Antigua and Barbuda,5.05
+2018,11,UK,Jamaica,55.52
+2018,11,UK,Haiti,93.4
+2018,11,UK,Dominican Republic,187.61
+2018,11,UK,Guyana,21.6
+2018,11,UK,Trinidad and Tobago,30.86
+2018,11,UK,Barbados,10.3
+2018,11,UK,Saint Lucia,9.6
+2018,11,UK,Saint Vincent,7.9
+2018,11,UK,Grenada,7.15
+2018,11,UK,Antigua and Barbuda,6.18
+2018,12,USA,Jamaica,253.36
+2018,12,USA,Haiti,416.24
+2018,12,USA,Dominican Republic,849.76
+2018,12,USA,Guyana,93.32
+2018,12,USA,Trinidad and Tobago,138.6
+2018,12,USA,Barbados,45.02
+2018,12,USA,Saint Lucia,41.34
+2018,12,USA,Saint Vincent,37.11
+2018,12,USA,Grenada,35.73
+2018,12,USA,Antigua and Barbuda,31.42
+2018,12,Canada,Jamaica,49.06
+2018,12,Canada,Haiti,73.91
+2018,12,Canada,Dominican Republic,149.06
+2018,12,Canada,Guyana,16.96
+2018,12,Canada,Trinidad and Tobago,23.44
+2018,12,Canada,Barbados,9.04
+2018,12,Canada,Saint Lucia,7.64
+2018,12,Canada,Saint Vincent,5.95
+2018,12,Canada,Grenada,6.29
+2018,12,Canada,Antigua and Barbuda,5.48
+2018,12,UK,Jamaica,49.75
+2018,12,UK,Haiti,83.91
+2018,12,UK,Dominican Republic,176.53
+2018,12,UK,Guyana,20.78
+2018,12,UK,Trinidad and Tobago,30.54
+2018,12,UK,Barbados,10.49
+2018,12,UK,Saint Lucia,10.7
+2018,12,UK,Saint Vincent,7.89
+2018,12,UK,Grenada,8.68
+2018,12,UK,Antigua and Barbuda,6.83
+2019,1,USA,Jamaica,225.79
+2019,1,USA,Haiti,378.25
+2019,1,USA,Dominican Republic,743.66
+2019,1,USA,Guyana,83.51
+2019,1,USA,Trinidad and Tobago,109.91
+2019,1,USA,Barbados,40.39
+2019,1,USA,Saint Lucia,37.54
+2019,1,USA,Saint Vincent,30.89
+2019,1,USA,Grenada,33.68
+2019,1,USA,Antigua and Barbuda,26.31
+2019,1,Canada,Jamaica,41.42
+2019,1,Canada,Haiti,65.04
+2019,1,Canada,Dominican Republic,133.8
+2019,1,Canada,Guyana,15.47
+2019,1,Canada,Trinidad and Tobago,21.83
+2019,1,Canada,Barbados,7.61
+2019,1,Canada,Saint Lucia,6.32
+2019,1,Canada,Saint Vincent,5.38
+2019,1,Canada,Grenada,6.13
+2019,1,Canada,Antigua and Barbuda,4.29
+2019,1,UK,Jamaica,48.64
+2019,1,UK,Haiti,83.56
+2019,1,UK,Dominican Republic,156.27
+2019,1,UK,Guyana,17.57
+2019,1,UK,Trinidad and Tobago,26.5
+2019,1,UK,Barbados,7.88
+2019,1,UK,Saint Lucia,7.91
+2019,1,UK,Saint Vincent,6.65
+2019,1,UK,Grenada,7.09
+2019,1,UK,Antigua and Barbuda,5.93
+2019,2,USA,Jamaica,243.92
+2019,2,USA,Haiti,381.46
+2019,2,USA,Dominican Republic,744.56
+2019,2,USA,Guyana,83.87
+2019,2,USA,Trinidad and Tobago,112.12
+2019,2,USA,Barbados,41.28
+2019,2,USA,Saint Lucia,33.2
+2019,2,USA,Saint Vincent,30.15
+2019,2,USA,Grenada,33.99
+2019,2,USA,Antigua and Barbuda,25.64
+2019,2,Canada,Jamaica,42.53
+2019,2,Canada,Haiti,59.97
+2019,2,Canada,Dominican Republic,126.36
+2019,2,Canada,Guyana,14.12
+2019,2,Canada,Trinidad and Tobago,21.5
+2019,2,Canada,Barbados,7.33
+2019,2,Canada,Saint Lucia,6.4
+2019,2,Canada,Saint Vincent,5.23
+2019,2,Canada,Grenada,5.79
+2019,2,Canada,Antigua and Barbuda,4.41
+2019,2,UK,Jamaica,48.52
+2019,2,UK,Haiti,88.03
+2019,2,UK,Dominican Republic,149.76
+2019,2,UK,Guyana,17.92
+2019,2,UK,Trinidad and Tobago,23.86
+2019,2,UK,Barbados,9.67
+2019,2,UK,Saint Lucia,7.56
+2019,2,UK,Saint Vincent,6.51
+2019,2,UK,Grenada,7.39
+2019,2,UK,Antigua and Barbuda,6.14
+2019,3,USA,Jamaica,229.53
+2019,3,USA,Haiti,350.75
+2019,3,USA,Dominican Republic,630.13
+2019,3,USA,Guyana,67.63
+2019,3,USA,Trinidad and Tobago,112.98
+2019,3,USA,Barbados,41.3
+2019,3,USA,Saint Lucia,38.21
+2019,3,USA,Saint Vincent,31.65
+2019,3,USA,Grenada,32.57
+2019,3,USA,Antigua and Barbuda,27.42
+2019,3,Canada,Jamaica,44.34
+2019,3,Canada,Haiti,62.84
+2019,3,Canada,Dominican Republic,135.91
+2019,3,Canada,Guyana,15.73
+2019,3,Canada,Trinidad and Tobago,19.64
+2019,3,Canada,Barbados,7.63
+2019,3,Canada,Saint Lucia,6.48
+2019,3,Canada,Saint Vincent,5.89
+2019,3,Canada,Grenada,6.27
+2019,3,Canada,Antigua and Barbuda,4.15
+2019,3,UK,Jamaica,49.33
+2019,3,UK,Haiti,84.81
+2019,3,UK,Dominican Republic,162.8
+2019,3,UK,Guyana,17.21
+2019,3,UK,Trinidad and Tobago,24.35
+2019,3,UK,Barbados,8.59
+2019,3,UK,Saint Lucia,8.07
+2019,3,UK,Saint Vincent,6.36
+2019,3,UK,Grenada,7.7
+2019,3,UK,Antigua and Barbuda,5.91
+2019,4,USA,Jamaica,245.81
+2019,4,USA,Haiti,380.21
+2019,4,USA,Dominican Republic,758.42
+2019,4,USA,Guyana,86.26
+2019,4,USA,Trinidad and Tobago,116.68
+2019,4,USA,Barbados,37.28
+2019,4,USA,Saint Lucia,37.1
+2019,4,USA,Saint Vincent,29.74
+2019,4,USA,Grenada,29.07
+2019,4,USA,Antigua and Barbuda,27.82
+2019,4,Canada,Jamaica,40.84
+2019,4,Canada,Haiti,59.73
+2019,4,Canada,Dominican Republic,131.98
+2019,4,Canada,Guyana,15.18
+2019,4,Canada,Trinidad and Tobago,20.63
+2019,4,Canada,Barbados,7.97
+2019,4,Canada,Saint Lucia,6.14
+2019,4,Canada,Saint Vincent,5.82
+2019,4,Canada,Grenada,5.65
+2019,4,Canada,Antigua and Barbuda,4.75
+2019,4,UK,Jamaica,51.55
+2019,4,UK,Haiti,77.53
+2019,4,UK,Dominican Republic,178.87
+2019,4,UK,Guyana,16.52
+2019,4,UK,Trinidad and Tobago,23.12
+2019,4,UK,Barbados,8.87
+2019,4,UK,Saint Lucia,7.59
+2019,4,UK,Saint Vincent,7.19
+2019,4,UK,Grenada,7.05
+2019,4,UK,Antigua and Barbuda,6.05
+2019,5,USA,Jamaica,221.93
+2019,5,USA,Haiti,375.58
+2019,5,USA,Dominican Republic,750.92
+2019,5,USA,Guyana,83.0
+2019,5,USA,Trinidad and Tobago,117.53
+2019,5,USA,Barbados,41.98
+2019,5,USA,Saint Lucia,39.92
+2019,5,USA,Saint Vincent,34.62
+2019,5,USA,Grenada,32.45
+2019,5,USA,Antigua and Barbuda,26.43
+2019,5,Canada,Jamaica,43.21
+2019,5,Canada,Haiti,66.85
+2019,5,Canada,Dominican Republic,142.81
+2019,5,Canada,Guyana,16.82
+2019,5,Canada,Trinidad and Tobago,18.41
+2019,5,Canada,Barbados,7.23
+2019,5,Canada,Saint Lucia,6.93
+2019,5,Canada,Saint Vincent,5.72
+2019,5,Canada,Grenada,5.73
+2019,5,Canada,Antigua and Barbuda,4.59
+2019,5,UK,Jamaica,50.28
+2019,5,UK,Haiti,86.05
+2019,5,UK,Dominican Republic,151.39
+2019,5,UK,Guyana,18.36
+2019,5,UK,Trinidad and Tobago,26.83
+2019,5,UK,Barbados,9.56
+2019,5,UK,Saint Lucia,7.89
+2019,5,UK,Saint Vincent,6.72
+2019,5,UK,Grenada,6.62
+2019,5,UK,Antigua and Barbuda,5.19
+2019,6,USA,Jamaica,217.02
+2019,6,USA,Haiti,376.28
+2019,6,USA,Dominican Republic,751.79
+2019,6,USA,Guyana,87.91
+2019,6,USA,Trinidad and Tobago,118.68
+2019,6,USA,Barbados,42.84
+2019,6,USA,Saint Lucia,36.42
+2019,6,USA,Saint Vincent,29.72
+2019,6,USA,Grenada,35.03
+2019,6,USA,Antigua and Barbuda,25.31
+2019,6,Canada,Jamaica,37.15
+2019,6,Canada,Haiti,66.45
+2019,6,Canada,Dominican Republic,130.57
+2019,6,Canada,Guyana,16.66
+2019,6,Canada,Trinidad and Tobago,20.15
+2019,6,Canada,Barbados,7.56
+2019,6,Canada,Saint Lucia,6.12
+2019,6,Canada,Saint Vincent,5.76
+2019,6,Canada,Grenada,6.02
+2019,6,Canada,Antigua and Barbuda,4.45
+2019,6,UK,Jamaica,50.51
+2019,6,UK,Haiti,74.32
+2019,6,UK,Dominican Republic,163.36
+2019,6,UK,Guyana,17.73
+2019,6,UK,Trinidad and Tobago,25.39
+2019,6,UK,Barbados,8.66
+2019,6,UK,Saint Lucia,7.63
+2019,6,UK,Saint Vincent,6.75
+2019,6,UK,Grenada,7.56
+2019,6,UK,Antigua and Barbuda,5.7
+2019,7,USA,Jamaica,199.71
+2019,7,USA,Haiti,372.75
+2019,7,USA,Dominican Republic,717.27
+2019,7,USA,Guyana,85.05
+2019,7,USA,Trinidad and Tobago,119.88
+2019,7,USA,Barbados,42.92
+2019,7,USA,Saint Lucia,34.74
+2019,7,USA,Saint Vincent,30.35
+2019,7,USA,Grenada,33.8
+2019,7,USA,Antigua and Barbuda,27.06
+2019,7,Canada,Jamaica,39.22
+2019,7,Canada,Haiti,62.84
+2019,7,Canada,Dominican Republic,123.37
+2019,7,Canada,Guyana,15.14
+2019,7,Canada,Trinidad and Tobago,19.66
+2019,7,Canada,Barbados,8.28
+2019,7,Canada,Saint Lucia,6.76
+2019,7,Canada,Saint Vincent,5.89
+2019,7,Canada,Grenada,6.12
+2019,7,Canada,Antigua and Barbuda,4.5
+2019,7,UK,Jamaica,43.49
+2019,7,UK,Haiti,85.14
+2019,7,UK,Dominican Republic,161.13
+2019,7,UK,Guyana,16.41
+2019,7,UK,Trinidad and Tobago,28.49
+2019,7,UK,Barbados,9.41
+2019,7,UK,Saint Lucia,8.57
+2019,7,UK,Saint Vincent,6.72
+2019,7,UK,Grenada,6.61
+2019,7,UK,Antigua and Barbuda,5.44
+2019,8,USA,Jamaica,278.15
+2019,8,USA,Haiti,380.41
+2019,8,USA,Dominican Republic,828.37
+2019,8,USA,Guyana,102.89
+2019,8,USA,Trinidad and Tobago,140.96
+2019,8,USA,Barbados,48.83
+2019,8,USA,Saint Lucia,37.07
+2019,8,USA,Saint Vincent,36.0
+2019,8,USA,Grenada,41.43
+2019,8,USA,Antigua and Barbuda,31.73
+2019,8,Canada,Jamaica,47.2
+2019,8,Canada,Haiti,78.07
+2019,8,Canada,Dominican Republic,157.65
+2019,8,Canada,Guyana,17.16
+2019,8,Canada,Trinidad and Tobago,23.19
+2019,8,Canada,Barbados,8.45
+2019,8,Canada,Saint Lucia,7.34
+2019,8,Canada,Saint Vincent,6.54
+2019,8,Canada,Grenada,6.99
+2019,8,Canada,Antigua and Barbuda,5.63
+2019,8,UK,Jamaica,60.59
+2019,8,UK,Haiti,92.99
+2019,8,UK,Dominican Republic,167.17
+2019,8,UK,Guyana,22.0
+2019,8,UK,Trinidad and Tobago,28.11
+2019,8,UK,Barbados,11.64
+2019,8,UK,Saint Lucia,9.22
+2019,8,UK,Saint Vincent,8.93
+2019,8,UK,Grenada,8.84
+2019,8,UK,Antigua and Barbuda,7.25
+2019,9,USA,Jamaica,229.03
+2019,9,USA,Haiti,370.1
+2019,9,USA,Dominican Republic,706.31
+2019,9,USA,Guyana,80.52
+2019,9,USA,Trinidad and Tobago,110.72
+2019,9,USA,Barbados,42.78
+2019,9,USA,Saint Lucia,34.05
+2019,9,USA,Saint Vincent,32.51
+2019,9,USA,Grenada,32.56
+2019,9,USA,Antigua and Barbuda,26.58
+2019,9,Canada,Jamaica,38.81
+2019,9,Canada,Haiti,65.14
+2019,9,Canada,Dominican Republic,118.79
+2019,9,Canada,Guyana,14.36
+2019,9,Canada,Trinidad and Tobago,20.2
+2019,9,Canada,Barbados,7.04
+2019,9,Canada,Saint Lucia,6.42
+2019,9,Canada,Saint Vincent,5.6
+2019,9,Canada,Grenada,5.97
+2019,9,Canada,Antigua and Barbuda,4.16
+2019,9,UK,Jamaica,49.1
+2019,9,UK,Haiti,78.47
+2019,9,UK,Dominican Republic,151.88
+2019,9,UK,Guyana,17.26
+2019,9,UK,Trinidad and Tobago,27.32
+2019,9,UK,Barbados,9.44
+2019,9,UK,Saint Lucia,8.33
+2019,9,UK,Saint Vincent,7.2
+2019,9,UK,Grenada,6.91
+2019,9,UK,Antigua and Barbuda,5.59
+2019,10,USA,Jamaica,206.55
+2019,10,USA,Haiti,363.9
+2019,10,USA,Dominican Republic,651.97
+2019,10,USA,Guyana,79.42
+2019,10,USA,Trinidad and Tobago,117.52
+2019,10,USA,Barbados,42.31
+2019,10,USA,Saint Lucia,34.28
+2019,10,USA,Saint Vincent,29.51
+2019,10,USA,Grenada,35.11
+2019,10,USA,Antigua and Barbuda,26.32
+2019,10,Canada,Jamaica,39.76
+2019,10,Canada,Haiti,65.36
+2019,10,Canada,Dominican Republic,130.58
+2019,10,Canada,Guyana,14.03
+2019,10,Canada,Trinidad and Tobago,19.83
+2019,10,Canada,Barbados,6.64
+2019,10,Canada,Saint Lucia,6.57
+2019,10,Canada,Saint Vincent,5.59
+2019,10,Canada,Grenada,6.24
+2019,10,Canada,Antigua and Barbuda,4.87
+2019,10,UK,Jamaica,48.72
+2019,10,UK,Haiti,85.66
+2019,10,UK,Dominican Republic,152.82
+2019,10,UK,Guyana,18.98
+2019,10,UK,Trinidad and Tobago,24.28
+2019,10,UK,Barbados,8.78
+2019,10,UK,Saint Lucia,7.44
+2019,10,UK,Saint Vincent,6.78
+2019,10,UK,Grenada,8.07
+2019,10,UK,Antigua and Barbuda,5.71
+2019,11,USA,Jamaica,273.71
+2019,11,USA,Haiti,418.17
+2019,11,USA,Dominican Republic,872.26
+2019,11,USA,Guyana,100.27
+2019,11,USA,Trinidad and Tobago,136.89
+2019,11,USA,Barbados,51.96
+2019,11,USA,Saint Lucia,42.49
+2019,11,USA,Saint Vincent,37.23
+2019,11,USA,Grenada,41.91
+2019,11,USA,Antigua and Barbuda,31.34
+2019,11,Canada,Jamaica,46.34
+2019,11,Canada,Haiti,81.48
+2019,11,Canada,Dominican Republic,158.09
+2019,11,Canada,Guyana,16.8
+2019,11,Canada,Trinidad and Tobago,23.14
+2019,11,Canada,Barbados,8.58
+2019,11,Canada,Saint Lucia,7.98
+2019,11,Canada,Saint Vincent,6.68
+2019,11,Canada,Grenada,7.35
+2019,11,Canada,Antigua and Barbuda,6.15
+2019,11,UK,Jamaica,63.97
+2019,11,UK,Haiti,94.17
+2019,11,UK,Dominican Republic,181.09
+2019,11,UK,Guyana,22.9
+2019,11,UK,Trinidad and Tobago,28.39
+2019,11,UK,Barbados,10.29
+2019,11,UK,Saint Lucia,9.31
+2019,11,UK,Saint Vincent,8.14
+2019,11,UK,Grenada,8.45
+2019,11,UK,Antigua and Barbuda,6.78
+2019,12,USA,Jamaica,231.63
+2019,12,USA,Haiti,417.86
+2019,12,USA,Dominican Republic,852.88
+2019,12,USA,Guyana,100.75
+2019,12,USA,Trinidad and Tobago,136.13
+2019,12,USA,Barbados,48.1
+2019,12,USA,Saint Lucia,47.88
+2019,12,USA,Saint Vincent,38.29
+2019,12,USA,Grenada,40.13
+2019,12,USA,Antigua and Barbuda,30.89
+2019,12,Canada,Jamaica,49.28
+2019,12,Canada,Haiti,73.51
+2019,12,Canada,Dominican Republic,145.44
+2019,12,Canada,Guyana,17.72
+2019,12,Canada,Trinidad and Tobago,22.17
+2019,12,Canada,Barbados,9.02
+2019,12,Canada,Saint Lucia,7.52
+2019,12,Canada,Saint Vincent,6.8
+2019,12,Canada,Grenada,7.05
+2019,12,Canada,Antigua and Barbuda,5.25
+2019,12,UK,Jamaica,56.8
+2019,12,UK,Haiti,91.74
+2019,12,UK,Dominican Republic,199.54
+2019,12,UK,Guyana,22.88
+2019,12,UK,Trinidad and Tobago,29.16
+2019,12,UK,Barbados,10.78
+2019,12,UK,Saint Lucia,8.99
+2019,12,UK,Saint Vincent,8.6
+2019,12,UK,Grenada,8.67
+2019,12,UK,Antigua and Barbuda,6.47
+2020,1,USA,Jamaica,218.13
+2020,1,USA,Haiti,380.93
+2020,1,USA,Dominican Republic,812.11
+2020,1,USA,Guyana,85.26
+2020,1,USA,Trinidad and Tobago,111.48
+2020,1,USA,Barbados,40.59
+2020,1,USA,Saint Lucia,36.07
+2020,1,USA,Saint Vincent,28.21
+2020,1,USA,Grenada,35.46
+2020,1,USA,Antigua and Barbuda,25.76
+2020,1,Canada,Jamaica,38.15
+2020,1,Canada,Haiti,57.01
+2020,1,Canada,Dominican Republic,135.86
+2020,1,Canada,Guyana,15.43
+2020,1,Canada,Trinidad and Tobago,22.48
+2020,1,Canada,Barbados,8.01
+2020,1,Canada,Saint Lucia,6.54
+2020,1,Canada,Saint Vincent,5.23
+2020,1,Canada,Grenada,6.17
+2020,1,Canada,Antigua and Barbuda,4.63
+2020,1,UK,Jamaica,51.52
+2020,1,UK,Haiti,75.14
+2020,1,UK,Dominican Republic,160.79
+2020,1,UK,Guyana,18.44
+2020,1,UK,Trinidad and Tobago,24.01
+2020,1,UK,Barbados,8.51
+2020,1,UK,Saint Lucia,7.26
+2020,1,UK,Saint Vincent,7.02
+2020,1,UK,Grenada,7.91
+2020,1,UK,Antigua and Barbuda,5.82
+2020,2,USA,Jamaica,203.11
+2020,2,USA,Haiti,370.05
+2020,2,USA,Dominican Republic,679.67
+2020,2,USA,Guyana,85.8
+2020,2,USA,Trinidad and Tobago,126.67
+2020,2,USA,Barbados,43.13
+2020,2,USA,Saint Lucia,32.29
+2020,2,USA,Saint Vincent,33.46
+2020,2,USA,Grenada,34.48
+2020,2,USA,Antigua and Barbuda,28.99
+2020,2,Canada,Jamaica,43.02
+2020,2,Canada,Haiti,69.08
+2020,2,Canada,Dominican Republic,121.55
+2020,2,Canada,Guyana,16.35
+2020,2,Canada,Trinidad and Tobago,19.68
+2020,2,Canada,Barbados,6.86
+2020,2,Canada,Saint Lucia,6.85
+2020,2,Canada,Saint Vincent,5.93
+2020,2,Canada,Grenada,6.55
+2020,2,Canada,Antigua and Barbuda,5.04
+2020,2,UK,Jamaica,52.25
+2020,2,UK,Haiti,82.96
+2020,2,UK,Dominican Republic,170.26
+2020,2,UK,Guyana,18.99
+2020,2,UK,Trinidad and Tobago,26.24
+2020,2,UK,Barbados,8.38
+2020,2,UK,Saint Lucia,8.12
+2020,2,UK,Saint Vincent,6.87
+2020,2,UK,Grenada,7.65
+2020,2,UK,Antigua and Barbuda,5.6
+2020,3,USA,Jamaica,244.11
+2020,3,USA,Haiti,384.81
+2020,3,USA,Dominican Republic,700.21
+2020,3,USA,Guyana,84.91
+2020,3,USA,Trinidad and Tobago,119.77
+2020,3,USA,Barbados,40.1
+2020,3,USA,Saint Lucia,32.62
+2020,3,USA,Saint Vincent,31.4
+2020,3,USA,Grenada,34.33
+2020,3,USA,Antigua and Barbuda,26.52
+2020,3,Canada,Jamaica,44.25
+2020,3,Canada,Haiti,67.78
+2020,3,Canada,Dominican Republic,144.32
+2020,3,Canada,Guyana,14.83
+2020,3,Canada,Trinidad and Tobago,22.72
+2020,3,Canada,Barbados,7.52
+2020,3,Canada,Saint Lucia,6.85
+2020,3,Canada,Saint Vincent,5.19
+2020,3,Canada,Grenada,5.87
+2020,3,Canada,Antigua and Barbuda,5.05
+2020,3,UK,Jamaica,51.48
+2020,3,UK,Haiti,81.66
+2020,3,UK,Dominican Republic,153.38
+2020,3,UK,Guyana,19.4
+2020,3,UK,Trinidad and Tobago,24.37
+2020,3,UK,Barbados,10.01
+2020,3,UK,Saint Lucia,8.41
+2020,3,UK,Saint Vincent,6.8
+2020,3,UK,Grenada,7.16
+2020,3,UK,Antigua and Barbuda,5.68
+2020,4,USA,Jamaica,166.33
+2020,4,USA,Haiti,262.95
+2020,4,USA,Dominican Republic,477.34
+2020,4,USA,Guyana,60.39
+2020,4,USA,Trinidad and Tobago,77.23
+2020,4,USA,Barbados,32.41
+2020,4,USA,Saint Lucia,23.51
+2020,4,USA,Saint Vincent,23.31
+2020,4,USA,Grenada,22.32
+2020,4,USA,Antigua and Barbuda,18.91
+2020,4,Canada,Jamaica,31.12
+2020,4,Canada,Haiti,47.85
+2020,4,Canada,Dominican Republic,87.98
+2020,4,Canada,Guyana,9.86
+2020,4,Canada,Trinidad and Tobago,15.78
+2020,4,Canada,Barbados,5.13
+2020,4,Canada,Saint Lucia,4.86
+2020,4,Canada,Saint Vincent,4.25
+2020,4,Canada,Grenada,3.92
+2020,4,Canada,Antigua and Barbuda,3.67
+2020,4,UK,Jamaica,35.68
+2020,4,UK,Haiti,56.57
+2020,4,UK,Dominican Republic,108.62
+2020,4,UK,Guyana,13.21
+2020,4,UK,Trinidad and Tobago,18.39
+2020,4,UK,Barbados,6.87
+2020,4,UK,Saint Lucia,6.01
+2020,4,UK,Saint Vincent,5.15
+2020,4,UK,Grenada,5.19
+2020,4,UK,Antigua and Barbuda,4.06
+2020,5,USA,Jamaica,164.3
+2020,5,USA,Haiti,262.19
+2020,5,USA,Dominican Republic,552.5
+2020,5,USA,Guyana,62.11
+2020,5,USA,Trinidad and Tobago,80.96
+2020,5,USA,Barbados,28.31
+2020,5,USA,Saint Lucia,23.48
+2020,5,USA,Saint Vincent,22.02
+2020,5,USA,Grenada,23.77
+2020,5,USA,Antigua and Barbuda,16.81
+2020,5,Canada,Jamaica,28.85
+2020,5,Canada,Haiti,47.34
+2020,5,Canada,Dominican Republic,94.51
+2020,5,Canada,Guyana,9.93
+2020,5,Canada,Trinidad and Tobago,14.2
+2020,5,Canada,Barbados,4.95
+2020,5,Canada,Saint Lucia,4.87
+2020,5,Canada,Saint Vincent,4.06
+2020,5,Canada,Grenada,4.83
+2020,5,Canada,Antigua and Barbuda,3.24
+2020,5,UK,Jamaica,38.65
+2020,5,UK,Haiti,57.23
+2020,5,UK,Dominican Republic,114.76
+2020,5,UK,Guyana,13.75
+2020,5,UK,Trinidad and Tobago,16.22
+2020,5,UK,Barbados,6.14
+2020,5,UK,Saint Lucia,6.15
+2020,5,UK,Saint Vincent,5.14
+2020,5,UK,Grenada,5.71
+2020,5,UK,Antigua and Barbuda,4.2
+2020,6,USA,Jamaica,159.34
+2020,6,USA,Haiti,270.86
+2020,6,USA,Dominican Republic,508.06
+2020,6,USA,Guyana,59.16
+2020,6,USA,Trinidad and Tobago,81.13
+2020,6,USA,Barbados,28.39
+2020,6,USA,Saint Lucia,28.73
+2020,6,USA,Saint Vincent,23.07
+2020,6,USA,Grenada,23.91
+2020,6,USA,Antigua and Barbuda,18.92
+2020,6,Canada,Jamaica,28.55
+2020,6,Canada,Haiti,45.88
+2020,6,Canada,Dominican Republic,94.07
+2020,6,Canada,Guyana,10.86
+2020,6,Canada,Trinidad and Tobago,13.1
+2020,6,Canada,Barbados,5.7
+2020,6,Canada,Saint Lucia,4.19
+2020,6,Canada,Saint Vincent,3.81
+2020,6,Canada,Grenada,3.98
+2020,6,Canada,Antigua and Barbuda,3.36
+2020,6,UK,Jamaica,32.73
+2020,6,UK,Haiti,59.96
+2020,6,UK,Dominican Republic,118.22
+2020,6,UK,Guyana,13.67
+2020,6,UK,Trinidad and Tobago,18.67
+2020,6,UK,Barbados,6.42
+2020,6,UK,Saint Lucia,5.78
+2020,6,UK,Saint Vincent,4.66
+2020,6,UK,Grenada,5.11
+2020,6,UK,Antigua and Barbuda,4.17
+2020,7,USA,Jamaica,152.85
+2020,7,USA,Haiti,255.75
+2020,7,USA,Dominican Republic,506.23
+2020,7,USA,Guyana,62.0
+2020,7,USA,Trinidad and Tobago,83.78
+2020,7,USA,Barbados,29.02
+2020,7,USA,Saint Lucia,27.0
+2020,7,USA,Saint Vincent,24.42
+2020,7,USA,Grenada,25.05
+2020,7,USA,Antigua and Barbuda,18.64
+2020,7,Canada,Jamaica,29.57
+2020,7,Canada,Haiti,44.47
+2020,7,Canada,Dominican Republic,90.95
+2020,7,Canada,Guyana,10.83
+2020,7,Canada,Trinidad and Tobago,14.97
+2020,7,Canada,Barbados,4.96
+2020,7,Canada,Saint Lucia,4.38
+2020,7,Canada,Saint Vincent,3.76
+2020,7,Canada,Grenada,4.03
+2020,7,Canada,Antigua and Barbuda,3.23
+2020,7,UK,Jamaica,35.61
+2020,7,UK,Haiti,53.72
+2020,7,UK,Dominican Republic,110.2
+2020,7,UK,Guyana,11.76
+2020,7,UK,Trinidad and Tobago,17.73
+2020,7,UK,Barbados,6.6
+2020,7,UK,Saint Lucia,5.55
+2020,7,UK,Saint Vincent,4.51
+2020,7,UK,Grenada,5.84
+2020,7,UK,Antigua and Barbuda,3.91
+2020,8,USA,Jamaica,196.35
+2020,8,USA,Haiti,272.37
+2020,8,USA,Dominican Republic,588.61
+2020,8,USA,Guyana,70.37
+2020,8,USA,Trinidad and Tobago,95.71
+2020,8,USA,Barbados,35.21
+2020,8,USA,Saint Lucia,30.65
+2020,8,USA,Saint Vincent,25.22
+2020,8,USA,Grenada,26.68
+2020,8,USA,Antigua and Barbuda,21.62
+2020,8,Canada,Jamaica,33.44
+2020,8,Canada,Haiti,53.34
+2020,8,Canada,Dominican Republic,112.24
+2020,8,Canada,Guyana,12.71
+2020,8,Canada,Trinidad and Tobago,16.88
+2020,8,Canada,Barbados,6.62
+2020,8,Canada,Saint Lucia,5.48
+2020,8,Canada,Saint Vincent,4.65
+2020,8,Canada,Grenada,5.24
+2020,8,Canada,Antigua and Barbuda,3.98
+2020,8,UK,Jamaica,38.88
+2020,8,UK,Haiti,68.76
+2020,8,UK,Dominican Republic,123.57
+2020,8,UK,Guyana,15.12
+2020,8,UK,Trinidad and Tobago,21.43
+2020,8,UK,Barbados,7.93
+2020,8,UK,Saint Lucia,6.41
+2020,8,UK,Saint Vincent,5.65
+2020,8,UK,Grenada,6.38
+2020,8,UK,Antigua and Barbuda,5.28
+2020,9,USA,Jamaica,178.77
+2020,9,USA,Haiti,269.87
+2020,9,USA,Dominican Republic,561.12
+2020,9,USA,Guyana,57.59
+2020,9,USA,Trinidad and Tobago,80.48
+2020,9,USA,Barbados,30.8
+2020,9,USA,Saint Lucia,26.95
+2020,9,USA,Saint Vincent,20.51
+2020,9,USA,Grenada,25.08
+2020,9,USA,Antigua and Barbuda,17.71
+2020,9,Canada,Jamaica,29.15
+2020,9,Canada,Haiti,43.95
+2020,9,Canada,Dominican Republic,91.63
+2020,9,Canada,Guyana,11.23
+2020,9,Canada,Trinidad and Tobago,13.71
+2020,9,Canada,Barbados,5.16
+2020,9,Canada,Saint Lucia,4.67
+2020,9,Canada,Saint Vincent,4.12
+2020,9,Canada,Grenada,4.63
+2020,9,Canada,Antigua and Barbuda,3.35
+2020,9,UK,Jamaica,37.73
+2020,9,UK,Haiti,52.59
+2020,9,UK,Dominican Republic,111.03
+2020,9,UK,Guyana,11.48
+2020,9,UK,Trinidad and Tobago,18.96
+2020,9,UK,Barbados,6.33
+2020,9,UK,Saint Lucia,5.88
+2020,9,UK,Saint Vincent,4.63
+2020,9,UK,Grenada,4.93
+2020,9,UK,Antigua and Barbuda,3.87
+2020,10,USA,Jamaica,224.46
+2020,10,USA,Haiti,364.61
+2020,10,USA,Dominican Republic,676.79
+2020,10,USA,Guyana,84.98
+2020,10,USA,Trinidad and Tobago,119.63
+2020,10,USA,Barbados,38.45
+2020,10,USA,Saint Lucia,34.14
+2020,10,USA,Saint Vincent,29.9
+2020,10,USA,Grenada,32.28
+2020,10,USA,Antigua and Barbuda,28.73
+2020,10,Canada,Jamaica,43.42
+2020,10,Canada,Haiti,62.37
+2020,10,Canada,Dominican Republic,151.34
+2020,10,Canada,Guyana,15.83
+2020,10,Canada,Trinidad and Tobago,19.6
+2020,10,Canada,Barbados,6.97
+2020,10,Canada,Saint Lucia,6.79
+2020,10,Canada,Saint Vincent,5.23
+2020,10,Canada,Grenada,6.14
+2020,10,Canada,Antigua and Barbuda,4.96
+2020,10,UK,Jamaica,48.98
+2020,10,UK,Haiti,78.35
+2020,10,UK,Dominican Republic,155.91
+2020,10,UK,Guyana,19.82
+2020,10,UK,Trinidad and Tobago,26.42
+2020,10,UK,Barbados,9.53
+2020,10,UK,Saint Lucia,8.49
+2020,10,UK,Saint Vincent,6.97
+2020,10,UK,Grenada,7.2
+2020,10,UK,Antigua and Barbuda,5.91
+2020,11,USA,Jamaica,287.08
+2020,11,USA,Haiti,433.37
+2020,11,USA,Dominican Republic,863.8
+2020,11,USA,Guyana,95.1
+2020,11,USA,Trinidad and Tobago,146.9
+2020,11,USA,Barbados,51.86
+2020,11,USA,Saint Lucia,44.16
+2020,11,USA,Saint Vincent,37.83
+2020,11,USA,Grenada,40.73
+2020,11,USA,Antigua and Barbuda,31.37
+2020,11,Canada,Jamaica,51.93
+2020,11,Canada,Haiti,79.5
+2020,11,Canada,Dominican Republic,163.53
+2020,11,Canada,Guyana,18.06
+2020,11,Canada,Trinidad and Tobago,24.05
+2020,11,Canada,Barbados,9.52
+2020,11,Canada,Saint Lucia,8.34
+2020,11,Canada,Saint Vincent,7.27
+2020,11,Canada,Grenada,7.05
+2020,11,Canada,Antigua and Barbuda,5.45
+2020,11,UK,Jamaica,54.9
+2020,11,UK,Haiti,96.58
+2020,11,UK,Dominican Republic,184.66
+2020,11,UK,Guyana,23.34
+2020,11,UK,Trinidad and Tobago,28.51
+2020,11,UK,Barbados,11.53
+2020,11,UK,Saint Lucia,9.04
+2020,11,UK,Saint Vincent,8.21
+2020,11,UK,Grenada,9.37
+2020,11,UK,Antigua and Barbuda,6.72
+2020,12,USA,Jamaica,280.54
+2020,12,USA,Haiti,453.15
+2020,12,USA,Dominican Republic,816.47
+2020,12,USA,Guyana,111.37
+2020,12,USA,Trinidad and Tobago,128.29
+2020,12,USA,Barbados,49.29
+2020,12,USA,Saint Lucia,44.21
+2020,12,USA,Saint Vincent,38.3
+2020,12,USA,Grenada,42.04
+2020,12,USA,Antigua and Barbuda,33.14
+2020,12,Canada,Jamaica,46.21
+2020,12,Canada,Haiti,78.14
+2020,12,Canada,Dominican Republic,141.22
+2020,12,Canada,Guyana,18.26
+2020,12,Canada,Trinidad and Tobago,23.93
+2020,12,Canada,Barbados,9.16
+2020,12,Canada,Saint Lucia,7.21
+2020,12,Canada,Saint Vincent,6.37
+2020,12,Canada,Grenada,7.38
+2020,12,Canada,Antigua and Barbuda,5.83
+2020,12,UK,Jamaica,59.55
+2020,12,UK,Haiti,94.11
+2020,12,UK,Dominican Republic,187.21
+2020,12,UK,Guyana,21.37
+2020,12,UK,Trinidad and Tobago,29.35
+2020,12,UK,Barbados,12.42
+2020,12,UK,Saint Lucia,9.97
+2020,12,UK,Saint Vincent,7.59
+2020,12,UK,Grenada,8.61
+2020,12,UK,Antigua and Barbuda,6.53
+2021,1,USA,Jamaica,241.7
+2021,1,USA,Haiti,422.25
+2021,1,USA,Dominican Republic,810.4
+2021,1,USA,Guyana,87.83
+2021,1,USA,Trinidad and Tobago,122.3
+2021,1,USA,Barbados,43.33
+2021,1,USA,Saint Lucia,36.22
+2021,1,USA,Saint Vincent,31.72
+2021,1,USA,Grenada,36.82
+2021,1,USA,Antigua and Barbuda,25.1
+2021,1,Canada,Jamaica,45.92
+2021,1,Canada,Haiti,76.71
+2021,1,Canada,Dominican Republic,137.83
+2021,1,Canada,Guyana,16.59
+2021,1,Canada,Trinidad and Tobago,21.79
+2021,1,Canada,Barbados,7.74
+2021,1,Canada,Saint Lucia,6.17
+2021,1,Canada,Saint Vincent,5.67
+2021,1,Canada,Grenada,6.77
+2021,1,Canada,Antigua and Barbuda,4.93
+2021,1,UK,Jamaica,51.94
+2021,1,UK,Haiti,90.57
+2021,1,UK,Dominican Republic,167.33
+2021,1,UK,Guyana,17.3
+2021,1,UK,Trinidad and Tobago,25.68
+2021,1,UK,Barbados,10.32
+2021,1,UK,Saint Lucia,8.88
+2021,1,UK,Saint Vincent,7.08
+2021,1,UK,Grenada,8.0
+2021,1,UK,Antigua and Barbuda,5.97
+2021,2,USA,Jamaica,269.59
+2021,2,USA,Haiti,396.2
+2021,2,USA,Dominican Republic,810.08
+2021,2,USA,Guyana,89.5
+2021,2,USA,Trinidad and Tobago,126.76
+2021,2,USA,Barbados,45.22
+2021,2,USA,Saint Lucia,38.47
+2021,2,USA,Saint Vincent,32.09
+2021,2,USA,Grenada,34.41
+2021,2,USA,Antigua and Barbuda,27.19
+2021,2,Canada,Jamaica,45.01
+2021,2,Canada,Haiti,71.22
+2021,2,Canada,Dominican Republic,147.57
+2021,2,Canada,Guyana,15.63
+2021,2,Canada,Trinidad and Tobago,21.89
+2021,2,Canada,Barbados,7.06
+2021,2,Canada,Saint Lucia,6.65
+2021,2,Canada,Saint Vincent,5.72
+2021,2,Canada,Grenada,6.3
+2021,2,Canada,Antigua and Barbuda,4.95
+2021,2,UK,Jamaica,51.65
+2021,2,UK,Haiti,85.83
+2021,2,UK,Dominican Republic,164.43
+2021,2,UK,Guyana,19.22
+2021,2,UK,Trinidad and Tobago,25.61
+2021,2,UK,Barbados,9.71
+2021,2,UK,Saint Lucia,8.16
+2021,2,UK,Saint Vincent,7.13
+2021,2,UK,Grenada,7.38
+2021,2,UK,Antigua and Barbuda,5.6
+2021,3,USA,Jamaica,255.62
+2021,3,USA,Haiti,367.49
+2021,3,USA,Dominican Republic,804.45
+2021,3,USA,Guyana,85.8
+2021,3,USA,Trinidad and Tobago,119.81
+2021,3,USA,Barbados,43.79
+2021,3,USA,Saint Lucia,36.51
+2021,3,USA,Saint Vincent,29.93
+2021,3,USA,Grenada,36.26
+2021,3,USA,Antigua and Barbuda,27.55
+2021,3,Canada,Jamaica,39.63
+2021,3,Canada,Haiti,66.19
+2021,3,Canada,Dominican Republic,132.97
+2021,3,Canada,Guyana,16.55
+2021,3,Canada,Trinidad and Tobago,22.14
+2021,3,Canada,Barbados,7.84
+2021,3,Canada,Saint Lucia,7.25
+2021,3,Canada,Saint Vincent,6.01
+2021,3,Canada,Grenada,6.05
+2021,3,Canada,Antigua and Barbuda,4.56
+2021,3,UK,Jamaica,55.32
+2021,3,UK,Haiti,76.75
+2021,3,UK,Dominican Republic,177.82
+2021,3,UK,Guyana,17.46
+2021,3,UK,Trinidad and Tobago,25.5
+2021,3,UK,Barbados,10.17
+2021,3,UK,Saint Lucia,8.76
+2021,3,UK,Saint Vincent,7.61
+2021,3,UK,Grenada,7.1
+2021,3,UK,Antigua and Barbuda,5.9
+2021,4,USA,Jamaica,238.91
+2021,4,USA,Haiti,373.31
+2021,4,USA,Dominican Republic,739.86
+2021,4,USA,Guyana,88.41
+2021,4,USA,Trinidad and Tobago,119.84
+2021,4,USA,Barbados,41.47
+2021,4,USA,Saint Lucia,37.03
+2021,4,USA,Saint Vincent,32.23
+2021,4,USA,Grenada,34.79
+2021,4,USA,Antigua and Barbuda,26.87
+2021,4,Canada,Jamaica,39.81
+2021,4,Canada,Haiti,68.9
+2021,4,Canada,Dominican Republic,140.65
+2021,4,Canada,Guyana,16.92
+2021,4,Canada,Trinidad and Tobago,21.02
+2021,4,Canada,Barbados,8.2
+2021,4,Canada,Saint Lucia,6.67
+2021,4,Canada,Saint Vincent,6.26
+2021,4,Canada,Grenada,6.24
+2021,4,Canada,Antigua and Barbuda,4.93
+2021,4,UK,Jamaica,52.21
+2021,4,UK,Haiti,84.61
+2021,4,UK,Dominican Republic,169.46
+2021,4,UK,Guyana,17.86
+2021,4,UK,Trinidad and Tobago,27.27
+2021,4,UK,Barbados,9.11
+2021,4,UK,Saint Lucia,8.32
+2021,4,UK,Saint Vincent,7.54
+2021,4,UK,Grenada,7.6
+2021,4,UK,Antigua and Barbuda,5.8
+2021,5,USA,Jamaica,260.16
+2021,5,USA,Haiti,408.57
+2021,5,USA,Dominican Republic,817.88
+2021,5,USA,Guyana,91.87
+2021,5,USA,Trinidad and Tobago,123.03
+2021,5,USA,Barbados,44.12
+2021,5,USA,Saint Lucia,35.45
+2021,5,USA,Saint Vincent,31.23
+2021,5,USA,Grenada,33.44
+2021,5,USA,Antigua and Barbuda,28.77
+2021,5,Canada,Jamaica,48.44
+2021,5,Canada,Haiti,71.51
+2021,5,Canada,Dominican Republic,136.17
+2021,5,Canada,Guyana,16.8
+2021,5,Canada,Trinidad and Tobago,21.54
+2021,5,Canada,Barbados,7.77
+2021,5,Canada,Saint Lucia,6.85
+2021,5,Canada,Saint Vincent,6.22
+2021,5,Canada,Grenada,6.68
+2021,5,Canada,Antigua and Barbuda,4.99
+2021,5,UK,Jamaica,50.08
+2021,5,UK,Haiti,87.64
+2021,5,UK,Dominican Republic,161.39
+2021,5,UK,Guyana,18.32
+2021,5,UK,Trinidad and Tobago,25.64
+2021,5,UK,Barbados,9.08
+2021,5,UK,Saint Lucia,8.09
+2021,5,UK,Saint Vincent,7.82
+2021,5,UK,Grenada,7.3
+2021,5,UK,Antigua and Barbuda,5.97
+2021,6,USA,Jamaica,221.67
+2021,6,USA,Haiti,365.84
+2021,6,USA,Dominican Republic,748.98
+2021,6,USA,Guyana,87.68
+2021,6,USA,Trinidad and Tobago,120.53
+2021,6,USA,Barbados,43.44
+2021,6,USA,Saint Lucia,36.79
+2021,6,USA,Saint Vincent,35.14
+2021,6,USA,Grenada,36.13
+2021,6,USA,Antigua and Barbuda,26.5
+2021,6,Canada,Jamaica,42.64
+2021,6,Canada,Haiti,67.11
+2021,6,Canada,Dominican Republic,137.18
+2021,6,Canada,Guyana,15.19
+2021,6,Canada,Trinidad and Tobago,22.38
+2021,6,Canada,Barbados,8.22
+2021,6,Canada,Saint Lucia,6.82
+2021,6,Canada,Saint Vincent,5.99
+2021,6,Canada,Grenada,6.1
+2021,6,Canada,Antigua and Barbuda,5.22
+2021,6,UK,Jamaica,51.71
+2021,6,UK,Haiti,86.06
+2021,6,UK,Dominican Republic,171.0
+2021,6,UK,Guyana,18.29
+2021,6,UK,Trinidad and Tobago,23.98
+2021,6,UK,Barbados,9.23
+2021,6,UK,Saint Lucia,7.95
+2021,6,UK,Saint Vincent,6.96
+2021,6,UK,Grenada,7.64
+2021,6,UK,Antigua and Barbuda,5.97
+2021,7,USA,Jamaica,233.21
+2021,7,USA,Haiti,414.62
+2021,7,USA,Dominican Republic,715.95
+2021,7,USA,Guyana,91.33
+2021,7,USA,Trinidad and Tobago,124.32
+2021,7,USA,Barbados,41.79
+2021,7,USA,Saint Lucia,41.98
+2021,7,USA,Saint Vincent,34.87
+2021,7,USA,Grenada,35.46
+2021,7,USA,Antigua and Barbuda,27.9
+2021,7,Canada,Jamaica,43.33
+2021,7,Canada,Haiti,70.86
+2021,7,Canada,Dominican Republic,133.93
+2021,7,Canada,Guyana,16.62
+2021,7,Canada,Trinidad and Tobago,22.69
+2021,7,Canada,Barbados,7.7
+2021,7,Canada,Saint Lucia,6.36
+2021,7,Canada,Saint Vincent,6.23
+2021,7,Canada,Grenada,6.34
+2021,7,Canada,Antigua and Barbuda,4.69
+2021,7,UK,Jamaica,56.64
+2021,7,UK,Haiti,84.88
+2021,7,UK,Dominican Republic,155.13
+2021,7,UK,Guyana,20.11
+2021,7,UK,Trinidad and Tobago,24.84
+2021,7,UK,Barbados,8.68
+2021,7,UK,Saint Lucia,8.08
+2021,7,UK,Saint Vincent,7.12
+2021,7,UK,Grenada,6.95
+2021,7,UK,Antigua and Barbuda,6.7
+2021,8,USA,Jamaica,287.07
+2021,8,USA,Haiti,454.8
+2021,8,USA,Dominican Republic,891.19
+2021,8,USA,Guyana,104.44
+2021,8,USA,Trinidad and Tobago,135.59
+2021,8,USA,Barbados,50.72
+2021,8,USA,Saint Lucia,47.65
+2021,8,USA,Saint Vincent,38.03
+2021,8,USA,Grenada,41.62
+2021,8,USA,Antigua and Barbuda,31.81
+2021,8,Canada,Jamaica,55.83
+2021,8,Canada,Haiti,86.02
+2021,8,Canada,Dominican Republic,165.67
+2021,8,Canada,Guyana,19.26
+2021,8,Canada,Trinidad and Tobago,25.95
+2021,8,Canada,Barbados,9.41
+2021,8,Canada,Saint Lucia,9.24
+2021,8,Canada,Saint Vincent,6.17
+2021,8,Canada,Grenada,7.35
+2021,8,Canada,Antigua and Barbuda,5.81
+2021,8,UK,Jamaica,65.33
+2021,8,UK,Haiti,91.53
+2021,8,UK,Dominican Republic,191.71
+2021,8,UK,Guyana,23.12
+2021,8,UK,Trinidad and Tobago,28.11
+2021,8,UK,Barbados,11.64
+2021,8,UK,Saint Lucia,11.01
+2021,8,UK,Saint Vincent,8.09
+2021,8,UK,Grenada,8.12
+2021,8,UK,Antigua and Barbuda,7.32
+2021,9,USA,Jamaica,236.51
+2021,9,USA,Haiti,422.4
+2021,9,USA,Dominican Republic,747.8
+2021,9,USA,Guyana,84.4
+2021,9,USA,Trinidad and Tobago,127.22
+2021,9,USA,Barbados,46.5
+2021,9,USA,Saint Lucia,40.32
+2021,9,USA,Saint Vincent,36.54
+2021,9,USA,Grenada,35.97
+2021,9,USA,Antigua and Barbuda,27.35
+2021,9,Canada,Jamaica,42.04
+2021,9,Canada,Haiti,68.3
+2021,9,Canada,Dominican Republic,134.23
+2021,9,Canada,Guyana,15.27
+2021,9,Canada,Trinidad and Tobago,20.42
+2021,9,Canada,Barbados,6.91
+2021,9,Canada,Saint Lucia,7.03
+2021,9,Canada,Saint Vincent,6.01
+2021,9,Canada,Grenada,5.74
+2021,9,Canada,Antigua and Barbuda,5.13
+2021,9,UK,Jamaica,45.27
+2021,9,UK,Haiti,81.83
+2021,9,UK,Dominican Republic,169.19
+2021,9,UK,Guyana,18.84
+2021,9,UK,Trinidad and Tobago,27.39
+2021,9,UK,Barbados,10.19
+2021,9,UK,Saint Lucia,8.91
+2021,9,UK,Saint Vincent,7.24
+2021,9,UK,Grenada,8.31
+2021,9,UK,Antigua and Barbuda,5.89
+2021,10,USA,Jamaica,233.2
+2021,10,USA,Haiti,369.25
+2021,10,USA,Dominican Republic,735.16
+2021,10,USA,Guyana,85.38
+2021,10,USA,Trinidad and Tobago,111.83
+2021,10,USA,Barbados,39.98
+2021,10,USA,Saint Lucia,41.19
+2021,10,USA,Saint Vincent,33.71
+2021,10,USA,Grenada,36.65
+2021,10,USA,Antigua and Barbuda,27.76
+2021,10,Canada,Jamaica,40.86
+2021,10,Canada,Haiti,73.28
+2021,10,Canada,Dominican Republic,142.65
+2021,10,Canada,Guyana,14.73
+2021,10,Canada,Trinidad and Tobago,22.43
+2021,10,Canada,Barbados,7.01
+2021,10,Canada,Saint Lucia,7.23
+2021,10,Canada,Saint Vincent,5.63
+2021,10,Canada,Grenada,6.61
+2021,10,Canada,Antigua and Barbuda,4.69
+2021,10,UK,Jamaica,55.69
+2021,10,UK,Haiti,85.53
+2021,10,UK,Dominican Republic,173.15
+2021,10,UK,Guyana,19.47
+2021,10,UK,Trinidad and Tobago,27.11
+2021,10,UK,Barbados,9.93
+2021,10,UK,Saint Lucia,8.74
+2021,10,UK,Saint Vincent,6.36
+2021,10,UK,Grenada,7.53
+2021,10,UK,Antigua and Barbuda,5.83
+2021,11,USA,Jamaica,278.62
+2021,11,USA,Haiti,447.0
+2021,11,USA,Dominican Republic,993.45
+2021,11,USA,Guyana,105.86
+2021,11,USA,Trinidad and Tobago,131.27
+2021,11,USA,Barbados,50.27
+2021,11,USA,Saint Lucia,47.27
+2021,11,USA,Saint Vincent,36.43
+2021,11,USA,Grenada,41.65
+2021,11,USA,Antigua and Barbuda,31.19
+2021,11,Canada,Jamaica,51.88
+2021,11,Canada,Haiti,80.19
+2021,11,Canada,Dominican Republic,161.78
+2021,11,Canada,Guyana,18.27
+2021,11,Canada,Trinidad and Tobago,24.38
+2021,11,Canada,Barbados,9.85
+2021,11,Canada,Saint Lucia,8.26
+2021,11,Canada,Saint Vincent,6.99
+2021,11,Canada,Grenada,8.0
+2021,11,Canada,Antigua and Barbuda,5.87
+2021,11,UK,Jamaica,62.16
+2021,11,UK,Haiti,100.14
+2021,11,UK,Dominican Republic,194.13
+2021,11,UK,Guyana,21.71
+2021,11,UK,Trinidad and Tobago,34.07
+2021,11,UK,Barbados,10.86
+2021,11,UK,Saint Lucia,10.54
+2021,11,UK,Saint Vincent,8.69
+2021,11,UK,Grenada,8.52
+2021,11,UK,Antigua and Barbuda,6.99
+2021,12,USA,Jamaica,271.98
+2021,12,USA,Haiti,448.67
+2021,12,USA,Dominican Republic,938.92
+2021,12,USA,Guyana,98.13
+2021,12,USA,Trinidad and Tobago,135.06
+2021,12,USA,Barbados,48.3
+2021,12,USA,Saint Lucia,48.39
+2021,12,USA,Saint Vincent,38.84
+2021,12,USA,Grenada,41.87
+2021,12,USA,Antigua and Barbuda,32.42
+2021,12,Canada,Jamaica,47.96
+2021,12,Canada,Haiti,87.91
+2021,12,Canada,Dominican Republic,152.81
+2021,12,Canada,Guyana,16.45
+2021,12,Canada,Trinidad and Tobago,26.41
+2021,12,Canada,Barbados,8.83
+2021,12,Canada,Saint Lucia,8.52
+2021,12,Canada,Saint Vincent,7.19
+2021,12,Canada,Grenada,7.45
+2021,12,Canada,Antigua and Barbuda,5.99
+2021,12,UK,Jamaica,64.65
+2021,12,UK,Haiti,96.45
+2021,12,UK,Dominican Republic,190.27
+2021,12,UK,Guyana,21.13
+2021,12,UK,Trinidad and Tobago,30.45
+2021,12,UK,Barbados,10.88
+2021,12,UK,Saint Lucia,9.35
+2021,12,UK,Saint Vincent,8.17
+2021,12,UK,Grenada,10.23
+2021,12,UK,Antigua and Barbuda,7.3
+2022,1,USA,Jamaica,228.96
+2022,1,USA,Haiti,424.98
+2022,1,USA,Dominican Republic,711.08
+2022,1,USA,Guyana,88.99
+2022,1,USA,Trinidad and Tobago,116.29
+2022,1,USA,Barbados,42.32
+2022,1,USA,Saint Lucia,38.16
+2022,1,USA,Saint Vincent,34.4
+2022,1,USA,Grenada,37.9
+2022,1,USA,Antigua and Barbuda,25.34
+2022,1,Canada,Jamaica,43.3
+2022,1,Canada,Haiti,67.4
+2022,1,Canada,Dominican Republic,144.83
+2022,1,Canada,Guyana,16.78
+2022,1,Canada,Trinidad and Tobago,20.71
+2022,1,Canada,Barbados,7.71
+2022,1,Canada,Saint Lucia,6.76
+2022,1,Canada,Saint Vincent,6.27
+2022,1,Canada,Grenada,6.29
+2022,1,Canada,Antigua and Barbuda,4.82
+2022,1,UK,Jamaica,52.22
+2022,1,UK,Haiti,82.81
+2022,1,UK,Dominican Republic,173.1
+2022,1,UK,Guyana,21.47
+2022,1,UK,Trinidad and Tobago,24.64
+2022,1,UK,Barbados,9.47
+2022,1,UK,Saint Lucia,8.78
+2022,1,UK,Saint Vincent,6.53
+2022,1,UK,Grenada,8.03
+2022,1,UK,Antigua and Barbuda,6.27
+2022,2,USA,Jamaica,246.35
+2022,2,USA,Haiti,364.17
+2022,2,USA,Dominican Republic,854.46
+2022,2,USA,Guyana,90.36
+2022,2,USA,Trinidad and Tobago,121.39
+2022,2,USA,Barbados,47.37
+2022,2,USA,Saint Lucia,36.04
+2022,2,USA,Saint Vincent,32.2
+2022,2,USA,Grenada,32.3
+2022,2,USA,Antigua and Barbuda,27.67
+2022,2,Canada,Jamaica,44.51
+2022,2,Canada,Haiti,69.25
+2022,2,Canada,Dominican Republic,139.07
+2022,2,Canada,Guyana,16.65
+2022,2,Canada,Trinidad and Tobago,21.36
+2022,2,Canada,Barbados,7.92
+2022,2,Canada,Saint Lucia,6.57
+2022,2,Canada,Saint Vincent,6.22
+2022,2,Canada,Grenada,6.34
+2022,2,Canada,Antigua and Barbuda,5.45
+2022,2,UK,Jamaica,52.49
+2022,2,UK,Haiti,88.43
+2022,2,UK,Dominican Republic,175.42
+2022,2,UK,Guyana,18.4
+2022,2,UK,Trinidad and Tobago,28.1
+2022,2,UK,Barbados,10.09
+2022,2,UK,Saint Lucia,9.05
+2022,2,UK,Saint Vincent,7.72
+2022,2,UK,Grenada,7.76
+2022,2,UK,Antigua and Barbuda,6.65
+2022,3,USA,Jamaica,251.37
+2022,3,USA,Haiti,407.45
+2022,3,USA,Dominican Republic,702.31
+2022,3,USA,Guyana,80.61
+2022,3,USA,Trinidad and Tobago,112.01
+2022,3,USA,Barbados,44.55
+2022,3,USA,Saint Lucia,39.16
+2022,3,USA,Saint Vincent,34.6
+2022,3,USA,Grenada,35.96
+2022,3,USA,Antigua and Barbuda,25.6
+2022,3,Canada,Jamaica,43.28
+2022,3,Canada,Haiti,75.73
+2022,3,Canada,Dominican Republic,148.84
+2022,3,Canada,Guyana,14.84
+2022,3,Canada,Trinidad and Tobago,21.81
+2022,3,Canada,Barbados,7.47
+2022,3,Canada,Saint Lucia,7.19
+2022,3,Canada,Saint Vincent,6.36
+2022,3,Canada,Grenada,6.72
+2022,3,Canada,Antigua and Barbuda,4.76
+2022,3,UK,Jamaica,52.77
+2022,3,UK,Haiti,85.54
+2022,3,UK,Dominican Republic,187.62
+2022,3,UK,Guyana,20.01
+2022,3,UK,Trinidad and Tobago,27.26
+2022,3,UK,Barbados,9.92
+2022,3,UK,Saint Lucia,8.72
+2022,3,UK,Saint Vincent,7.08
+2022,3,UK,Grenada,7.43
+2022,3,UK,Antigua and Barbuda,5.99
+2022,4,USA,Jamaica,242.63
+2022,4,USA,Haiti,379.21
+2022,4,USA,Dominican Republic,811.54
+2022,4,USA,Guyana,89.68
+2022,4,USA,Trinidad and Tobago,127.93
+2022,4,USA,Barbados,43.15
+2022,4,USA,Saint Lucia,34.3
+2022,4,USA,Saint Vincent,32.7
+2022,4,USA,Grenada,37.43
+2022,4,USA,Antigua and Barbuda,28.25
+2022,4,Canada,Jamaica,38.6
+2022,4,Canada,Haiti,68.5
+2022,4,Canada,Dominican Republic,135.86
+2022,4,Canada,Guyana,15.88
+2022,4,Canada,Trinidad and Tobago,21.37
+2022,4,Canada,Barbados,8.02
+2022,4,Canada,Saint Lucia,6.83
+2022,4,Canada,Saint Vincent,5.89
+2022,4,Canada,Grenada,6.75
+2022,4,Canada,Antigua and Barbuda,5.1
+2022,4,UK,Jamaica,53.67
+2022,4,UK,Haiti,80.05
+2022,4,UK,Dominican Republic,164.75
+2022,4,UK,Guyana,19.08
+2022,4,UK,Trinidad and Tobago,27.65
+2022,4,UK,Barbados,9.03
+2022,4,UK,Saint Lucia,8.72
+2022,4,UK,Saint Vincent,7.9
+2022,4,UK,Grenada,7.97
+2022,4,UK,Antigua and Barbuda,5.72
+2022,5,USA,Jamaica,258.61
+2022,5,USA,Haiti,392.34
+2022,5,USA,Dominican Republic,809.09
+2022,5,USA,Guyana,93.86
+2022,5,USA,Trinidad and Tobago,127.28
+2022,5,USA,Barbados,44.48
+2022,5,USA,Saint Lucia,37.45
+2022,5,USA,Saint Vincent,37.37
+2022,5,USA,Grenada,34.36
+2022,5,USA,Antigua and Barbuda,29.27
+2022,5,Canada,Jamaica,42.34
+2022,5,Canada,Haiti,75.18
+2022,5,Canada,Dominican Republic,154.94
+2022,5,Canada,Guyana,16.86
+2022,5,Canada,Trinidad and Tobago,21.38
+2022,5,Canada,Barbados,7.94
+2022,5,Canada,Saint Lucia,7.59
+2022,5,Canada,Saint Vincent,6.51
+2022,5,Canada,Grenada,6.67
+2022,5,Canada,Antigua and Barbuda,5.11
+2022,5,UK,Jamaica,58.63
+2022,5,UK,Haiti,88.79
+2022,5,UK,Dominican Republic,175.83
+2022,5,UK,Guyana,20.63
+2022,5,UK,Trinidad and Tobago,27.68
+2022,5,UK,Barbados,10.47
+2022,5,UK,Saint Lucia,9.3
+2022,5,UK,Saint Vincent,7.6
+2022,5,UK,Grenada,6.97
+2022,5,UK,Antigua and Barbuda,6.18
+2022,6,USA,Jamaica,241.18
+2022,6,USA,Haiti,370.3
+2022,6,USA,Dominican Republic,766.54
+2022,6,USA,Guyana,95.72
+2022,6,USA,Trinidad and Tobago,114.59
+2022,6,USA,Barbados,44.06
+2022,6,USA,Saint Lucia,37.84
+2022,6,USA,Saint Vincent,31.11
+2022,6,USA,Grenada,33.19
+2022,6,USA,Antigua and Barbuda,28.79
+2022,6,Canada,Jamaica,41.45
+2022,6,Canada,Haiti,77.17
+2022,6,Canada,Dominican Republic,139.88
+2022,6,Canada,Guyana,16.43
+2022,6,Canada,Trinidad and Tobago,22.82
+2022,6,Canada,Barbados,7.43
+2022,6,Canada,Saint Lucia,7.44
+2022,6,Canada,Saint Vincent,6.1
+2022,6,Canada,Grenada,6.43
+2022,6,Canada,Antigua and Barbuda,5.19
+2022,6,UK,Jamaica,54.72
+2022,6,UK,Haiti,86.51
+2022,6,UK,Dominican Republic,161.9
+2022,6,UK,Guyana,19.62
+2022,6,UK,Trinidad and Tobago,27.99
+2022,6,UK,Barbados,9.46
+2022,6,UK,Saint Lucia,8.98
+2022,6,UK,Saint Vincent,7.27
+2022,6,UK,Grenada,8.11
+2022,6,UK,Antigua and Barbuda,6.18
+2022,7,USA,Jamaica,233.91
+2022,7,USA,Haiti,388.12
+2022,7,USA,Dominican Republic,762.26
+2022,7,USA,Guyana,86.01
+2022,7,USA,Trinidad and Tobago,118.08
+2022,7,USA,Barbados,40.01
+2022,7,USA,Saint Lucia,38.58
+2022,7,USA,Saint Vincent,33.33
+2022,7,USA,Grenada,33.93
+2022,7,USA,Antigua and Barbuda,25.74
+2022,7,Canada,Jamaica,45.77
+2022,7,Canada,Haiti,71.78
+2022,7,Canada,Dominican Republic,148.92
+2022,7,Canada,Guyana,16.98
+2022,7,Canada,Trinidad and Tobago,21.08
+2022,7,Canada,Barbados,8.07
+2022,7,Canada,Saint Lucia,7.01
+2022,7,Canada,Saint Vincent,6.31
+2022,7,Canada,Grenada,6.14
+2022,7,Canada,Antigua and Barbuda,4.81
+2022,7,UK,Jamaica,57.6
+2022,7,UK,Haiti,81.5
+2022,7,UK,Dominican Republic,173.38
+2022,7,UK,Guyana,19.88
+2022,7,UK,Trinidad and Tobago,25.09
+2022,7,UK,Barbados,9.51
+2022,7,UK,Saint Lucia,8.25
+2022,7,UK,Saint Vincent,7.19
+2022,7,UK,Grenada,7.46
+2022,7,UK,Antigua and Barbuda,6.44
+2022,8,USA,Jamaica,286.07
+2022,8,USA,Haiti,484.13
+2022,8,USA,Dominican Republic,964.14
+2022,8,USA,Guyana,96.52
+2022,8,USA,Trinidad and Tobago,151.49
+2022,8,USA,Barbados,51.43
+2022,8,USA,Saint Lucia,47.9
+2022,8,USA,Saint Vincent,41.59
+2022,8,USA,Grenada,45.04
+2022,8,USA,Antigua and Barbuda,34.68
+2022,8,Canada,Jamaica,52.02
+2022,8,Canada,Haiti,80.8
+2022,8,Canada,Dominican Republic,167.48
+2022,8,Canada,Guyana,19.27
+2022,8,Canada,Trinidad and Tobago,26.24
+2022,8,Canada,Barbados,9.42
+2022,8,Canada,Saint Lucia,8.57
+2022,8,Canada,Saint Vincent,7.0
+2022,8,Canada,Grenada,7.72
+2022,8,Canada,Antigua and Barbuda,6.0
+2022,8,UK,Jamaica,67.58
+2022,8,UK,Haiti,98.81
+2022,8,UK,Dominican Republic,197.52
+2022,8,UK,Guyana,22.27
+2022,8,UK,Trinidad and Tobago,33.25
+2022,8,UK,Barbados,11.86
+2022,8,UK,Saint Lucia,10.05
+2022,8,UK,Saint Vincent,9.48
+2022,8,UK,Grenada,8.89
+2022,8,UK,Antigua and Barbuda,7.58
+2022,9,USA,Jamaica,251.43
+2022,9,USA,Haiti,384.49
+2022,9,USA,Dominican Republic,742.99
+2022,9,USA,Guyana,86.25
+2022,9,USA,Trinidad and Tobago,128.47
+2022,9,USA,Barbados,41.59
+2022,9,USA,Saint Lucia,38.66
+2022,9,USA,Saint Vincent,32.19
+2022,9,USA,Grenada,35.88
+2022,9,USA,Antigua and Barbuda,26.94
+2022,9,Canada,Jamaica,43.27
+2022,9,Canada,Haiti,65.75
+2022,9,Canada,Dominican Republic,142.18
+2022,9,Canada,Guyana,15.43
+2022,9,Canada,Trinidad and Tobago,22.19
+2022,9,Canada,Barbados,7.34
+2022,9,Canada,Saint Lucia,6.6
+2022,9,Canada,Saint Vincent,5.92
+2022,9,Canada,Grenada,6.19
+2022,9,Canada,Antigua and Barbuda,4.98
+2022,9,UK,Jamaica,52.41
+2022,9,UK,Haiti,89.15
+2022,9,UK,Dominican Republic,176.5
+2022,9,UK,Guyana,20.74
+2022,9,UK,Trinidad and Tobago,27.94
+2022,9,UK,Barbados,10.41
+2022,9,UK,Saint Lucia,9.11
+2022,9,UK,Saint Vincent,7.51
+2022,9,UK,Grenada,7.7
+2022,9,UK,Antigua and Barbuda,6.14
+2022,10,USA,Jamaica,248.06
+2022,10,USA,Haiti,377.08
+2022,10,USA,Dominican Republic,767.48
+2022,10,USA,Guyana,94.14
+2022,10,USA,Trinidad and Tobago,127.62
+2022,10,USA,Barbados,43.08
+2022,10,USA,Saint Lucia,37.28
+2022,10,USA,Saint Vincent,32.67
+2022,10,USA,Grenada,32.88
+2022,10,USA,Antigua and Barbuda,29.39
+2022,10,Canada,Jamaica,45.25
+2022,10,Canada,Haiti,66.39
+2022,10,Canada,Dominican Republic,139.12
+2022,10,Canada,Guyana,15.56
+2022,10,Canada,Trinidad and Tobago,23.57
+2022,10,Canada,Barbados,7.55
+2022,10,Canada,Saint Lucia,6.81
+2022,10,Canada,Saint Vincent,6.53
+2022,10,Canada,Grenada,6.98
+2022,10,Canada,Antigua and Barbuda,5.44
+2022,10,UK,Jamaica,55.13
+2022,10,UK,Haiti,84.28
+2022,10,UK,Dominican Republic,165.22
+2022,10,UK,Guyana,20.47
+2022,10,UK,Trinidad and Tobago,26.03
+2022,10,UK,Barbados,9.8
+2022,10,UK,Saint Lucia,8.56
+2022,10,UK,Saint Vincent,7.76
+2022,10,UK,Grenada,7.61
+2022,10,UK,Antigua and Barbuda,6.46
+2022,11,USA,Jamaica,282.44
+2022,11,USA,Haiti,451.05
+2022,11,USA,Dominican Republic,873.93
+2022,11,USA,Guyana,107.0
+2022,11,USA,Trinidad and Tobago,144.18
+2022,11,USA,Barbados,53.12
+2022,11,USA,Saint Lucia,45.51
+2022,11,USA,Saint Vincent,39.84
+2022,11,USA,Grenada,45.78
+2022,11,USA,Antigua and Barbuda,33.81
+2022,11,Canada,Jamaica,54.98
+2022,11,Canada,Haiti,83.1
+2022,11,Canada,Dominican Republic,166.36
+2022,11,Canada,Guyana,20.15
+2022,11,Canada,Trinidad and Tobago,29.71
+2022,11,Canada,Barbados,9.25
+2022,11,Canada,Saint Lucia,8.53
+2022,11,Canada,Saint Vincent,6.97
+2022,11,Canada,Grenada,7.82
+2022,11,Canada,Antigua and Barbuda,6.01
+2022,11,UK,Jamaica,62.25
+2022,11,UK,Haiti,94.06
+2022,11,UK,Dominican Republic,187.3
+2022,11,UK,Guyana,24.81
+2022,11,UK,Trinidad and Tobago,32.11
+2022,11,UK,Barbados,11.65
+2022,11,UK,Saint Lucia,10.48
+2022,11,UK,Saint Vincent,8.7
+2022,11,UK,Grenada,10.3
+2022,11,UK,Antigua and Barbuda,7.33
+2022,12,USA,Jamaica,305.88
+2022,12,USA,Haiti,467.76
+2022,12,USA,Dominican Republic,859.11
+2022,12,USA,Guyana,108.8
+2022,12,USA,Trinidad and Tobago,147.61
+2022,12,USA,Barbados,51.73
+2022,12,USA,Saint Lucia,49.49
+2022,12,USA,Saint Vincent,41.01
+2022,12,USA,Grenada,44.07
+2022,12,USA,Antigua and Barbuda,31.08
+2022,12,Canada,Jamaica,51.19
+2022,12,Canada,Haiti,76.4
+2022,12,Canada,Dominican Republic,171.74
+2022,12,Canada,Guyana,20.07
+2022,12,Canada,Trinidad and Tobago,25.43
+2022,12,Canada,Barbados,10.63
+2022,12,Canada,Saint Lucia,7.89
+2022,12,Canada,Saint Vincent,7.23
+2022,12,Canada,Grenada,6.82
+2022,12,Canada,Antigua and Barbuda,5.36
+2022,12,UK,Jamaica,65.2
+2022,12,UK,Haiti,102.53
+2022,12,UK,Dominican Republic,224.38
+2022,12,UK,Guyana,23.57
+2022,12,UK,Trinidad and Tobago,34.15
+2022,12,UK,Barbados,11.2
+2022,12,UK,Saint Lucia,10.51
+2022,12,UK,Saint Vincent,9.35
+2022,12,UK,Grenada,9.36
+2022,12,UK,Antigua and Barbuda,7.79
+2023,1,USA,Jamaica,267.35
+2023,1,USA,Haiti,408.88
+2023,1,USA,Dominican Republic,764.98
+2023,1,USA,Guyana,89.37
+2023,1,USA,Trinidad and Tobago,116.23
+2023,1,USA,Barbados,48.35
+2023,1,USA,Saint Lucia,43.39
+2023,1,USA,Saint Vincent,35.1
+2023,1,USA,Grenada,37.65
+2023,1,USA,Antigua and Barbuda,25.96
+2023,1,Canada,Jamaica,48.15
+2023,1,Canada,Haiti,67.65
+2023,1,Canada,Dominican Republic,141.11
+2023,1,Canada,Guyana,18.25
+2023,1,Canada,Trinidad and Tobago,23.37
+2023,1,Canada,Barbados,7.99
+2023,1,Canada,Saint Lucia,6.95
+2023,1,Canada,Saint Vincent,6.31
+2023,1,Canada,Grenada,7.02
+2023,1,Canada,Antigua and Barbuda,5.24
+2023,1,UK,Jamaica,56.1
+2023,1,UK,Haiti,90.92
+2023,1,UK,Dominican Republic,183.75
+2023,1,UK,Guyana,18.72
+2023,1,UK,Trinidad and Tobago,25.34
+2023,1,UK,Barbados,10.8
+2023,1,UK,Saint Lucia,8.55
+2023,1,UK,Saint Vincent,6.79
+2023,1,UK,Grenada,7.9
+2023,1,UK,Antigua and Barbuda,6.27
+2023,2,USA,Jamaica,248.93
+2023,2,USA,Haiti,426.9
+2023,2,USA,Dominican Republic,760.84
+2023,2,USA,Guyana,91.8
+2023,2,USA,Trinidad and Tobago,117.44
+2023,2,USA,Barbados,50.8
+2023,2,USA,Saint Lucia,37.89
+2023,2,USA,Saint Vincent,31.66
+2023,2,USA,Grenada,38.11
+2023,2,USA,Antigua and Barbuda,29.07
+2023,2,Canada,Jamaica,42.66
+2023,2,Canada,Haiti,74.54
+2023,2,Canada,Dominican Republic,150.49
+2023,2,Canada,Guyana,16.2
+2023,2,Canada,Trinidad and Tobago,23.4
+2023,2,Canada,Barbados,8.67
+2023,2,Canada,Saint Lucia,7.49
+2023,2,Canada,Saint Vincent,6.06
+2023,2,Canada,Grenada,6.6
+2023,2,Canada,Antigua and Barbuda,5.06
+2023,2,UK,Jamaica,54.5
+2023,2,UK,Haiti,88.26
+2023,2,UK,Dominican Republic,172.99
+2023,2,UK,Guyana,20.07
+2023,2,UK,Trinidad and Tobago,27.63
+2023,2,UK,Barbados,10.0
+2023,2,UK,Saint Lucia,9.09
+2023,2,UK,Saint Vincent,7.14
+2023,2,UK,Grenada,7.74
+2023,2,UK,Antigua and Barbuda,6.13
+2023,3,USA,Jamaica,242.17
+2023,3,USA,Haiti,412.12
+2023,3,USA,Dominican Republic,814.32
+2023,3,USA,Guyana,91.69
+2023,3,USA,Trinidad and Tobago,124.76
+2023,3,USA,Barbados,47.22
+2023,3,USA,Saint Lucia,41.92
+2023,3,USA,Saint Vincent,36.03
+2023,3,USA,Grenada,36.38
+2023,3,USA,Antigua and Barbuda,28.83
+2023,3,Canada,Jamaica,41.71
+2023,3,Canada,Haiti,71.58
+2023,3,Canada,Dominican Republic,160.32
+2023,3,Canada,Guyana,15.96
+2023,3,Canada,Trinidad and Tobago,23.83
+2023,3,Canada,Barbados,8.54
+2023,3,Canada,Saint Lucia,6.89
+2023,3,Canada,Saint Vincent,5.65
+2023,3,Canada,Grenada,6.36
+2023,3,Canada,Antigua and Barbuda,5.5
+2023,3,UK,Jamaica,58.54
+2023,3,UK,Haiti,91.34
+2023,3,UK,Dominican Republic,173.41
+2023,3,UK,Guyana,20.92
+2023,3,UK,Trinidad and Tobago,26.25
+2023,3,UK,Barbados,10.56
+2023,3,UK,Saint Lucia,9.04
+2023,3,UK,Saint Vincent,7.86
+2023,3,UK,Grenada,9.33
+2023,3,UK,Antigua and Barbuda,7.21
+2023,4,USA,Jamaica,242.37
+2023,4,USA,Haiti,407.36
+2023,4,USA,Dominican Republic,804.42
+2023,4,USA,Guyana,93.55
+2023,4,USA,Trinidad and Tobago,141.51
+2023,4,USA,Barbados,43.43
+2023,4,USA,Saint Lucia,40.1
+2023,4,USA,Saint Vincent,36.84
+2023,4,USA,Grenada,35.76
+2023,4,USA,Antigua and Barbuda,31.12
+2023,4,Canada,Jamaica,45.83
+2023,4,Canada,Haiti,72.22
+2023,4,Canada,Dominican Republic,149.57
+2023,4,Canada,Guyana,16.38
+2023,4,Canada,Trinidad and Tobago,23.93
+2023,4,Canada,Barbados,9.01
+2023,4,Canada,Saint Lucia,6.37
+2023,4,Canada,Saint Vincent,6.54
+2023,4,Canada,Grenada,5.99
+2023,4,Canada,Antigua and Barbuda,4.7
+2023,4,UK,Jamaica,58.0
+2023,4,UK,Haiti,90.29
+2023,4,UK,Dominican Republic,180.64
+2023,4,UK,Guyana,19.36
+2023,4,UK,Trinidad and Tobago,27.06
+2023,4,UK,Barbados,9.97
+2023,4,UK,Saint Lucia,8.13
+2023,4,UK,Saint Vincent,7.78
+2023,4,UK,Grenada,8.0
+2023,4,UK,Antigua and Barbuda,6.5
+2023,5,USA,Jamaica,222.11
+2023,5,USA,Haiti,350.67
+2023,5,USA,Dominican Republic,780.74
+2023,5,USA,Guyana,90.87
+2023,5,USA,Trinidad and Tobago,129.71
+2023,5,USA,Barbados,44.79
+2023,5,USA,Saint Lucia,38.6
+2023,5,USA,Saint Vincent,32.81
+2023,5,USA,Grenada,38.48
+2023,5,USA,Antigua and Barbuda,28.9
+2023,5,Canada,Jamaica,49.44
+2023,5,Canada,Haiti,72.13
+2023,5,Canada,Dominican Republic,147.71
+2023,5,Canada,Guyana,16.47
+2023,5,Canada,Trinidad and Tobago,22.41
+2023,5,Canada,Barbados,8.42
+2023,5,Canada,Saint Lucia,6.81
+2023,5,Canada,Saint Vincent,6.05
+2023,5,Canada,Grenada,6.75
+2023,5,Canada,Antigua and Barbuda,4.98
+2023,5,UK,Jamaica,49.66
+2023,5,UK,Haiti,86.01
+2023,5,UK,Dominican Republic,166.79
+2023,5,UK,Guyana,20.64
+2023,5,UK,Trinidad and Tobago,26.03
+2023,5,UK,Barbados,9.64
+2023,5,UK,Saint Lucia,8.88
+2023,5,UK,Saint Vincent,7.41
+2023,5,UK,Grenada,8.31
+2023,5,UK,Antigua and Barbuda,6.36
+2023,6,USA,Jamaica,249.98
+2023,6,USA,Haiti,414.37
+2023,6,USA,Dominican Republic,816.13
+2023,6,USA,Guyana,89.24
+2023,6,USA,Trinidad and Tobago,132.41
+2023,6,USA,Barbados,45.87
+2023,6,USA,Saint Lucia,41.09
+2023,6,USA,Saint Vincent,34.34
+2023,6,USA,Grenada,37.49
+2023,6,USA,Antigua and Barbuda,27.86
+2023,6,Canada,Jamaica,46.47
+2023,6,Canada,Haiti,73.04
+2023,6,Canada,Dominican Republic,143.69
+2023,6,Canada,Guyana,16.59
+2023,6,Canada,Trinidad and Tobago,22.41
+2023,6,Canada,Barbados,8.5
+2023,6,Canada,Saint Lucia,7.8
+2023,6,Canada,Saint Vincent,5.96
+2023,6,Canada,Grenada,6.55
+2023,6,Canada,Antigua and Barbuda,4.8
+2023,6,UK,Jamaica,54.74
+2023,6,UK,Haiti,88.47
+2023,6,UK,Dominican Republic,180.49
+2023,6,UK,Guyana,18.97
+2023,6,UK,Trinidad and Tobago,26.84
+2023,6,UK,Barbados,10.12
+2023,6,UK,Saint Lucia,10.14
+2023,6,UK,Saint Vincent,7.65
+2023,6,UK,Grenada,8.14
+2023,6,UK,Antigua and Barbuda,6.1
+2023,7,USA,Jamaica,248.05
+2023,7,USA,Haiti,353.44
+2023,7,USA,Dominican Republic,775.78
+2023,7,USA,Guyana,88.36
+2023,7,USA,Trinidad and Tobago,124.1
+2023,7,USA,Barbados,44.95
+2023,7,USA,Saint Lucia,44.39
+2023,7,USA,Saint Vincent,36.14
+2023,7,USA,Grenada,36.57
+2023,7,USA,Antigua and Barbuda,25.98
+2023,7,Canada,Jamaica,49.44
+2023,7,Canada,Haiti,70.3
+2023,7,Canada,Dominican Republic,138.4
+2023,7,Canada,Guyana,16.42
+2023,7,Canada,Trinidad and Tobago,22.57
+2023,7,Canada,Barbados,8.85
+2023,7,Canada,Saint Lucia,7.27
+2023,7,Canada,Saint Vincent,6.35
+2023,7,Canada,Grenada,6.82
+2023,7,Canada,Antigua and Barbuda,5.56
+2023,7,UK,Jamaica,57.5
+2023,7,UK,Haiti,87.85
+2023,7,UK,Dominican Republic,173.36
+2023,7,UK,Guyana,18.81
+2023,7,UK,Trinidad and Tobago,26.44
+2023,7,UK,Barbados,8.58
+2023,7,UK,Saint Lucia,9.31
+2023,7,UK,Saint Vincent,7.3
+2023,7,UK,Grenada,7.86
+2023,7,UK,Antigua and Barbuda,6.55
+2023,8,USA,Jamaica,293.03
+2023,8,USA,Haiti,480.62
+2023,8,USA,Dominican Republic,917.84
+2023,8,USA,Guyana,106.8
+2023,8,USA,Trinidad and Tobago,149.3
+2023,8,USA,Barbados,58.6
+2023,8,USA,Saint Lucia,43.62
+2023,8,USA,Saint Vincent,38.9
+2023,8,USA,Grenada,44.14
+2023,8,USA,Antigua and Barbuda,34.91
+2023,8,Canada,Jamaica,52.79
+2023,8,Canada,Haiti,85.26
+2023,8,Canada,Dominican Republic,169.98
+2023,8,Canada,Guyana,20.21
+2023,8,Canada,Trinidad and Tobago,24.87
+2023,8,Canada,Barbados,9.7
+2023,8,Canada,Saint Lucia,9.12
+2023,8,Canada,Saint Vincent,7.69
+2023,8,Canada,Grenada,7.56
+2023,8,Canada,Antigua and Barbuda,6.23
+2023,8,UK,Jamaica,62.09
+2023,8,UK,Haiti,107.04
+2023,8,UK,Dominican Republic,213.1
+2023,8,UK,Guyana,23.89
+2023,8,UK,Trinidad and Tobago,33.39
+2023,8,UK,Barbados,11.8
+2023,8,UK,Saint Lucia,11.02
+2023,8,UK,Saint Vincent,9.35
+2023,8,UK,Grenada,9.87
+2023,8,UK,Antigua and Barbuda,7.88
+2023,9,USA,Jamaica,267.65
+2023,9,USA,Haiti,405.29
+2023,9,USA,Dominican Republic,830.31
+2023,9,USA,Guyana,91.78
+2023,9,USA,Trinidad and Tobago,115.77
+2023,9,USA,Barbados,48.76
+2023,9,USA,Saint Lucia,39.97
+2023,9,USA,Saint Vincent,34.36
+2023,9,USA,Grenada,40.51
+2023,9,USA,Antigua and Barbuda,28.54
+2023,9,Canada,Jamaica,44.81
+2023,9,Canada,Haiti,65.96
+2023,9,Canada,Dominican Republic,147.3
+2023,9,Canada,Guyana,16.67
+2023,9,Canada,Trinidad and Tobago,22.05
+2023,9,Canada,Barbados,8.73
+2023,9,Canada,Saint Lucia,7.09
+2023,9,Canada,Saint Vincent,5.81
+2023,9,Canada,Grenada,6.41
+2023,9,Canada,Antigua and Barbuda,5.11
+2023,9,UK,Jamaica,55.05
+2023,9,UK,Haiti,88.52
+2023,9,UK,Dominican Republic,166.96
+2023,9,UK,Guyana,19.27
+2023,9,UK,Trinidad and Tobago,25.2
+2023,9,UK,Barbados,10.03
+2023,9,UK,Saint Lucia,9.5
+2023,9,UK,Saint Vincent,7.96
+2023,9,UK,Grenada,7.5
+2023,9,UK,Antigua and Barbuda,6.13
+2023,10,USA,Jamaica,268.22
+2023,10,USA,Haiti,393.47
+2023,10,USA,Dominican Republic,785.76
+2023,10,USA,Guyana,85.54
+2023,10,USA,Trinidad and Tobago,137.6
+2023,10,USA,Barbados,48.34
+2023,10,USA,Saint Lucia,38.06
+2023,10,USA,Saint Vincent,36.09
+2023,10,USA,Grenada,35.01
+2023,10,USA,Antigua and Barbuda,28.87
+2023,10,Canada,Jamaica,48.26
+2023,10,Canada,Haiti,69.1
+2023,10,Canada,Dominican Republic,138.19
+2023,10,Canada,Guyana,15.67
+2023,10,Canada,Trinidad and Tobago,22.66
+2023,10,Canada,Barbados,8.61
+2023,10,Canada,Saint Lucia,7.54
+2023,10,Canada,Saint Vincent,6.71
+2023,10,Canada,Grenada,7.23
+2023,10,Canada,Antigua and Barbuda,5.34
+2023,10,UK,Jamaica,51.34
+2023,10,UK,Haiti,83.97
+2023,10,UK,Dominican Republic,181.44
+2023,10,UK,Guyana,20.42
+2023,10,UK,Trinidad and Tobago,27.55
+2023,10,UK,Barbados,9.81
+2023,10,UK,Saint Lucia,9.02
+2023,10,UK,Saint Vincent,7.02
+2023,10,UK,Grenada,7.98
+2023,10,UK,Antigua and Barbuda,6.43
+2023,11,USA,Jamaica,317.33
+2023,11,USA,Haiti,504.87
+2023,11,USA,Dominican Republic,915.31
+2023,11,USA,Guyana,101.55
+2023,11,USA,Trinidad and Tobago,148.9
+2023,11,USA,Barbados,55.12
+2023,11,USA,Saint Lucia,43.81
+2023,11,USA,Saint Vincent,37.46
+2023,11,USA,Grenada,41.77
+2023,11,USA,Antigua and Barbuda,33.58
+2023,11,Canada,Jamaica,54.34
+2023,11,Canada,Haiti,84.5
+2023,11,Canada,Dominican Republic,169.99
+2023,11,Canada,Guyana,20.39
+2023,11,Canada,Trinidad and Tobago,26.37
+2023,11,Canada,Barbados,9.57
+2023,11,Canada,Saint Lucia,7.86
+2023,11,Canada,Saint Vincent,7.42
+2023,11,Canada,Grenada,8.19
+2023,11,Canada,Antigua and Barbuda,6.29
+2023,11,UK,Jamaica,62.73
+2023,11,UK,Haiti,110.03
+2023,11,UK,Dominican Republic,205.46
+2023,11,UK,Guyana,25.94
+2023,11,UK,Trinidad and Tobago,33.2
+2023,11,UK,Barbados,12.64
+2023,11,UK,Saint Lucia,10.55
+2023,11,UK,Saint Vincent,9.0
+2023,11,UK,Grenada,9.17
+2023,11,UK,Antigua and Barbuda,7.18
+2023,12,USA,Jamaica,314.68
+2023,12,USA,Haiti,451.45
+2023,12,USA,Dominican Republic,1024.45
+2023,12,USA,Guyana,98.79
+2023,12,USA,Trinidad and Tobago,148.65
+2023,12,USA,Barbados,52.75
+2023,12,USA,Saint Lucia,51.51
+2023,12,USA,Saint Vincent,39.64
+2023,12,USA,Grenada,42.36
+2023,12,USA,Antigua and Barbuda,32.46
+2023,12,Canada,Jamaica,55.45
+2023,12,Canada,Haiti,84.47
+2023,12,Canada,Dominican Republic,170.24
+2023,12,Canada,Guyana,17.99
+2023,12,Canada,Trinidad and Tobago,26.36
+2023,12,Canada,Barbados,9.6
+2023,12,Canada,Saint Lucia,8.24
+2023,12,Canada,Saint Vincent,7.95
+2023,12,Canada,Grenada,8.75
+2023,12,Canada,Antigua and Barbuda,6.07
+2023,12,UK,Jamaica,63.92
+2023,12,UK,Haiti,107.92
+2023,12,UK,Dominican Republic,216.86
+2023,12,UK,Guyana,22.75
+2023,12,UK,Trinidad and Tobago,33.75
+2023,12,UK,Barbados,11.6
+2023,12,UK,Saint Lucia,10.21
+2023,12,UK,Saint Vincent,8.87
+2023,12,UK,Grenada,9.97
+2023,12,UK,Antigua and Barbuda,7.51
+2024,1,USA,Jamaica,264.15
+2024,1,USA,Haiti,416.0
+2024,1,USA,Dominican Republic,751.01
+2024,1,USA,Guyana,100.64
+2024,1,USA,Trinidad and Tobago,129.16
+2024,1,USA,Barbados,45.9
+2024,1,USA,Saint Lucia,39.25
+2024,1,USA,Saint Vincent,32.92
+2024,1,USA,Grenada,38.16
+2024,1,USA,Antigua and Barbuda,31.05
+2024,1,Canada,Jamaica,46.52
+2024,1,Canada,Haiti,73.0
+2024,1,Canada,Dominican Republic,151.27
+2024,1,Canada,Guyana,14.25
+2024,1,Canada,Trinidad and Tobago,23.51
+2024,1,Canada,Barbados,8.31
+2024,1,Canada,Saint Lucia,7.68
+2024,1,Canada,Saint Vincent,6.73
+2024,1,Canada,Grenada,6.7
+2024,1,Canada,Antigua and Barbuda,4.99
+2024,1,UK,Jamaica,59.1
+2024,1,UK,Haiti,90.98
+2024,1,UK,Dominican Republic,187.22
+2024,1,UK,Guyana,21.58
+2024,1,UK,Trinidad and Tobago,28.53
+2024,1,UK,Barbados,10.02
+2024,1,UK,Saint Lucia,9.22
+2024,1,UK,Saint Vincent,7.83
+2024,1,UK,Grenada,8.89
+2024,1,UK,Antigua and Barbuda,6.54
+2024,2,USA,Jamaica,275.54
+2024,2,USA,Haiti,432.2
+2024,2,USA,Dominican Republic,834.83
+2024,2,USA,Guyana,83.55
+2024,2,USA,Trinidad and Tobago,122.58
+2024,2,USA,Barbados,48.93
+2024,2,USA,Saint Lucia,43.17
+2024,2,USA,Saint Vincent,34.11
+2024,2,USA,Grenada,34.68
+2024,2,USA,Antigua and Barbuda,33.02
+2024,2,Canada,Jamaica,46.35
+2024,2,Canada,Haiti,67.19
+2024,2,Canada,Dominican Republic,152.47
+2024,2,Canada,Guyana,18.3
+2024,2,Canada,Trinidad and Tobago,20.82
+2024,2,Canada,Barbados,8.53
+2024,2,Canada,Saint Lucia,7.25
+2024,2,Canada,Saint Vincent,6.37
+2024,2,Canada,Grenada,7.02
+2024,2,Canada,Antigua and Barbuda,5.05
+2024,2,UK,Jamaica,53.89
+2024,2,UK,Haiti,85.18
+2024,2,UK,Dominican Republic,190.74
+2024,2,UK,Guyana,21.94
+2024,2,UK,Trinidad and Tobago,26.95
+2024,2,UK,Barbados,10.99
+2024,2,UK,Saint Lucia,8.79
+2024,2,UK,Saint Vincent,7.81
+2024,2,UK,Grenada,8.11
+2024,2,UK,Antigua and Barbuda,6.4
+2024,3,USA,Jamaica,278.42
+2024,3,USA,Haiti,417.03
+2024,3,USA,Dominican Republic,792.05
+2024,3,USA,Guyana,102.27
+2024,3,USA,Trinidad and Tobago,142.49
+2024,3,USA,Barbados,47.49
+2024,3,USA,Saint Lucia,44.77
+2024,3,USA,Saint Vincent,38.72
+2024,3,USA,Grenada,36.58
+2024,3,USA,Antigua and Barbuda,27.05
+2024,3,Canada,Jamaica,43.74
+2024,3,Canada,Haiti,68.99
+2024,3,Canada,Dominican Republic,145.05
+2024,3,Canada,Guyana,18.61
+2024,3,Canada,Trinidad and Tobago,22.86
+2024,3,Canada,Barbados,8.26
+2024,3,Canada,Saint Lucia,8.02
+2024,3,Canada,Saint Vincent,6.3
+2024,3,Canada,Grenada,6.97
+2024,3,Canada,Antigua and Barbuda,5.88
+2024,3,UK,Jamaica,52.92
+2024,3,UK,Haiti,85.6
+2024,3,UK,Dominican Republic,179.18
+2024,3,UK,Guyana,20.98
+2024,3,UK,Trinidad and Tobago,28.71
+2024,3,UK,Barbados,10.66
+2024,3,UK,Saint Lucia,8.54
+2024,3,UK,Saint Vincent,7.63
+2024,3,UK,Grenada,7.79
+2024,3,UK,Antigua and Barbuda,6.45
+2024,4,USA,Jamaica,266.34
+2024,4,USA,Haiti,425.18
+2024,4,USA,Dominican Republic,835.63
+2024,4,USA,Guyana,99.61
+2024,4,USA,Trinidad and Tobago,120.53
+2024,4,USA,Barbados,47.04
+2024,4,USA,Saint Lucia,42.08
+2024,4,USA,Saint Vincent,32.65
+2024,4,USA,Grenada,43.09
+2024,4,USA,Antigua and Barbuda,28.55
+2024,4,Canada,Jamaica,49.07
+2024,4,Canada,Haiti,73.22
+2024,4,Canada,Dominican Republic,148.86
+2024,4,Canada,Guyana,16.96
+2024,4,Canada,Trinidad and Tobago,25.37
+2024,4,Canada,Barbados,8.49
+2024,4,Canada,Saint Lucia,7.71
+2024,4,Canada,Saint Vincent,6.62
+2024,4,Canada,Grenada,6.98
+2024,4,Canada,Antigua and Barbuda,5.52
+2024,4,UK,Jamaica,54.83
+2024,4,UK,Haiti,82.78
+2024,4,UK,Dominican Republic,178.62
+2024,4,UK,Guyana,19.9
+2024,4,UK,Trinidad and Tobago,25.43
+2024,4,UK,Barbados,11.05
+2024,4,UK,Saint Lucia,8.25
+2024,4,UK,Saint Vincent,8.47
+2024,4,UK,Grenada,7.71
+2024,4,UK,Antigua and Barbuda,6.22
+2024,5,USA,Jamaica,269.38
+2024,5,USA,Haiti,425.77
+2024,5,USA,Dominican Republic,875.27
+2024,5,USA,Guyana,94.99
+2024,5,USA,Trinidad and Tobago,128.13
+2024,5,USA,Barbados,41.0
+2024,5,USA,Saint Lucia,42.13
+2024,5,USA,Saint Vincent,35.02
+2024,5,USA,Grenada,37.6
+2024,5,USA,Antigua and Barbuda,30.26
+2024,5,Canada,Jamaica,50.16
+2024,5,Canada,Haiti,71.22
+2024,5,Canada,Dominican Republic,147.05
+2024,5,Canada,Guyana,16.71
+2024,5,Canada,Trinidad and Tobago,21.22
+2024,5,Canada,Barbados,8.93
+2024,5,Canada,Saint Lucia,7.3
+2024,5,Canada,Saint Vincent,5.77
+2024,5,Canada,Grenada,6.88
+2024,5,Canada,Antigua and Barbuda,5.3
+2024,5,UK,Jamaica,57.61
+2024,5,UK,Haiti,84.32
+2024,5,UK,Dominican Republic,169.74
+2024,5,UK,Guyana,20.75
+2024,5,UK,Trinidad and Tobago,29.63
+2024,5,UK,Barbados,9.83
+2024,5,UK,Saint Lucia,9.09
+2024,5,UK,Saint Vincent,7.65
+2024,5,UK,Grenada,8.4
+2024,5,UK,Antigua and Barbuda,6.75
+2024,6,USA,Jamaica,267.91
+2024,6,USA,Haiti,438.4
+2024,6,USA,Dominican Republic,903.07
+2024,6,USA,Guyana,91.54
+2024,6,USA,Trinidad and Tobago,137.8
+2024,6,USA,Barbados,46.35
+2024,6,USA,Saint Lucia,40.94
+2024,6,USA,Saint Vincent,34.41
+2024,6,USA,Grenada,38.77
+2024,6,USA,Antigua and Barbuda,27.14
+2024,6,Canada,Jamaica,43.67
+2024,6,Canada,Haiti,71.34
+2024,6,Canada,Dominican Republic,139.71
+2024,6,Canada,Guyana,15.38
+2024,6,Canada,Trinidad and Tobago,23.42
+2024,6,Canada,Barbados,8.33
+2024,6,Canada,Saint Lucia,7.06
+2024,6,Canada,Saint Vincent,6.51
+2024,6,Canada,Grenada,7.31
+2024,6,Canada,Antigua and Barbuda,5.0
+2024,6,UK,Jamaica,60.04
+2024,6,UK,Haiti,86.75
+2024,6,UK,Dominican Republic,191.51
+2024,6,UK,Guyana,21.66
+2024,6,UK,Trinidad and Tobago,27.0
+2024,6,UK,Barbados,11.41
+2024,6,UK,Saint Lucia,8.65
+2024,6,UK,Saint Vincent,7.16
+2024,6,UK,Grenada,8.0
+2024,6,UK,Antigua and Barbuda,6.57
+2024,7,USA,Jamaica,250.35
+2024,7,USA,Haiti,389.72
+2024,7,USA,Dominican Republic,865.36
+2024,7,USA,Guyana,97.0
+2024,7,USA,Trinidad and Tobago,126.59
+2024,7,USA,Barbados,51.84
+2024,7,USA,Saint Lucia,37.85
+2024,7,USA,Saint Vincent,34.16
+2024,7,USA,Grenada,35.63
+2024,7,USA,Antigua and Barbuda,28.86
+2024,7,Canada,Jamaica,46.73
+2024,7,Canada,Haiti,76.97
+2024,7,Canada,Dominican Republic,144.29
+2024,7,Canada,Guyana,17.36
+2024,7,Canada,Trinidad and Tobago,22.83
+2024,7,Canada,Barbados,9.23
+2024,7,Canada,Saint Lucia,6.91
+2024,7,Canada,Saint Vincent,6.26
+2024,7,Canada,Grenada,7.0
+2024,7,Canada,Antigua and Barbuda,5.59
+2024,7,UK,Jamaica,58.31
+2024,7,UK,Haiti,92.16
+2024,7,UK,Dominican Republic,197.67
+2024,7,UK,Guyana,20.82
+2024,7,UK,Trinidad and Tobago,28.77
+2024,7,UK,Barbados,10.02
+2024,7,UK,Saint Lucia,9.55
+2024,7,UK,Saint Vincent,7.82
+2024,7,UK,Grenada,7.6
+2024,7,UK,Antigua and Barbuda,5.96
+2024,8,USA,Jamaica,270.83
+2024,8,USA,Haiti,492.96
+2024,8,USA,Dominican Republic,989.51
+2024,8,USA,Guyana,117.73
+2024,8,USA,Trinidad and Tobago,147.98
+2024,8,USA,Barbados,48.23
+2024,8,USA,Saint Lucia,49.1
+2024,8,USA,Saint Vincent,41.19
+2024,8,USA,Grenada,43.73
+2024,8,USA,Antigua and Barbuda,35.74
+2024,8,Canada,Jamaica,51.6
+2024,8,Canada,Haiti,87.16
+2024,8,Canada,Dominican Republic,173.18
+2024,8,Canada,Guyana,20.41
+2024,8,Canada,Trinidad and Tobago,29.63
+2024,8,Canada,Barbados,9.45
+2024,8,Canada,Saint Lucia,8.93
+2024,8,Canada,Saint Vincent,7.53
+2024,8,Canada,Grenada,8.08
+2024,8,Canada,Antigua and Barbuda,6.72
+2024,8,UK,Jamaica,72.66
+2024,8,UK,Haiti,103.78
+2024,8,UK,Dominican Republic,220.28
+2024,8,UK,Guyana,24.48
+2024,8,UK,Trinidad and Tobago,32.21
+2024,8,UK,Barbados,12.68
+2024,8,UK,Saint Lucia,10.92
+2024,8,UK,Saint Vincent,9.7
+2024,8,UK,Grenada,9.93
+2024,8,UK,Antigua and Barbuda,7.5
+2024,9,USA,Jamaica,254.14
+2024,9,USA,Haiti,411.72
+2024,9,USA,Dominican Republic,858.05
+2024,9,USA,Guyana,92.5
+2024,9,USA,Trinidad and Tobago,131.21
+2024,9,USA,Barbados,48.58
+2024,9,USA,Saint Lucia,45.93
+2024,9,USA,Saint Vincent,36.22
+2024,9,USA,Grenada,39.79
+2024,9,USA,Antigua and Barbuda,29.27
+2024,9,Canada,Jamaica,45.72
+2024,9,Canada,Haiti,77.61
+2024,9,Canada,Dominican Republic,142.62
+2024,9,Canada,Guyana,16.37
+2024,9,Canada,Trinidad and Tobago,24.58
+2024,9,Canada,Barbados,8.38
+2024,9,Canada,Saint Lucia,7.51
+2024,9,Canada,Saint Vincent,6.05
+2024,9,Canada,Grenada,6.69
+2024,9,Canada,Antigua and Barbuda,5.15
+2024,9,UK,Jamaica,54.95
+2024,9,UK,Haiti,93.27
+2024,9,UK,Dominican Republic,176.59
+2024,9,UK,Guyana,19.87
+2024,9,UK,Trinidad and Tobago,27.71
+2024,9,UK,Barbados,10.21
+2024,9,UK,Saint Lucia,9.8
+2024,9,UK,Saint Vincent,7.46
+2024,9,UK,Grenada,8.23
+2024,9,UK,Antigua and Barbuda,6.74
+2024,10,USA,Jamaica,240.1
+2024,10,USA,Haiti,410.57
+2024,10,USA,Dominican Republic,835.74
+2024,10,USA,Guyana,97.47
+2024,10,USA,Trinidad and Tobago,129.33
+2024,10,USA,Barbados,46.63
+2024,10,USA,Saint Lucia,41.32
+2024,10,USA,Saint Vincent,34.06
+2024,10,USA,Grenada,35.96
+2024,10,USA,Antigua and Barbuda,31.52
+2024,10,Canada,Jamaica,45.99
+2024,10,Canada,Haiti,70.2
+2024,10,Canada,Dominican Republic,154.3
+2024,10,Canada,Guyana,15.92
+2024,10,Canada,Trinidad and Tobago,22.12
+2024,10,Canada,Barbados,8.17
+2024,10,Canada,Saint Lucia,7.98
+2024,10,Canada,Saint Vincent,6.41
+2024,10,Canada,Grenada,7.22
+2024,10,Canada,Antigua and Barbuda,5.34
+2024,10,UK,Jamaica,57.0
+2024,10,UK,Haiti,88.04
+2024,10,UK,Dominican Republic,181.97
+2024,10,UK,Guyana,21.73
+2024,10,UK,Trinidad and Tobago,29.44
+2024,10,UK,Barbados,10.12
+2024,10,UK,Saint Lucia,8.89
+2024,10,UK,Saint Vincent,8.04
+2024,10,UK,Grenada,8.14
+2024,10,UK,Antigua and Barbuda,6.42
+2024,11,USA,Jamaica,284.26
+2024,11,USA,Haiti,468.55
+2024,11,USA,Dominican Republic,1004.38
+2024,11,USA,Guyana,114.66
+2024,11,USA,Trinidad and Tobago,154.95
+2024,11,USA,Barbados,58.01
+2024,11,USA,Saint Lucia,45.59
+2024,11,USA,Saint Vincent,41.34
+2024,11,USA,Grenada,43.29
+2024,11,USA,Antigua and Barbuda,34.64
+2024,11,Canada,Jamaica,61.5
+2024,11,Canada,Haiti,90.55
+2024,11,Canada,Dominican Republic,160.59
+2024,11,Canada,Guyana,20.14
+2024,11,Canada,Trinidad and Tobago,29.28
+2024,11,Canada,Barbados,11.01
+2024,11,Canada,Saint Lucia,9.11
+2024,11,Canada,Saint Vincent,7.75
+2024,11,Canada,Grenada,7.75
+2024,11,Canada,Antigua and Barbuda,5.97
+2024,11,UK,Jamaica,67.38
+2024,11,UK,Haiti,108.28
+2024,11,UK,Dominican Republic,231.94
+2024,11,UK,Guyana,26.84
+2024,11,UK,Trinidad and Tobago,35.5
+2024,11,UK,Barbados,11.92
+2024,11,UK,Saint Lucia,10.46
+2024,11,UK,Saint Vincent,8.89
+2024,11,UK,Grenada,9.95
+2024,11,UK,Antigua and Barbuda,7.39
+2024,12,USA,Jamaica,283.19
+2024,12,USA,Haiti,464.84
+2024,12,USA,Dominican Republic,958.28
+2024,12,USA,Guyana,116.58
+2024,12,USA,Trinidad and Tobago,159.89
+2024,12,USA,Barbados,55.14
+2024,12,USA,Saint Lucia,45.65
+2024,12,USA,Saint Vincent,38.82
+2024,12,USA,Grenada,47.38
+2024,12,USA,Antigua and Barbuda,34.6
+2024,12,Canada,Jamaica,56.71
+2024,12,Canada,Haiti,87.25
+2024,12,Canada,Dominican Republic,172.51
+2024,12,Canada,Guyana,20.72
+2024,12,Canada,Trinidad and Tobago,27.33
+2024,12,Canada,Barbados,10.29
+2024,12,Canada,Saint Lucia,7.92
+2024,12,Canada,Saint Vincent,7.67
+2024,12,Canada,Grenada,9.15
+2024,12,Canada,Antigua and Barbuda,6.25
+2024,12,UK,Jamaica,67.01
+2024,12,UK,Haiti,101.13
+2024,12,UK,Dominican Republic,218.87
+2024,12,UK,Guyana,23.14
+2024,12,UK,Trinidad and Tobago,32.4
+2024,12,UK,Barbados,11.87
+2024,12,UK,Saint Lucia,9.93
+2024,12,UK,Saint Vincent,9.35
+2024,12,UK,Grenada,8.88
+2024,12,UK,Antigua and Barbuda,7.93
+2025,1,USA,Jamaica,246.19
+2025,1,USA,Haiti,406.0
+2025,1,USA,Dominican Republic,852.33
+2025,1,USA,Guyana,92.58
+2025,1,USA,Trinidad and Tobago,145.88
+2025,1,USA,Barbados,48.6
+2025,1,USA,Saint Lucia,43.84
+2025,1,USA,Saint Vincent,36.69
+2025,1,USA,Grenada,40.64
+2025,1,USA,Antigua and Barbuda,29.48
+2025,1,Canada,Jamaica,48.94
+2025,1,Canada,Haiti,78.3
+2025,1,Canada,Dominican Republic,164.07
+2025,1,Canada,Guyana,18.14
+2025,1,Canada,Trinidad and Tobago,22.33
+2025,1,Canada,Barbados,8.24
+2025,1,Canada,Saint Lucia,8.09
+2025,1,Canada,Saint Vincent,7.03
+2025,1,Canada,Grenada,7.42
+2025,1,Canada,Antigua and Barbuda,5.93
+2025,1,UK,Jamaica,61.64
+2025,1,UK,Haiti,99.11
+2025,1,UK,Dominican Republic,195.29
+2025,1,UK,Guyana,21.1
+2025,1,UK,Trinidad and Tobago,27.59
+2025,1,UK,Barbados,10.81
+2025,1,UK,Saint Lucia,9.28
+2025,1,UK,Saint Vincent,7.72
+2025,1,UK,Grenada,8.3
+2025,1,UK,Antigua and Barbuda,6.55
+2025,2,USA,Jamaica,267.05
+2025,2,USA,Haiti,422.35
+2025,2,USA,Dominican Republic,872.27
+2025,2,USA,Guyana,95.15
+2025,2,USA,Trinidad and Tobago,148.38
+2025,2,USA,Barbados,51.73
+2025,2,USA,Saint Lucia,41.92
+2025,2,USA,Saint Vincent,37.08
+2025,2,USA,Grenada,37.78
+2025,2,USA,Antigua and Barbuda,31.02
+2025,2,Canada,Jamaica,54.94
+2025,2,Canada,Haiti,76.41
+2025,2,Canada,Dominican Republic,148.25
+2025,2,Canada,Guyana,17.69
+2025,2,Canada,Trinidad and Tobago,24.8
+2025,2,Canada,Barbados,9.31
+2025,2,Canada,Saint Lucia,7.33
+2025,2,Canada,Saint Vincent,6.32
+2025,2,Canada,Grenada,7.12
+2025,2,Canada,Antigua and Barbuda,5.27
+2025,2,UK,Jamaica,68.53
+2025,2,UK,Haiti,81.66
+2025,2,UK,Dominican Republic,183.33
+2025,2,UK,Guyana,20.84
+2025,2,UK,Trinidad and Tobago,28.01
+2025,2,UK,Barbados,11.01
+2025,2,UK,Saint Lucia,9.25
+2025,2,UK,Saint Vincent,7.96
+2025,2,UK,Grenada,9.07
+2025,2,UK,Antigua and Barbuda,6.81
+2025,3,USA,Jamaica,266.92
+2025,3,USA,Haiti,408.51
+2025,3,USA,Dominican Republic,898.71
+2025,3,USA,Guyana,91.98
+2025,3,USA,Trinidad and Tobago,141.72
+2025,3,USA,Barbados,47.03
+2025,3,USA,Saint Lucia,47.52
+2025,3,USA,Saint Vincent,36.88
+2025,3,USA,Grenada,39.13
+2025,3,USA,Antigua and Barbuda,30.13
+2025,3,Canada,Jamaica,48.07
+2025,3,Canada,Haiti,79.9
+2025,3,Canada,Dominican Republic,148.63
+2025,3,Canada,Guyana,16.97
+2025,3,Canada,Trinidad and Tobago,22.59
+2025,3,Canada,Barbados,8.99
+2025,3,Canada,Saint Lucia,7.25
+2025,3,Canada,Saint Vincent,6.23
+2025,3,Canada,Grenada,7.5
+2025,3,Canada,Antigua and Barbuda,4.87
+2025,3,UK,Jamaica,52.43
+2025,3,UK,Haiti,91.73
+2025,3,UK,Dominican Republic,187.22
+2025,3,UK,Guyana,22.48
+2025,3,UK,Trinidad and Tobago,29.87
+2025,3,UK,Barbados,10.66
+2025,3,UK,Saint Lucia,9.74
+2025,3,UK,Saint Vincent,7.4
+2025,3,UK,Grenada,7.99
+2025,3,UK,Antigua and Barbuda,6.67
+2025,4,USA,Jamaica,298.14
+2025,4,USA,Haiti,414.84
+2025,4,USA,Dominican Republic,842.63
+2025,4,USA,Guyana,94.34
+2025,4,USA,Trinidad and Tobago,126.03
+2025,4,USA,Barbados,43.98
+2025,4,USA,Saint Lucia,43.6
+2025,4,USA,Saint Vincent,36.8
+2025,4,USA,Grenada,37.7
+2025,4,USA,Antigua and Barbuda,30.29
+2025,4,Canada,Jamaica,49.14
+2025,4,Canada,Haiti,73.78
+2025,4,Canada,Dominican Republic,146.18
+2025,4,Canada,Guyana,16.01
+2025,4,Canada,Trinidad and Tobago,23.22
+2025,4,Canada,Barbados,9.21
+2025,4,Canada,Saint Lucia,7.27
+2025,4,Canada,Saint Vincent,6.41
+2025,4,Canada,Grenada,7.16
+2025,4,Canada,Antigua and Barbuda,5.52
+2025,4,UK,Jamaica,59.98
+2025,4,UK,Haiti,96.03
+2025,4,UK,Dominican Republic,193.37
+2025,4,UK,Guyana,21.34
+2025,4,UK,Trinidad and Tobago,29.48
+2025,4,UK,Barbados,11.61
+2025,4,UK,Saint Lucia,9.29
+2025,4,UK,Saint Vincent,8.25
+2025,4,UK,Grenada,8.19
+2025,4,UK,Antigua and Barbuda,6.95
+2025,5,USA,Jamaica,281.21
+2025,5,USA,Haiti,427.94
+2025,5,USA,Dominican Republic,862.81
+2025,5,USA,Guyana,93.96
+2025,5,USA,Trinidad and Tobago,129.35
+2025,5,USA,Barbados,48.97
+2025,5,USA,Saint Lucia,45.78
+2025,5,USA,Saint Vincent,35.28
+2025,5,USA,Grenada,42.3
+2025,5,USA,Antigua and Barbuda,31.51
+2025,5,Canada,Jamaica,48.2
+2025,5,Canada,Haiti,73.18
+2025,5,Canada,Dominican Republic,165.61
+2025,5,Canada,Guyana,17.84
+2025,5,Canada,Trinidad and Tobago,24.63
+2025,5,Canada,Barbados,9.34
+2025,5,Canada,Saint Lucia,7.59
+2025,5,Canada,Saint Vincent,6.09
+2025,5,Canada,Grenada,7.38
+2025,5,Canada,Antigua and Barbuda,5.0
+2025,5,UK,Jamaica,55.28
+2025,5,UK,Haiti,91.35
+2025,5,UK,Dominican Republic,193.72
+2025,5,UK,Guyana,20.87
+2025,5,UK,Trinidad and Tobago,31.63
+2025,5,UK,Barbados,10.09
+2025,5,UK,Saint Lucia,9.95
+2025,5,UK,Saint Vincent,8.37
+2025,5,UK,Grenada,8.34
+2025,5,UK,Antigua and Barbuda,6.35
+2025,6,USA,Jamaica,258.63
+2025,6,USA,Haiti,404.0
+2025,6,USA,Dominican Republic,912.35
+2025,6,USA,Guyana,94.91
+2025,6,USA,Trinidad and Tobago,127.48
+2025,6,USA,Barbados,49.66
+2025,6,USA,Saint Lucia,40.63
+2025,6,USA,Saint Vincent,32.94
+2025,6,USA,Grenada,38.99
+2025,6,USA,Antigua and Barbuda,29.34
+2025,6,Canada,Jamaica,50.77
+2025,6,Canada,Haiti,82.85
+2025,6,Canada,Dominican Republic,155.13
+2025,6,Canada,Guyana,17.21
+2025,6,Canada,Trinidad and Tobago,25.1
+2025,6,Canada,Barbados,8.8
+2025,6,Canada,Saint Lucia,6.96
+2025,6,Canada,Saint Vincent,6.44
+2025,6,Canada,Grenada,6.63
+2025,6,Canada,Antigua and Barbuda,5.42
+2025,6,UK,Jamaica,53.42
+2025,6,UK,Haiti,102.6
+2025,6,UK,Dominican Republic,184.0
+2025,6,UK,Guyana,21.41
+2025,6,UK,Trinidad and Tobago,28.44
+2025,6,UK,Barbados,11.21
+2025,6,UK,Saint Lucia,9.19
+2025,6,UK,Saint Vincent,7.62
+2025,6,UK,Grenada,7.73
+2025,6,UK,Antigua and Barbuda,7.09
+2025,7,USA,Jamaica,250.31
+2025,7,USA,Haiti,452.44
+2025,7,USA,Dominican Republic,927.13
+2025,7,USA,Guyana,94.84
+2025,7,USA,Trinidad and Tobago,127.0
+2025,7,USA,Barbados,52.27
+2025,7,USA,Saint Lucia,40.86
+2025,7,USA,Saint Vincent,37.02
+2025,7,USA,Grenada,33.11
+2025,7,USA,Antigua and Barbuda,28.26
+2025,7,Canada,Jamaica,49.01
+2025,7,Canada,Haiti,81.17
+2025,7,Canada,Dominican Republic,147.78
+2025,7,Canada,Guyana,18.53
+2025,7,Canada,Trinidad and Tobago,25.53
+2025,7,Canada,Barbados,8.82
+2025,7,Canada,Saint Lucia,8.08
+2025,7,Canada,Saint Vincent,6.18
+2025,7,Canada,Grenada,7.08
+2025,7,Canada,Antigua and Barbuda,5.96
+2025,7,UK,Jamaica,53.94
+2025,7,UK,Haiti,96.27
+2025,7,UK,Dominican Republic,189.82
+2025,7,UK,Guyana,20.48
+2025,7,UK,Trinidad and Tobago,27.04
+2025,7,UK,Barbados,9.88
+2025,7,UK,Saint Lucia,8.78
+2025,7,UK,Saint Vincent,7.7
+2025,7,UK,Grenada,8.39
+2025,7,UK,Antigua and Barbuda,6.73
+2025,8,USA,Jamaica,332.01
+2025,8,USA,Haiti,502.7
+2025,8,USA,Dominican Republic,983.65
+2025,8,USA,Guyana,103.8
+2025,8,USA,Trinidad and Tobago,155.29
+2025,8,USA,Barbados,52.45
+2025,8,USA,Saint Lucia,49.89
+2025,8,USA,Saint Vincent,42.32
+2025,8,USA,Grenada,47.18
+2025,8,USA,Antigua and Barbuda,34.06
+2025,8,Canada,Jamaica,54.52
+2025,8,Canada,Haiti,86.56
+2025,8,Canada,Dominican Republic,177.34
+2025,8,Canada,Guyana,19.7
+2025,8,Canada,Trinidad and Tobago,30.11
+2025,8,Canada,Barbados,9.89
+2025,8,Canada,Saint Lucia,9.64
+2025,8,Canada,Saint Vincent,7.18
+2025,8,Canada,Grenada,8.31
+2025,8,Canada,Antigua and Barbuda,5.9
+2025,8,UK,Jamaica,71.84
+2025,8,UK,Haiti,111.44
+2025,8,UK,Dominican Republic,229.46
+2025,8,UK,Guyana,27.41
+2025,8,UK,Trinidad and Tobago,36.93
+2025,8,UK,Barbados,12.87
+2025,8,UK,Saint Lucia,11.35
+2025,8,UK,Saint Vincent,9.36
+2025,8,UK,Grenada,10.51
+2025,8,UK,Antigua and Barbuda,7.21
+2025,9,USA,Jamaica,276.51
+2025,9,USA,Haiti,388.21
+2025,9,USA,Dominican Republic,824.52
+2025,9,USA,Guyana,102.16
+2025,9,USA,Trinidad and Tobago,130.72
+2025,9,USA,Barbados,47.85
+2025,9,USA,Saint Lucia,41.39
+2025,9,USA,Saint Vincent,37.06
+2025,9,USA,Grenada,35.99
+2025,9,USA,Antigua and Barbuda,30.51
+2025,9,Canada,Jamaica,51.63
+2025,9,Canada,Haiti,74.94
+2025,9,Canada,Dominican Republic,154.26
+2025,9,Canada,Guyana,17.73
+2025,9,Canada,Trinidad and Tobago,24.31
+2025,9,Canada,Barbados,8.65
+2025,9,Canada,Saint Lucia,7.09
+2025,9,Canada,Saint Vincent,6.4
+2025,9,Canada,Grenada,6.57
+2025,9,Canada,Antigua and Barbuda,5.67
+2025,9,UK,Jamaica,58.77
+2025,9,UK,Haiti,88.22
+2025,9,UK,Dominican Republic,201.97
+2025,9,UK,Guyana,19.69
+2025,9,UK,Trinidad and Tobago,28.38
+2025,9,UK,Barbados,11.78
+2025,9,UK,Saint Lucia,8.65
+2025,9,UK,Saint Vincent,7.31
+2025,9,UK,Grenada,8.39
+2025,9,UK,Antigua and Barbuda,6.5
+2025,10,USA,Jamaica,243.65
+2025,10,USA,Haiti,463.8
+2025,10,USA,Dominican Republic,914.72
+2025,10,USA,Guyana,97.72
+2025,10,USA,Trinidad and Tobago,122.26
+2025,10,USA,Barbados,46.22
+2025,10,USA,Saint Lucia,48.2
+2025,10,USA,Saint Vincent,37.61
+2025,10,USA,Grenada,39.7
+2025,10,USA,Antigua and Barbuda,28.58
+2025,10,Canada,Jamaica,49.77
+2025,10,Canada,Haiti,80.81
+2025,10,Canada,Dominican Republic,149.91
+2025,10,Canada,Guyana,16.63
+2025,10,Canada,Trinidad and Tobago,24.53
+2025,10,Canada,Barbados,8.01
+2025,10,Canada,Saint Lucia,7.34
+2025,10,Canada,Saint Vincent,7.09
+2025,10,Canada,Grenada,7.3
+2025,10,Canada,Antigua and Barbuda,5.59
+2025,10,UK,Jamaica,61.0
+2025,10,UK,Haiti,87.67
+2025,10,UK,Dominican Republic,196.18
+2025,10,UK,Guyana,23.36
+2025,10,UK,Trinidad and Tobago,32.58
+2025,10,UK,Barbados,10.7
+2025,10,UK,Saint Lucia,9.45
+2025,10,UK,Saint Vincent,7.76
+2025,10,UK,Grenada,8.95
+2025,10,UK,Antigua and Barbuda,7.06
+2025,11,USA,Jamaica,329.46
+2025,11,USA,Haiti,492.02
+2025,11,USA,Dominican Republic,972.54
+2025,11,USA,Guyana,127.01
+2025,11,USA,Trinidad and Tobago,161.76
+2025,11,USA,Barbados,60.72
+2025,11,USA,Saint Lucia,49.26
+2025,11,USA,Saint Vincent,39.93
+2025,11,USA,Grenada,47.01
+2025,11,USA,Antigua and Barbuda,37.26
+2025,11,Canada,Jamaica,52.35
+2025,11,Canada,Haiti,84.65
+2025,11,Canada,Dominican Republic,178.48
+2025,11,Canada,Guyana,21.31
+2025,11,Canada,Trinidad and Tobago,28.01
+2025,11,Canada,Barbados,10.11
+2025,11,Canada,Saint Lucia,8.32
+2025,11,Canada,Saint Vincent,7.25
+2025,11,Canada,Grenada,8.22
+2025,11,Canada,Antigua and Barbuda,6.41
+2025,11,UK,Jamaica,67.7
+2025,11,UK,Haiti,107.19
+2025,11,UK,Dominican Republic,218.97
+2025,11,UK,Guyana,23.26
+2025,11,UK,Trinidad and Tobago,36.85
+2025,11,UK,Barbados,13.42
+2025,11,UK,Saint Lucia,10.63
+2025,11,UK,Saint Vincent,9.0
+2025,11,UK,Grenada,9.73
+2025,11,UK,Antigua and Barbuda,7.93
+2025,12,USA,Jamaica,294.76
+2025,12,USA,Haiti,501.92
+2025,12,USA,Dominican Republic,1004.06
+2025,12,USA,Guyana,116.47
+2025,12,USA,Trinidad and Tobago,164.57
+2025,12,USA,Barbados,56.72
+2025,12,USA,Saint Lucia,47.59
+2025,12,USA,Saint Vincent,47.03
+2025,12,USA,Grenada,47.67
+2025,12,USA,Antigua and Barbuda,35.42
+2025,12,Canada,Jamaica,57.24
+2025,12,Canada,Haiti,81.65
+2025,12,Canada,Dominican Republic,170.58
+2025,12,Canada,Guyana,20.18
+2025,12,Canada,Trinidad and Tobago,28.18
+2025,12,Canada,Barbados,10.29
+2025,12,Canada,Saint Lucia,9.15
+2025,12,Canada,Saint Vincent,7.5
+2025,12,Canada,Grenada,7.07
+2025,12,Canada,Antigua and Barbuda,6.35
+2025,12,UK,Jamaica,70.03
+2025,12,UK,Haiti,104.15
+2025,12,UK,Dominican Republic,217.18
+2025,12,UK,Guyana,26.48
+2025,12,UK,Trinidad and Tobago,34.48
+2025,12,UK,Barbados,12.71
+2025,12,UK,Saint Lucia,9.71
+2025,12,UK,Saint Vincent,9.7
+2025,12,UK,Grenada,9.41
+2025,12,UK,Antigua and Barbuda,8.35

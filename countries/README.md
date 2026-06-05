@@ -1,0 +1,28 @@
+# Countries
+
+Profiles, facts, dialect notes, and tailored AI use cases.
+
+- [Antigua and Barbuda](antigua-and-barbuda/README.md)
+- [Aruba](aruba/README.md)
+- [Bahamas](bahamas/README.md)
+- [Barbados](barbados/README.md)
+- [Belize](belize/README.md)
+- [Bermuda](bermuda/README.md)
+- [British Virgin Islands](british-virgin-islands/README.md)
+- [Cayman Islands](cayman-islands/README.md)
+- [Cuba](cuba/README.md)
+- [Curaçao](curacao/README.md)
+- [Dominica](dominica/README.md)
+- [Dominican Republic](dominican-republic/README.md)
+- [Grenada](grenada/README.md)
+- [Guyana](guyana/README.md)
+- [Haiti](haiti/README.md)
+- [Jamaica](jamaica/README.md)
+- [Puerto Rico](puerto-rico/README.md)
+- [Saint Kitts and Nevis](st-kitts-and-nevis/README.md)
+- [Saint Lucia](st-lucia/README.md)
+- [Saint Vincent and the Grenadines](st-vincent-and-the-grenadines/README.md)
+- [Suriname](suriname/README.md)
+- [Trinidad and Tobago](trinidad-and-tobago/README.md)
+- [Turks and Caicos Islands](turks-and-caicos/README.md)
+- [United States Virgin Islands](us-virgin-islands/README.md)

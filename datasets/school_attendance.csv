@@ -1,0 +1,1101 @@
+date,school,parish,attendance_pct,rainfall_mm,is_exam_term
+2025-01-01,Kingston College,Saint Andrew,93.9,1.1,0
+2025-01-01,Wolmer's Girls,Kingston,93.4,1.1,0
+2025-01-01,Combermere,Saint Michael,92.3,1.1,0
+2025-01-01,Saint Joseph's Convent,Castries,99.6,1.1,0
+2025-01-01,Queen's Royal College,Port of Spain,97.2,1.1,0
+2025-01-02,Kingston College,Saint Andrew,94.5,14.2,0
+2025-01-02,Wolmer's Girls,Kingston,87.4,14.2,0
+2025-01-02,Combermere,Saint Michael,95.6,14.2,0
+2025-01-02,Saint Joseph's Convent,Castries,89.3,14.2,0
+2025-01-02,Queen's Royal College,Port of Spain,91.0,14.2,0
+2025-01-03,Kingston College,Saint Andrew,85.4,22.8,0
+2025-01-03,Wolmer's Girls,Kingston,84.2,22.8,0
+2025-01-03,Combermere,Saint Michael,86.4,22.8,0
+2025-01-03,Saint Joseph's Convent,Castries,97.7,22.8,0
+2025-01-03,Queen's Royal College,Port of Spain,90.5,22.8,0
+2025-01-04,Kingston College,Saint Andrew,89.4,17.2,0
+2025-01-04,Wolmer's Girls,Kingston,84.4,17.2,0
+2025-01-04,Combermere,Saint Michael,92.7,17.2,0
+2025-01-04,Saint Joseph's Convent,Castries,95.0,17.2,0
+2025-01-04,Queen's Royal College,Port of Spain,90.5,17.2,0
+2025-01-05,Kingston College,Saint Andrew,88.3,16.2,0
+2025-01-05,Wolmer's Girls,Kingston,94.2,16.2,0
+2025-01-05,Combermere,Saint Michael,94.8,16.2,0
+2025-01-05,Saint Joseph's Convent,Castries,88.2,16.2,0
+2025-01-05,Queen's Royal College,Port of Spain,89.5,16.2,0
+2025-01-06,Kingston College,Saint Andrew,86.1,4.7,0
+2025-01-06,Wolmer's Girls,Kingston,94.2,4.7,0
+2025-01-06,Combermere,Saint Michael,91.7,4.7,0
+2025-01-06,Saint Joseph's Convent,Castries,92.3,4.7,0
+2025-01-06,Queen's Royal College,Port of Spain,92.1,4.7,0
+2025-01-07,Kingston College,Saint Andrew,90.3,0,0
+2025-01-07,Wolmer's Girls,Kingston,89.6,0,0
+2025-01-07,Combermere,Saint Michael,97.8,0,0
+2025-01-07,Saint Joseph's Convent,Castries,93.4,0,0
+2025-01-07,Queen's Royal College,Port of Spain,90.3,0,0
+2025-01-08,Kingston College,Saint Andrew,88.2,12.9,0
+2025-01-08,Wolmer's Girls,Kingston,91.1,12.9,0
+2025-01-08,Combermere,Saint Michael,90.2,12.9,0
+2025-01-08,Saint Joseph's Convent,Castries,85.9,12.9,0
+2025-01-08,Queen's Royal College,Port of Spain,85.0,12.9,0
+2025-01-09,Kingston College,Saint Andrew,93.7,1.9,0
+2025-01-09,Wolmer's Girls,Kingston,96.5,1.9,0
+2025-01-09,Combermere,Saint Michael,89.3,1.9,0
+2025-01-09,Saint Joseph's Convent,Castries,91.8,1.9,0
+2025-01-09,Queen's Royal College,Port of Spain,93.7,1.9,0
+2025-01-10,Kingston College,Saint Andrew,90.4,4.5,0
+2025-01-10,Wolmer's Girls,Kingston,97.3,4.5,0
+2025-01-10,Combermere,Saint Michael,94.9,4.5,0
+2025-01-10,Saint Joseph's Convent,Castries,98.8,4.5,0
+2025-01-10,Queen's Royal College,Port of Spain,97.1,4.5,0
+2025-01-11,Kingston College,Saint Andrew,92.6,19.4,0
+2025-01-11,Wolmer's Girls,Kingston,84.1,19.4,0
+2025-01-11,Combermere,Saint Michael,93.8,19.4,0
+2025-01-11,Saint Joseph's Convent,Castries,94.5,19.4,0
+2025-01-11,Queen's Royal College,Port of Spain,91.4,19.4,0
+2025-01-12,Kingston College,Saint Andrew,90.0,7.0,0
+2025-01-12,Wolmer's Girls,Kingston,89.9,7.0,0
+2025-01-12,Combermere,Saint Michael,97.8,7.0,0
+2025-01-12,Saint Joseph's Convent,Castries,90.0,7.0,0
+2025-01-12,Queen's Royal College,Port of Spain,84.6,7.0,0
+2025-01-13,Kingston College,Saint Andrew,90.3,5.9,0
+2025-01-13,Wolmer's Girls,Kingston,89.3,5.9,0
+2025-01-13,Combermere,Saint Michael,94.9,5.9,0
+2025-01-13,Saint Joseph's Convent,Castries,82.9,5.9,0
+2025-01-13,Queen's Royal College,Port of Spain,94.0,5.9,0
+2025-01-14,Kingston College,Saint Andrew,90.4,2.6,0
+2025-01-14,Wolmer's Girls,Kingston,90.7,2.6,0
+2025-01-14,Combermere,Saint Michael,92.6,2.6,0
+2025-01-14,Saint Joseph's Convent,Castries,100.0,2.6,0
+2025-01-14,Queen's Royal College,Port of Spain,93.9,2.6,0
+2025-01-15,Kingston College,Saint Andrew,96.6,9.0,0
+2025-01-15,Wolmer's Girls,Kingston,93.5,9.0,0
+2025-01-15,Combermere,Saint Michael,93.8,9.0,0
+2025-01-15,Saint Joseph's Convent,Castries,89.2,9.0,0
+2025-01-15,Queen's Royal College,Port of Spain,88.8,9.0,0
+2025-01-16,Kingston College,Saint Andrew,90.9,6.9,0
+2025-01-16,Wolmer's Girls,Kingston,92.2,6.9,0
+2025-01-16,Combermere,Saint Michael,88.5,6.9,0
+2025-01-16,Saint Joseph's Convent,Castries,98.4,6.9,0
+2025-01-16,Queen's Royal College,Port of Spain,94.0,6.9,0
+2025-01-17,Kingston College,Saint Andrew,92.6,0,0
+2025-01-17,Wolmer's Girls,Kingston,95.5,0,0
+2025-01-17,Combermere,Saint Michael,94.1,0,0
+2025-01-17,Saint Joseph's Convent,Castries,91.5,0,0
+2025-01-17,Queen's Royal College,Port of Spain,89.1,0,0
+2025-01-18,Kingston College,Saint Andrew,94.7,12.4,0
+2025-01-18,Wolmer's Girls,Kingston,94.4,12.4,0
+2025-01-18,Combermere,Saint Michael,97.3,12.4,0
+2025-01-18,Saint Joseph's Convent,Castries,88.4,12.4,0
+2025-01-18,Queen's Royal College,Port of Spain,95.4,12.4,0
+2025-01-19,Kingston College,Saint Andrew,94.5,0,0
+2025-01-19,Wolmer's Girls,Kingston,92.5,0,0
+2025-01-19,Combermere,Saint Michael,86.7,0,0
+2025-01-19,Saint Joseph's Convent,Castries,95.8,0,0
+2025-01-19,Queen's Royal College,Port of Spain,97.0,0,0
+2025-01-20,Kingston College,Saint Andrew,97.4,0,0
+2025-01-20,Wolmer's Girls,Kingston,100.0,0,0
+2025-01-20,Combermere,Saint Michael,89.3,0,0
+2025-01-20,Saint Joseph's Convent,Castries,94.4,0,0
+2025-01-20,Queen's Royal College,Port of Spain,96.6,0,0
+2025-01-21,Kingston College,Saint Andrew,100.0,14.9,0
+2025-01-21,Wolmer's Girls,Kingston,95.1,14.9,0
+2025-01-21,Combermere,Saint Michael,96.2,14.9,0
+2025-01-21,Saint Joseph's Convent,Castries,92.1,14.9,0
+2025-01-21,Queen's Royal College,Port of Spain,89.6,14.9,0
+2025-01-22,Kingston College,Saint Andrew,96.7,0,0
+2025-01-22,Wolmer's Girls,Kingston,95.4,0,0
+2025-01-22,Combermere,Saint Michael,99.6,0,0
+2025-01-22,Saint Joseph's Convent,Castries,100.0,0,0
+2025-01-22,Queen's Royal College,Port of Spain,98.3,0,0
+2025-02-23,Kingston College,Saint Andrew,87.7,17.9,0
+2025-02-23,Wolmer's Girls,Kingston,89.2,17.9,0
+2025-02-23,Combermere,Saint Michael,89.9,17.9,0
+2025-02-23,Saint Joseph's Convent,Castries,85.6,17.9,0
+2025-02-23,Queen's Royal College,Port of Spain,94.6,17.9,0
+2025-02-24,Kingston College,Saint Andrew,95.6,7.5,0
+2025-02-24,Wolmer's Girls,Kingston,93.1,7.5,0
+2025-02-24,Combermere,Saint Michael,95.3,7.5,0
+2025-02-24,Saint Joseph's Convent,Castries,88.3,7.5,0
+2025-02-24,Queen's Royal College,Port of Spain,83.3,7.5,0
+2025-02-25,Kingston College,Saint Andrew,92.1,0,0
+2025-02-25,Wolmer's Girls,Kingston,100.0,0,0
+2025-02-25,Combermere,Saint Michael,92.4,0,0
+2025-02-25,Saint Joseph's Convent,Castries,90.1,0,0
+2025-02-25,Queen's Royal College,Port of Spain,89.4,0,0
+2025-02-26,Kingston College,Saint Andrew,93.9,9.5,0
+2025-02-26,Wolmer's Girls,Kingston,100.0,9.5,0
+2025-02-26,Combermere,Saint Michael,93.4,9.5,0
+2025-02-26,Saint Joseph's Convent,Castries,93.8,9.5,0
+2025-02-26,Queen's Royal College,Port of Spain,97.5,9.5,0
+2025-02-27,Kingston College,Saint Andrew,92.0,6.6,0
+2025-02-27,Wolmer's Girls,Kingston,97.9,6.6,0
+2025-02-27,Combermere,Saint Michael,93.8,6.6,0
+2025-02-27,Saint Joseph's Convent,Castries,100.0,6.6,0
+2025-02-27,Queen's Royal College,Port of Spain,93.7,6.6,0
+2025-02-28,Kingston College,Saint Andrew,89.4,18.1,0
+2025-02-28,Wolmer's Girls,Kingston,91.0,18.1,0
+2025-02-28,Combermere,Saint Michael,90.7,18.1,0
+2025-02-28,Saint Joseph's Convent,Castries,88.6,18.1,0
+2025-02-28,Queen's Royal College,Port of Spain,91.8,18.1,0
+2025-02-01,Kingston College,Saint Andrew,89.3,22.2,0
+2025-02-01,Wolmer's Girls,Kingston,89.2,22.2,0
+2025-02-01,Combermere,Saint Michael,93.3,22.2,0
+2025-02-01,Saint Joseph's Convent,Castries,87.2,22.2,0
+2025-02-01,Queen's Royal College,Port of Spain,88.5,22.2,0
+2025-02-02,Kingston College,Saint Andrew,91.3,7.0,0
+2025-02-02,Wolmer's Girls,Kingston,93.3,7.0,0
+2025-02-02,Combermere,Saint Michael,93.9,7.0,0
+2025-02-02,Saint Joseph's Convent,Castries,88.8,7.0,0
+2025-02-02,Queen's Royal College,Port of Spain,93.0,7.0,0
+2025-02-03,Kingston College,Saint Andrew,91.4,0.1,0
+2025-02-03,Wolmer's Girls,Kingston,97.5,0.1,0
+2025-02-03,Combermere,Saint Michael,86.3,0.1,0
+2025-02-03,Saint Joseph's Convent,Castries,86.7,0.1,0
+2025-02-03,Queen's Royal College,Port of Spain,90.2,0.1,0
+2025-02-04,Kingston College,Saint Andrew,89.6,34.9,0
+2025-02-04,Wolmer's Girls,Kingston,93.2,34.9,0
+2025-02-04,Combermere,Saint Michael,95.7,34.9,0
+2025-02-04,Saint Joseph's Convent,Castries,92.5,34.9,0
+2025-02-04,Queen's Royal College,Port of Spain,84.9,34.9,0
+2025-02-05,Kingston College,Saint Andrew,90.1,4.4,0
+2025-02-05,Wolmer's Girls,Kingston,92.2,4.4,0
+2025-02-05,Combermere,Saint Michael,92.6,4.4,0
+2025-02-05,Saint Joseph's Convent,Castries,91.4,4.4,0
+2025-02-05,Queen's Royal College,Port of Spain,92.0,4.4,0
+2025-02-06,Kingston College,Saint Andrew,90.2,30.5,0
+2025-02-06,Wolmer's Girls,Kingston,88.5,30.5,0
+2025-02-06,Combermere,Saint Michael,96.5,30.5,0
+2025-02-06,Saint Joseph's Convent,Castries,89.9,30.5,0
+2025-02-06,Queen's Royal College,Port of Spain,91.8,30.5,0
+2025-02-07,Kingston College,Saint Andrew,86.2,5.9,0
+2025-02-07,Wolmer's Girls,Kingston,97.0,5.9,0
+2025-02-07,Combermere,Saint Michael,91.4,5.9,0
+2025-02-07,Saint Joseph's Convent,Castries,90.5,5.9,0
+2025-02-07,Queen's Royal College,Port of Spain,93.5,5.9,0
+2025-02-08,Kingston College,Saint Andrew,88.3,10.6,0
+2025-02-08,Wolmer's Girls,Kingston,92.3,10.6,0
+2025-02-08,Combermere,Saint Michael,90.2,10.6,0
+2025-02-08,Saint Joseph's Convent,Castries,95.1,10.6,0
+2025-02-08,Queen's Royal College,Port of Spain,91.5,10.6,0
+2025-02-09,Kingston College,Saint Andrew,90.5,17.2,0
+2025-02-09,Wolmer's Girls,Kingston,87.1,17.2,0
+2025-02-09,Combermere,Saint Michael,91.4,17.2,0
+2025-02-09,Saint Joseph's Convent,Castries,93.8,17.2,0
+2025-02-09,Queen's Royal College,Port of Spain,89.1,17.2,0
+2025-02-10,Kingston College,Saint Andrew,96.1,0,0
+2025-02-10,Wolmer's Girls,Kingston,98.4,0,0
+2025-02-10,Combermere,Saint Michael,90.2,0,0
+2025-02-10,Saint Joseph's Convent,Castries,91.1,0,0
+2025-02-10,Queen's Royal College,Port of Spain,88.6,0,0
+2025-02-11,Kingston College,Saint Andrew,95.0,0,0
+2025-02-11,Wolmer's Girls,Kingston,95.3,0,0
+2025-02-11,Combermere,Saint Michael,92.6,0,0
+2025-02-11,Saint Joseph's Convent,Castries,94.9,0,0
+2025-02-11,Queen's Royal College,Port of Spain,87.0,0,0
+2025-02-12,Kingston College,Saint Andrew,90.7,5.1,0
+2025-02-12,Wolmer's Girls,Kingston,96.7,5.1,0
+2025-02-12,Combermere,Saint Michael,81.2,5.1,0
+2025-02-12,Saint Joseph's Convent,Castries,94.0,5.1,0
+2025-02-12,Queen's Royal College,Port of Spain,96.8,5.1,0
+2025-02-13,Kingston College,Saint Andrew,94.8,15.9,0
+2025-02-13,Wolmer's Girls,Kingston,87.5,15.9,0
+2025-02-13,Combermere,Saint Michael,87.0,15.9,0
+2025-02-13,Saint Joseph's Convent,Castries,94.0,15.9,0
+2025-02-13,Queen's Royal College,Port of Spain,95.3,15.9,0
+2025-02-14,Kingston College,Saint Andrew,99.3,3.9,0
+2025-02-14,Wolmer's Girls,Kingston,94.3,3.9,0
+2025-02-14,Combermere,Saint Michael,94.0,3.9,0
+2025-02-14,Saint Joseph's Convent,Castries,91.4,3.9,0
+2025-02-14,Queen's Royal College,Port of Spain,90.1,3.9,0
+2025-02-15,Kingston College,Saint Andrew,97.8,1.4,0
+2025-02-15,Wolmer's Girls,Kingston,90.7,1.4,0
+2025-02-15,Combermere,Saint Michael,100.0,1.4,0
+2025-02-15,Saint Joseph's Convent,Castries,97.3,1.4,0
+2025-02-15,Queen's Royal College,Port of Spain,92.4,1.4,0
+2025-02-16,Kingston College,Saint Andrew,95.7,1.3,0
+2025-02-16,Wolmer's Girls,Kingston,100.0,1.3,0
+2025-02-16,Combermere,Saint Michael,97.2,1.3,0
+2025-02-16,Saint Joseph's Convent,Castries,98.9,1.3,0
+2025-02-16,Queen's Royal College,Port of Spain,92.8,1.3,0
+2025-03-17,Kingston College,Saint Andrew,89.4,0,0
+2025-03-17,Wolmer's Girls,Kingston,92.0,0,0
+2025-03-17,Combermere,Saint Michael,90.7,0,0
+2025-03-17,Saint Joseph's Convent,Castries,86.0,0,0
+2025-03-17,Queen's Royal College,Port of Spain,96.4,0,0
+2025-03-18,Kingston College,Saint Andrew,91.9,5.4,0
+2025-03-18,Wolmer's Girls,Kingston,94.1,5.4,0
+2025-03-18,Combermere,Saint Michael,88.3,5.4,0
+2025-03-18,Saint Joseph's Convent,Castries,93.1,5.4,0
+2025-03-18,Queen's Royal College,Port of Spain,84.9,5.4,0
+2025-03-19,Kingston College,Saint Andrew,94.7,0,0
+2025-03-19,Wolmer's Girls,Kingston,98.4,0,0
+2025-03-19,Combermere,Saint Michael,93.0,0,0
+2025-03-19,Saint Joseph's Convent,Castries,90.4,0,0
+2025-03-19,Queen's Royal College,Port of Spain,86.5,0,0
+2025-03-20,Kingston College,Saint Andrew,90.6,0,0
+2025-03-20,Wolmer's Girls,Kingston,94.3,0,0
+2025-03-20,Combermere,Saint Michael,98.6,0,0
+2025-03-20,Saint Joseph's Convent,Castries,93.7,0,0
+2025-03-20,Queen's Royal College,Port of Spain,94.7,0,0
+2025-03-21,Kingston College,Saint Andrew,87.2,17.2,0
+2025-03-21,Wolmer's Girls,Kingston,90.4,17.2,0
+2025-03-21,Combermere,Saint Michael,94.6,17.2,0
+2025-03-21,Saint Joseph's Convent,Castries,91.6,17.2,0
+2025-03-21,Queen's Royal College,Port of Spain,85.6,17.2,0
+2025-03-22,Kingston College,Saint Andrew,92.2,10.3,0
+2025-03-22,Wolmer's Girls,Kingston,91.7,10.3,0
+2025-03-22,Combermere,Saint Michael,94.3,10.3,0
+2025-03-22,Saint Joseph's Convent,Castries,92.5,10.3,0
+2025-03-22,Queen's Royal College,Port of Spain,90.3,10.3,0
+2025-03-23,Kingston College,Saint Andrew,91.7,17.2,0
+2025-03-23,Wolmer's Girls,Kingston,88.0,17.2,0
+2025-03-23,Combermere,Saint Michael,97.5,17.2,0
+2025-03-23,Saint Joseph's Convent,Castries,91.6,17.2,0
+2025-03-23,Queen's Royal College,Port of Spain,84.6,17.2,0
+2025-03-24,Kingston College,Saint Andrew,89.6,4.6,0
+2025-03-24,Wolmer's Girls,Kingston,97.5,4.6,0
+2025-03-24,Combermere,Saint Michael,95.5,4.6,0
+2025-03-24,Saint Joseph's Convent,Castries,97.8,4.6,0
+2025-03-24,Queen's Royal College,Port of Spain,100.0,4.6,0
+2025-03-25,Kingston College,Saint Andrew,93.3,11.0,0
+2025-03-25,Wolmer's Girls,Kingston,89.9,11.0,0
+2025-03-25,Combermere,Saint Michael,94.2,11.0,0
+2025-03-25,Saint Joseph's Convent,Castries,98.8,11.0,0
+2025-03-25,Queen's Royal College,Port of Spain,97.2,11.0,0
+2025-03-26,Kingston College,Saint Andrew,100.0,2.5,0
+2025-03-26,Wolmer's Girls,Kingston,90.1,2.5,0
+2025-03-26,Combermere,Saint Michael,100.0,2.5,0
+2025-03-26,Saint Joseph's Convent,Castries,91.6,2.5,0
+2025-03-26,Queen's Royal College,Port of Spain,89.4,2.5,0
+2025-03-27,Kingston College,Saint Andrew,86.5,2.6,0
+2025-03-27,Wolmer's Girls,Kingston,91.8,2.6,0
+2025-03-27,Combermere,Saint Michael,100.0,2.6,0
+2025-03-27,Saint Joseph's Convent,Castries,96.2,2.6,0
+2025-03-27,Queen's Royal College,Port of Spain,92.7,2.6,0
+2025-03-28,Kingston College,Saint Andrew,90.6,4.2,0
+2025-03-28,Wolmer's Girls,Kingston,93.5,4.2,0
+2025-03-28,Combermere,Saint Michael,95.4,4.2,0
+2025-03-28,Saint Joseph's Convent,Castries,90.0,4.2,0
+2025-03-28,Queen's Royal College,Port of Spain,88.9,4.2,0
+2025-03-01,Kingston College,Saint Andrew,96.5,2.2,0
+2025-03-01,Wolmer's Girls,Kingston,92.1,2.2,0
+2025-03-01,Combermere,Saint Michael,90.2,2.2,0
+2025-03-01,Saint Joseph's Convent,Castries,87.0,2.2,0
+2025-03-01,Queen's Royal College,Port of Spain,89.1,2.2,0
+2025-03-02,Kingston College,Saint Andrew,90.4,22.2,0
+2025-03-02,Wolmer's Girls,Kingston,91.1,22.2,0
+2025-03-02,Combermere,Saint Michael,94.1,22.2,0
+2025-03-02,Saint Joseph's Convent,Castries,91.5,22.2,0
+2025-03-02,Queen's Royal College,Port of Spain,88.5,22.2,0
+2025-03-03,Kingston College,Saint Andrew,91.9,27.9,0
+2025-03-03,Wolmer's Girls,Kingston,89.8,27.9,0
+2025-03-03,Combermere,Saint Michael,87.7,27.9,0
+2025-03-03,Saint Joseph's Convent,Castries,88.8,27.9,0
+2025-03-03,Queen's Royal College,Port of Spain,99.5,27.9,0
+2025-03-04,Kingston College,Saint Andrew,96.6,6.4,0
+2025-03-04,Wolmer's Girls,Kingston,90.8,6.4,0
+2025-03-04,Combermere,Saint Michael,93.7,6.4,0
+2025-03-04,Saint Joseph's Convent,Castries,92.8,6.4,0
+2025-03-04,Queen's Royal College,Port of Spain,88.0,6.4,0
+2025-03-05,Kingston College,Saint Andrew,96.3,0,1
+2025-03-05,Wolmer's Girls,Kingston,89.3,0,1
+2025-03-05,Combermere,Saint Michael,94.7,0,1
+2025-03-05,Saint Joseph's Convent,Castries,94.6,0,1
+2025-03-05,Queen's Royal College,Port of Spain,98.1,0,1
+2025-03-06,Kingston College,Saint Andrew,93.3,7.4,1
+2025-03-06,Wolmer's Girls,Kingston,86.5,7.4,1
+2025-03-06,Combermere,Saint Michael,86.0,7.4,1
+2025-03-06,Saint Joseph's Convent,Castries,89.7,7.4,1
+2025-03-06,Queen's Royal College,Port of Spain,93.0,7.4,1
+2025-03-07,Kingston College,Saint Andrew,96.3,0.8,1
+2025-03-07,Wolmer's Girls,Kingston,96.4,0.8,1
+2025-03-07,Combermere,Saint Michael,93.9,0.8,1
+2025-03-07,Saint Joseph's Convent,Castries,91.6,0.8,1
+2025-03-07,Queen's Royal College,Port of Spain,98.4,0.8,1
+2025-03-08,Kingston College,Saint Andrew,89.0,6.1,1
+2025-03-08,Wolmer's Girls,Kingston,91.3,6.1,1
+2025-03-08,Combermere,Saint Michael,97.5,6.1,1
+2025-03-08,Saint Joseph's Convent,Castries,97.0,6.1,1
+2025-03-08,Queen's Royal College,Port of Spain,95.3,6.1,1
+2025-03-09,Kingston College,Saint Andrew,93.8,4.7,1
+2025-03-09,Wolmer's Girls,Kingston,85.1,4.7,1
+2025-03-09,Combermere,Saint Michael,86.1,4.7,1
+2025-03-09,Saint Joseph's Convent,Castries,92.9,4.7,1
+2025-03-09,Queen's Royal College,Port of Spain,89.0,4.7,1
+2025-03-10,Kingston College,Saint Andrew,89.2,0,1
+2025-03-10,Wolmer's Girls,Kingston,93.0,0,1
+2025-03-10,Combermere,Saint Michael,90.8,0,1
+2025-03-10,Saint Joseph's Convent,Castries,97.7,0,1
+2025-03-10,Queen's Royal College,Port of Spain,95.6,0,1
+2025-04-11,Kingston College,Saint Andrew,99.7,10.2,1
+2025-04-11,Wolmer's Girls,Kingston,94.5,10.2,1
+2025-04-11,Combermere,Saint Michael,87.9,10.2,1
+2025-04-11,Saint Joseph's Convent,Castries,97.4,10.2,1
+2025-04-11,Queen's Royal College,Port of Spain,90.8,10.2,1
+2025-04-12,Kingston College,Saint Andrew,96.8,0,1
+2025-04-12,Wolmer's Girls,Kingston,100.0,0,1
+2025-04-12,Combermere,Saint Michael,96.8,0,1
+2025-04-12,Saint Joseph's Convent,Castries,93.0,0,1
+2025-04-12,Queen's Royal College,Port of Spain,89.0,0,1
+2025-04-13,Kingston College,Saint Andrew,88.5,26.1,1
+2025-04-13,Wolmer's Girls,Kingston,90.9,26.1,1
+2025-04-13,Combermere,Saint Michael,94.1,26.1,1
+2025-04-13,Saint Joseph's Convent,Castries,89.2,26.1,1
+2025-04-13,Queen's Royal College,Port of Spain,94.9,26.1,1
+2025-04-14,Kingston College,Saint Andrew,91.1,17.6,1
+2025-04-14,Wolmer's Girls,Kingston,85.7,17.6,1
+2025-04-14,Combermere,Saint Michael,94.2,17.6,1
+2025-04-14,Saint Joseph's Convent,Castries,91.2,17.6,1
+2025-04-14,Queen's Royal College,Port of Spain,78.6,17.6,1
+2025-04-15,Kingston College,Saint Andrew,97.0,0,1
+2025-04-15,Wolmer's Girls,Kingston,92.0,0,1
+2025-04-15,Combermere,Saint Michael,87.0,0,1
+2025-04-15,Saint Joseph's Convent,Castries,92.4,0,1
+2025-04-15,Queen's Royal College,Port of Spain,100.0,0,1
+2025-04-16,Kingston College,Saint Andrew,86.7,15.0,1
+2025-04-16,Wolmer's Girls,Kingston,83.5,15.0,1
+2025-04-16,Combermere,Saint Michael,89.4,15.0,1
+2025-04-16,Saint Joseph's Convent,Castries,85.8,15.0,1
+2025-04-16,Queen's Royal College,Port of Spain,90.4,15.0,1
+2025-04-17,Kingston College,Saint Andrew,84.0,0,1
+2025-04-17,Wolmer's Girls,Kingston,91.1,0,1
+2025-04-17,Combermere,Saint Michael,97.1,0,1
+2025-04-17,Saint Joseph's Convent,Castries,84.8,0,1
+2025-04-17,Queen's Royal College,Port of Spain,82.4,0,1
+2025-04-18,Kingston College,Saint Andrew,94.3,0,1
+2025-04-18,Wolmer's Girls,Kingston,95.2,0,1
+2025-04-18,Combermere,Saint Michael,90.0,0,1
+2025-04-18,Saint Joseph's Convent,Castries,98.7,0,1
+2025-04-18,Queen's Royal College,Port of Spain,97.4,0,1
+2025-04-19,Kingston College,Saint Andrew,91.0,11.3,1
+2025-04-19,Wolmer's Girls,Kingston,93.2,11.3,1
+2025-04-19,Combermere,Saint Michael,85.0,11.3,1
+2025-04-19,Saint Joseph's Convent,Castries,96.8,11.3,1
+2025-04-19,Queen's Royal College,Port of Spain,90.1,11.3,1
+2025-04-20,Kingston College,Saint Andrew,96.4,5.6,1
+2025-04-20,Wolmer's Girls,Kingston,87.5,5.6,1
+2025-04-20,Combermere,Saint Michael,87.4,5.6,1
+2025-04-20,Saint Joseph's Convent,Castries,100.0,5.6,1
+2025-04-20,Queen's Royal College,Port of Spain,97.8,5.6,1
+2025-04-21,Kingston College,Saint Andrew,90.5,0,1
+2025-04-21,Wolmer's Girls,Kingston,87.5,0,1
+2025-04-21,Combermere,Saint Michael,92.5,0,1
+2025-04-21,Saint Joseph's Convent,Castries,94.2,0,1
+2025-04-21,Queen's Royal College,Port of Spain,96.5,0,1
+2025-04-22,Kingston College,Saint Andrew,92.6,9.7,1
+2025-04-22,Wolmer's Girls,Kingston,89.7,9.7,1
+2025-04-22,Combermere,Saint Michael,92.9,9.7,1
+2025-04-22,Saint Joseph's Convent,Castries,85.5,9.7,1
+2025-04-22,Queen's Royal College,Port of Spain,91.7,9.7,1
+2025-04-23,Kingston College,Saint Andrew,98.0,12.0,1
+2025-04-23,Wolmer's Girls,Kingston,81.2,12.0,1
+2025-04-23,Combermere,Saint Michael,85.9,12.0,1
+2025-04-23,Saint Joseph's Convent,Castries,91.2,12.0,1
+2025-04-23,Queen's Royal College,Port of Spain,88.6,12.0,1
+2025-04-24,Kingston College,Saint Andrew,89.6,3.9,1
+2025-04-24,Wolmer's Girls,Kingston,94.2,3.9,1
+2025-04-24,Combermere,Saint Michael,89.3,3.9,1
+2025-04-24,Saint Joseph's Convent,Castries,99.3,3.9,1
+2025-04-24,Queen's Royal College,Port of Spain,88.9,3.9,1
+2025-04-25,Kingston College,Saint Andrew,95.7,0,1
+2025-04-25,Wolmer's Girls,Kingston,95.4,0,1
+2025-04-25,Combermere,Saint Michael,95.4,0,1
+2025-04-25,Saint Joseph's Convent,Castries,95.5,0,1
+2025-04-25,Queen's Royal College,Port of Spain,89.0,0,1
+2025-04-26,Kingston College,Saint Andrew,82.9,11.4,1
+2025-04-26,Wolmer's Girls,Kingston,94.1,11.4,1
+2025-04-26,Combermere,Saint Michael,88.8,11.4,1
+2025-04-26,Saint Joseph's Convent,Castries,87.6,11.4,1
+2025-04-26,Queen's Royal College,Port of Spain,94.5,11.4,1
+2025-04-27,Kingston College,Saint Andrew,84.4,19.9,1
+2025-04-27,Wolmer's Girls,Kingston,93.3,19.9,1
+2025-04-27,Combermere,Saint Michael,91.9,19.9,1
+2025-04-27,Saint Joseph's Convent,Castries,98.2,19.9,1
+2025-04-27,Queen's Royal College,Port of Spain,85.7,19.9,1
+2025-04-28,Kingston College,Saint Andrew,86.3,11.2,1
+2025-04-28,Wolmer's Girls,Kingston,88.0,11.2,1
+2025-04-28,Combermere,Saint Michael,92.3,11.2,1
+2025-04-28,Saint Joseph's Convent,Castries,90.1,11.2,1
+2025-04-28,Queen's Royal College,Port of Spain,90.3,11.2,1
+2025-04-01,Kingston College,Saint Andrew,87.2,0,1
+2025-04-01,Wolmer's Girls,Kingston,90.1,0,1
+2025-04-01,Combermere,Saint Michael,96.5,0,1
+2025-04-01,Saint Joseph's Convent,Castries,95.9,0,1
+2025-04-01,Queen's Royal College,Port of Spain,93.0,0,1
+2025-04-02,Kingston College,Saint Andrew,88.5,7.1,1
+2025-04-02,Wolmer's Girls,Kingston,95.4,7.1,1
+2025-04-02,Combermere,Saint Michael,95.5,7.1,1
+2025-04-02,Saint Joseph's Convent,Castries,85.9,7.1,1
+2025-04-02,Queen's Royal College,Port of Spain,90.2,7.1,1
+2025-04-03,Kingston College,Saint Andrew,86.5,7.6,1
+2025-04-03,Wolmer's Girls,Kingston,94.1,7.6,1
+2025-04-03,Combermere,Saint Michael,91.7,7.6,1
+2025-04-03,Saint Joseph's Convent,Castries,83.3,7.6,1
+2025-04-03,Queen's Royal College,Port of Spain,98.9,7.6,1
+2025-04-04,Kingston College,Saint Andrew,91.0,7.1,1
+2025-04-04,Wolmer's Girls,Kingston,89.2,7.1,1
+2025-04-04,Combermere,Saint Michael,91.3,7.1,1
+2025-04-04,Saint Joseph's Convent,Castries,87.9,7.1,1
+2025-04-04,Queen's Royal College,Port of Spain,96.9,7.1,1
+2025-05-05,Kingston College,Saint Andrew,91.4,12.1,1
+2025-05-05,Wolmer's Girls,Kingston,86.6,12.1,1
+2025-05-05,Combermere,Saint Michael,88.1,12.1,1
+2025-05-05,Saint Joseph's Convent,Castries,95.3,12.1,1
+2025-05-05,Queen's Royal College,Port of Spain,96.9,12.1,1
+2025-05-06,Kingston College,Saint Andrew,84.8,14.6,1
+2025-05-06,Wolmer's Girls,Kingston,90.0,14.6,1
+2025-05-06,Combermere,Saint Michael,87.5,14.6,1
+2025-05-06,Saint Joseph's Convent,Castries,92.8,14.6,1
+2025-05-06,Queen's Royal College,Port of Spain,93.5,14.6,1
+2025-05-07,Kingston College,Saint Andrew,91.5,0,1
+2025-05-07,Wolmer's Girls,Kingston,98.6,0,1
+2025-05-07,Combermere,Saint Michael,92.6,0,1
+2025-05-07,Saint Joseph's Convent,Castries,92.0,0,1
+2025-05-07,Queen's Royal College,Port of Spain,98.2,0,1
+2025-05-08,Kingston College,Saint Andrew,93.6,9.5,1
+2025-05-08,Wolmer's Girls,Kingston,98.5,9.5,1
+2025-05-08,Combermere,Saint Michael,93.1,9.5,1
+2025-05-08,Saint Joseph's Convent,Castries,91.9,9.5,1
+2025-05-08,Queen's Royal College,Port of Spain,91.3,9.5,1
+2025-05-09,Kingston College,Saint Andrew,94.3,0,1
+2025-05-09,Wolmer's Girls,Kingston,92.7,0,1
+2025-05-09,Combermere,Saint Michael,91.7,0,1
+2025-05-09,Saint Joseph's Convent,Castries,95.2,0,1
+2025-05-09,Queen's Royal College,Port of Spain,90.8,0,1
+2025-05-10,Kingston College,Saint Andrew,93.7,0,1
+2025-05-10,Wolmer's Girls,Kingston,91.2,0,1
+2025-05-10,Combermere,Saint Michael,96.0,0,1
+2025-05-10,Saint Joseph's Convent,Castries,80.4,0,1
+2025-05-10,Queen's Royal College,Port of Spain,90.1,0,1
+2025-05-11,Kingston College,Saint Andrew,93.1,16.5,1
+2025-05-11,Wolmer's Girls,Kingston,94.8,16.5,1
+2025-05-11,Combermere,Saint Michael,83.8,16.5,1
+2025-05-11,Saint Joseph's Convent,Castries,88.2,16.5,1
+2025-05-11,Queen's Royal College,Port of Spain,89.2,16.5,1
+2025-05-12,Kingston College,Saint Andrew,84.9,11.8,1
+2025-05-12,Wolmer's Girls,Kingston,95.2,11.8,1
+2025-05-12,Combermere,Saint Michael,93.4,11.8,1
+2025-05-12,Saint Joseph's Convent,Castries,87.5,11.8,1
+2025-05-12,Queen's Royal College,Port of Spain,91.3,11.8,1
+2025-05-13,Kingston College,Saint Andrew,84.4,22.5,1
+2025-05-13,Wolmer's Girls,Kingston,89.5,22.5,1
+2025-05-13,Combermere,Saint Michael,93.8,22.5,1
+2025-05-13,Saint Joseph's Convent,Castries,87.2,22.5,1
+2025-05-13,Queen's Royal College,Port of Spain,91.5,22.5,1
+2025-05-14,Kingston College,Saint Andrew,94.6,10.5,1
+2025-05-14,Wolmer's Girls,Kingston,88.9,10.5,1
+2025-05-14,Combermere,Saint Michael,88.6,10.5,1
+2025-05-14,Saint Joseph's Convent,Castries,90.6,10.5,1
+2025-05-14,Queen's Royal College,Port of Spain,87.1,10.5,1
+2025-05-15,Kingston College,Saint Andrew,97.6,22.8,1
+2025-05-15,Wolmer's Girls,Kingston,86.9,22.8,1
+2025-05-15,Combermere,Saint Michael,92.6,22.8,1
+2025-05-15,Saint Joseph's Convent,Castries,92.8,22.8,1
+2025-05-15,Queen's Royal College,Port of Spain,88.3,22.8,1
+2025-05-16,Kingston College,Saint Andrew,83.1,18.6,1
+2025-05-16,Wolmer's Girls,Kingston,86.9,18.6,1
+2025-05-16,Combermere,Saint Michael,96.3,18.6,1
+2025-05-16,Saint Joseph's Convent,Castries,91.8,18.6,1
+2025-05-16,Queen's Royal College,Port of Spain,92.5,18.6,1
+2025-05-17,Kingston College,Saint Andrew,92.7,11.2,1
+2025-05-17,Wolmer's Girls,Kingston,88.8,11.2,1
+2025-05-17,Combermere,Saint Michael,90.0,11.2,1
+2025-05-17,Saint Joseph's Convent,Castries,85.4,11.2,1
+2025-05-17,Queen's Royal College,Port of Spain,96.7,11.2,1
+2025-05-18,Kingston College,Saint Andrew,88.0,1.0,1
+2025-05-18,Wolmer's Girls,Kingston,90.8,1.0,1
+2025-05-18,Combermere,Saint Michael,92.5,1.0,1
+2025-05-18,Saint Joseph's Convent,Castries,94.5,1.0,1
+2025-05-18,Queen's Royal College,Port of Spain,87.7,1.0,1
+2025-05-19,Kingston College,Saint Andrew,87.0,8.9,1
+2025-05-19,Wolmer's Girls,Kingston,96.0,8.9,1
+2025-05-19,Combermere,Saint Michael,90.0,8.9,1
+2025-05-19,Saint Joseph's Convent,Castries,95.2,8.9,1
+2025-05-19,Queen's Royal College,Port of Spain,94.4,8.9,1
+2025-05-20,Kingston College,Saint Andrew,89.6,7.0,1
+2025-05-20,Wolmer's Girls,Kingston,90.8,7.0,1
+2025-05-20,Combermere,Saint Michael,89.3,7.0,1
+2025-05-20,Saint Joseph's Convent,Castries,90.9,7.0,1
+2025-05-20,Queen's Royal College,Port of Spain,96.3,7.0,1
+2025-05-21,Kingston College,Saint Andrew,91.9,5.6,1
+2025-05-21,Wolmer's Girls,Kingston,90.1,5.6,1
+2025-05-21,Combermere,Saint Michael,88.1,5.6,1
+2025-05-21,Saint Joseph's Convent,Castries,89.1,5.6,1
+2025-05-21,Queen's Royal College,Port of Spain,92.7,5.6,1
+2025-05-22,Kingston College,Saint Andrew,80.4,26.0,1
+2025-05-22,Wolmer's Girls,Kingston,89.6,26.0,1
+2025-05-22,Combermere,Saint Michael,97.4,26.0,1
+2025-05-22,Saint Joseph's Convent,Castries,84.8,26.0,1
+2025-05-22,Queen's Royal College,Port of Spain,87.1,26.0,1
+2025-05-23,Kingston College,Saint Andrew,89.5,0,1
+2025-05-23,Wolmer's Girls,Kingston,94.5,0,1
+2025-05-23,Combermere,Saint Michael,90.8,0,1
+2025-05-23,Saint Joseph's Convent,Castries,85.1,0,1
+2025-05-23,Queen's Royal College,Port of Spain,93.2,0,1
+2025-05-24,Kingston College,Saint Andrew,90.6,19.3,1
+2025-05-24,Wolmer's Girls,Kingston,93.3,19.3,1
+2025-05-24,Combermere,Saint Michael,86.2,19.3,1
+2025-05-24,Saint Joseph's Convent,Castries,82.3,19.3,1
+2025-05-24,Queen's Royal College,Port of Spain,90.2,19.3,1
+2025-05-25,Kingston College,Saint Andrew,93.1,9.6,1
+2025-05-25,Wolmer's Girls,Kingston,91.2,9.6,1
+2025-05-25,Combermere,Saint Michael,87.5,9.6,1
+2025-05-25,Saint Joseph's Convent,Castries,95.5,9.6,1
+2025-05-25,Queen's Royal College,Port of Spain,87.0,9.6,1
+2025-05-26,Kingston College,Saint Andrew,91.2,0,1
+2025-05-26,Wolmer's Girls,Kingston,93.7,0,1
+2025-05-26,Combermere,Saint Michael,90.8,0,1
+2025-05-26,Saint Joseph's Convent,Castries,100.0,0,1
+2025-05-26,Queen's Royal College,Port of Spain,95.3,0,1
+2025-06-27,Kingston College,Saint Andrew,92.8,9.7,1
+2025-06-27,Wolmer's Girls,Kingston,89.6,9.7,1
+2025-06-27,Combermere,Saint Michael,96.3,9.7,1
+2025-06-27,Saint Joseph's Convent,Castries,93.2,9.7,1
+2025-06-27,Queen's Royal College,Port of Spain,87.9,9.7,1
+2025-06-28,Kingston College,Saint Andrew,82.4,19.8,1
+2025-06-28,Wolmer's Girls,Kingston,96.1,19.8,1
+2025-06-28,Combermere,Saint Michael,87.4,19.8,1
+2025-06-28,Saint Joseph's Convent,Castries,84.2,19.8,1
+2025-06-28,Queen's Royal College,Port of Spain,97.4,19.8,1
+2025-06-01,Kingston College,Saint Andrew,92.9,3.6,1
+2025-06-01,Wolmer's Girls,Kingston,88.9,3.6,1
+2025-06-01,Combermere,Saint Michael,93.4,3.6,1
+2025-06-01,Saint Joseph's Convent,Castries,91.5,3.6,1
+2025-06-01,Queen's Royal College,Port of Spain,90.3,3.6,1
+2025-06-02,Kingston College,Saint Andrew,85.7,19.0,1
+2025-06-02,Wolmer's Girls,Kingston,86.8,19.0,1
+2025-06-02,Combermere,Saint Michael,90.2,19.0,1
+2025-06-02,Saint Joseph's Convent,Castries,91.6,19.0,1
+2025-06-02,Queen's Royal College,Port of Spain,87.6,19.0,1
+2025-06-03,Kingston College,Saint Andrew,91.2,0,1
+2025-06-03,Wolmer's Girls,Kingston,90.2,0,1
+2025-06-03,Combermere,Saint Michael,96.9,0,1
+2025-06-03,Saint Joseph's Convent,Castries,94.9,0,1
+2025-06-03,Queen's Royal College,Port of Spain,94.8,0,1
+2025-06-04,Kingston College,Saint Andrew,96.4,0.3,1
+2025-06-04,Wolmer's Girls,Kingston,91.0,0.3,1
+2025-06-04,Combermere,Saint Michael,95.3,0.3,1
+2025-06-04,Saint Joseph's Convent,Castries,96.5,0.3,1
+2025-06-04,Queen's Royal College,Port of Spain,90.4,0.3,1
+2025-06-05,Kingston College,Saint Andrew,96.2,0,1
+2025-06-05,Wolmer's Girls,Kingston,94.1,0,1
+2025-06-05,Combermere,Saint Michael,91.6,0,1
+2025-06-05,Saint Joseph's Convent,Castries,89.4,0,1
+2025-06-05,Queen's Royal College,Port of Spain,86.2,0,1
+2025-06-06,Kingston College,Saint Andrew,97.0,0,1
+2025-06-06,Wolmer's Girls,Kingston,91.3,0,1
+2025-06-06,Combermere,Saint Michael,89.2,0,1
+2025-06-06,Saint Joseph's Convent,Castries,93.4,0,1
+2025-06-06,Queen's Royal College,Port of Spain,96.2,0,1
+2025-06-07,Kingston College,Saint Andrew,85.5,30.3,1
+2025-06-07,Wolmer's Girls,Kingston,87.0,30.3,1
+2025-06-07,Combermere,Saint Michael,89.5,30.3,1
+2025-06-07,Saint Joseph's Convent,Castries,81.3,30.3,1
+2025-06-07,Queen's Royal College,Port of Spain,81.7,30.3,1
+2025-06-08,Kingston College,Saint Andrew,97.1,0.1,1
+2025-06-08,Wolmer's Girls,Kingston,96.0,0.1,1
+2025-06-08,Combermere,Saint Michael,87.0,0.1,1
+2025-06-08,Saint Joseph's Convent,Castries,85.1,0.1,1
+2025-06-08,Queen's Royal College,Port of Spain,94.7,0.1,1
+2025-06-09,Kingston College,Saint Andrew,95.2,0,0
+2025-06-09,Wolmer's Girls,Kingston,95.0,0,0
+2025-06-09,Combermere,Saint Michael,90.3,0,0
+2025-06-09,Saint Joseph's Convent,Castries,94.2,0,0
+2025-06-09,Queen's Royal College,Port of Spain,96.6,0,0
+2025-06-10,Kingston College,Saint Andrew,91.9,22.9,0
+2025-06-10,Wolmer's Girls,Kingston,89.0,22.9,0
+2025-06-10,Combermere,Saint Michael,93.8,22.9,0
+2025-06-10,Saint Joseph's Convent,Castries,90.5,22.9,0
+2025-06-10,Queen's Royal College,Port of Spain,83.6,22.9,0
+2025-06-11,Kingston College,Saint Andrew,90.1,12.9,0
+2025-06-11,Wolmer's Girls,Kingston,93.1,12.9,0
+2025-06-11,Combermere,Saint Michael,96.7,12.9,0
+2025-06-11,Saint Joseph's Convent,Castries,92.5,12.9,0
+2025-06-11,Queen's Royal College,Port of Spain,95.9,12.9,0
+2025-06-12,Kingston College,Saint Andrew,93.1,0,0
+2025-06-12,Wolmer's Girls,Kingston,97.6,0,0
+2025-06-12,Combermere,Saint Michael,97.4,0,0
+2025-06-12,Saint Joseph's Convent,Castries,90.5,0,0
+2025-06-12,Queen's Royal College,Port of Spain,92.3,0,0
+2025-06-13,Kingston College,Saint Andrew,97.0,0,0
+2025-06-13,Wolmer's Girls,Kingston,96.1,0,0
+2025-06-13,Combermere,Saint Michael,90.0,0,0
+2025-06-13,Saint Joseph's Convent,Castries,100.0,0,0
+2025-06-13,Queen's Royal College,Port of Spain,93.6,0,0
+2025-06-14,Kingston College,Saint Andrew,84.6,0,0
+2025-06-14,Wolmer's Girls,Kingston,93.0,0,0
+2025-06-14,Combermere,Saint Michael,94.1,0,0
+2025-06-14,Saint Joseph's Convent,Castries,96.4,0,0
+2025-06-14,Queen's Royal College,Port of Spain,93.2,0,0
+2025-06-15,Kingston College,Saint Andrew,79.9,45.1,0
+2025-06-15,Wolmer's Girls,Kingston,80.9,45.1,0
+2025-06-15,Combermere,Saint Michael,80.6,45.1,0
+2025-06-15,Saint Joseph's Convent,Castries,78.7,45.1,0
+2025-06-15,Queen's Royal College,Port of Spain,87.2,45.1,0
+2025-06-16,Kingston College,Saint Andrew,94.2,6.0,0
+2025-06-16,Wolmer's Girls,Kingston,92.7,6.0,0
+2025-06-16,Combermere,Saint Michael,86.9,6.0,0
+2025-06-16,Saint Joseph's Convent,Castries,83.7,6.0,0
+2025-06-16,Queen's Royal College,Port of Spain,86.7,6.0,0
+2025-06-17,Kingston College,Saint Andrew,86.6,13.4,0
+2025-06-17,Wolmer's Girls,Kingston,91.6,13.4,0
+2025-06-17,Combermere,Saint Michael,91.6,13.4,0
+2025-06-17,Saint Joseph's Convent,Castries,85.4,13.4,0
+2025-06-17,Queen's Royal College,Port of Spain,81.6,13.4,0
+2025-06-18,Kingston College,Saint Andrew,89.3,0,0
+2025-06-18,Wolmer's Girls,Kingston,93.9,0,0
+2025-06-18,Combermere,Saint Michael,97.6,0,0
+2025-06-18,Saint Joseph's Convent,Castries,93.6,0,0
+2025-06-18,Queen's Royal College,Port of Spain,93.5,0,0
+2025-06-19,Kingston College,Saint Andrew,95.6,13.7,0
+2025-06-19,Wolmer's Girls,Kingston,91.2,13.7,0
+2025-06-19,Combermere,Saint Michael,91.4,13.7,0
+2025-06-19,Saint Joseph's Convent,Castries,92.1,13.7,0
+2025-06-19,Queen's Royal College,Port of Spain,93.5,13.7,0
+2025-06-20,Kingston College,Saint Andrew,95.4,16.7,0
+2025-06-20,Wolmer's Girls,Kingston,88.9,16.7,0
+2025-06-20,Combermere,Saint Michael,92.0,16.7,0
+2025-06-20,Saint Joseph's Convent,Castries,93.7,16.7,0
+2025-06-20,Queen's Royal College,Port of Spain,94.1,16.7,0
+2025-07-21,Kingston College,Saint Andrew,92.5,3.5,0
+2025-07-21,Wolmer's Girls,Kingston,93.9,3.5,0
+2025-07-21,Combermere,Saint Michael,88.4,3.5,0
+2025-07-21,Saint Joseph's Convent,Castries,95.9,3.5,0
+2025-07-21,Queen's Royal College,Port of Spain,88.0,3.5,0
+2025-07-22,Kingston College,Saint Andrew,91.7,16.7,0
+2025-07-22,Wolmer's Girls,Kingston,92.9,16.7,0
+2025-07-22,Combermere,Saint Michael,90.8,16.7,0
+2025-07-22,Saint Joseph's Convent,Castries,88.5,16.7,0
+2025-07-22,Queen's Royal College,Port of Spain,90.0,16.7,0
+2025-07-23,Kingston College,Saint Andrew,92.5,16.4,0
+2025-07-23,Wolmer's Girls,Kingston,97.3,16.4,0
+2025-07-23,Combermere,Saint Michael,89.8,16.4,0
+2025-07-23,Saint Joseph's Convent,Castries,88.4,16.4,0
+2025-07-23,Queen's Royal College,Port of Spain,91.5,16.4,0
+2025-07-24,Kingston College,Saint Andrew,81.6,31.1,0
+2025-07-24,Wolmer's Girls,Kingston,91.1,31.1,0
+2025-07-24,Combermere,Saint Michael,96.4,31.1,0
+2025-07-24,Saint Joseph's Convent,Castries,95.9,31.1,0
+2025-07-24,Queen's Royal College,Port of Spain,96.0,31.1,0
+2025-07-25,Kingston College,Saint Andrew,94.2,18.7,0
+2025-07-25,Wolmer's Girls,Kingston,89.0,18.7,0
+2025-07-25,Combermere,Saint Michael,90.6,18.7,0
+2025-07-25,Saint Joseph's Convent,Castries,92.6,18.7,0
+2025-07-25,Queen's Royal College,Port of Spain,95.7,18.7,0
+2025-07-26,Kingston College,Saint Andrew,95.4,12.9,0
+2025-07-26,Wolmer's Girls,Kingston,91.6,12.9,0
+2025-07-26,Combermere,Saint Michael,87.0,12.9,0
+2025-07-26,Saint Joseph's Convent,Castries,93.3,12.9,0
+2025-07-26,Queen's Royal College,Port of Spain,91.1,12.9,0
+2025-07-27,Kingston College,Saint Andrew,91.6,0,0
+2025-07-27,Wolmer's Girls,Kingston,93.5,0,0
+2025-07-27,Combermere,Saint Michael,95.4,0,0
+2025-07-27,Saint Joseph's Convent,Castries,92.4,0,0
+2025-07-27,Queen's Royal College,Port of Spain,87.2,0,0
+2025-07-28,Kingston College,Saint Andrew,84.4,23.7,0
+2025-07-28,Wolmer's Girls,Kingston,89.0,23.7,0
+2025-07-28,Combermere,Saint Michael,86.2,23.7,0
+2025-07-28,Saint Joseph's Convent,Castries,88.4,23.7,0
+2025-07-28,Queen's Royal College,Port of Spain,85.7,23.7,0
+2025-07-01,Kingston College,Saint Andrew,90.7,24.1,0
+2025-07-01,Wolmer's Girls,Kingston,89.2,24.1,0
+2025-07-01,Combermere,Saint Michael,87.0,24.1,0
+2025-07-01,Saint Joseph's Convent,Castries,89.3,24.1,0
+2025-07-01,Queen's Royal College,Port of Spain,89.7,24.1,0
+2025-07-02,Kingston College,Saint Andrew,90.5,21.1,0
+2025-07-02,Wolmer's Girls,Kingston,95.1,21.1,0
+2025-07-02,Combermere,Saint Michael,95.9,21.1,0
+2025-07-02,Saint Joseph's Convent,Castries,89.6,21.1,0
+2025-07-02,Queen's Royal College,Port of Spain,80.3,21.1,0
+2025-07-03,Kingston College,Saint Andrew,90.4,28.5,0
+2025-07-03,Wolmer's Girls,Kingston,91.3,28.5,0
+2025-07-03,Combermere,Saint Michael,82.8,28.5,0
+2025-07-03,Saint Joseph's Convent,Castries,98.7,28.5,0
+2025-07-03,Queen's Royal College,Port of Spain,81.4,28.5,0
+2025-07-04,Kingston College,Saint Andrew,90.7,0,0
+2025-07-04,Wolmer's Girls,Kingston,100.0,0,0
+2025-07-04,Combermere,Saint Michael,92.7,0,0
+2025-07-04,Saint Joseph's Convent,Castries,93.2,0,0
+2025-07-04,Queen's Royal College,Port of Spain,88.8,0,0
+2025-07-05,Kingston College,Saint Andrew,97.4,0,0
+2025-07-05,Wolmer's Girls,Kingston,89.8,0,0
+2025-07-05,Combermere,Saint Michael,97.4,0,0
+2025-07-05,Saint Joseph's Convent,Castries,99.4,0,0
+2025-07-05,Queen's Royal College,Port of Spain,91.1,0,0
+2025-07-06,Kingston College,Saint Andrew,96.4,20.7,0
+2025-07-06,Wolmer's Girls,Kingston,84.8,20.7,0
+2025-07-06,Combermere,Saint Michael,91.1,20.7,0
+2025-07-06,Saint Joseph's Convent,Castries,87.7,20.7,0
+2025-07-06,Queen's Royal College,Port of Spain,87.2,20.7,0
+2025-07-07,Kingston College,Saint Andrew,90.3,0,0
+2025-07-07,Wolmer's Girls,Kingston,92.0,0,0
+2025-07-07,Combermere,Saint Michael,95.1,0,0
+2025-07-07,Saint Joseph's Convent,Castries,91.0,0,0
+2025-07-07,Queen's Royal College,Port of Spain,95.4,0,0
+2025-07-08,Kingston College,Saint Andrew,94.8,21.5,0
+2025-07-08,Wolmer's Girls,Kingston,89.3,21.5,0
+2025-07-08,Combermere,Saint Michael,90.1,21.5,0
+2025-07-08,Saint Joseph's Convent,Castries,89.4,21.5,0
+2025-07-08,Queen's Royal College,Port of Spain,91.2,21.5,0
+2025-07-09,Kingston College,Saint Andrew,91.9,0,0
+2025-07-09,Wolmer's Girls,Kingston,87.5,0,0
+2025-07-09,Combermere,Saint Michael,91.7,0,0
+2025-07-09,Saint Joseph's Convent,Castries,95.2,0,0
+2025-07-09,Queen's Royal College,Port of Spain,95.9,0,0
+2025-07-10,Kingston College,Saint Andrew,92.9,8.9,0
+2025-07-10,Wolmer's Girls,Kingston,94.9,8.9,0
+2025-07-10,Combermere,Saint Michael,81.9,8.9,0
+2025-07-10,Saint Joseph's Convent,Castries,89.6,8.9,0
+2025-07-10,Queen's Royal College,Port of Spain,92.4,8.9,0
+2025-07-11,Kingston College,Saint Andrew,89.4,25.4,0
+2025-07-11,Wolmer's Girls,Kingston,92.4,25.4,0
+2025-07-11,Combermere,Saint Michael,93.0,25.4,0
+2025-07-11,Saint Joseph's Convent,Castries,93.7,25.4,0
+2025-07-11,Queen's Royal College,Port of Spain,88.9,25.4,0
+2025-07-12,Kingston College,Saint Andrew,90.5,25.8,0
+2025-07-12,Wolmer's Girls,Kingston,86.3,25.8,0
+2025-07-12,Combermere,Saint Michael,90.1,25.8,0
+2025-07-12,Saint Joseph's Convent,Castries,94.1,25.8,0
+2025-07-12,Queen's Royal College,Port of Spain,91.0,25.8,0
+2025-07-13,Kingston College,Saint Andrew,96.0,13.3,0
+2025-07-13,Wolmer's Girls,Kingston,90.4,13.3,0
+2025-07-13,Combermere,Saint Michael,89.3,13.3,0
+2025-07-13,Saint Joseph's Convent,Castries,90.6,13.3,0
+2025-07-13,Queen's Royal College,Port of Spain,91.7,13.3,0
+2025-07-14,Kingston College,Saint Andrew,98.0,18.6,0
+2025-07-14,Wolmer's Girls,Kingston,88.8,18.6,0
+2025-07-14,Combermere,Saint Michael,86.7,18.6,0
+2025-07-14,Saint Joseph's Convent,Castries,92.3,18.6,0
+2025-07-14,Queen's Royal College,Port of Spain,88.0,18.6,0
+2025-08-15,Kingston College,Saint Andrew,91.0,1.4,0
+2025-08-15,Wolmer's Girls,Kingston,90.7,1.4,0
+2025-08-15,Combermere,Saint Michael,98.8,1.4,0
+2025-08-15,Saint Joseph's Convent,Castries,96.0,1.4,0
+2025-08-15,Queen's Royal College,Port of Spain,100.0,1.4,0
+2025-08-16,Kingston College,Saint Andrew,86.4,15.0,0
+2025-08-16,Wolmer's Girls,Kingston,88.4,15.0,0
+2025-08-16,Combermere,Saint Michael,91.6,15.0,0
+2025-08-16,Saint Joseph's Convent,Castries,94.4,15.0,0
+2025-08-16,Queen's Royal College,Port of Spain,95.0,15.0,0
+2025-08-17,Kingston College,Saint Andrew,86.8,22.9,0
+2025-08-17,Wolmer's Girls,Kingston,92.5,22.9,0
+2025-08-17,Combermere,Saint Michael,96.1,22.9,0
+2025-08-17,Saint Joseph's Convent,Castries,93.8,22.9,0
+2025-08-17,Queen's Royal College,Port of Spain,89.6,22.9,0
+2025-08-18,Kingston College,Saint Andrew,86.7,0,0
+2025-08-18,Wolmer's Girls,Kingston,98.6,0,0
+2025-08-18,Combermere,Saint Michael,92.2,0,0
+2025-08-18,Saint Joseph's Convent,Castries,91.7,0,0
+2025-08-18,Queen's Royal College,Port of Spain,95.5,0,0
+2025-08-19,Kingston College,Saint Andrew,90.6,0,0
+2025-08-19,Wolmer's Girls,Kingston,93.9,0,0
+2025-08-19,Combermere,Saint Michael,97.4,0,0
+2025-08-19,Saint Joseph's Convent,Castries,88.9,0,0
+2025-08-19,Queen's Royal College,Port of Spain,87.8,0,0
+2025-08-20,Kingston College,Saint Andrew,96.0,0,0
+2025-08-20,Wolmer's Girls,Kingston,100.0,0,0
+2025-08-20,Combermere,Saint Michael,94.0,0,0
+2025-08-20,Saint Joseph's Convent,Castries,95.5,0,0
+2025-08-20,Queen's Royal College,Port of Spain,99.9,0,0
+2025-08-21,Kingston College,Saint Andrew,96.0,0,0
+2025-08-21,Wolmer's Girls,Kingston,100.0,0,0
+2025-08-21,Combermere,Saint Michael,98.0,0,0
+2025-08-21,Saint Joseph's Convent,Castries,90.2,0,0
+2025-08-21,Queen's Royal College,Port of Spain,95.4,0,0
+2025-08-22,Kingston College,Saint Andrew,97.9,10.9,0
+2025-08-22,Wolmer's Girls,Kingston,89.9,10.9,0
+2025-08-22,Combermere,Saint Michael,93.3,10.9,0
+2025-08-22,Saint Joseph's Convent,Castries,92.2,10.9,0
+2025-08-22,Queen's Royal College,Port of Spain,84.5,10.9,0
+2025-08-23,Kingston College,Saint Andrew,94.7,1.8,0
+2025-08-23,Wolmer's Girls,Kingston,91.1,1.8,0
+2025-08-23,Combermere,Saint Michael,100.0,1.8,0
+2025-08-23,Saint Joseph's Convent,Castries,92.4,1.8,0
+2025-08-23,Queen's Royal College,Port of Spain,86.9,1.8,0
+2025-08-24,Kingston College,Saint Andrew,92.2,6.6,0
+2025-08-24,Wolmer's Girls,Kingston,85.8,6.6,0
+2025-08-24,Combermere,Saint Michael,89.4,6.6,0
+2025-08-24,Saint Joseph's Convent,Castries,95.7,6.6,0
+2025-08-24,Queen's Royal College,Port of Spain,92.0,6.6,0
+2025-08-25,Kingston College,Saint Andrew,96.4,0.3,0
+2025-08-25,Wolmer's Girls,Kingston,92.1,0.3,0
+2025-08-25,Combermere,Saint Michael,99.6,0.3,0
+2025-08-25,Saint Joseph's Convent,Castries,91.4,0.3,0
+2025-08-25,Queen's Royal College,Port of Spain,92.3,0.3,0
+2025-08-26,Kingston College,Saint Andrew,91.5,0.2,0
+2025-08-26,Wolmer's Girls,Kingston,95.7,0.2,0
+2025-08-26,Combermere,Saint Michael,95.7,0.2,0
+2025-08-26,Saint Joseph's Convent,Castries,95.8,0.2,0
+2025-08-26,Queen's Royal College,Port of Spain,100.0,0.2,0
+2025-08-27,Kingston College,Saint Andrew,94.9,7.0,0
+2025-08-27,Wolmer's Girls,Kingston,88.4,7.0,0
+2025-08-27,Combermere,Saint Michael,96.0,7.0,0
+2025-08-27,Saint Joseph's Convent,Castries,94.0,7.0,0
+2025-08-27,Queen's Royal College,Port of Spain,96.5,7.0,0
+2025-08-28,Kingston College,Saint Andrew,88.3,35.7,0
+2025-08-28,Wolmer's Girls,Kingston,80.7,35.7,0
+2025-08-28,Combermere,Saint Michael,91.6,35.7,0
+2025-08-28,Saint Joseph's Convent,Castries,86.7,35.7,0
+2025-08-28,Queen's Royal College,Port of Spain,90.6,35.7,0
+2025-08-01,Kingston College,Saint Andrew,88.1,15.3,0
+2025-08-01,Wolmer's Girls,Kingston,92.5,15.3,0
+2025-08-01,Combermere,Saint Michael,92.5,15.3,0
+2025-08-01,Saint Joseph's Convent,Castries,86.0,15.3,0
+2025-08-01,Queen's Royal College,Port of Spain,91.1,15.3,0
+2025-08-02,Kingston College,Saint Andrew,98.7,0,0
+2025-08-02,Wolmer's Girls,Kingston,93.9,0,0
+2025-08-02,Combermere,Saint Michael,85.8,0,0
+2025-08-02,Saint Joseph's Convent,Castries,99.2,0,0
+2025-08-02,Queen's Royal College,Port of Spain,91.0,0,0
+2025-08-03,Kingston College,Saint Andrew,82.6,18.2,0
+2025-08-03,Wolmer's Girls,Kingston,95.3,18.2,0
+2025-08-03,Combermere,Saint Michael,83.0,18.2,0
+2025-08-03,Saint Joseph's Convent,Castries,88.8,18.2,0
+2025-08-03,Queen's Royal College,Port of Spain,91.2,18.2,0
+2025-08-04,Kingston College,Saint Andrew,96.0,20.7,0
+2025-08-04,Wolmer's Girls,Kingston,91.6,20.7,0
+2025-08-04,Combermere,Saint Michael,83.6,20.7,0
+2025-08-04,Saint Joseph's Convent,Castries,92.1,20.7,0
+2025-08-04,Queen's Royal College,Port of Spain,86.1,20.7,0
+2025-08-05,Kingston College,Saint Andrew,83.8,21.1,0
+2025-08-05,Wolmer's Girls,Kingston,97.3,21.1,0
+2025-08-05,Combermere,Saint Michael,98.0,21.1,0
+2025-08-05,Saint Joseph's Convent,Castries,93.1,21.1,0
+2025-08-05,Queen's Royal College,Port of Spain,86.2,21.1,0
+2025-08-06,Kingston College,Saint Andrew,97.7,12.9,0
+2025-08-06,Wolmer's Girls,Kingston,92.9,12.9,0
+2025-08-06,Combermere,Saint Michael,90.3,12.9,0
+2025-08-06,Saint Joseph's Convent,Castries,86.6,12.9,0
+2025-08-06,Queen's Royal College,Port of Spain,91.2,12.9,0
+2025-08-07,Kingston College,Saint Andrew,94.5,1.7,0
+2025-08-07,Wolmer's Girls,Kingston,90.6,1.7,0
+2025-08-07,Combermere,Saint Michael,90.1,1.7,0
+2025-08-07,Saint Joseph's Convent,Castries,90.1,1.7,0
+2025-08-07,Queen's Royal College,Port of Spain,92.3,1.7,0
+2025-08-08,Kingston College,Saint Andrew,84.4,21.9,0
+2025-08-08,Wolmer's Girls,Kingston,82.4,21.9,0
+2025-08-08,Combermere,Saint Michael,93.0,21.9,0
+2025-08-08,Saint Joseph's Convent,Castries,90.7,21.9,0
+2025-08-08,Queen's Royal College,Port of Spain,89.0,21.9,0
+2025-09-09,Kingston College,Saint Andrew,82.9,18.5,0
+2025-09-09,Wolmer's Girls,Kingston,91.7,18.5,0
+2025-09-09,Combermere,Saint Michael,97.2,18.5,0
+2025-09-09,Saint Joseph's Convent,Castries,84.7,18.5,0
+2025-09-09,Queen's Royal College,Port of Spain,86.5,18.5,0
+2025-09-10,Kingston College,Saint Andrew,84.1,38.8,0
+2025-09-10,Wolmer's Girls,Kingston,96.5,38.8,0
+2025-09-10,Combermere,Saint Michael,87.6,38.8,0
+2025-09-10,Saint Joseph's Convent,Castries,82.6,38.8,0
+2025-09-10,Queen's Royal College,Port of Spain,84.0,38.8,0
+2025-09-11,Kingston College,Saint Andrew,93.8,0,0
+2025-09-11,Wolmer's Girls,Kingston,90.1,0,0
+2025-09-11,Combermere,Saint Michael,91.9,0,0
+2025-09-11,Saint Joseph's Convent,Castries,90.4,0,0
+2025-09-11,Queen's Royal College,Port of Spain,94.6,0,0
+2025-09-12,Kingston College,Saint Andrew,94.7,27.2,0
+2025-09-12,Wolmer's Girls,Kingston,89.9,27.2,0
+2025-09-12,Combermere,Saint Michael,89.6,27.2,0
+2025-09-12,Saint Joseph's Convent,Castries,86.2,27.2,0
+2025-09-12,Queen's Royal College,Port of Spain,87.7,27.2,0
+2025-09-13,Kingston College,Saint Andrew,82.2,17.1,1
+2025-09-13,Wolmer's Girls,Kingston,87.8,17.1,1
+2025-09-13,Combermere,Saint Michael,89.4,17.1,1
+2025-09-13,Saint Joseph's Convent,Castries,89.3,17.1,1
+2025-09-13,Queen's Royal College,Port of Spain,91.1,17.1,1
+2025-09-14,Kingston College,Saint Andrew,95.0,0,1
+2025-09-14,Wolmer's Girls,Kingston,87.8,0,1
+2025-09-14,Combermere,Saint Michael,96.8,0,1
+2025-09-14,Saint Joseph's Convent,Castries,92.4,0,1
+2025-09-14,Queen's Royal College,Port of Spain,96.1,0,1
+2025-09-15,Kingston College,Saint Andrew,99.0,24.7,1
+2025-09-15,Wolmer's Girls,Kingston,91.3,24.7,1
+2025-09-15,Combermere,Saint Michael,78.2,24.7,1
+2025-09-15,Saint Joseph's Convent,Castries,87.6,24.7,1
+2025-09-15,Queen's Royal College,Port of Spain,90.1,24.7,1
+2025-09-16,Kingston College,Saint Andrew,86.3,19.5,1
+2025-09-16,Wolmer's Girls,Kingston,90.8,19.5,1
+2025-09-16,Combermere,Saint Michael,80.8,19.5,1
+2025-09-16,Saint Joseph's Convent,Castries,92.0,19.5,1
+2025-09-16,Queen's Royal College,Port of Spain,85.5,19.5,1
+2025-09-17,Kingston College,Saint Andrew,92.7,0,1
+2025-09-17,Wolmer's Girls,Kingston,93.4,0,1
+2025-09-17,Combermere,Saint Michael,95.6,0,1
+2025-09-17,Saint Joseph's Convent,Castries,91.0,0,1
+2025-09-17,Queen's Royal College,Port of Spain,89.8,0,1
+2025-09-18,Kingston College,Saint Andrew,90.2,11.8,1
+2025-09-18,Wolmer's Girls,Kingston,93.7,11.8,1
+2025-09-18,Combermere,Saint Michael,89.8,11.8,1
+2025-09-18,Saint Joseph's Convent,Castries,94.8,11.8,1
+2025-09-18,Queen's Royal College,Port of Spain,89.3,11.8,1
+2025-09-19,Kingston College,Saint Andrew,90.8,12.6,1
+2025-09-19,Wolmer's Girls,Kingston,85.9,12.6,1
+2025-09-19,Combermere,Saint Michael,89.3,12.6,1
+2025-09-19,Saint Joseph's Convent,Castries,86.0,12.6,1
+2025-09-19,Queen's Royal College,Port of Spain,87.5,12.6,1
+2025-09-20,Kingston College,Saint Andrew,85.2,0,1
+2025-09-20,Wolmer's Girls,Kingston,91.2,0,1
+2025-09-20,Combermere,Saint Michael,93.0,0,1
+2025-09-20,Saint Joseph's Convent,Castries,93.2,0,1
+2025-09-20,Queen's Royal College,Port of Spain,95.4,0,1
+2025-09-21,Kingston College,Saint Andrew,97.5,11.0,1
+2025-09-21,Wolmer's Girls,Kingston,91.4,11.0,1
+2025-09-21,Combermere,Saint Michael,84.8,11.0,1
+2025-09-21,Saint Joseph's Convent,Castries,88.8,11.0,1
+2025-09-21,Queen's Royal College,Port of Spain,92.3,11.0,1
+2025-09-22,Kingston College,Saint Andrew,89.6,0,1
+2025-09-22,Wolmer's Girls,Kingston,97.0,0,1
+2025-09-22,Combermere,Saint Michael,93.3,0,1
+2025-09-22,Saint Joseph's Convent,Castries,92.4,0,1
+2025-09-22,Queen's Royal College,Port of Spain,94.0,0,1
+2025-09-23,Kingston College,Saint Andrew,91.9,9.0,1
+2025-09-23,Wolmer's Girls,Kingston,95.2,9.0,1
+2025-09-23,Combermere,Saint Michael,91.8,9.0,1
+2025-09-23,Saint Joseph's Convent,Castries,99.4,9.0,1
+2025-09-23,Queen's Royal College,Port of Spain,88.2,9.0,1
+2025-09-24,Kingston College,Saint Andrew,84.9,11.2,1
+2025-09-24,Wolmer's Girls,Kingston,89.9,11.2,1
+2025-09-24,Combermere,Saint Michael,89.5,11.2,1
+2025-09-24,Saint Joseph's Convent,Castries,86.6,11.2,1
+2025-09-24,Queen's Royal College,Port of Spain,92.4,11.2,1
+2025-09-25,Kingston College,Saint Andrew,88.9,14.4,1
+2025-09-25,Wolmer's Girls,Kingston,91.1,14.4,1
+2025-09-25,Combermere,Saint Michael,91.1,14.4,1
+2025-09-25,Saint Joseph's Convent,Castries,89.8,14.4,1
+2025-09-25,Queen's Royal College,Port of Spain,94.9,14.4,1
+2025-09-26,Kingston College,Saint Andrew,93.9,4.6,1
+2025-09-26,Wolmer's Girls,Kingston,96.7,4.6,1
+2025-09-26,Combermere,Saint Michael,92.6,4.6,1
+2025-09-26,Saint Joseph's Convent,Castries,89.5,4.6,1
+2025-09-26,Queen's Royal College,Port of Spain,94.2,4.6,1
+2025-09-27,Kingston College,Saint Andrew,92.8,4.4,1
+2025-09-27,Wolmer's Girls,Kingston,83.1,4.4,1
+2025-09-27,Combermere,Saint Michael,88.1,4.4,1
+2025-09-27,Saint Joseph's Convent,Castries,88.2,4.4,1
+2025-09-27,Queen's Royal College,Port of Spain,94.0,4.4,1
+2025-09-28,Kingston College,Saint Andrew,89.4,15.3,1
+2025-09-28,Wolmer's Girls,Kingston,91.1,15.3,1
+2025-09-28,Combermere,Saint Michael,95.1,15.3,1
+2025-09-28,Saint Joseph's Convent,Castries,93.0,15.3,1
+2025-09-28,Queen's Royal College,Port of Spain,91.0,15.3,1
+2025-09-01,Kingston College,Saint Andrew,85.7,20.5,1
+2025-09-01,Wolmer's Girls,Kingston,85.9,20.5,1
+2025-09-01,Combermere,Saint Michael,90.8,20.5,1
+2025-09-01,Saint Joseph's Convent,Castries,85.2,20.5,1
+2025-09-01,Queen's Royal College,Port of Spain,83.8,20.5,1
+2025-09-02,Kingston College,Saint Andrew,96.7,19.8,1
+2025-09-02,Wolmer's Girls,Kingston,88.5,19.8,1
+2025-09-02,Combermere,Saint Michael,84.9,19.8,1
+2025-09-02,Saint Joseph's Convent,Castries,91.3,19.8,1
+2025-09-02,Queen's Royal College,Port of Spain,88.1,19.8,1
+2025-10-03,Kingston College,Saint Andrew,94.3,28.7,1
+2025-10-03,Wolmer's Girls,Kingston,87.8,28.7,1
+2025-10-03,Combermere,Saint Michael,90.0,28.7,1
+2025-10-03,Saint Joseph's Convent,Castries,85.6,28.7,1
+2025-10-03,Queen's Royal College,Port of Spain,92.1,28.7,1
+2025-10-04,Kingston College,Saint Andrew,86.0,32.0,1
+2025-10-04,Wolmer's Girls,Kingston,87.1,32.0,1
+2025-10-04,Combermere,Saint Michael,86.7,32.0,1
+2025-10-04,Saint Joseph's Convent,Castries,89.0,32.0,1
+2025-10-04,Queen's Royal College,Port of Spain,89.4,32.0,1
+2025-10-05,Kingston College,Saint Andrew,92.9,14.0,1
+2025-10-05,Wolmer's Girls,Kingston,92.9,14.0,1
+2025-10-05,Combermere,Saint Michael,90.0,14.0,1
+2025-10-05,Saint Joseph's Convent,Castries,97.9,14.0,1
+2025-10-05,Queen's Royal College,Port of Spain,88.9,14.0,1
+2025-10-06,Kingston College,Saint Andrew,90.2,17.8,1
+2025-10-06,Wolmer's Girls,Kingston,92.6,17.8,1
+2025-10-06,Combermere,Saint Michael,87.7,17.8,1
+2025-10-06,Saint Joseph's Convent,Castries,89.1,17.8,1
+2025-10-06,Queen's Royal College,Port of Spain,90.0,17.8,1
+2025-10-07,Kingston College,Saint Andrew,90.7,4.8,1
+2025-10-07,Wolmer's Girls,Kingston,89.7,4.8,1
+2025-10-07,Combermere,Saint Michael,95.5,4.8,1
+2025-10-07,Saint Joseph's Convent,Castries,85.5,4.8,1
+2025-10-07,Queen's Royal College,Port of Spain,91.1,4.8,1
+2025-10-08,Kingston College,Saint Andrew,94.8,14.6,1
+2025-10-08,Wolmer's Girls,Kingston,88.6,14.6,1
+2025-10-08,Combermere,Saint Michael,93.0,14.6,1
+2025-10-08,Saint Joseph's Convent,Castries,95.2,14.6,1
+2025-10-08,Queen's Royal College,Port of Spain,79.1,14.6,1
+2025-10-09,Kingston College,Saint Andrew,83.6,1.6,1
+2025-10-09,Wolmer's Girls,Kingston,91.8,1.6,1
+2025-10-09,Combermere,Saint Michael,92.5,1.6,1
+2025-10-09,Saint Joseph's Convent,Castries,96.3,1.6,1
+2025-10-09,Queen's Royal College,Port of Spain,92.3,1.6,1
+2025-10-10,Kingston College,Saint Andrew,90.7,0,1
+2025-10-10,Wolmer's Girls,Kingston,89.7,0,1
+2025-10-10,Combermere,Saint Michael,86.5,0,1
+2025-10-10,Saint Joseph's Convent,Castries,97.0,0,1
+2025-10-10,Queen's Royal College,Port of Spain,96.8,0,1
+2025-10-11,Kingston College,Saint Andrew,93.5,11.1,1
+2025-10-11,Wolmer's Girls,Kingston,93.2,11.1,1
+2025-10-11,Combermere,Saint Michael,93.1,11.1,1
+2025-10-11,Saint Joseph's Convent,Castries,86.4,11.1,1
+2025-10-11,Queen's Royal College,Port of Spain,90.1,11.1,1
+2025-10-12,Kingston College,Saint Andrew,90.3,0,1
+2025-10-12,Wolmer's Girls,Kingston,92.4,0,1
+2025-10-12,Combermere,Saint Michael,85.4,0,1
+2025-10-12,Saint Joseph's Convent,Castries,93.6,0,1
+2025-10-12,Queen's Royal College,Port of Spain,89.4,0,1
+2025-10-13,Kingston College,Saint Andrew,87.2,21.5,1
+2025-10-13,Wolmer's Girls,Kingston,91.1,21.5,1
+2025-10-13,Combermere,Saint Michael,99.6,21.5,1
+2025-10-13,Saint Joseph's Convent,Castries,91.3,21.5,1
+2025-10-13,Queen's Royal College,Port of Spain,90.9,21.5,1
+2025-10-14,Kingston College,Saint Andrew,88.1,7.1,1
+2025-10-14,Wolmer's Girls,Kingston,88.2,7.1,1
+2025-10-14,Combermere,Saint Michael,85.4,7.1,1
+2025-10-14,Saint Joseph's Convent,Castries,95.8,7.1,1
+2025-10-14,Queen's Royal College,Port of Spain,92.6,7.1,1
+2025-10-15,Kingston College,Saint Andrew,92.2,4.1,1
+2025-10-15,Wolmer's Girls,Kingston,88.9,4.1,1
+2025-10-15,Combermere,Saint Michael,93.1,4.1,1
+2025-10-15,Saint Joseph's Convent,Castries,90.6,4.1,1
+2025-10-15,Queen's Royal College,Port of Spain,92.2,4.1,1
+2025-10-16,Kingston College,Saint Andrew,88.8,0,1
+2025-10-16,Wolmer's Girls,Kingston,96.1,0,1
+2025-10-16,Combermere,Saint Michael,86.3,0,1
+2025-10-16,Saint Joseph's Convent,Castries,92.6,0,1
+2025-10-16,Queen's Royal College,Port of Spain,89.0,0,1
+2025-10-17,Kingston College,Saint Andrew,88.3,3.8,1
+2025-10-17,Wolmer's Girls,Kingston,94.6,3.8,1
+2025-10-17,Combermere,Saint Michael,99.0,3.8,1
+2025-10-17,Saint Joseph's Convent,Castries,92.7,3.8,1
+2025-10-17,Queen's Royal College,Port of Spain,94.1,3.8,1
+2025-10-18,Kingston College,Saint Andrew,86.9,16.3,1
+2025-10-18,Wolmer's Girls,Kingston,82.8,16.3,1
+2025-10-18,Combermere,Saint Michael,83.3,16.3,1
+2025-10-18,Saint Joseph's Convent,Castries,90.1,16.3,1
+2025-10-18,Queen's Royal College,Port of Spain,93.1,16.3,1
+2025-10-19,Kingston College,Saint Andrew,87.9,42.5,1
+2025-10-19,Wolmer's Girls,Kingston,81.5,42.5,1
+2025-10-19,Combermere,Saint Michael,92.7,42.5,1
+2025-10-19,Saint Joseph's Convent,Castries,87.1,42.5,1
+2025-10-19,Queen's Royal College,Port of Spain,85.1,42.5,1
+2025-10-20,Kingston College,Saint Andrew,90.7,5.8,1
+2025-10-20,Wolmer's Girls,Kingston,96.6,5.8,1
+2025-10-20,Combermere,Saint Michael,86.6,5.8,1
+2025-10-20,Saint Joseph's Convent,Castries,87.7,5.8,1
+2025-10-20,Queen's Royal College,Port of Spain,88.7,5.8,1
+2025-10-21,Kingston College,Saint Andrew,87.8,3.0,1
+2025-10-21,Wolmer's Girls,Kingston,83.3,3.0,1
+2025-10-21,Combermere,Saint Michael,95.2,3.0,1
+2025-10-21,Saint Joseph's Convent,Castries,98.9,3.0,1
+2025-10-21,Queen's Royal College,Port of Spain,89.2,3.0,1
+2025-10-22,Kingston College,Saint Andrew,92.2,0,1
+2025-10-22,Wolmer's Girls,Kingston,89.2,0,1
+2025-10-22,Combermere,Saint Michael,92.4,0,1
+2025-10-22,Saint Joseph's Convent,Castries,100.0,0,1
+2025-10-22,Queen's Royal College,Port of Spain,89.4,0,1
+2025-10-23,Kingston College,Saint Andrew,90.9,0,1
+2025-10-23,Wolmer's Girls,Kingston,92.8,0,1
+2025-10-23,Combermere,Saint Michael,90.4,0,1
+2025-10-23,Saint Joseph's Convent,Castries,96.6,0,1
+2025-10-23,Queen's Royal College,Port of Spain,99.2,0,1
+2025-10-24,Kingston College,Saint Andrew,85.4,18.4,1
+2025-10-24,Wolmer's Girls,Kingston,88.6,18.4,1
+2025-10-24,Combermere,Saint Michael,87.7,18.4,1
+2025-10-24,Saint Joseph's Convent,Castries,92.4,18.4,1
+2025-10-24,Queen's Royal College,Port of Spain,96.5,18.4,1
