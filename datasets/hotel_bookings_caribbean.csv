@@ -1,0 +1,5001 @@
+destination,lead_time_days,nights,guests,channel,rate_usd,is_cancelled
+Castries,5,6,1,agent,328.42,0
+Grand Cayman,82,3,3,expedia,366.72,0
+Aruba,45,4,1,expedia,354.16,1
+Punta Cana,49,6,2,expedia,239.56,0
+Castries,12,5,1,expedia,269.75,0
+Bridgetown,85,2,4,expedia,340.93,1
+Nassau,11,6,3,direct,385.7,0
+Montego Bay,65,4,1,booking,232.73,1
+Negril,69,5,2,direct,190.06,0
+San Juan,39,5,3,expedia,295.97,0
+Negril,84,6,2,expedia,253.33,0
+Grand Cayman,97,4,1,expedia,401.84,0
+Punta Cana,55,4,3,direct,132.37,0
+Castries,52,8,1,booking,236.54,0
+Bridgetown,36,1,3,expedia,348.69,1
+Montego Bay,33,1,1,booking,239.08,0
+Punta Cana,12,5,1,booking,252.85,0
+Bridgetown,16,4,2,agent,241.99,0
+Montego Bay,84,2,1,booking,181.24,0
+Punta Cana,47,7,2,direct,173.36,0
+Bridgetown,23,1,3,direct,328.25,0
+Aruba,67,3,3,expedia,276.12,0
+Bridgetown,19,2,1,direct,369.18,1
+Bridgetown,70,2,1,direct,226.11,0
+Grand Cayman,103,5,3,direct,422.44,0
+Aruba,26,1,2,expedia,297.9,0
+Montego Bay,10,5,1,agent,248.28,0
+Nassau,11,3,1,expedia,329.49,0
+Grand Cayman,54,5,1,expedia,330.41,0
+Montego Bay,117,2,3,direct,230.13,0
+Bridgetown,12,3,2,booking,299.61,0
+Castries,115,4,2,direct,278.55,0
+San Juan,32,5,2,expedia,281.61,0
+Montego Bay,55,5,1,booking,187.16,0
+Grand Cayman,34,4,1,agent,370.87,1
+Bridgetown,37,5,1,direct,337.45,0
+Grand Cayman,104,4,1,booking,417.56,1
+Aruba,46,3,1,booking,407.24,0
+San Juan,22,5,2,direct,201.87,0
+Aruba,56,4,2,booking,322.9,0
+Bridgetown,9,5,1,booking,215.58,0
+Nassau,119,2,1,booking,372.98,1
+Bridgetown,106,2,3,expedia,252.64,0
+Nassau,29,2,3,booking,364.83,0
+Castries,46,3,2,expedia,291.21,0
+Aruba,32,2,1,booking,376.71,0
+San Juan,37,7,1,expedia,277.25,0
+Nassau,36,4,2,direct,227.09,0
+Montego Bay,59,7,3,booking,215.48,1
+Negril,85,5,2,booking,95.64,0
+Aruba,80,3,2,booking,286.36,0
+Montego Bay,74,6,3,agent,229.15,0
+Montego Bay,126,6,2,agent,250.73,1
+Grand Cayman,23,6,1,booking,369.46,0
+Grand Cayman,78,2,1,booking,457.36,0
+Montego Bay,104,1,2,direct,176.43,0
+Castries,113,2,1,booking,244.66,1
+Negril,10,7,1,direct,164.6,0
+Providenciales,12,6,3,direct,322.4,0
+San Juan,183,5,3,agent,263.8,0
+Castries,53,3,3,booking,189.93,0
+Punta Cana,27,5,4,direct,237.33,0
+Aruba,83,2,1,booking,330.54,1
+Bridgetown,78,1,2,booking,268.1,0
+Bridgetown,21,8,1,booking,337.77,0
+San Juan,64,6,1,direct,245.84,0
+Montego Bay,98,4,2,booking,272.41,1
+San Juan,110,6,1,agent,231.47,0
+Grand Cayman,35,7,2,expedia,300.4,1
+Montego Bay,42,1,2,booking,200.7,0
+Providenciales,26,4,1,direct,388.6,0
+Punta Cana,64,5,3,booking,191.66,0
+Nassau,31,5,3,direct,325.41,0
+Negril,40,5,1,booking,209.27,1
+Grand Cayman,19,6,2,direct,293.3,0
+Providenciales,64,3,1,expedia,358.18,1
+Providenciales,59,3,2,booking,379.39,0
+Grand Cayman,11,5,2,direct,410.49,0
+Aruba,76,4,1,booking,419.29,0
+Aruba,152,5,2,agent,351.08,1
+Providenciales,320,4,3,booking,351.85,0
+Bridgetown,46,5,2,agent,244.75,0
+Castries,12,4,2,expedia,248.58,0
+Aruba,16,4,2,expedia,264.85,0
+Grand Cayman,26,7,3,booking,434.23,0
+Castries,60,6,1,booking,264.68,0
+Punta Cana,27,6,2,expedia,130.48,1
+Castries,173,5,1,expedia,205.11,0
+Providenciales,36,5,4,direct,323.53,0
+Bridgetown,28,9,1,expedia,220.88,1
+Bridgetown,101,9,2,booking,299.38,1
+Bridgetown,21,4,1,direct,314.51,0
+Grand Cayman,20,7,3,booking,329.14,1
+Castries,32,7,2,expedia,208.32,0
+Punta Cana,111,3,1,booking,139.88,0
+Nassau,22,7,3,booking,346.38,0
+Providenciales,20,2,1,direct,307.31,0
+San Juan,14,4,2,booking,326.95,0
+Punta Cana,63,3,1,booking,167.84,0
+San Juan,52,3,2,booking,186.54,0
+Aruba,9,3,2,direct,331.65,1
+Aruba,70,1,1,booking,307.9,1
+Grand Cayman,46,6,1,booking,378.46,0
+Aruba,12,5,2,expedia,365.95,1
+Aruba,36,4,2,booking,272.98,0
+Negril,141,8,2,booking,210.01,1
+Providenciales,48,4,3,direct,360.24,0
+Castries,51,2,1,booking,223.94,0
+Bridgetown,19,7,2,agent,196.24,0
+Providenciales,105,3,1,direct,394.12,0
+Grand Cayman,278,2,2,booking,406.13,1
+Grand Cayman,13,3,2,booking,404.26,1
+Punta Cana,237,4,2,direct,217.76,0
+Grand Cayman,29,5,2,expedia,318.36,0
+Punta Cana,83,1,2,booking,159.85,1
+Bridgetown,16,1,3,booking,336.79,0
+Nassau,153,2,2,booking,268.08,0
+Nassau,37,2,2,direct,292.5,0
+Castries,60,7,3,agent,217.53,0
+Bridgetown,111,8,1,direct,319.14,0
+Montego Bay,82,2,2,direct,243.45,0
+Montego Bay,75,5,1,direct,171.07,0
+Bridgetown,33,3,2,agent,238.13,0
+Providenciales,58,7,2,booking,338.08,0
+Negril,35,5,2,booking,261.03,0
+Bridgetown,46,4,3,expedia,346.27,0
+Aruba,37,4,3,direct,280.63,0
+Nassau,2,4,3,direct,311.98,0
+Castries,51,2,1,direct,291.11,0
+Castries,22,5,1,direct,324.46,0
+Aruba,69,6,1,booking,338.81,0
+Montego Bay,95,9,4,agent,234.03,0
+Providenciales,37,4,1,direct,371.55,0
+Aruba,10,3,2,direct,360.49,0
+San Juan,38,6,1,booking,235.06,0
+Montego Bay,31,3,3,direct,248.7,0
+Punta Cana,122,5,3,booking,151.09,1
+Castries,38,4,1,expedia,248.1,1
+Grand Cayman,51,1,1,agent,302.97,1
+Bridgetown,83,4,1,expedia,251.72,0
+Punta Cana,15,2,3,direct,236.59,0
+Negril,18,4,4,direct,157.59,0
+Bridgetown,53,8,1,booking,243.05,0
+Providenciales,71,5,1,booking,319.6,0
+San Juan,27,2,1,agent,203.9,0
+Castries,56,4,1,booking,275.74,1
+Nassau,69,5,1,direct,253.57,0
+Castries,50,6,2,direct,233.31,0
+San Juan,70,5,3,agent,217.38,0
+Aruba,52,5,1,direct,341.07,0
+Castries,59,6,1,expedia,247.99,0
+Punta Cana,104,7,3,agent,171.52,0
+Bridgetown,47,3,2,direct,282.43,0
+Grand Cayman,19,3,2,agent,438.74,0
+Negril,21,5,3,agent,192.7,0
+Negril,22,5,2,expedia,231.33,0
+Punta Cana,82,3,1,booking,187.88,1
+Montego Bay,69,6,1,booking,187.01,0
+Aruba,53,7,1,booking,298.75,0
+Bridgetown,95,4,3,expedia,240.16,0
+Bridgetown,128,6,2,booking,294.06,0
+Punta Cana,56,3,2,agent,203.26,0
+Providenciales,149,3,3,direct,392.07,1
+Castries,44,2,2,booking,239.31,0
+Punta Cana,81,5,1,expedia,192.84,0
+Nassau,66,4,2,direct,331.09,0
+Nassau,81,4,3,direct,267.78,0
+Punta Cana,22,5,3,booking,139.84,0
+Punta Cana,107,6,3,booking,162.34,1
+San Juan,127,3,2,booking,194.98,0
+San Juan,18,3,3,expedia,225.08,0
+Aruba,140,7,1,booking,361.16,0
+Bridgetown,17,2,2,booking,265.04,0
+Montego Bay,7,1,2,expedia,189.6,0
+Bridgetown,112,2,3,direct,334.67,1
+Punta Cana,31,2,1,booking,161.32,1
+Grand Cayman,51,4,2,expedia,358.38,0
+Grand Cayman,53,5,2,booking,347.56,0
+Providenciales,66,4,3,direct,402.79,0
+Negril,106,3,1,direct,244.58,0
+Providenciales,6,3,1,agent,410.68,0
+Bridgetown,37,5,4,direct,309.82,0
+Nassau,93,8,2,booking,228.8,0
+Nassau,17,6,2,booking,385.28,0
+Grand Cayman,160,6,1,booking,403.45,0
+Punta Cana,11,3,2,booking,244.42,0
+Negril,24,6,2,agent,177.38,0
+Nassau,80,5,2,direct,233.47,0
+Aruba,46,1,2,expedia,295.29,0
+Providenciales,80,7,3,expedia,312.12,0
+Castries,137,4,1,expedia,250.41,1
+Punta Cana,151,3,3,direct,147.67,0
+Nassau,168,6,2,direct,370.7,0
+Castries,48,5,3,booking,238.0,0
+Punta Cana,97,5,2,booking,143.83,0
+Bridgetown,21,1,2,direct,343.79,0
+Nassau,94,8,1,expedia,289.06,0
+Montego Bay,127,3,3,expedia,277.82,1
+Nassau,27,5,2,booking,304.08,0
+Providenciales,85,1,4,expedia,366.7,0
+Grand Cayman,24,7,1,booking,391.27,0
+Punta Cana,56,8,4,booking,214.34,1
+Nassau,38,4,2,direct,273.08,0
+Castries,38,8,1,direct,273.56,0
+Nassau,89,3,1,expedia,274.24,1
+Negril,54,3,3,direct,231.06,0
+Castries,141,2,2,booking,243.89,0
+Negril,38,3,1,booking,218.54,1
+Nassau,47,5,1,direct,337.42,0
+Grand Cayman,46,3,2,booking,353.94,0
+Aruba,83,9,1,agent,345.58,0
+San Juan,72,4,1,direct,258.71,0
+Bridgetown,141,5,1,booking,321.52,0
+Aruba,25,4,1,booking,349.62,1
+Negril,68,4,2,direct,256.4,0
+Grand Cayman,41,5,3,direct,381.1,0
+Providenciales,50,6,2,booking,310.98,0
+Punta Cana,12,3,1,expedia,167.53,0
+Montego Bay,22,3,1,booking,278.64,1
+Negril,64,7,3,booking,247.86,0
+Aruba,24,3,1,booking,316.74,1
+Aruba,41,6,2,agent,378.33,0
+Castries,164,3,1,direct,258.71,1
+Providenciales,23,4,3,direct,357.35,0
+San Juan,49,6,1,expedia,213.13,0
+Montego Bay,13,4,2,agent,229.96,0
+Bridgetown,38,8,1,booking,241.88,0
+Bridgetown,11,4,2,booking,258.57,0
+Punta Cana,44,5,2,agent,246.09,0
+San Juan,120,6,1,booking,224.15,1
+Bridgetown,10,1,2,booking,241.42,0
+Castries,62,4,3,booking,278.07,1
+Castries,84,4,2,direct,211.54,0
+Negril,90,2,1,direct,151.51,0
+San Juan,126,5,3,booking,248.74,0
+Punta Cana,98,2,2,booking,138.83,0
+Nassau,34,3,1,booking,335.26,0
+Bridgetown,40,4,2,agent,252.61,1
+Bridgetown,17,5,1,booking,254.91,1
+San Juan,32,7,3,direct,243.87,0
+Aruba,152,5,1,booking,308.25,1
+Providenciales,141,4,2,direct,430.34,0
+Providenciales,13,6,3,booking,354.11,0
+Montego Bay,19,4,2,booking,277.45,0
+Grand Cayman,13,7,2,booking,393.83,0
+Negril,105,8,3,agent,230.81,1
+Providenciales,30,5,1,agent,426.08,0
+Providenciales,81,5,2,booking,296.53,0
+San Juan,170,2,1,direct,291.29,0
+Aruba,9,7,1,booking,306.13,0
+Bridgetown,12,5,3,booking,297.14,0
+Punta Cana,17,6,2,expedia,104.06,0
+Negril,66,4,3,booking,179.4,0
+Montego Bay,69,3,2,agent,172.32,0
+Providenciales,76,4,3,agent,341.23,0
+Negril,32,4,2,expedia,177.57,0
+Punta Cana,81,7,1,booking,149.66,0
+Providenciales,31,2,2,direct,380.25,0
+Castries,79,3,2,booking,203.37,0
+Castries,83,2,3,direct,244.57,0
+Castries,43,6,1,booking,270.47,0
+Montego Bay,66,6,3,direct,211.9,0
+Punta Cana,110,6,2,direct,177.31,0
+Aruba,69,7,3,agent,286.05,0
+Castries,88,2,3,booking,275.31,1
+Grand Cayman,130,1,3,booking,391.18,0
+Bridgetown,27,1,2,booking,283.86,0
+San Juan,18,3,2,agent,197.11,0
+Grand Cayman,26,6,1,direct,353.55,0
+Punta Cana,22,1,4,expedia,176.7,0
+Aruba,23,5,1,direct,312.93,0
+Castries,50,2,1,agent,274.94,0
+Punta Cana,145,2,2,booking,171.1,0
+Negril,28,2,2,expedia,192.91,1
+Aruba,96,7,1,expedia,335.35,0
+San Juan,114,7,3,agent,283.05,1
+San Juan,60,5,2,booking,290.44,0
+Grand Cayman,93,8,1,direct,389.05,0
+Nassau,137,3,3,booking,343.22,1
+Negril,85,7,1,direct,184.41,0
+Aruba,105,4,2,booking,275.18,1
+Punta Cana,18,6,1,direct,215.78,1
+Montego Bay,141,7,2,expedia,261.86,0
+San Juan,30,3,1,booking,229.5,0
+Punta Cana,90,1,1,agent,198.41,0
+Aruba,47,6,2,booking,334.28,0
+Castries,37,7,1,booking,234.13,0
+Aruba,18,5,3,booking,323.95,0
+Providenciales,10,3,2,direct,439.01,0
+Bridgetown,42,5,1,booking,271.59,0
+Nassau,28,3,2,booking,325.08,0
+San Juan,37,5,1,agent,222.7,0
+Nassau,59,6,2,booking,296.64,0
+Punta Cana,39,3,3,direct,129.24,0
+San Juan,114,3,2,booking,271.96,0
+Grand Cayman,38,4,1,direct,362.5,0
+Nassau,58,3,2,expedia,357.88,1
+San Juan,59,4,1,booking,196.85,0
+Grand Cayman,53,4,2,agent,363.41,0
+Aruba,37,2,2,booking,289.59,0
+San Juan,28,3,2,booking,210.72,0
+Grand Cayman,15,4,1,booking,383.13,0
+Negril,27,5,1,direct,235.59,0
+Montego Bay,77,6,1,direct,226.0,0
+Castries,48,4,2,expedia,253.37,0
+Grand Cayman,128,2,3,booking,411.87,0
+Punta Cana,33,6,3,agent,176.88,0
+Grand Cayman,15,4,3,booking,423.04,0
+Aruba,13,3,2,direct,314.52,0
+Punta Cana,21,3,1,direct,90.73,0
+Punta Cana,46,3,1,booking,218.49,1
+Grand Cayman,44,10,1,booking,422.52,1
+Aruba,17,5,3,agent,322.05,0
+Bridgetown,68,8,1,direct,242.85,0
+Castries,31,8,1,agent,204.35,0
+Aruba,90,2,2,booking,300.17,0
+Bridgetown,108,7,2,booking,298.68,0
+Negril,55,7,2,expedia,224.24,0
+San Juan,24,8,2,booking,279.45,0
+Negril,23,7,3,booking,199.65,0
+Castries,54,6,1,direct,258.68,0
+San Juan,19,2,2,agent,274.1,1
+Aruba,181,2,3,direct,265.58,0
+Montego Bay,43,7,1,direct,235.57,1
+Negril,44,5,3,direct,280.49,0
+Nassau,27,1,4,agent,361.4,0
+Castries,83,6,2,agent,221.97,0
+San Juan,42,3,2,agent,119.24,1
+Bridgetown,160,4,1,booking,278.99,1
+Grand Cayman,13,8,3,booking,319.81,1
+Castries,108,2,2,booking,248.4,0
+Bridgetown,21,2,1,booking,246.34,1
+Montego Bay,16,5,3,direct,270.81,0
+Grand Cayman,28,4,2,direct,364.26,0
+Montego Bay,10,5,1,booking,132.73,0
+San Juan,47,6,1,expedia,275.61,0
+Aruba,26,7,3,booking,285.96,0
+Bridgetown,58,5,2,booking,335.53,0
+Grand Cayman,41,5,3,booking,358.11,0
+Nassau,28,2,3,agent,283.21,0
+Negril,56,6,3,direct,210.5,0
+San Juan,30,5,2,agent,176.79,0
+Bridgetown,4,6,2,direct,306.85,0
+Grand Cayman,13,6,3,booking,434.29,0
+Negril,87,5,1,direct,174.38,0
+Montego Bay,47,4,1,booking,182.29,0
+Punta Cana,45,1,3,booking,178.37,1
+Bridgetown,68,3,3,direct,342.64,0
+Castries,114,6,1,direct,313.8,1
+San Juan,76,5,2,direct,241.54,0
+Castries,109,4,2,direct,300.22,1
+San Juan,19,5,1,booking,248.28,0
+Nassau,95,6,2,direct,296.77,1
+Punta Cana,62,5,2,direct,107.12,1
+San Juan,9,6,1,booking,287.36,0
+Providenciales,87,7,2,expedia,331.8,1
+Montego Bay,144,1,2,expedia,211.02,0
+Grand Cayman,135,8,1,agent,343.8,1
+Castries,29,5,3,booking,250.31,0
+Grand Cayman,1,5,1,booking,385.61,1
+Providenciales,57,3,1,agent,369.86,0
+Negril,75,4,3,expedia,214.48,0
+Nassau,70,3,1,direct,268.07,0
+Castries,7,1,1,booking,239.01,0
+Aruba,128,3,1,direct,278.2,1
+Montego Bay,61,3,3,direct,230.65,0
+Bridgetown,69,4,1,direct,223.39,0
+Montego Bay,106,1,2,direct,264.87,0
+Castries,2,3,2,booking,276.69,0
+Montego Bay,111,3,1,booking,259.85,1
+Montego Bay,76,4,3,expedia,266.26,0
+Montego Bay,157,5,1,booking,213.6,0
+Castries,71,7,4,direct,301.43,0
+Punta Cana,8,6,1,expedia,212.58,0
+Providenciales,53,3,3,booking,364.24,0
+Providenciales,17,3,1,expedia,312.25,0
+Providenciales,6,2,1,direct,361.16,0
+Providenciales,18,7,2,direct,391.9,0
+Nassau,69,7,4,direct,352.02,0
+Montego Bay,17,6,2,booking,230.79,0
+Montego Bay,7,4,2,agent,244.51,0
+Negril,32,4,2,agent,96.24,1
+Montego Bay,104,3,1,direct,184.64,0
+Providenciales,150,7,1,expedia,319.33,1
+Negril,113,5,1,direct,175.89,0
+Grand Cayman,27,8,1,direct,392.69,0
+San Juan,70,3,2,booking,277.54,0
+Providenciales,43,5,2,booking,338.9,0
+San Juan,78,2,2,agent,316.36,0
+San Juan,55,2,3,agent,198.98,0
+Montego Bay,41,7,2,expedia,249.77,0
+Montego Bay,30,4,3,agent,303.43,0
+Bridgetown,31,3,1,direct,271.76,0
+Bridgetown,13,5,2,direct,228.57,0
+Bridgetown,46,4,2,expedia,217.32,0
+Montego Bay,10,7,1,booking,214.0,0
+Grand Cayman,9,5,1,booking,340.08,1
+Grand Cayman,119,2,2,direct,378.94,1
+Punta Cana,20,6,1,booking,200.81,0
+Negril,112,2,3,booking,193.94,1
+Montego Bay,40,7,1,agent,194.84,0
+Nassau,22,5,2,booking,264.67,1
+Nassau,48,3,3,direct,238.89,1
+Punta Cana,89,7,3,booking,152.95,0
+Montego Bay,62,1,2,direct,237.3,0
+San Juan,38,3,2,agent,244.86,1
+Negril,47,2,4,booking,269.04,1
+Aruba,33,8,1,expedia,247.49,1
+Montego Bay,71,4,2,agent,304.8,0
+Bridgetown,35,5,1,expedia,303.67,0
+Negril,34,4,1,booking,146.78,0
+Aruba,114,5,1,expedia,370.6,0
+Castries,104,4,1,booking,247.23,0
+Aruba,155,7,3,booking,287.99,1
+Providenciales,36,4,2,direct,379.46,0
+Montego Bay,59,2,2,direct,145.61,0
+Aruba,156,4,2,direct,354.62,0
+Providenciales,63,3,2,direct,390.87,0
+Providenciales,21,6,2,expedia,322.43,0
+San Juan,38,3,1,booking,246.26,0
+Punta Cana,13,3,3,agent,155.71,0
+Negril,75,5,2,direct,186.11,0
+Castries,81,1,3,booking,206.04,0
+Bridgetown,144,3,3,agent,335.18,0
+Bridgetown,75,1,3,direct,315.73,0
+Aruba,20,7,2,booking,241.03,0
+Montego Bay,21,4,4,direct,264.26,0
+San Juan,142,5,1,expedia,193.73,1
+Nassau,88,5,3,direct,283.52,0
+Grand Cayman,37,4,1,agent,317.09,0
+Grand Cayman,122,4,4,booking,399.21,0
+Montego Bay,69,6,4,expedia,168.73,0
+Providenciales,169,1,1,booking,333.08,0
+Negril,120,7,1,agent,180.02,1
+Providenciales,25,5,1,booking,313.2,0
+Providenciales,52,2,2,booking,363.74,0
+Bridgetown,149,5,1,agent,326.85,0
+Punta Cana,168,4,2,direct,187.23,0
+Nassau,74,7,2,agent,355.61,0
+Bridgetown,49,5,2,expedia,203.79,0
+Nassau,127,5,2,booking,238.96,1
+Punta Cana,36,8,2,booking,143.39,1
+Castries,51,4,1,direct,199.87,0
+Punta Cana,68,5,2,direct,177.34,0
+Montego Bay,19,2,2,booking,177.1,0
+Providenciales,23,4,3,expedia,402.96,0
+Punta Cana,27,4,2,agent,174.7,0
+Aruba,66,2,1,booking,298.35,1
+Negril,52,6,1,direct,197.82,0
+Nassau,75,7,1,direct,334.21,0
+San Juan,75,6,1,expedia,275.71,0
+Castries,19,6,1,direct,229.02,1
+Punta Cana,27,5,3,direct,238.17,0
+Grand Cayman,218,6,1,agent,292.82,0
+Bridgetown,89,6,1,booking,328.81,0
+Nassau,120,4,2,booking,270.41,1
+Castries,136,6,4,booking,256.93,0
+Montego Bay,14,5,1,direct,183.86,0
+Punta Cana,32,2,1,agent,240.66,0
+Providenciales,75,3,1,booking,333.3,1
+San Juan,67,8,3,direct,254.87,0
+Grand Cayman,60,5,2,expedia,363.71,0
+Providenciales,270,6,1,booking,351.81,1
+Montego Bay,100,3,2,booking,98.03,0
+Grand Cayman,169,3,2,booking,344.61,0
+Aruba,185,2,3,direct,353.39,0
+Providenciales,96,3,1,booking,343.86,0
+Montego Bay,49,4,2,agent,192.4,0
+Punta Cana,8,4,2,booking,109.88,0
+Negril,15,5,1,direct,266.15,0
+Bridgetown,26,6,2,agent,367.32,0
+Montego Bay,52,6,2,booking,231.77,1
+Nassau,150,5,3,agent,285.5,1
+Negril,39,2,2,expedia,172.87,0
+Providenciales,97,4,3,expedia,315.22,1
+Nassau,73,4,3,expedia,294.71,0
+Montego Bay,28,3,2,direct,219.27,0
+Grand Cayman,99,5,1,agent,430.28,1
+Castries,8,6,1,booking,265.7,0
+Montego Bay,20,6,4,booking,169.4,0
+San Juan,73,5,1,booking,222.53,0
+San Juan,9,3,3,agent,356.91,0
+Grand Cayman,35,3,1,booking,429.07,0
+Bridgetown,24,2,1,booking,293.16,0
+Bridgetown,89,3,2,agent,201.74,0
+Providenciales,29,7,1,booking,380.08,0
+Bridgetown,45,5,1,booking,261.87,0
+Aruba,60,6,1,booking,238.08,1
+Punta Cana,38,6,1,booking,199.61,0
+Montego Bay,18,5,2,booking,219.6,0
+Montego Bay,26,6,3,expedia,217.12,0
+Providenciales,24,6,3,booking,396.62,1
+Punta Cana,79,4,1,booking,152.17,0
+Montego Bay,27,6,2,agent,279.19,0
+Nassau,15,6,3,booking,295.1,0
+Negril,96,3,1,expedia,231.18,0
+San Juan,83,8,4,agent,282.63,0
+Grand Cayman,46,4,2,expedia,436.79,0
+Punta Cana,97,5,1,direct,169.24,1
+Bridgetown,49,4,2,expedia,303.73,0
+Negril,68,2,3,booking,184.93,1
+San Juan,66,5,3,expedia,279.34,0
+Nassau,19,8,2,direct,274.47,0
+Nassau,110,3,1,direct,386.97,1
+San Juan,47,5,1,direct,262.69,0
+Aruba,68,4,2,expedia,312.73,0
+Nassau,11,5,2,direct,297.36,0
+Punta Cana,99,7,1,direct,209.25,0
+Grand Cayman,4,6,1,booking,357.28,1
+Nassau,133,4,3,direct,315.1,0
+Providenciales,59,4,1,booking,325.06,0
+Castries,42,4,1,booking,264.13,0
+Bridgetown,42,7,2,booking,266.5,0
+Nassau,100,2,1,expedia,317.2,1
+Grand Cayman,45,4,1,booking,342.3,0
+Aruba,85,4,2,direct,294.95,0
+Grand Cayman,69,7,3,expedia,406.1,1
+Montego Bay,62,3,2,booking,217.32,0
+Castries,2,4,3,booking,130.78,1
+San Juan,157,4,2,direct,330.17,0
+Montego Bay,123,5,2,agent,198.07,1
+Providenciales,88,6,1,direct,366.51,0
+Nassau,33,3,2,agent,300.62,0
+Negril,57,4,1,direct,185.29,0
+Aruba,11,3,3,direct,301.08,0
+Punta Cana,28,7,2,booking,160.2,0
+Montego Bay,244,4,3,booking,167.47,1
+Punta Cana,8,5,2,booking,200.29,1
+Montego Bay,55,4,3,booking,153.26,1
+Castries,42,5,3,expedia,171.78,0
+Grand Cayman,44,5,2,booking,400.74,0
+Nassau,19,7,2,booking,278.38,0
+Castries,152,6,3,expedia,258.54,0
+Grand Cayman,51,3,1,booking,298.0,0
+Negril,91,3,2,booking,163.45,1
+Nassau,80,2,1,booking,328.06,0
+Montego Bay,65,3,2,direct,214.47,0
+Punta Cana,134,3,3,direct,131.01,0
+Grand Cayman,22,3,2,booking,422.96,0
+Aruba,116,3,2,expedia,269.74,0
+Montego Bay,47,8,3,direct,234.93,0
+Bridgetown,20,2,2,direct,215.7,0
+Bridgetown,14,8,1,agent,211.97,0
+Bridgetown,87,10,1,direct,283.81,0
+Providenciales,14,5,1,booking,386.13,0
+Punta Cana,168,5,2,direct,168.68,0
+Bridgetown,37,7,3,booking,278.25,0
+Providenciales,157,6,2,booking,367.17,1
+Providenciales,14,6,2,booking,425.05,0
+Montego Bay,23,3,1,direct,154.73,1
+Providenciales,32,5,1,agent,337.69,0
+Aruba,63,3,1,direct,342.93,0
+Castries,100,3,1,booking,261.01,0
+Punta Cana,17,5,2,booking,175.33,0
+Castries,165,2,2,direct,287.59,0
+Bridgetown,16,6,3,booking,277.04,1
+Castries,55,2,3,expedia,283.72,0
+Bridgetown,36,2,2,expedia,357.35,0
+Montego Bay,44,4,2,expedia,192.53,0
+San Juan,111,7,3,booking,244.07,0
+Providenciales,90,6,1,direct,283.27,0
+Negril,80,5,1,direct,241.0,0
+Montego Bay,31,4,3,direct,186.46,0
+Aruba,69,5,2,booking,317.92,0
+San Juan,43,4,2,booking,289.71,0
+Providenciales,161,5,1,booking,489.95,1
+Aruba,52,6,3,booking,263.61,0
+Montego Bay,30,9,1,booking,187.09,0
+San Juan,63,3,2,booking,190.08,0
+Providenciales,32,3,1,booking,395.65,0
+Bridgetown,73,2,2,direct,271.11,0
+Nassau,54,6,1,direct,331.07,0
+Aruba,13,1,3,booking,242.95,0
+Grand Cayman,49,2,2,booking,335.32,0
+Grand Cayman,48,4,1,direct,319.28,1
+San Juan,34,5,2,agent,178.56,0
+Negril,5,3,1,booking,215.13,0
+Providenciales,5,4,1,expedia,434.79,1
+Montego Bay,44,5,1,booking,257.03,0
+Grand Cayman,6,2,3,booking,357.63,0
+Providenciales,18,4,2,booking,347.75,1
+Punta Cana,66,7,1,agent,183.67,0
+Providenciales,129,8,1,agent,306.1,0
+Nassau,64,4,4,direct,270.43,0
+Providenciales,44,3,2,direct,368.26,0
+Negril,15,2,3,direct,228.57,1
+San Juan,73,6,2,booking,245.21,0
+Nassau,6,5,2,expedia,352.09,0
+Providenciales,151,1,3,agent,281.86,1
+Aruba,83,5,1,agent,304.68,0
+San Juan,82,1,1,expedia,251.1,0
+Bridgetown,61,7,2,booking,312.66,0
+Nassau,99,2,3,direct,317.07,0
+Grand Cayman,66,5,3,direct,372.18,0
+Bridgetown,89,4,4,direct,344.1,0
+Providenciales,10,5,2,agent,347.35,0
+Nassau,28,4,1,direct,307.69,0
+Grand Cayman,46,2,3,direct,348.53,0
+Bridgetown,102,4,2,direct,284.64,0
+San Juan,34,3,4,booking,246.78,1
+San Juan,15,4,3,booking,300.58,1
+Aruba,53,2,2,booking,320.25,0
+Punta Cana,104,2,2,booking,169.84,0
+Grand Cayman,29,7,3,expedia,350.55,0
+Aruba,98,5,1,direct,293.56,0
+Castries,164,4,1,booking,210.77,0
+Montego Bay,141,8,1,agent,234.03,0
+Negril,191,5,1,direct,180.26,0
+Nassau,41,6,1,booking,305.81,0
+Providenciales,36,3,2,direct,317.52,0
+Nassau,60,6,2,booking,313.88,0
+Montego Bay,39,3,3,booking,204.41,0
+Castries,95,2,3,booking,243.64,0
+Castries,69,7,3,direct,266.88,0
+Providenciales,26,3,2,booking,368.04,1
+Aruba,55,8,2,agent,320.59,0
+San Juan,84,3,1,direct,268.54,0
+Providenciales,16,6,1,direct,414.0,0
+Negril,57,4,2,direct,216.61,0
+Bridgetown,83,4,3,agent,290.4,0
+Aruba,17,4,1,expedia,327.24,0
+Punta Cana,204,1,3,agent,280.06,1
+Montego Bay,80,5,1,booking,230.23,0
+Bridgetown,36,1,1,booking,279.3,1
+Punta Cana,57,4,2,booking,142.94,0
+Montego Bay,104,5,2,booking,257.14,0
+Montego Bay,42,7,2,expedia,204.72,0
+Providenciales,86,5,2,booking,333.96,0
+Castries,63,2,1,direct,243.16,0
+Castries,16,4,3,booking,139.04,0
+San Juan,8,1,3,expedia,231.28,0
+San Juan,65,4,2,direct,184.38,0
+Punta Cana,10,6,2,direct,219.01,0
+Punta Cana,57,5,4,expedia,123.86,0
+Nassau,28,7,3,booking,297.51,0
+Montego Bay,48,2,5,expedia,235.29,1
+Montego Bay,35,6,2,expedia,217.22,0
+Castries,3,8,1,booking,217.21,0
+Negril,40,2,1,booking,168.05,0
+Aruba,44,4,2,booking,311.97,0
+Bridgetown,30,3,3,expedia,276.78,0
+Punta Cana,71,2,2,direct,152.62,1
+Bridgetown,90,5,2,agent,321.43,0
+Grand Cayman,41,4,1,booking,365.52,0
+San Juan,88,2,1,direct,256.75,0
+Grand Cayman,55,3,2,direct,354.08,0
+Nassau,66,3,1,agent,287.28,0
+Negril,178,8,1,booking,148.91,1
+Providenciales,36,4,1,booking,370.7,0
+Providenciales,24,5,2,booking,360.64,0
+Bridgetown,78,5,2,direct,278.09,0
+Punta Cana,11,4,3,booking,199.54,0
+Aruba,111,4,2,booking,284.85,1
+Bridgetown,19,2,1,direct,293.78,0
+Nassau,39,3,1,direct,249.58,0
+Montego Bay,52,6,1,booking,281.33,0
+Negril,34,9,2,expedia,182.78,0
+Punta Cana,39,4,3,direct,206.76,0
+Castries,14,2,1,booking,217.27,1
+Nassau,92,4,3,direct,292.43,0
+Punta Cana,45,3,3,booking,192.98,1
+Aruba,63,6,2,direct,338.33,0
+Punta Cana,54,8,2,booking,143.54,0
+San Juan,18,4,2,direct,276.09,0
+Punta Cana,52,8,1,direct,174.12,0
+Punta Cana,70,1,1,expedia,151.38,0
+Montego Bay,52,2,1,booking,220.01,0
+Castries,61,5,4,direct,304.01,0
+Castries,184,4,2,booking,241.97,1
+Punta Cana,98,8,2,booking,216.67,0
+Castries,201,6,3,booking,244.1,0
+Punta Cana,42,4,4,booking,165.93,1
+Nassau,58,6,2,expedia,328.67,0
+Punta Cana,69,3,1,expedia,160.62,1
+Punta Cana,30,4,1,booking,183.77,1
+Aruba,40,4,3,agent,347.91,0
+San Juan,38,1,2,booking,234.74,0
+Grand Cayman,29,4,1,direct,480.66,1
+Castries,114,8,1,booking,280.28,0
+Montego Bay,146,4,1,booking,227.57,1
+Nassau,28,6,1,direct,314.05,1
+Punta Cana,86,7,2,expedia,246.49,1
+Grand Cayman,101,9,2,booking,362.78,1
+Bridgetown,70,5,2,booking,241.48,0
+San Juan,47,4,1,booking,123.36,0
+Montego Bay,14,8,1,booking,260.69,0
+Bridgetown,38,3,3,agent,285.3,0
+Montego Bay,61,3,2,expedia,274.54,0
+Negril,45,3,3,expedia,220.18,0
+Providenciales,49,6,2,direct,347.14,0
+Castries,34,4,3,direct,259.01,0
+Providenciales,121,5,2,expedia,345.15,1
+Montego Bay,135,8,2,booking,282.95,0
+San Juan,58,4,2,direct,219.1,0
+Castries,57,11,2,booking,312.11,0
+Montego Bay,149,2,3,booking,226.56,0
+Aruba,70,1,3,booking,231.17,0
+Negril,20,7,1,direct,199.39,0
+San Juan,26,4,2,booking,238.86,0
+Nassau,29,6,3,agent,292.12,0
+Nassau,6,4,3,booking,260.87,0
+Providenciales,14,3,3,agent,367.61,0
+Grand Cayman,28,2,2,agent,414.8,0
+San Juan,61,7,2,booking,283.18,0
+Montego Bay,34,9,2,direct,197.89,0
+Providenciales,74,5,2,booking,343.02,1
+Nassau,54,2,1,booking,277.41,1
+Montego Bay,130,5,1,booking,272.71,1
+Punta Cana,18,2,2,booking,193.33,0
+Grand Cayman,24,7,1,expedia,356.71,0
+Nassau,105,6,1,agent,351.06,0
+Montego Bay,22,4,1,booking,244.34,0
+Punta Cana,211,5,2,booking,192.23,1
+Punta Cana,53,8,2,booking,100.59,0
+Punta Cana,88,1,1,direct,163.1,0
+Punta Cana,44,3,3,direct,167.36,0
+Aruba,49,6,2,direct,331.17,0
+Montego Bay,32,9,2,expedia,210.31,1
+Aruba,62,8,2,booking,382.38,0
+Aruba,43,5,1,direct,321.97,0
+Bridgetown,3,7,3,agent,226.5,0
+Grand Cayman,23,6,1,expedia,399.02,1
+Aruba,44,5,3,expedia,266.53,0
+Bridgetown,43,6,1,booking,284.66,0
+Grand Cayman,31,7,1,agent,432.03,0
+Punta Cana,20,4,3,agent,252.3,0
+Negril,82,1,1,expedia,184.01,0
+Providenciales,38,3,1,expedia,389.17,1
+San Juan,27,1,2,booking,198.7,0
+San Juan,12,1,2,direct,206.31,0
+Nassau,36,6,2,expedia,330.63,1
+Punta Cana,32,6,2,expedia,209.57,0
+Negril,17,3,1,expedia,189.89,0
+Negril,259,6,2,direct,156.19,0
+San Juan,20,6,1,booking,264.76,0
+Nassau,27,5,4,agent,361.36,1
+Negril,17,5,3,booking,196.93,1
+Montego Bay,32,8,2,expedia,261.05,0
+Montego Bay,84,2,2,direct,246.97,0
+Grand Cayman,84,7,1,direct,396.76,1
+Punta Cana,73,6,2,booking,266.72,1
+Grand Cayman,166,4,4,direct,422.64,1
+Grand Cayman,37,6,1,booking,321.43,0
+Nassau,32,3,2,agent,285.62,0
+San Juan,150,7,2,direct,198.88,0
+Nassau,29,4,2,expedia,252.87,0
+Aruba,21,9,1,booking,278.54,1
+Grand Cayman,28,3,3,booking,420.16,0
+Montego Bay,47,6,2,direct,164.46,0
+Castries,6,3,3,direct,284.19,0
+Aruba,59,4,3,booking,299.48,0
+Punta Cana,34,6,1,direct,139.51,0
+Grand Cayman,72,6,2,agent,444.11,0
+Providenciales,135,3,3,direct,429.13,1
+Punta Cana,39,1,3,agent,180.76,0
+Negril,57,4,2,booking,126.74,0
+Montego Bay,8,8,1,direct,262.87,0
+Bridgetown,30,1,2,booking,279.55,0
+Providenciales,103,2,2,agent,351.25,0
+Punta Cana,86,3,2,agent,145.38,0
+Providenciales,28,4,3,booking,327.23,0
+Bridgetown,26,1,1,expedia,296.8,0
+Nassau,122,5,3,expedia,337.62,0
+Nassau,63,3,2,booking,260.84,0
+San Juan,5,5,3,direct,198.67,1
+Bridgetown,18,6,2,booking,248.32,1
+Castries,64,4,1,direct,274.48,0
+Providenciales,64,2,2,booking,414.9,0
+San Juan,50,5,2,direct,288.27,0
+San Juan,49,7,1,expedia,221.85,1
+Nassau,27,6,4,agent,244.92,0
+Aruba,20,1,4,agent,333.97,0
+Castries,41,8,1,booking,230.24,0
+Negril,48,1,3,agent,180.86,0
+Montego Bay,140,4,2,booking,205.3,0
+Nassau,96,5,1,expedia,311.66,0
+Punta Cana,14,4,1,booking,136.05,0
+Providenciales,44,2,1,booking,247.39,1
+Nassau,92,3,3,booking,311.76,0
+Grand Cayman,74,8,3,agent,424.83,0
+Aruba,57,3,1,direct,310.12,0
+Castries,68,1,2,direct,283.04,0
+San Juan,76,1,1,direct,260.29,0
+Bridgetown,10,8,5,agent,237.08,0
+Montego Bay,87,5,1,direct,203.38,0
+San Juan,53,5,2,direct,203.09,0
+San Juan,70,5,3,booking,217.57,0
+Punta Cana,179,4,2,direct,211.52,0
+Nassau,45,8,3,booking,284.81,0
+Providenciales,35,6,3,direct,419.38,0
+Castries,28,3,2,direct,281.3,0
+Grand Cayman,81,2,1,booking,334.9,0
+Nassau,100,7,1,booking,294.39,0
+Providenciales,54,1,2,agent,335.63,0
+Providenciales,70,3,3,expedia,436.77,0
+San Juan,27,3,2,direct,261.75,0
+San Juan,65,6,1,booking,255.6,1
+Castries,80,4,1,booking,243.28,0
+Punta Cana,123,3,2,agent,251.0,0
+Montego Bay,43,3,2,direct,222.08,0
+Bridgetown,67,6,3,booking,299.01,0
+Nassau,10,5,1,direct,321.56,0
+Castries,25,5,2,direct,287.07,0
+Negril,24,4,2,booking,228.35,0
+Punta Cana,35,4,2,expedia,195.52,0
+San Juan,7,4,1,booking,226.47,1
+Montego Bay,11,1,1,direct,213.66,0
+Negril,18,2,2,agent,163.41,1
+Punta Cana,44,5,3,agent,240.22,0
+Aruba,18,3,3,direct,319.71,0
+San Juan,30,5,3,direct,283.55,0
+Negril,73,6,1,booking,266.9,0
+Nassau,57,3,1,booking,284.17,0
+Grand Cayman,37,7,2,booking,373.68,0
+Grand Cayman,131,5,2,booking,350.97,1
+Aruba,71,3,4,agent,345.96,1
+Bridgetown,67,5,1,expedia,243.73,0
+Nassau,33,8,3,direct,289.78,0
+San Juan,40,3,2,agent,174.07,0
+Punta Cana,11,6,3,direct,150.69,0
+Negril,240,4,2,direct,203.05,0
+San Juan,64,5,1,direct,222.3,1
+Castries,38,3,2,direct,192.84,0
+Negril,10,8,1,agent,215.65,0
+Aruba,84,7,3,expedia,346.88,0
+Bridgetown,113,1,3,booking,246.89,0
+Providenciales,16,3,1,expedia,368.29,0
+Punta Cana,15,8,1,booking,146.48,0
+Providenciales,53,8,2,direct,327.7,0
+Bridgetown,27,5,2,direct,329.02,0
+Nassau,50,3,1,booking,295.04,1
+Castries,40,1,2,expedia,217.03,0
+Aruba,29,3,3,booking,333.82,0
+Montego Bay,53,2,3,direct,169.82,0
+Bridgetown,19,3,2,direct,288.91,0
+Providenciales,58,10,1,direct,373.43,1
+San Juan,51,4,1,booking,253.37,0
+Providenciales,75,1,2,booking,324.88,0
+Aruba,204,6,2,direct,279.69,0
+Grand Cayman,22,3,3,booking,384.96,0
+Grand Cayman,61,1,1,booking,343.2,0
+Castries,91,3,4,direct,210.07,0
+Castries,49,5,1,agent,292.84,1
+Punta Cana,68,1,3,booking,222.27,0
+Negril,145,2,1,booking,236.38,1
+Providenciales,47,7,4,expedia,438.78,0
+Montego Bay,147,6,2,booking,243.63,1
+Grand Cayman,33,8,1,agent,449.37,0
+San Juan,118,7,1,expedia,242.19,1
+Punta Cana,37,3,1,expedia,157.38,1
+Castries,13,4,2,direct,277.08,0
+Grand Cayman,29,7,1,booking,382.13,1
+Bridgetown,48,4,1,booking,270.7,0
+Montego Bay,7,2,1,direct,184.95,0
+Nassau,38,7,2,booking,243.48,0
+Montego Bay,14,1,1,booking,182.91,0
+Grand Cayman,46,4,3,direct,388.88,0
+San Juan,131,3,3,booking,263.82,0
+Castries,61,2,3,direct,252.73,0
+Nassau,83,9,1,booking,289.32,0
+Aruba,62,5,2,direct,354.39,0
+Montego Bay,41,7,3,booking,233.88,0
+Grand Cayman,59,9,2,booking,426.18,0
+Aruba,13,5,1,agent,346.36,0
+Punta Cana,65,6,2,booking,138.59,1
+Nassau,76,6,2,direct,295.06,1
+San Juan,67,1,2,direct,265.85,0
+Nassau,21,5,1,booking,249.33,0
+Aruba,63,9,1,direct,251.62,0
+Aruba,51,7,2,booking,349.49,1
+Montego Bay,81,5,2,booking,230.93,0
+Negril,30,5,2,direct,245.79,0
+Montego Bay,33,5,2,booking,325.58,0
+Punta Cana,11,4,2,agent,290.75,1
+Providenciales,24,2,3,agent,386.37,0
+San Juan,30,5,2,booking,261.86,0
+Castries,17,1,1,agent,296.97,0
+Providenciales,24,3,1,agent,273.65,1
+Grand Cayman,26,3,1,expedia,347.41,1
+Bridgetown,38,4,1,booking,285.34,0
+Montego Bay,76,4,1,expedia,205.27,0
+Nassau,48,3,1,expedia,294.43,1
+San Juan,63,3,2,direct,268.97,0
+San Juan,113,7,2,booking,227.45,1
+Bridgetown,11,5,2,direct,277.93,0
+Nassau,82,4,3,expedia,334.22,0
+Montego Bay,70,3,1,agent,224.64,0
+Providenciales,47,7,3,booking,359.06,0
+Bridgetown,33,1,2,agent,278.93,0
+San Juan,83,3,4,booking,215.48,0
+San Juan,23,5,3,booking,251.29,0
+Grand Cayman,10,1,3,direct,440.21,0
+Providenciales,108,1,2,expedia,376.98,0
+Negril,73,3,2,direct,177.59,0
+Negril,21,4,2,expedia,155.31,0
+Bridgetown,20,6,3,booking,315.95,0
+Punta Cana,70,6,2,booking,221.44,0
+Grand Cayman,11,1,4,expedia,373.02,1
+Montego Bay,82,3,1,agent,193.9,0
+Grand Cayman,118,3,3,direct,342.64,0
+Aruba,46,5,2,expedia,284.38,0
+Grand Cayman,62,3,1,expedia,448.63,0
+Punta Cana,21,1,3,booking,226.46,1
+Aruba,121,4,3,expedia,347.94,1
+Negril,18,4,1,expedia,235.63,0
+Bridgetown,188,8,2,booking,302.89,0
+Grand Cayman,32,5,3,booking,278.58,0
+Providenciales,26,5,1,booking,375.82,0
+Aruba,32,5,3,direct,294.16,0
+Grand Cayman,56,1,2,direct,433.34,0
+Punta Cana,36,8,2,direct,153.07,0
+Negril,17,3,2,direct,267.14,0
+Aruba,67,4,2,expedia,260.86,0
+Punta Cana,2,3,1,booking,150.2,1
+San Juan,34,4,1,booking,245.88,0
+Nassau,27,1,2,booking,330.35,0
+Providenciales,44,5,3,booking,269.98,0
+Nassau,9,6,3,direct,318.94,0
+Nassau,56,3,2,direct,299.57,0
+Providenciales,41,7,1,booking,362.51,1
+Grand Cayman,10,4,2,direct,412.64,0
+Montego Bay,113,5,3,expedia,277.33,1
+Providenciales,29,4,2,direct,344.95,0
+Montego Bay,92,6,1,direct,200.37,1
+Punta Cana,202,3,4,direct,118.33,0
+Grand Cayman,290,7,2,booking,420.77,0
+Grand Cayman,8,3,2,booking,421.17,0
+Grand Cayman,20,4,1,booking,421.72,0
+Negril,62,4,2,booking,196.64,0
+Punta Cana,100,6,1,booking,132.69,1
+Punta Cana,25,2,2,expedia,154.81,0
+San Juan,17,2,3,booking,259.62,0
+Bridgetown,40,3,3,booking,323.76,1
+Bridgetown,93,1,2,expedia,209.07,1
+Providenciales,50,6,2,booking,365.66,0
+Aruba,14,4,2,booking,248.91,0
+Bridgetown,49,3,1,expedia,252.17,0
+Castries,25,7,2,agent,339.0,0
+Punta Cana,24,5,1,expedia,122.43,1
+Punta Cana,76,6,2,booking,113.61,0
+San Juan,114,3,3,expedia,297.56,0
+Castries,99,6,1,booking,235.77,0
+Punta Cana,95,4,1,booking,223.14,1
+Negril,18,3,1,agent,221.46,0
+San Juan,86,4,1,booking,219.54,0
+San Juan,22,9,1,direct,275.52,0
+Grand Cayman,61,6,3,agent,421.68,0
+Aruba,69,7,2,booking,265.28,0
+Bridgetown,55,6,2,booking,333.89,0
+Grand Cayman,8,7,2,agent,325.24,0
+Nassau,39,4,2,agent,261.61,1
+Montego Bay,19,2,1,direct,224.74,0
+Punta Cana,35,3,2,booking,195.55,0
+Negril,27,5,2,booking,185.07,0
+Providenciales,49,4,2,direct,278.54,0
+Grand Cayman,106,8,2,booking,414.0,1
+San Juan,37,3,4,expedia,287.62,1
+Providenciales,49,6,4,booking,471.59,0
+Negril,50,5,2,direct,187.75,0
+Grand Cayman,36,2,2,booking,381.35,0
+Aruba,49,6,4,direct,326.43,0
+Bridgetown,84,9,1,direct,259.17,0
+Negril,70,5,1,direct,166.07,0
+Montego Bay,127,4,1,booking,210.83,1
+Castries,98,3,3,agent,275.87,0
+San Juan,20,4,2,booking,217.97,0
+Aruba,11,4,4,direct,397.03,1
+Aruba,109,3,2,direct,416.05,1
+Montego Bay,64,4,1,booking,213.52,1
+Grand Cayman,216,6,2,direct,394.97,0
+Grand Cayman,82,4,2,booking,380.78,0
+Aruba,25,5,2,direct,304.98,0
+Punta Cana,14,5,1,expedia,234.05,0
+Castries,85,5,1,booking,310.6,1
+Montego Bay,76,5,1,direct,168.99,0
+Negril,63,2,3,direct,167.83,0
+San Juan,36,4,2,expedia,229.19,0
+Aruba,69,2,3,booking,305.21,0
+Aruba,112,7,1,booking,307.33,0
+Bridgetown,24,5,4,direct,296.67,0
+San Juan,13,11,3,booking,271.89,0
+Nassau,56,5,1,direct,300.06,0
+Punta Cana,46,1,3,direct,150.38,0
+Nassau,140,3,1,booking,261.17,0
+Nassau,41,4,2,direct,231.02,1
+Aruba,34,1,2,direct,350.24,0
+Bridgetown,38,5,2,agent,332.13,0
+Montego Bay,29,3,2,booking,202.39,0
+Castries,19,3,4,booking,234.29,1
+San Juan,43,3,1,direct,289.25,0
+Providenciales,21,3,1,direct,455.4,1
+Aruba,29,4,1,expedia,320.72,0
+San Juan,148,1,1,agent,226.45,0
+Castries,45,8,2,booking,292.18,0
+Providenciales,33,5,1,direct,391.26,0
+Grand Cayman,41,3,2,direct,356.07,1
+Nassau,19,5,1,direct,360.05,0
+Punta Cana,7,8,1,agent,160.15,0
+Montego Bay,223,5,3,direct,290.3,0
+Montego Bay,10,1,3,expedia,230.21,0
+Nassau,38,2,1,expedia,303.76,0
+Punta Cana,32,4,1,booking,173.6,0
+San Juan,37,2,1,expedia,206.68,0
+San Juan,51,3,1,direct,188.66,0
+Castries,116,3,1,agent,305.53,0
+Castries,69,8,1,booking,258.47,1
+San Juan,21,5,1,expedia,216.48,0
+Providenciales,79,5,2,booking,296.57,0
+Negril,52,6,1,booking,150.63,1
+Montego Bay,216,6,3,booking,167.02,0
+Punta Cana,135,1,3,booking,175.11,0
+Bridgetown,96,6,1,expedia,298.94,0
+San Juan,26,6,2,booking,224.45,0
+Punta Cana,63,6,2,direct,140.66,0
+Aruba,43,5,3,expedia,327.63,0
+Castries,33,5,2,direct,276.22,0
+Aruba,110,8,2,direct,328.71,0
+Nassau,178,4,4,direct,339.46,0
+Montego Bay,189,5,1,expedia,254.52,1
+Aruba,56,4,2,booking,284.15,0
+San Juan,71,5,2,booking,247.14,0
+Castries,128,4,1,direct,284.48,0
+Providenciales,17,3,3,expedia,363.63,0
+Punta Cana,18,3,2,direct,207.7,0
+Grand Cayman,132,6,1,agent,284.67,0
+Providenciales,102,5,2,booking,442.01,1
+Castries,65,6,3,booking,211.19,0
+Montego Bay,82,2,1,direct,209.42,0
+Punta Cana,67,5,2,expedia,202.02,0
+Aruba,59,6,2,direct,401.25,1
+Negril,4,5,2,booking,181.64,0
+Providenciales,60,7,3,direct,345.94,0
+Providenciales,48,6,3,direct,319.68,0
+Bridgetown,92,4,1,expedia,272.12,0
+Providenciales,51,2,1,direct,364.16,0
+Grand Cayman,51,7,1,expedia,470.65,1
+Bridgetown,109,9,3,direct,260.61,0
+Bridgetown,50,6,3,agent,213.0,0
+Montego Bay,259,3,1,agent,151.0,0
+Aruba,16,5,4,expedia,277.69,0
+Aruba,40,7,2,expedia,285.01,1
+Negril,105,2,1,expedia,176.01,1
+Bridgetown,49,4,3,direct,288.11,0
+Montego Bay,120,4,2,expedia,274.8,1
+San Juan,28,1,2,direct,258.82,1
+Grand Cayman,17,3,3,booking,442.38,0
+Negril,17,6,1,booking,200.25,1
+San Juan,88,2,1,expedia,264.28,0
+Providenciales,93,4,1,booking,350.24,1
+Providenciales,55,5,1,agent,401.19,0
+San Juan,159,6,3,booking,280.27,1
+Nassau,98,5,2,expedia,257.75,0
+Punta Cana,31,7,1,booking,134.73,0
+Bridgetown,229,4,1,expedia,255.69,1
+Montego Bay,72,9,3,booking,182.79,0
+Castries,91,6,2,booking,310.76,1
+Montego Bay,77,3,2,expedia,240.93,1
+San Juan,91,1,2,direct,257.91,0
+Nassau,58,4,3,direct,266.79,0
+Bridgetown,11,4,2,direct,383.64,0
+Bridgetown,54,7,1,direct,329.76,0
+Punta Cana,81,5,2,expedia,133.42,1
+San Juan,86,5,1,expedia,242.22,0
+Castries,88,6,2,booking,272.77,0
+Providenciales,145,3,3,expedia,331.09,1
+Grand Cayman,72,5,3,agent,336.28,0
+Montego Bay,51,1,2,direct,196.99,0
+Punta Cana,40,8,2,direct,237.11,1
+Aruba,27,2,1,booking,272.72,0
+Aruba,35,3,1,booking,272.03,0
+Montego Bay,10,4,1,booking,195.94,0
+Grand Cayman,43,4,3,booking,418.83,0
+Bridgetown,68,5,3,booking,256.39,0
+Castries,12,6,2,booking,225.13,0
+Nassau,15,3,2,expedia,304.84,0
+Bridgetown,21,2,2,booking,332.83,1
+Aruba,42,4,1,booking,332.76,0
+Providenciales,55,6,1,booking,399.05,1
+Grand Cayman,74,3,1,direct,404.78,0
+Providenciales,35,5,2,booking,338.75,0
+Providenciales,43,3,1,direct,380.54,0
+Montego Bay,21,4,2,direct,178.23,0
+Nassau,112,4,2,booking,301.3,0
+San Juan,35,5,1,direct,225.73,0
+Bridgetown,4,3,2,agent,297.3,0
+Negril,110,4,2,booking,180.3,0
+Negril,10,5,3,booking,186.02,0
+Bridgetown,38,5,2,booking,332.72,0
+Grand Cayman,68,3,3,expedia,369.07,0
+San Juan,55,1,2,booking,228.94,0
+Montego Bay,16,2,3,booking,256.06,0
+Aruba,58,7,3,direct,292.86,1
+Montego Bay,87,8,1,booking,253.06,0
+Grand Cayman,38,6,4,agent,308.92,0
+Castries,47,4,1,direct,260.39,0
+Montego Bay,103,3,1,booking,280.41,1
+Aruba,12,5,1,booking,361.0,1
+Punta Cana,95,6,2,agent,170.31,0
+Providenciales,165,6,2,expedia,325.87,0
+Negril,39,4,2,booking,226.61,0
+Aruba,38,6,2,booking,372.17,0
+Aruba,55,2,2,booking,351.74,0
+Bridgetown,84,4,2,direct,288.35,0
+Negril,73,7,1,booking,121.28,0
+Providenciales,38,4,1,direct,375.46,0
+Castries,24,4,1,direct,274.88,0
+Castries,7,2,1,booking,271.58,0
+Providenciales,59,5,3,expedia,398.25,0
+Negril,126,5,2,expedia,217.26,1
+Castries,78,4,2,booking,293.67,1
+Grand Cayman,21,8,1,booking,354.57,0
+Nassau,184,8,2,agent,333.19,0
+Bridgetown,65,4,1,expedia,213.48,0
+Grand Cayman,28,3,1,direct,361.9,0
+San Juan,64,5,2,expedia,290.61,0
+Punta Cana,91,4,2,booking,184.39,0
+Grand Cayman,51,3,1,expedia,354.24,0
+Providenciales,75,6,1,expedia,404.38,0
+Punta Cana,17,1,2,booking,171.73,0
+Montego Bay,10,7,2,booking,261.87,0
+Punta Cana,175,2,2,booking,124.1,0
+Providenciales,30,4,2,expedia,355.67,0
+Punta Cana,40,2,3,agent,205.4,0
+Grand Cayman,41,7,4,direct,390.66,0
+Aruba,24,8,1,booking,333.64,0
+Castries,57,3,1,direct,355.05,0
+San Juan,60,5,3,expedia,197.7,0
+Grand Cayman,126,6,2,direct,318.5,0
+Castries,45,6,1,direct,219.8,0
+Castries,105,2,1,booking,217.64,1
+Grand Cayman,107,2,1,expedia,380.31,0
+Aruba,14,7,3,agent,304.52,1
+Punta Cana,36,3,1,booking,196.17,0
+Negril,26,2,1,agent,132.42,1
+Montego Bay,2,5,3,direct,223.63,0
+Grand Cayman,160,4,3,direct,286.37,0
+Nassau,97,8,1,booking,347.04,0
+Castries,117,2,2,expedia,204.14,1
+Punta Cana,24,1,2,direct,219.36,0
+Aruba,54,5,3,expedia,267.28,0
+Aruba,112,6,1,booking,304.35,1
+Negril,5,4,2,direct,167.51,0
+Punta Cana,11,5,2,direct,187.77,0
+Punta Cana,121,4,3,direct,179.97,0
+Negril,116,1,2,booking,212.5,0
+Castries,8,3,1,direct,189.46,0
+Grand Cayman,134,3,1,booking,377.39,0
+Montego Bay,29,6,2,expedia,257.98,0
+Aruba,51,5,1,direct,272.97,0
+Providenciales,95,7,1,booking,343.49,1
+Bridgetown,41,5,2,booking,272.04,0
+Negril,53,3,2,booking,176.57,0
+Providenciales,77,4,2,direct,372.62,0
+Grand Cayman,16,4,1,direct,358.22,0
+Castries,202,5,3,direct,267.18,0
+Montego Bay,31,1,2,agent,206.07,0
+Aruba,10,5,1,direct,290.49,0
+Aruba,25,7,1,expedia,319.53,0
+Nassau,30,5,1,booking,373.63,1
+Bridgetown,10,3,1,booking,311.13,0
+Grand Cayman,53,2,1,direct,392.15,0
+Montego Bay,48,7,1,direct,170.78,1
+Bridgetown,88,5,2,booking,307.17,0
+Punta Cana,158,6,2,booking,259.29,0
+Punta Cana,77,1,1,booking,138.18,1
+San Juan,26,1,3,expedia,260.4,0
+Aruba,79,5,1,booking,347.12,0
+Grand Cayman,44,4,1,direct,358.32,0
+Negril,59,1,2,direct,214.68,0
+Montego Bay,15,4,3,direct,199.02,0
+Aruba,65,4,1,booking,343.74,1
+Castries,12,4,1,direct,270.86,0
+Castries,25,5,1,direct,253.41,0
+Castries,131,5,2,booking,275.29,1
+Montego Bay,19,4,3,booking,271.6,0
+Punta Cana,22,3,4,direct,178.44,0
+Grand Cayman,30,5,3,direct,390.58,0
+Bridgetown,75,7,3,expedia,314.72,0
+San Juan,83,4,2,direct,257.72,0
+Castries,32,4,1,booking,251.36,0
+Negril,62,2,2,booking,277.88,0
+Castries,52,6,1,booking,230.11,1
+Punta Cana,4,2,1,expedia,186.38,0
+Bridgetown,19,6,3,booking,287.0,1
+Castries,99,4,2,direct,268.44,0
+Bridgetown,50,4,1,agent,328.0,0
+Castries,66,6,1,direct,334.5,0
+Montego Bay,55,2,1,booking,185.9,0
+Bridgetown,57,5,2,booking,291.61,1
+Punta Cana,57,4,2,booking,254.33,0
+Punta Cana,52,6,1,booking,196.05,1
+San Juan,13,6,2,direct,240.61,0
+Providenciales,16,5,2,direct,415.98,0
+Nassau,9,4,2,direct,366.62,0
+San Juan,33,2,2,booking,267.53,0
+Negril,72,4,2,booking,262.71,0
+Nassau,32,6,2,direct,354.98,0
+Aruba,11,3,1,booking,331.28,0
+Aruba,72,1,3,agent,298.73,1
+Bridgetown,30,7,2,expedia,257.75,0
+Punta Cana,84,5,2,booking,118.17,0
+Aruba,16,6,2,direct,252.97,0
+Bridgetown,28,5,4,direct,257.56,0
+Grand Cayman,55,7,1,booking,365.07,0
+Punta Cana,37,6,1,direct,256.73,0
+Bridgetown,45,2,1,direct,245.63,0
+Punta Cana,13,6,1,booking,189.09,0
+Aruba,40,4,2,booking,358.02,0
+San Juan,199,5,1,expedia,302.89,0
+Montego Bay,27,5,2,booking,303.9,1
+Negril,27,3,1,booking,145.79,0
+Providenciales,154,5,4,direct,358.93,0
+San Juan,127,4,2,agent,201.43,0
+San Juan,71,5,2,expedia,166.99,0
+Punta Cana,38,3,1,agent,167.06,0
+San Juan,19,4,1,direct,258.46,0
+Nassau,12,6,2,booking,218.26,0
+Castries,42,5,3,direct,194.85,0
+Providenciales,122,6,2,booking,309.73,0
+Negril,135,2,1,direct,182.65,1
+Punta Cana,69,7,3,booking,171.73,1
+Bridgetown,48,5,4,booking,248.7,0
+Montego Bay,29,5,2,booking,238.03,1
+Negril,165,7,2,expedia,174.6,0
+Nassau,64,7,4,booking,330.21,0
+Negril,22,6,3,expedia,259.87,0
+Castries,18,2,1,direct,316.32,0
+Negril,14,6,1,booking,146.49,0
+Nassau,83,3,1,booking,361.09,0
+Punta Cana,24,8,3,expedia,194.26,0
+San Juan,62,2,1,direct,285.34,1
+Nassau,58,3,3,booking,269.58,1
+Castries,13,6,1,booking,307.85,0
+Negril,91,5,2,direct,150.31,0
+Negril,11,5,2,booking,178.73,0
+Punta Cana,87,4,1,booking,166.16,1
+Nassau,147,4,4,expedia,299.05,1
+Montego Bay,36,1,1,booking,268.29,1
+Castries,140,5,2,expedia,242.12,1
+Aruba,125,3,1,expedia,349.38,0
+Castries,88,7,4,booking,221.1,1
+Grand Cayman,15,5,2,agent,368.39,0
+Montego Bay,39,3,1,agent,253.72,0
+Punta Cana,9,6,1,booking,218.8,1
+Negril,105,4,2,expedia,214.24,1
+Nassau,111,4,2,expedia,292.59,1
+Nassau,172,3,2,booking,279.13,0
+Negril,46,6,2,direct,175.22,0
+Bridgetown,76,5,2,booking,263.37,0
+San Juan,57,6,1,direct,262.5,0
+Punta Cana,57,2,1,expedia,239.37,0
+Punta Cana,104,6,2,direct,139.24,1
+Punta Cana,37,1,4,direct,245.37,0
+Grand Cayman,30,1,1,expedia,359.31,1
+Aruba,53,2,1,booking,367.33,0
+Bridgetown,52,3,3,direct,347.74,0
+Punta Cana,93,7,2,booking,201.65,0
+San Juan,51,5,1,expedia,244.18,1
+Punta Cana,39,4,2,agent,237.0,0
+Providenciales,25,1,2,booking,349.68,0
+Nassau,16,4,1,direct,283.83,1
+Bridgetown,82,3,1,expedia,277.69,1
+San Juan,23,2,2,booking,287.8,0
+Negril,35,3,5,direct,192.06,0
+Negril,7,3,1,direct,165.28,0
+Negril,71,7,2,booking,205.25,0
+Grand Cayman,20,5,4,direct,287.51,0
+Nassau,151,4,1,booking,267.21,1
+Providenciales,28,6,2,booking,398.81,0
+Punta Cana,35,1,2,direct,145.98,0
+Castries,154,2,3,expedia,230.44,1
+Aruba,244,2,1,agent,307.51,1
+San Juan,33,6,1,agent,271.12,0
+Bridgetown,85,4,3,booking,296.13,0
+Providenciales,18,5,2,direct,402.92,0
+Castries,43,6,2,booking,223.94,0
+Grand Cayman,135,7,2,booking,386.5,0
+Castries,40,2,2,agent,212.01,0
+Negril,16,4,1,direct,151.8,0
+Montego Bay,79,2,2,booking,154.71,0
+Bridgetown,11,3,2,direct,225.18,0
+Grand Cayman,27,5,1,expedia,406.33,0
+Providenciales,34,6,4,direct,342.09,0
+Montego Bay,26,5,2,expedia,276.39,0
+Castries,30,5,1,booking,285.96,0
+Punta Cana,34,2,2,direct,253.03,0
+Punta Cana,25,1,1,booking,206.73,0
+Montego Bay,48,4,1,direct,234.76,0
+Grand Cayman,107,8,2,direct,373.57,1
+Nassau,52,5,2,booking,395.78,0
+Montego Bay,3,7,2,direct,309.99,0
+Grand Cayman,138,8,1,expedia,362.22,0
+Nassau,181,5,1,direct,281.14,0
+Bridgetown,5,5,1,booking,282.49,0
+Nassau,55,6,1,booking,314.09,0
+Punta Cana,30,3,1,agent,160.15,0
+Bridgetown,11,2,2,booking,231.35,0
+Providenciales,79,4,2,direct,391.17,0
+Montego Bay,20,3,2,booking,223.2,0
+Providenciales,28,1,1,agent,385.08,1
+Aruba,129,1,1,booking,313.56,0
+Negril,57,6,2,direct,202.31,0
+Bridgetown,108,1,2,direct,248.84,0
+Aruba,32,1,1,direct,373.71,0
+Nassau,9,2,2,booking,358.77,0
+Castries,81,2,2,booking,268.45,0
+Grand Cayman,101,4,2,expedia,348.91,0
+Providenciales,34,6,3,expedia,354.84,1
+Bridgetown,68,4,2,direct,284.98,0
+Grand Cayman,87,5,1,booking,395.24,0
+Bridgetown,8,5,3,agent,299.36,0
+Castries,22,4,1,direct,276.14,0
+Punta Cana,205,3,3,booking,156.85,0
+San Juan,17,5,3,direct,236.68,0
+Nassau,22,5,3,direct,263.61,0
+Castries,97,7,2,agent,177.12,1
+Nassau,66,6,3,booking,301.77,0
+Nassau,32,6,2,booking,293.46,0
+Grand Cayman,100,6,2,booking,437.81,0
+Castries,50,6,2,agent,205.36,0
+Punta Cana,23,3,3,direct,264.84,0
+Montego Bay,23,5,3,booking,215.96,0
+Castries,116,4,1,agent,253.4,0
+Punta Cana,8,5,1,direct,96.12,1
+San Juan,27,5,1,booking,254.74,1
+Montego Bay,17,3,2,direct,223.5,0
+Nassau,55,8,1,direct,331.1,0
+Punta Cana,142,2,1,direct,136.17,1
+Nassau,44,1,3,booking,195.36,0
+Nassau,13,5,3,expedia,274.65,0
+Providenciales,15,2,1,direct,300.27,0
+Castries,67,1,2,booking,236.4,0
+Punta Cana,43,3,2,expedia,231.65,0
+Negril,29,6,1,direct,182.53,0
+Punta Cana,77,6,1,booking,197.47,1
+Montego Bay,19,5,1,direct,180.58,0
+Punta Cana,73,7,1,booking,141.05,1
+Grand Cayman,38,5,2,booking,397.4,0
+Grand Cayman,14,4,1,booking,407.09,0
+Grand Cayman,82,3,3,booking,434.66,0
+Montego Bay,67,6,2,booking,157.54,0
+San Juan,135,6,4,direct,257.51,1
+Montego Bay,52,3,2,booking,197.55,0
+Grand Cayman,23,4,1,agent,431.89,0
+Nassau,19,4,1,booking,310.08,1
+Providenciales,47,7,2,booking,315.03,0
+Montego Bay,8,6,1,direct,232.42,0
+Providenciales,74,7,2,direct,365.57,0
+Negril,86,5,2,booking,140.9,0
+Providenciales,92,3,2,booking,353.84,1
+Negril,62,3,4,direct,249.41,0
+Aruba,41,4,2,direct,318.82,0
+Aruba,82,6,3,booking,329.78,0
+San Juan,207,7,1,booking,238.83,0
+Providenciales,135,2,2,booking,322.53,0
+Punta Cana,82,3,3,booking,106.32,0
+Castries,96,3,1,expedia,330.81,1
+Bridgetown,30,5,2,booking,262.36,0
+Bridgetown,24,8,1,booking,269.98,0
+Castries,31,4,1,expedia,154.75,0
+Nassau,62,7,2,direct,214.09,0
+Punta Cana,15,6,2,direct,224.22,0
+Montego Bay,18,2,3,direct,297.64,0
+San Juan,28,3,2,booking,296.15,0
+Nassau,29,10,3,direct,233.16,0
+Punta Cana,66,3,1,booking,203.37,0
+Castries,12,4,2,booking,272.5,0
+Nassau,8,3,1,booking,337.69,1
+Negril,93,6,1,booking,211.56,0
+Bridgetown,57,5,2,direct,337.5,0
+Montego Bay,74,9,3,direct,238.7,0
+Negril,75,3,2,direct,252.03,0
+Castries,73,4,1,direct,325.57,0
+Negril,62,6,1,expedia,223.72,0
+Grand Cayman,150,6,3,direct,413.97,0
+Aruba,56,4,1,booking,327.61,0
+Grand Cayman,44,8,3,booking,378.79,0
+Grand Cayman,26,6,2,booking,346.86,0
+Punta Cana,7,8,1,agent,164.33,0
+Castries,59,1,4,booking,229.16,1
+Punta Cana,138,5,1,expedia,198.09,0
+Aruba,89,4,2,direct,311.55,0
+Grand Cayman,36,7,3,booking,393.91,0
+Aruba,42,8,2,booking,289.58,0
+Providenciales,75,5,1,expedia,374.5,0
+Punta Cana,90,8,3,booking,220.99,0
+Nassau,42,3,2,direct,298.86,0
+Bridgetown,135,2,2,expedia,323.13,0
+Aruba,21,5,3,agent,307.22,0
+Montego Bay,24,6,1,booking,181.79,0
+San Juan,42,2,1,booking,261.31,1
+Providenciales,29,1,2,booking,334.29,0
+San Juan,51,3,3,booking,256.22,0
+Providenciales,60,7,1,booking,396.02,1
+Providenciales,91,3,1,direct,358.93,0
+Punta Cana,68,5,1,direct,231.68,0
+Aruba,50,4,1,agent,360.72,0
+Aruba,34,8,3,booking,337.54,0
+Montego Bay,42,8,2,agent,161.31,1
+Grand Cayman,76,6,2,booking,375.73,0
+Aruba,19,5,2,direct,279.74,0
+Punta Cana,27,9,1,expedia,206.66,0
+Nassau,35,8,1,booking,332.57,0
+Grand Cayman,42,6,2,booking,387.08,0
+Providenciales,76,1,1,agent,386.1,0
+Aruba,211,4,1,booking,306.28,1
+Nassau,194,4,1,direct,318.84,1
+Providenciales,67,2,2,direct,357.21,0
+San Juan,24,5,2,booking,262.49,0
+Castries,77,5,3,booking,269.12,0
+Punta Cana,68,4,1,booking,134.74,0
+Grand Cayman,27,2,3,expedia,378.77,0
+Montego Bay,124,5,1,booking,302.8,1
+Castries,29,6,1,booking,257.97,0
+Punta Cana,27,6,2,booking,97.04,1
+Providenciales,48,7,1,direct,396.91,0
+Punta Cana,13,5,2,booking,250.79,1
+Aruba,33,3,2,expedia,329.59,0
+Punta Cana,36,2,3,agent,165.55,0
+Nassau,75,4,1,direct,325.95,1
+Providenciales,83,7,2,booking,418.88,0
+Providenciales,46,2,1,booking,351.23,0
+Castries,21,6,2,direct,253.63,0
+Montego Bay,67,3,1,booking,133.19,0
+Bridgetown,39,5,2,expedia,285.61,1
+Providenciales,80,3,1,expedia,378.79,0
+Aruba,58,1,2,direct,316.21,0
+San Juan,83,5,1,direct,297.06,0
+Grand Cayman,80,4,2,agent,389.61,0
+San Juan,67,5,3,expedia,241.78,0
+Nassau,64,6,2,booking,289.13,0
+Castries,48,7,1,direct,243.04,0
+Nassau,59,6,3,booking,319.44,1
+Montego Bay,15,3,1,direct,162.93,0
+Aruba,116,5,3,booking,285.28,1
+Castries,51,1,1,direct,243.19,0
+Providenciales,7,4,1,direct,390.38,0
+Punta Cana,32,7,1,direct,217.92,0
+Punta Cana,24,7,1,direct,163.49,0
+Nassau,34,6,2,booking,279.44,0
+Nassau,28,6,1,booking,327.54,1
+San Juan,31,7,2,expedia,276.93,1
+Bridgetown,25,4,3,direct,284.77,0
+Negril,28,6,2,booking,207.44,0
+Nassau,46,3,1,direct,240.35,0
+Bridgetown,45,3,2,agent,258.34,0
+Grand Cayman,102,4,1,expedia,390.96,1
+Punta Cana,88,5,1,booking,201.21,0
+San Juan,40,4,2,expedia,293.64,1
+Grand Cayman,86,4,2,booking,359.11,0
+Montego Bay,9,5,1,expedia,163.04,0
+Montego Bay,31,7,1,agent,176.54,0
+Castries,20,2,1,expedia,282.02,0
+Punta Cana,99,8,1,expedia,222.14,0
+Providenciales,52,6,3,expedia,358.22,0
+Bridgetown,32,6,1,booking,236.3,0
+Castries,94,1,2,booking,261.8,1
+Montego Bay,51,8,3,direct,297.58,0
+Castries,32,8,1,expedia,290.19,0
+Aruba,18,4,1,booking,312.66,0
+Negril,78,5,2,booking,234.77,0
+Aruba,20,5,2,booking,307.08,0
+Negril,124,5,1,expedia,196.46,0
+Montego Bay,19,3,3,booking,186.87,0
+Grand Cayman,49,7,2,agent,332.91,0
+Castries,53,6,1,booking,289.66,0
+Negril,75,3,2,expedia,285.06,0
+Negril,44,2,3,booking,145.35,1
+Bridgetown,6,4,2,expedia,333.78,0
+Negril,45,6,1,direct,188.19,0
+San Juan,64,3,1,direct,227.32,0
+Providenciales,52,5,1,agent,346.95,0
+Grand Cayman,77,5,1,booking,371.82,0
+Negril,36,3,1,booking,152.3,1
+Castries,28,5,3,direct,264.54,0
+Negril,103,4,1,agent,200.33,0
+Grand Cayman,26,3,2,booking,399.1,0
+Punta Cana,17,5,3,direct,145.67,0
+Aruba,79,5,1,direct,316.2,0
+Negril,140,6,1,booking,211.25,1
+Providenciales,70,6,1,direct,336.27,0
+Bridgetown,115,6,1,booking,286.02,0
+Negril,3,8,4,expedia,104.28,0
+Negril,65,4,2,direct,292.14,0
+Providenciales,22,5,3,booking,388.71,1
+Nassau,133,5,1,booking,388.06,1
+Castries,7,7,1,expedia,245.62,0
+Negril,98,4,2,expedia,191.13,1
+Bridgetown,21,2,1,direct,294.34,0
+Nassau,36,4,1,booking,361.15,0
+Grand Cayman,52,4,1,agent,317.86,0
+Providenciales,39,5,1,agent,291.14,0
+Montego Bay,35,1,1,booking,190.03,0
+Punta Cana,38,6,2,booking,155.24,1
+Providenciales,143,7,1,booking,352.29,0
+Nassau,37,4,2,direct,344.7,0
+Grand Cayman,45,5,1,direct,360.39,0
+Punta Cana,31,2,3,direct,193.02,0
+Montego Bay,23,4,1,booking,180.61,0
+Negril,91,2,1,booking,157.19,0
+Montego Bay,30,3,1,booking,230.14,0
+Grand Cayman,66,1,2,agent,355.72,0
+Negril,39,1,2,direct,257.43,1
+San Juan,35,5,3,agent,273.77,0
+Grand Cayman,52,4,3,agent,361.99,0
+Punta Cana,6,3,2,booking,202.3,0
+Providenciales,36,5,1,direct,325.33,1
+San Juan,71,1,3,direct,281.51,0
+Negril,87,3,2,direct,192.25,0
+Montego Bay,38,5,2,booking,260.1,0
+Montego Bay,35,6,1,direct,200.39,0
+Grand Cayman,29,4,2,booking,342.72,0
+Aruba,80,2,1,expedia,330.4,0
+Providenciales,132,10,1,booking,378.38,1
+Montego Bay,9,5,3,agent,196.57,0
+Aruba,18,5,4,booking,290.55,0
+Castries,115,4,1,booking,293.16,0
+San Juan,19,7,4,booking,203.9,0
+Grand Cayman,62,5,2,direct,325.72,0
+Negril,39,5,2,booking,159.83,1
+Punta Cana,171,2,2,booking,223.49,0
+Aruba,14,6,3,booking,275.43,1
+Nassau,29,1,2,direct,315.66,0
+Nassau,28,4,2,direct,328.84,0
+Providenciales,140,5,2,expedia,356.45,1
+Aruba,116,6,3,booking,336.6,1
+Providenciales,27,3,2,expedia,447.73,1
+Nassau,19,8,2,booking,306.73,0
+San Juan,30,5,2,booking,195.67,0
+San Juan,8,5,2,agent,275.67,0
+Grand Cayman,72,3,1,expedia,412.63,1
+Providenciales,52,2,1,booking,400.77,0
+Montego Bay,107,3,3,booking,224.89,0
+Nassau,54,6,3,direct,258.53,0
+San Juan,105,5,3,booking,291.9,0
+Negril,46,8,3,direct,167.69,1
+Grand Cayman,25,2,2,booking,379.35,1
+Grand Cayman,104,1,4,booking,444.69,0
+Montego Bay,22,2,1,booking,169.42,1
+San Juan,125,4,1,expedia,327.37,1
+Montego Bay,94,3,2,direct,225.0,0
+Punta Cana,73,7,3,booking,152.12,0
+Aruba,103,6,3,booking,317.64,1
+Punta Cana,59,7,1,direct,164.16,0
+Providenciales,75,3,3,direct,287.38,0
+Nassau,57,7,1,booking,356.69,0
+Punta Cana,27,8,2,direct,183.34,0
+Aruba,34,4,1,booking,239.53,0
+Providenciales,194,3,2,agent,274.25,0
+Aruba,141,4,1,booking,253.69,1
+Castries,54,4,3,booking,182.27,0
+San Juan,33,7,3,booking,234.36,1
+Bridgetown,36,4,2,booking,201.78,0
+Grand Cayman,86,4,1,booking,384.92,0
+Nassau,30,4,2,direct,167.64,0
+Providenciales,101,6,1,expedia,336.69,0
+Montego Bay,58,6,1,booking,241.53,1
+Negril,63,3,2,expedia,218.67,0
+Nassau,39,6,1,expedia,289.02,1
+Punta Cana,22,9,3,direct,158.42,0
+Montego Bay,31,5,1,booking,224.05,1
+San Juan,133,9,2,agent,229.27,0
+Grand Cayman,25,2,2,booking,319.52,1
+San Juan,96,3,3,expedia,210.53,0
+Providenciales,42,5,1,direct,319.58,0
+Negril,45,5,2,booking,170.46,0
+Aruba,27,4,2,direct,222.44,0
+Negril,115,4,2,booking,147.32,0
+Montego Bay,11,6,1,booking,227.01,0
+Punta Cana,134,4,1,booking,150.29,0
+Negril,114,7,3,booking,271.43,1
+Castries,78,3,1,expedia,316.33,0
+Providenciales,46,6,1,booking,305.05,0
+Nassau,105,3,3,booking,254.58,1
+Negril,69,1,2,booking,231.53,1
+Castries,15,5,1,booking,330.43,0
+Providenciales,43,1,1,booking,330.76,0
+Providenciales,38,1,2,expedia,360.08,0
+Montego Bay,16,5,1,direct,208.39,0
+San Juan,78,4,1,booking,276.93,0
+Nassau,72,7,3,booking,302.33,0
+San Juan,83,10,4,booking,206.23,0
+Punta Cana,120,3,1,booking,217.98,0
+Nassau,88,4,2,expedia,284.69,0
+Negril,26,8,2,direct,221.19,0
+Bridgetown,28,3,4,agent,303.75,0
+Negril,55,6,1,expedia,226.51,0
+Providenciales,58,6,2,direct,373.72,0
+Providenciales,19,6,1,booking,299.36,1
+Montego Bay,142,5,2,booking,141.44,0
+Providenciales,41,4,3,booking,336.53,0
+Montego Bay,16,1,2,agent,195.32,0
+Castries,21,3,2,expedia,281.85,0
+Montego Bay,34,3,1,direct,253.41,0
+Bridgetown,43,4,3,expedia,278.38,0
+Bridgetown,133,1,2,agent,277.81,1
+Castries,29,1,1,expedia,297.69,0
+Nassau,24,1,3,direct,274.42,0
+Nassau,17,4,2,booking,219.98,1
+Nassau,56,3,1,booking,303.36,1
+Grand Cayman,42,3,1,expedia,336.81,1
+Punta Cana,4,4,3,expedia,213.99,0
+Aruba,8,2,1,agent,369.06,0
+Montego Bay,25,4,4,direct,228.23,0
+Aruba,33,2,2,agent,286.8,0
+Negril,79,8,1,direct,225.02,0
+Negril,96,5,2,booking,173.58,0
+Montego Bay,62,1,2,direct,255.64,0
+Negril,68,5,2,direct,147.98,0
+San Juan,34,3,3,booking,234.41,0
+Bridgetown,172,3,1,expedia,294.0,1
+San Juan,84,6,2,booking,272.1,0
+Providenciales,39,5,2,direct,348.2,0
+Aruba,14,5,4,booking,259.51,0
+Bridgetown,17,5,1,agent,308.56,0
+Montego Bay,5,2,2,direct,249.51,0
+Negril,114,8,1,direct,163.93,0
+Negril,91,6,3,agent,174.54,0
+Grand Cayman,14,5,1,expedia,429.06,1
+San Juan,6,2,1,booking,254.77,0
+Aruba,74,5,1,booking,336.92,0
+Bridgetown,17,6,1,expedia,319.85,0
+Providenciales,91,3,2,expedia,387.32,0
+Nassau,46,3,2,booking,283.76,0
+Providenciales,36,6,3,expedia,388.87,0
+Bridgetown,102,6,2,direct,272.32,0
+Punta Cana,54,4,4,booking,147.66,0
+Providenciales,27,7,2,expedia,330.62,0
+Negril,86,3,1,direct,206.44,0
+Grand Cayman,61,2,1,booking,400.61,1
+Castries,91,7,2,booking,264.66,0
+San Juan,64,8,2,booking,296.74,0
+Aruba,23,4,1,booking,381.98,0
+Montego Bay,37,5,2,booking,270.26,0
+Castries,13,3,1,expedia,312.67,0
+Negril,87,5,2,agent,171.07,0
+Montego Bay,47,2,1,expedia,219.19,0
+Castries,18,4,3,booking,203.54,0
+San Juan,111,5,1,booking,235.99,0
+Providenciales,88,1,5,agent,343.49,0
+Punta Cana,59,6,2,booking,240.47,1
+Montego Bay,50,2,2,agent,146.06,0
+Bridgetown,43,5,1,direct,270.43,0
+Montego Bay,81,4,1,direct,239.54,1
+Negril,175,5,2,agent,117.0,1
+Nassau,44,6,2,expedia,316.82,0
+Castries,103,7,1,direct,196.13,0
+Nassau,1,3,2,direct,317.78,0
+Punta Cana,44,7,2,booking,274.37,0
+Negril,15,5,1,agent,152.57,0
+Punta Cana,111,5,2,booking,174.35,0
+Nassau,70,5,2,booking,229.1,0
+Providenciales,105,6,2,direct,340.44,0
+San Juan,45,8,2,booking,255.21,0
+Grand Cayman,38,3,2,booking,357.85,0
+Punta Cana,49,8,3,direct,141.63,0
+San Juan,10,8,1,direct,190.97,0
+Grand Cayman,91,5,1,booking,384.83,1
+San Juan,48,7,1,expedia,201.38,0
+Nassau,26,3,1,direct,286.84,0
+Providenciales,16,7,2,direct,351.76,0
+San Juan,47,5,2,booking,330.56,0
+Negril,23,2,1,booking,165.13,0
+Nassau,11,1,3,booking,377.18,0
+Nassau,134,5,2,direct,253.45,0
+Grand Cayman,8,5,3,expedia,421.15,0
+Negril,61,5,1,direct,257.37,1
+Punta Cana,29,4,1,agent,217.58,0
+Castries,20,5,3,expedia,235.19,0
+Bridgetown,42,4,3,booking,262.0,0
+Montego Bay,139,5,2,direct,215.67,0
+Negril,85,3,3,direct,181.57,0
+Aruba,60,8,1,booking,264.49,0
+Castries,170,3,1,booking,251.66,0
+Grand Cayman,47,4,2,booking,311.12,1
+Montego Bay,52,6,2,expedia,223.76,0
+Aruba,141,1,3,expedia,346.98,0
+Negril,72,6,2,direct,215.38,0
+San Juan,59,3,4,expedia,214.13,0
+Bridgetown,9,2,1,booking,277.19,0
+Aruba,80,6,5,booking,336.5,0
+Providenciales,58,8,1,booking,336.63,1
+Grand Cayman,74,5,1,booking,310.58,0
+Grand Cayman,41,5,3,booking,282.77,1
+San Juan,17,5,2,booking,220.38,0
+San Juan,28,5,1,direct,280.87,1
+Aruba,131,4,1,booking,304.49,0
+Providenciales,94,7,3,agent,361.46,0
+Castries,51,7,1,direct,263.23,0
+San Juan,20,4,3,expedia,277.13,0
+Nassau,42,1,3,expedia,294.18,1
+San Juan,24,4,1,booking,212.56,0
+Montego Bay,240,3,2,agent,148.4,0
+Montego Bay,17,4,1,direct,227.29,0
+Castries,31,5,3,expedia,250.22,0
+Aruba,46,2,4,booking,387.32,0
+Negril,39,3,1,direct,255.64,0
+Castries,92,4,1,booking,210.89,1
+Montego Bay,194,3,1,direct,220.39,0
+Castries,48,9,2,booking,309.8,0
+San Juan,54,7,3,booking,205.29,0
+Providenciales,21,3,2,booking,391.47,0
+Providenciales,127,5,2,booking,398.12,0
+San Juan,14,4,1,booking,308.12,0
+San Juan,67,2,2,booking,234.97,0
+Aruba,104,1,2,agent,343.68,1
+Aruba,52,1,4,booking,331.97,0
+Castries,178,4,3,booking,271.68,0
+Castries,55,5,4,direct,275.04,0
+Bridgetown,69,2,3,booking,259.8,0
+Aruba,59,7,4,booking,216.42,0
+Montego Bay,95,1,2,booking,288.06,0
+Punta Cana,114,4,1,direct,201.14,0
+Castries,14,8,3,direct,220.3,0
+Punta Cana,43,5,1,booking,163.13,1
+San Juan,48,7,2,agent,313.3,0
+Nassau,42,4,3,expedia,360.14,0
+Grand Cayman,17,1,2,booking,443.4,0
+Grand Cayman,67,3,1,booking,405.64,0
+Punta Cana,43,4,2,direct,199.32,0
+Montego Bay,33,4,2,expedia,193.94,1
+Negril,31,5,1,direct,194.59,0
+Castries,60,6,2,booking,258.83,0
+Nassau,96,4,3,booking,271.78,1
+Aruba,52,6,1,booking,334.25,1
+Bridgetown,22,3,2,booking,232.8,0
+Montego Bay,76,4,3,direct,168.44,0
+Bridgetown,67,5,1,expedia,247.31,0
+San Juan,31,4,1,booking,279.17,0
+Castries,71,4,1,agent,212.99,0
+San Juan,39,4,2,booking,291.55,0
+San Juan,24,3,1,direct,300.15,1
+Aruba,86,3,2,expedia,252.34,0
+Castries,51,4,2,booking,237.74,0
+Negril,72,6,1,direct,218.27,0
+San Juan,33,5,1,expedia,280.15,0
+Negril,21,4,3,expedia,244.59,0
+Nassau,76,7,2,agent,299.27,0
+Castries,19,1,3,agent,325.23,1
+Providenciales,74,1,2,booking,391.29,1
+Negril,82,6,2,expedia,217.1,1
+Providenciales,47,6,2,booking,350.84,0
+Aruba,88,6,2,agent,320.06,0
+Grand Cayman,116,4,1,direct,349.87,0
+Providenciales,61,5,1,direct,432.72,0
+Grand Cayman,121,5,3,direct,387.68,0
+San Juan,66,3,2,booking,183.53,0
+San Juan,23,3,3,direct,288.44,0
+Providenciales,65,5,3,expedia,379.92,0
+Aruba,55,4,1,direct,368.53,0
+Montego Bay,54,2,1,direct,204.93,0
+Nassau,31,7,1,expedia,262.98,1
+Negril,6,8,2,booking,217.8,0
+Grand Cayman,77,3,2,booking,374.32,1
+San Juan,105,7,3,direct,169.85,0
+Providenciales,30,6,2,direct,322.09,0
+Nassau,54,5,2,expedia,302.03,0
+Grand Cayman,30,3,1,booking,331.49,0
+Castries,144,2,2,booking,284.21,1
+Grand Cayman,89,4,4,direct,405.46,0
+Castries,52,7,1,expedia,272.72,0
+Negril,46,3,2,booking,152.41,0
+Castries,8,3,1,booking,311.87,1
+Grand Cayman,19,5,2,direct,392.55,0
+Providenciales,133,7,3,expedia,375.05,1
+Providenciales,27,7,2,booking,417.14,1
+Aruba,83,2,1,booking,330.96,0
+Grand Cayman,80,4,1,booking,335.47,1
+Nassau,31,7,1,booking,271.12,0
+Punta Cana,58,4,1,direct,169.19,0
+Bridgetown,45,6,1,booking,318.82,0
+Castries,45,6,3,agent,207.2,0
+Aruba,41,7,2,agent,295.63,0
+Providenciales,39,4,2,expedia,378.48,0
+Nassau,62,8,1,direct,229.15,0
+Punta Cana,64,3,1,booking,185.82,0
+Montego Bay,20,3,1,booking,199.56,0
+Negril,63,6,1,expedia,212.55,0
+Grand Cayman,66,6,3,expedia,392.64,0
+San Juan,124,6,2,direct,263.85,0
+Aruba,90,5,1,booking,352.75,0
+Grand Cayman,31,6,4,agent,306.17,0
+San Juan,20,6,2,booking,280.83,1
+San Juan,33,4,1,booking,256.85,1
+Montego Bay,74,5,1,direct,176.82,0
+Nassau,12,6,3,agent,399.47,0
+Castries,52,3,1,booking,214.81,0
+Providenciales,28,3,1,expedia,408.07,0
+Negril,132,3,1,direct,175.29,0
+Punta Cana,36,6,2,agent,160.41,0
+Providenciales,41,3,1,expedia,298.94,1
+Montego Bay,113,4,3,expedia,285.82,1
+Providenciales,136,4,1,direct,359.13,1
+Negril,66,1,1,expedia,211.55,0
+San Juan,56,5,4,direct,164.62,0
+Aruba,61,5,1,expedia,411.65,0
+Aruba,87,1,2,direct,377.43,0
+Aruba,46,1,2,booking,333.87,1
+Montego Bay,151,6,2,booking,239.39,0
+San Juan,33,3,1,booking,266.63,0
+Aruba,23,7,2,booking,323.18,0
+Bridgetown,38,6,2,booking,320.85,0
+Bridgetown,58,3,2,expedia,290.03,0
+Castries,23,4,3,booking,230.03,0
+Castries,93,6,1,agent,233.63,0
+Negril,58,3,1,agent,243.88,0
+Aruba,55,5,2,direct,302.04,0
+Aruba,75,6,3,direct,274.47,0
+Punta Cana,48,5,1,expedia,197.23,1
+Castries,24,8,1,booking,151.98,1
+Montego Bay,52,5,1,expedia,142.66,0
+Montego Bay,101,3,3,booking,215.17,0
+Montego Bay,52,6,1,booking,214.81,1
+Castries,71,4,1,direct,302.88,0
+Nassau,44,3,2,expedia,303.58,1
+Aruba,192,2,3,direct,407.47,1
+Castries,36,4,1,direct,258.02,0
+Punta Cana,19,6,3,direct,195.8,0
+Providenciales,12,6,1,direct,357.66,0
+Grand Cayman,43,1,2,booking,330.2,0
+Bridgetown,7,5,2,booking,242.32,1
+Punta Cana,17,5,3,direct,204.61,0
+Aruba,29,2,3,expedia,349.34,0
+Providenciales,63,4,1,direct,286.49,0
+Providenciales,64,2,2,agent,357.28,0
+Negril,16,5,3,booking,142.06,1
+Grand Cayman,139,5,2,direct,302.63,0
+Negril,103,5,1,direct,228.18,1
+Montego Bay,50,6,2,agent,273.08,0
+San Juan,32,5,1,expedia,219.03,0
+Montego Bay,14,6,2,expedia,214.53,0
+Montego Bay,86,5,1,booking,198.24,0
+Providenciales,38,5,1,booking,412.68,0
+Nassau,12,2,3,direct,345.52,0
+Castries,77,4,1,direct,235.42,0
+Providenciales,15,6,1,booking,313.95,1
+Nassau,19,3,2,booking,233.47,1
+Castries,53,3,3,expedia,264.1,1
+San Juan,104,5,3,expedia,320.75,1
+Castries,100,4,1,expedia,301.27,1
+Bridgetown,22,4,3,expedia,337.6,0
+Aruba,46,2,1,booking,419.91,0
+Aruba,73,10,2,agent,319.59,0
+Nassau,45,2,2,direct,282.52,0
+Nassau,107,5,2,booking,287.01,0
+Grand Cayman,64,7,2,expedia,443.41,0
+Nassau,5,2,3,booking,314.03,1
+Punta Cana,54,5,2,booking,169.56,0
+Nassau,57,4,1,agent,243.83,1
+Providenciales,60,2,2,agent,402.94,1
+Negril,15,3,2,booking,232.77,0
+Bridgetown,103,1,1,booking,233.24,1
+Aruba,15,3,1,booking,317.12,0
+Bridgetown,41,6,3,direct,239.81,0
+Negril,41,1,1,direct,169.56,0
+Montego Bay,106,3,2,direct,280.38,0
+Castries,4,4,4,direct,228.22,0
+San Juan,37,5,2,agent,267.03,0
+San Juan,85,7,1,direct,269.48,0
+Castries,38,5,1,agent,270.04,0
+Providenciales,53,2,2,booking,354.39,0
+Grand Cayman,50,1,1,expedia,315.67,0
+Montego Bay,55,6,2,direct,185.0,0
+Punta Cana,50,6,2,direct,208.23,0
+Negril,12,7,3,booking,245.36,0
+Aruba,23,6,1,booking,336.79,0
+Nassau,22,2,1,booking,362.91,0
+Providenciales,22,5,2,booking,345.28,0
+Nassau,72,7,2,booking,306.39,0
+Negril,2,5,2,booking,209.35,0
+Grand Cayman,144,4,1,booking,348.05,1
+Punta Cana,110,1,2,booking,267.42,1
+Aruba,83,7,4,agent,229.3,0
+Aruba,66,3,2,direct,289.52,0
+Negril,137,4,3,booking,188.22,0
+San Juan,5,3,1,booking,308.84,0
+San Juan,35,6,2,expedia,177.99,0
+Montego Bay,48,1,2,agent,266.25,1
+Montego Bay,36,4,1,booking,165.49,0
+Aruba,91,7,1,direct,366.72,0
+Providenciales,33,6,1,booking,326.51,0
+Montego Bay,166,4,2,direct,207.96,0
+San Juan,32,5,1,direct,246.03,0
+Bridgetown,78,8,1,booking,282.6,0
+Punta Cana,53,4,3,booking,232.34,0
+Negril,61,6,3,direct,162.87,0
+Providenciales,29,7,2,booking,324.75,0
+Providenciales,5,8,3,expedia,332.02,0
+San Juan,68,4,1,booking,214.2,0
+Providenciales,51,2,1,direct,418.84,0
+Nassau,64,4,1,booking,242.49,0
+Nassau,43,3,2,booking,363.37,0
+Nassau,35,4,2,booking,381.38,0
+Punta Cana,21,4,2,booking,207.6,0
+Bridgetown,87,5,2,expedia,311.77,0
+Negril,22,9,2,direct,158.8,0
+Nassau,105,7,2,direct,309.67,1
+Providenciales,57,4,4,expedia,404.73,0
+San Juan,50,2,3,booking,294.02,1
+Grand Cayman,44,5,1,booking,386.9,0
+Castries,51,3,2,booking,298.24,0
+Bridgetown,21,5,3,agent,342.15,0
+Grand Cayman,139,6,1,booking,340.49,1
+Negril,97,3,1,booking,103.09,1
+Punta Cana,45,4,2,direct,213.01,0
+Bridgetown,22,5,3,agent,323.6,1
+Aruba,93,5,1,booking,303.25,1
+Bridgetown,37,4,1,expedia,306.58,1
+Montego Bay,38,5,2,booking,242.02,0
+San Juan,79,5,3,booking,203.37,0
+San Juan,32,3,1,expedia,214.32,0
+Montego Bay,61,5,1,booking,246.37,0
+Nassau,94,7,1,booking,308.73,1
+Negril,21,2,1,booking,183.38,0
+Aruba,17,3,1,booking,367.87,0
+Grand Cayman,37,4,4,agent,445.34,0
+Grand Cayman,151,3,3,booking,392.35,1
+Nassau,21,5,4,direct,262.91,0
+Castries,33,6,2,booking,311.06,0
+Grand Cayman,121,6,2,booking,392.58,1
+Providenciales,53,3,3,direct,390.4,0
+Providenciales,65,3,2,direct,313.98,0
+Montego Bay,13,5,1,booking,203.6,1
+San Juan,162,7,1,direct,191.75,0
+Punta Cana,152,6,1,expedia,189.37,0
+Negril,55,5,3,booking,159.4,1
+Bridgetown,147,3,1,booking,299.09,1
+Nassau,66,6,4,booking,322.22,1
+Negril,35,5,3,expedia,266.95,0
+Grand Cayman,78,3,3,expedia,348.07,0
+Nassau,231,6,1,booking,253.0,1
+Nassau,89,1,2,direct,284.0,0
+San Juan,33,1,1,direct,197.3,0
+Nassau,71,5,2,booking,238.86,0
+Aruba,85,2,2,agent,295.02,0
+Castries,151,7,1,booking,247.18,0
+San Juan,61,2,1,direct,252.01,0
+Bridgetown,17,5,2,booking,342.39,1
+Bridgetown,142,7,1,agent,285.4,0
+Negril,38,5,2,expedia,202.53,0
+Providenciales,103,6,2,booking,348.07,0
+Bridgetown,74,6,2,expedia,265.23,0
+Punta Cana,25,2,1,booking,231.6,0
+Montego Bay,52,3,2,direct,211.58,0
+Castries,117,2,1,booking,217.34,1
+Montego Bay,11,5,2,direct,169.25,0
+Nassau,38,2,3,direct,326.22,0
+Bridgetown,9,4,1,direct,226.59,1
+Providenciales,15,2,2,booking,298.34,0
+Bridgetown,21,4,4,direct,265.74,0
+Castries,129,4,2,direct,213.61,0
+Bridgetown,61,5,1,booking,301.63,0
+Grand Cayman,116,7,2,booking,412.22,1
+Aruba,119,8,3,booking,323.83,1
+Castries,42,6,2,expedia,292.37,0
+Providenciales,117,4,1,direct,363.46,0
+Bridgetown,12,5,2,booking,318.61,0
+Montego Bay,43,5,2,agent,235.77,0
+Bridgetown,72,4,1,direct,253.15,0
+Punta Cana,140,3,1,direct,166.33,0
+Montego Bay,57,3,2,agent,130.07,0
+Providenciales,11,8,2,booking,350.57,0
+San Juan,31,4,3,booking,235.59,0
+Punta Cana,168,3,2,direct,230.4,0
+Negril,40,3,2,expedia,245.13,0
+Castries,165,6,3,booking,246.82,0
+Negril,114,3,1,expedia,182.18,1
+Grand Cayman,45,6,2,direct,426.85,0
+Grand Cayman,91,5,2,direct,479.16,1
+Grand Cayman,70,3,1,agent,416.7,0
+Grand Cayman,12,2,1,direct,305.44,0
+Nassau,7,1,3,agent,263.09,0
+Providenciales,20,1,2,expedia,367.01,0
+Nassau,61,1,3,booking,377.62,1
+Aruba,24,3,3,expedia,318.09,0
+San Juan,2,4,1,agent,266.38,0
+Castries,52,6,1,booking,281.72,0
+Aruba,172,2,3,direct,338.63,0
+Negril,84,2,3,direct,176.39,0
+Montego Bay,146,3,4,expedia,239.73,0
+Providenciales,15,5,2,agent,307.04,0
+San Juan,99,6,3,direct,272.31,0
+Castries,27,4,1,booking,242.52,0
+Negril,58,3,1,booking,238.03,0
+Montego Bay,69,6,1,booking,294.95,0
+Montego Bay,20,5,2,booking,207.85,0
+Punta Cana,9,3,2,direct,180.44,0
+Negril,44,5,1,direct,214.3,0
+Punta Cana,25,4,3,booking,173.6,1
+Castries,92,5,1,booking,326.34,0
+Providenciales,26,7,1,direct,370.01,1
+Castries,34,4,3,booking,279.34,0
+Nassau,72,5,1,booking,243.05,0
+Aruba,36,4,1,booking,407.77,0
+San Juan,51,9,2,expedia,252.93,1
+Castries,34,6,2,booking,261.45,0
+Grand Cayman,5,3,1,booking,335.91,1
+San Juan,25,1,1,booking,295.46,0
+Grand Cayman,53,8,1,booking,387.24,0
+Grand Cayman,45,4,1,agent,394.24,0
+Providenciales,111,7,1,booking,355.0,0
+Montego Bay,29,4,1,expedia,274.19,0
+Bridgetown,32,2,1,agent,375.36,0
+Castries,43,2,1,expedia,259.44,1
+Nassau,100,1,2,booking,355.37,0
+Nassau,5,5,2,booking,325.4,0
+San Juan,88,6,1,direct,244.8,0
+Grand Cayman,90,4,2,direct,392.96,0
+San Juan,22,3,3,booking,268.13,0
+Bridgetown,140,2,3,agent,258.89,0
+San Juan,39,6,4,direct,229.36,0
+San Juan,54,3,2,booking,277.11,0
+Providenciales,26,4,1,agent,445.07,0
+Montego Bay,13,2,2,direct,295.5,0
+Aruba,17,7,2,direct,279.67,0
+Punta Cana,95,2,1,agent,226.73,0
+Punta Cana,1,4,2,direct,169.29,0
+Negril,12,8,1,booking,200.37,0
+San Juan,34,3,2,booking,155.88,1
+Montego Bay,7,3,1,booking,253.57,0
+Negril,53,6,1,expedia,149.62,1
+Castries,49,6,1,direct,212.28,0
+Providenciales,175,5,1,agent,448.33,1
+Montego Bay,22,4,1,booking,213.51,0
+Grand Cayman,96,5,2,booking,373.53,1
+Montego Bay,103,4,2,booking,161.23,0
+Bridgetown,62,5,3,expedia,290.01,0
+Nassau,43,5,1,booking,343.85,1
+San Juan,34,5,1,direct,248.41,1
+Castries,138,6,2,expedia,234.33,0
+Punta Cana,60,7,1,booking,229.31,0
+Providenciales,7,2,1,expedia,371.99,0
+Nassau,16,6,2,agent,284.33,0
+Nassau,186,5,1,expedia,226.6,1
+Bridgetown,96,6,3,booking,220.89,1
+Castries,25,2,3,booking,152.01,0
+Castries,22,6,3,agent,322.41,0
+Providenciales,156,6,3,booking,338.69,1
+Nassau,43,6,1,booking,281.15,0
+Castries,68,4,2,direct,266.37,0
+Bridgetown,27,5,3,booking,246.68,0
+Castries,36,6,2,expedia,246.73,0
+Montego Bay,17,7,2,booking,219.12,0
+Castries,27,2,1,booking,205.55,0
+Aruba,23,4,2,expedia,331.78,1
+Punta Cana,35,3,1,direct,233.78,1
+Punta Cana,67,1,2,expedia,227.63,0
+Grand Cayman,28,4,2,booking,379.54,0
+Bridgetown,66,5,1,agent,311.13,0
+Bridgetown,54,3,3,booking,292.42,0
+Punta Cana,20,8,1,agent,213.88,0
+San Juan,25,3,2,agent,246.73,0
+San Juan,11,5,2,direct,257.32,0
+Grand Cayman,78,1,3,expedia,448.93,0
+Bridgetown,159,6,1,booking,293.17,1
+Punta Cana,45,4,2,expedia,140.45,0
+Negril,57,7,2,agent,202.83,0
+Aruba,15,3,2,agent,332.05,1
+San Juan,49,2,1,booking,207.43,0
+Nassau,70,5,2,expedia,238.02,0
+Castries,30,6,4,booking,229.78,0
+Aruba,25,5,3,agent,339.06,0
+San Juan,65,7,1,direct,180.09,1
+Grand Cayman,45,6,2,booking,288.19,0
+Negril,37,5,3,agent,191.96,0
+Bridgetown,95,3,3,expedia,299.73,0
+Aruba,22,4,3,booking,328.9,0
+Aruba,27,1,1,expedia,316.45,0
+Castries,45,5,1,booking,291.45,1
+Grand Cayman,56,11,4,expedia,308.18,0
+Aruba,49,1,1,direct,228.54,0
+Negril,81,1,1,expedia,170.14,0
+San Juan,9,1,3,booking,212.35,1
+Punta Cana,14,6,1,booking,189.22,0
+Punta Cana,71,5,1,direct,166.4,0
+Punta Cana,61,4,1,direct,182.84,0
+Montego Bay,48,5,4,expedia,188.02,0
+Grand Cayman,39,4,3,booking,404.58,0
+Providenciales,9,6,2,expedia,344.53,0
+Punta Cana,65,2,2,direct,116.5,0
+Punta Cana,43,5,3,expedia,232.45,1
+Providenciales,18,9,1,booking,465.38,1
+Aruba,82,4,1,booking,306.34,0
+Aruba,189,4,4,expedia,324.53,1
+Punta Cana,16,7,1,expedia,146.81,0
+Providenciales,58,2,1,direct,330.8,0
+Providenciales,261,2,1,agent,377.09,1
+Punta Cana,50,3,2,agent,251.24,0
+Nassau,30,5,3,direct,251.87,0
+Castries,29,3,4,agent,227.78,1
+Aruba,30,3,3,agent,338.38,0
+Montego Bay,9,5,1,booking,224.72,0
+Nassau,24,8,4,expedia,226.38,1
+Nassau,39,8,2,agent,291.25,0
+Negril,21,5,2,booking,268.83,1
+Castries,79,3,1,booking,232.39,0
+Negril,69,5,4,direct,152.97,0
+Negril,73,6,1,booking,113.17,0
+Grand Cayman,138,2,3,direct,292.63,0
+Nassau,15,3,1,booking,300.18,1
+Providenciales,71,6,5,booking,264.43,0
+Montego Bay,136,5,3,agent,175.25,0
+San Juan,125,4,1,direct,263.5,0
+Providenciales,81,5,4,booking,365.41,1
+Punta Cana,99,3,3,direct,209.64,0
+Aruba,50,6,2,booking,335.88,0
+San Juan,7,7,3,booking,299.11,1
+Negril,103,5,3,booking,211.26,0
+Punta Cana,27,4,1,booking,120.45,0
+Castries,50,2,3,direct,175.74,0
+Negril,63,4,3,expedia,257.58,0
+Punta Cana,35,3,2,booking,161.24,1
+Bridgetown,113,7,1,booking,261.66,0
+San Juan,29,5,2,direct,178.29,0
+Bridgetown,16,5,1,direct,259.86,0
+Providenciales,44,7,3,direct,344.69,1
+Punta Cana,25,5,2,agent,146.58,0
+Punta Cana,21,1,3,expedia,208.83,0
+Providenciales,21,4,1,direct,397.05,0
+Grand Cayman,48,3,1,expedia,413.11,0
+Nassau,19,2,3,booking,329.53,1
+Nassau,151,5,1,expedia,234.41,1
+Grand Cayman,27,4,1,booking,379.03,1
+Providenciales,57,1,1,direct,387.14,0
+Negril,122,7,1,direct,161.73,0
+Aruba,38,7,2,booking,302.45,1
+Providenciales,37,6,3,booking,368.27,0
+Montego Bay,22,3,1,agent,344.81,0
+San Juan,28,5,3,agent,280.3,0
+Montego Bay,44,2,1,direct,143.41,0
+Negril,73,5,1,direct,198.21,0
+Castries,104,6,1,agent,254.51,0
+San Juan,42,4,1,direct,315.26,0
+Bridgetown,115,4,1,expedia,243.56,1
+Castries,12,4,4,expedia,257.27,0
+Bridgetown,50,3,1,direct,270.36,1
+Bridgetown,7,7,5,booking,277.52,0
+Negril,97,5,2,direct,216.89,0
+Negril,113,5,5,booking,218.51,0
+Punta Cana,70,6,3,direct,252.04,0
+Montego Bay,21,4,1,booking,197.76,1
+San Juan,44,5,2,booking,217.15,0
+Negril,13,5,1,expedia,230.71,1
+San Juan,48,3,2,booking,224.58,0
+Aruba,25,3,1,direct,305.05,0
+Castries,41,3,1,booking,279.41,0
+Castries,99,6,3,booking,333.14,0
+Bridgetown,94,6,3,direct,272.41,0
+Castries,12,5,2,booking,266.52,0
+Nassau,55,6,1,agent,318.87,0
+Aruba,27,4,2,direct,315.67,0
+Castries,53,4,2,expedia,292.77,0
+Grand Cayman,49,4,2,expedia,409.29,0
+Nassau,26,1,2,direct,333.85,1
+Negril,109,5,3,booking,143.23,1
+Montego Bay,67,2,1,expedia,109.04,0
+Grand Cayman,71,1,3,direct,395.47,0
+Punta Cana,46,8,3,booking,205.59,1
+Aruba,59,3,4,direct,260.96,0
+Punta Cana,34,7,3,direct,187.77,0
+Punta Cana,14,6,1,agent,169.43,0
+San Juan,59,6,2,booking,252.6,1
+Castries,156,7,3,agent,314.88,0
+Bridgetown,56,2,1,direct,226.99,0
+Punta Cana,82,4,2,agent,222.43,0
+Grand Cayman,39,2,4,agent,352.22,0
+Punta Cana,113,2,1,booking,238.85,1
+Bridgetown,41,4,3,agent,314.92,0
+Montego Bay,109,5,4,agent,209.28,0
+Bridgetown,27,5,2,booking,277.35,0
+Nassau,14,3,1,direct,296.38,0
+Nassau,69,5,1,booking,293.26,0
+Bridgetown,65,5,2,booking,298.5,0
+Bridgetown,22,5,4,direct,260.55,0
+Providenciales,45,1,2,expedia,303.12,0
+Aruba,53,4,1,expedia,307.35,0
+Grand Cayman,33,2,2,booking,391.56,1
+Providenciales,83,1,1,direct,337.39,0
+Grand Cayman,55,3,2,agent,376.32,1
+Nassau,31,5,2,booking,296.26,0
+Providenciales,68,5,2,booking,388.13,0
+Providenciales,59,3,2,agent,331.41,0
+San Juan,84,4,2,agent,216.77,0
+Punta Cana,87,7,2,booking,264.07,0
+Punta Cana,13,5,1,direct,201.74,0
+Aruba,60,12,1,direct,331.37,0
+Nassau,40,6,1,booking,305.86,0
+Montego Bay,145,2,3,expedia,215.03,0
+Bridgetown,109,4,2,booking,264.21,0
+San Juan,32,5,1,booking,258.41,0
+Nassau,37,1,2,expedia,274.24,0
+Negril,68,10,3,expedia,256.87,1
+Nassau,9,5,3,agent,327.79,0
+Castries,36,4,3,booking,265.9,0
+San Juan,68,8,2,direct,276.88,0
+Providenciales,100,2,2,direct,324.28,0
+Montego Bay,32,5,1,booking,167.51,1
+Castries,61,4,4,booking,206.67,0
+Castries,70,3,2,direct,230.75,1
+Nassau,16,7,2,direct,264.13,0
+Montego Bay,77,4,2,booking,190.03,0
+San Juan,62,4,2,booking,207.72,0
+Grand Cayman,48,10,1,booking,398.87,0
+San Juan,89,8,3,expedia,241.06,0
+Providenciales,94,7,2,expedia,408.52,0
+Montego Bay,22,8,1,agent,244.18,0
+San Juan,127,5,2,direct,165.29,0
+Negril,146,4,3,direct,172.74,0
+Grand Cayman,15,2,1,agent,445.53,0
+Castries,68,3,1,booking,256.08,1
+San Juan,112,7,2,expedia,188.72,1
+San Juan,29,5,2,agent,302.27,0
+Grand Cayman,90,1,1,booking,414.96,0
+Castries,96,7,2,booking,271.42,1
+Negril,117,5,1,booking,219.29,0
+Aruba,59,6,2,booking,336.36,0
+Aruba,19,5,1,booking,308.11,0
+Providenciales,31,4,1,direct,370.8,0
+Aruba,18,2,1,booking,282.69,1
+Bridgetown,48,2,1,direct,221.01,0
+Negril,34,5,2,booking,177.44,0
+Providenciales,18,5,1,direct,392.06,0
+Montego Bay,5,4,2,booking,211.44,0
+Nassau,55,7,1,direct,322.71,1
+Grand Cayman,52,3,1,expedia,415.33,0
+Nassau,79,6,2,agent,245.12,0
+Punta Cana,41,5,1,direct,210.05,0
+Nassau,28,3,3,booking,314.14,0
+Grand Cayman,41,4,1,booking,367.54,0
+Montego Bay,35,4,1,booking,175.81,0
+Montego Bay,67,5,2,direct,206.75,0
+Providenciales,164,3,3,expedia,422.12,1
+San Juan,16,1,1,direct,248.03,0
+Bridgetown,48,5,1,booking,232.55,1
+Aruba,61,3,4,direct,344.9,0
+Negril,47,9,2,booking,128.5,0
+San Juan,68,10,2,booking,218.35,1
+Negril,144,1,2,direct,179.26,0
+Montego Bay,12,4,2,expedia,204.85,0
+Nassau,25,4,2,booking,336.03,0
+Castries,33,5,1,agent,246.34,0
+Nassau,44,2,3,direct,390.59,0
+San Juan,84,8,2,agent,287.74,0
+Negril,88,5,4,booking,151.78,1
+Nassau,99,5,1,direct,302.6,0
+Providenciales,84,4,2,expedia,312.05,0
+Negril,29,5,1,booking,192.39,1
+Nassau,41,5,3,booking,283.6,0
+Nassau,23,7,2,booking,235.95,1
+Providenciales,176,4,2,direct,333.29,0
+Bridgetown,74,8,2,agent,252.32,1
+Grand Cayman,58,3,4,agent,388.41,0
+Providenciales,76,4,3,booking,407.99,0
+Bridgetown,138,8,2,booking,195.83,0
+Castries,55,6,2,booking,207.28,0
+Punta Cana,60,7,3,direct,153.23,0
+Aruba,13,6,1,booking,308.27,1
+Aruba,12,5,2,expedia,301.56,1
+Nassau,85,4,2,booking,346.16,0
+Punta Cana,20,6,3,booking,183.79,0
+Aruba,88,2,2,expedia,276.72,0
+Punta Cana,137,1,1,expedia,161.69,1
+Providenciales,15,1,1,booking,299.73,0
+Negril,34,3,2,expedia,169.4,1
+Providenciales,91,4,1,direct,363.02,1
+Castries,15,6,4,direct,343.9,0
+San Juan,13,2,1,expedia,209.05,1
+Grand Cayman,35,4,2,agent,367.64,0
+Castries,56,5,3,booking,276.83,0
+Montego Bay,21,4,1,direct,209.79,0
+Punta Cana,41,3,2,expedia,183.43,0
+Castries,26,4,2,expedia,205.09,1
+Aruba,49,4,1,agent,345.91,0
+Aruba,103,5,1,booking,347.95,1
+San Juan,14,4,3,booking,255.01,0
+Castries,8,5,2,direct,286.03,0
+Punta Cana,13,4,3,agent,224.88,0
+Punta Cana,9,7,2,booking,193.19,0
+Providenciales,76,2,1,expedia,401.89,1
+Providenciales,51,6,1,expedia,324.06,1
+Bridgetown,58,2,3,direct,214.67,0
+Bridgetown,101,2,2,expedia,237.22,1
+Castries,9,6,2,booking,254.57,0
+Grand Cayman,28,1,3,expedia,425.48,0
+Montego Bay,5,7,2,direct,255.29,0
+Castries,53,6,1,direct,182.22,0
+Bridgetown,76,1,2,expedia,348.83,0
+Bridgetown,39,1,1,direct,319.96,0
+Providenciales,54,9,4,agent,399.65,0
+Aruba,34,4,3,booking,403.99,0
+Montego Bay,34,5,2,agent,176.07,0
+Providenciales,13,4,3,direct,328.81,0
+Punta Cana,16,5,1,booking,177.89,0
+Grand Cayman,105,5,2,booking,440.74,0
+Negril,46,3,1,booking,177.27,1
+Bridgetown,125,6,2,booking,289.79,1
+Bridgetown,14,7,2,booking,252.52,0
+Punta Cana,7,6,3,agent,155.21,0
+San Juan,19,7,3,booking,256.96,0
+Providenciales,142,4,2,booking,344.41,0
+Aruba,47,6,2,booking,327.49,0
+Bridgetown,127,5,1,agent,335.18,1
+Aruba,23,4,3,booking,299.0,0
+Negril,60,3,3,booking,117.46,0
+Montego Bay,62,4,3,expedia,195.08,0
+San Juan,18,2,3,expedia,265.62,0
+Bridgetown,21,6,3,booking,218.93,0
+Negril,41,2,3,expedia,246.96,1
+Punta Cana,141,4,1,booking,192.89,0
+Grand Cayman,36,1,3,expedia,351.92,0
+Negril,166,5,1,booking,245.52,1
+Negril,48,2,2,booking,184.76,0
+San Juan,100,7,2,booking,227.15,0
+Grand Cayman,29,8,3,booking,319.37,0
+Montego Bay,53,5,1,booking,189.15,0
+Providenciales,84,3,3,booking,405.9,0
+Grand Cayman,41,6,2,agent,433.27,0
+San Juan,33,3,1,agent,183.82,0
+Montego Bay,112,5,1,direct,225.37,0
+Nassau,23,2,1,direct,315.83,0
+Aruba,67,1,1,booking,250.42,0
+Bridgetown,17,2,4,booking,365.1,0
+Providenciales,34,8,1,booking,408.38,0
+Nassau,60,5,2,direct,275.99,0
+San Juan,159,5,3,expedia,182.13,0
+Grand Cayman,98,3,1,direct,392.13,0
+Negril,182,6,1,agent,215.28,1
+Aruba,28,6,1,booking,400.43,1
+Castries,67,4,1,direct,280.39,1
+Montego Bay,21,1,1,direct,256.12,0
+Aruba,33,5,1,expedia,339.5,0
+Punta Cana,32,4,1,direct,92.2,0
+Nassau,22,4,3,agent,394.48,0
+Providenciales,129,4,3,expedia,369.99,0
+Grand Cayman,10,3,1,booking,378.17,0
+Negril,57,4,2,direct,159.84,0
+Nassau,21,4,2,booking,281.85,0
+Nassau,133,5,2,booking,349.18,0
+Negril,50,4,2,agent,187.56,1
+San Juan,39,4,2,booking,282.46,0
+Castries,62,4,2,direct,320.41,0
+Nassau,99,6,1,expedia,284.94,0
+Nassau,49,4,3,expedia,315.8,0
+Providenciales,10,4,3,agent,352.31,0
+Aruba,38,1,2,booking,262.36,0
+Aruba,94,6,1,expedia,300.89,1
+Negril,67,4,3,expedia,177.42,0
+San Juan,42,4,1,expedia,192.51,0
+Providenciales,18,2,1,booking,362.06,0
+Bridgetown,27,5,2,direct,328.35,1
+Punta Cana,176,5,2,direct,162.22,0
+Montego Bay,49,9,1,booking,245.5,0
+Bridgetown,29,2,2,direct,275.94,0
+Bridgetown,46,9,1,direct,262.94,0
+Nassau,38,3,2,booking,331.74,0
+Grand Cayman,42,2,1,direct,366.95,0
+Negril,130,3,2,expedia,225.9,0
+Punta Cana,13,5,2,direct,188.45,0
+Castries,45,6,1,expedia,286.03,1
+Negril,13,3,2,booking,283.21,0
+Punta Cana,155,4,2,expedia,159.04,0
+Aruba,72,5,3,direct,335.17,0
+Nassau,113,6,3,agent,219.78,1
+Montego Bay,54,4,1,agent,287.74,0
+Punta Cana,32,3,1,direct,142.63,0
+Nassau,16,1,1,booking,326.6,1
+Bridgetown,119,5,3,direct,345.45,1
+Grand Cayman,18,5,2,expedia,458.81,0
+Providenciales,41,5,1,direct,354.64,0
+Nassau,28,1,1,agent,266.48,0
+Grand Cayman,184,6,2,expedia,401.35,0
+Montego Bay,128,6,4,direct,234.5,0
+Providenciales,52,4,1,agent,353.12,0
+San Juan,19,7,2,direct,212.11,0
+Grand Cayman,3,4,2,expedia,310.52,0
+Negril,17,5,4,agent,196.14,0
+Providenciales,22,4,2,expedia,390.08,1
+Aruba,39,7,3,expedia,300.72,0
+Providenciales,90,5,2,direct,312.48,0
+San Juan,49,3,2,booking,298.95,0
+Punta Cana,21,3,2,agent,158.54,0
+Montego Bay,44,5,4,agent,277.07,0
+Negril,103,5,1,agent,170.29,1
+Punta Cana,47,3,2,agent,122.89,0
+Grand Cayman,73,4,1,agent,324.53,0
+Providenciales,9,6,1,booking,325.32,0
+Punta Cana,110,5,3,booking,136.49,1
+Providenciales,49,4,1,direct,384.98,0
+Bridgetown,19,5,2,booking,226.78,0
+Montego Bay,145,6,1,booking,228.03,0
+Punta Cana,45,7,2,direct,108.42,0
+Montego Bay,239,1,4,booking,153.58,0
+Bridgetown,181,1,2,direct,300.58,1
+San Juan,5,4,1,booking,317.48,0
+San Juan,37,2,3,expedia,233.02,0
+Aruba,128,1,5,booking,370.58,0
+Castries,108,5,2,direct,246.01,0
+Punta Cana,32,8,1,booking,174.55,0
+Aruba,11,5,1,direct,271.3,0
+Nassau,135,5,3,direct,297.14,1
+Grand Cayman,70,3,3,agent,375.62,0
+Negril,24,5,1,expedia,187.8,0
+Bridgetown,27,4,1,direct,322.64,0
+Bridgetown,34,3,3,expedia,279.69,1
+Providenciales,23,6,2,direct,345.67,0
+Grand Cayman,87,5,1,direct,289.87,1
+Negril,12,4,1,direct,214.55,0
+Aruba,18,5,2,booking,338.44,0
+Montego Bay,58,7,1,booking,254.33,1
+Negril,76,4,1,booking,177.6,0
+Castries,34,4,2,expedia,247.13,0
+Aruba,23,5,2,expedia,347.57,0
+Bridgetown,93,3,1,booking,271.53,1
+San Juan,61,4,3,direct,271.2,0
+Aruba,58,7,1,direct,395.82,0
+Aruba,162,5,1,booking,374.54,1
+Bridgetown,97,4,3,booking,333.58,1
+Castries,32,3,1,booking,299.11,0
+Aruba,4,5,3,booking,303.63,0
+Providenciales,64,3,2,direct,389.22,0
+San Juan,50,9,3,direct,232.01,0
+Grand Cayman,51,4,1,booking,339.07,0
+Grand Cayman,37,2,3,expedia,347.07,0
+San Juan,60,4,2,expedia,218.0,0
+Negril,47,1,2,booking,128.86,0
+Aruba,42,9,1,direct,310.34,0
+Negril,32,2,3,agent,188.36,0
+Aruba,80,6,2,agent,305.15,0
+Aruba,22,1,1,direct,324.57,0
+Nassau,168,5,1,booking,257.96,0
+San Juan,78,3,2,booking,222.37,0
+Castries,26,4,1,expedia,323.8,1
+Nassau,110,4,1,booking,288.49,0
+Grand Cayman,11,7,1,booking,384.44,0
+Punta Cana,42,5,2,direct,242.88,0
+Montego Bay,17,5,2,agent,224.9,0
+San Juan,125,4,2,booking,183.02,1
+Bridgetown,1,2,2,direct,322.63,0
+Montego Bay,99,4,2,expedia,209.25,0
+Montego Bay,40,5,2,expedia,211.96,0
+Nassau,134,2,1,booking,227.88,1
+Aruba,82,7,2,direct,330.54,1
+Punta Cana,50,5,3,booking,188.65,0
+Castries,48,4,1,booking,269.09,0
+Bridgetown,32,3,2,booking,308.67,1
+Castries,52,6,1,direct,279.23,0
+Montego Bay,18,4,2,direct,254.79,0
+Punta Cana,16,4,1,agent,200.89,0
+Aruba,106,2,1,booking,325.26,1
+Punta Cana,79,4,3,direct,198.26,0
+Montego Bay,53,5,3,expedia,204.28,0
+Nassau,75,6,2,booking,270.5,0
+Aruba,10,7,3,expedia,339.45,0
+Nassau,38,3,2,booking,300.33,0
+San Juan,10,2,3,agent,246.05,0
+San Juan,77,6,2,booking,271.23,0
+Grand Cayman,37,4,2,booking,413.86,0
+Punta Cana,55,6,1,expedia,222.22,0
+Punta Cana,32,6,3,direct,215.95,0
+Grand Cayman,54,3,1,expedia,378.5,0
+Castries,61,4,2,booking,276.1,0
+San Juan,75,2,2,expedia,151.84,0
+Bridgetown,33,4,2,direct,341.03,0
+Castries,108,7,1,booking,158.61,0
+Negril,14,2,1,agent,237.39,0
+Nassau,97,8,2,direct,250.67,1
+Nassau,64,2,1,direct,300.22,0
+Providenciales,186,3,1,direct,309.44,0
+Grand Cayman,14,4,1,direct,389.56,0
+Montego Bay,29,8,2,expedia,216.99,1
+Castries,123,2,1,booking,240.84,1
+Bridgetown,19,6,1,booking,340.39,0
+Nassau,98,5,1,direct,307.82,0
+San Juan,23,4,2,booking,192.6,0
+Aruba,75,5,1,expedia,293.08,1
+Castries,17,5,2,booking,265.18,0
+Providenciales,34,7,2,direct,384.07,0
+Montego Bay,38,5,1,expedia,190.84,0
+Providenciales,2,3,1,booking,363.54,0
+Montego Bay,162,3,2,agent,153.89,0
+Punta Cana,64,3,1,direct,145.93,0
+Castries,26,7,2,booking,228.57,0
+San Juan,176,4,3,expedia,305.33,0
+Nassau,44,1,2,direct,198.06,0
+Punta Cana,95,7,3,direct,308.14,1
+Aruba,21,2,1,direct,406.72,0
+Aruba,49,2,2,direct,318.03,0
+Grand Cayman,211,6,1,booking,403.74,0
+Montego Bay,60,5,2,booking,205.86,0
+Bridgetown,47,4,3,direct,237.95,0
+Bridgetown,35,5,2,expedia,245.59,0
+San Juan,23,4,3,booking,244.82,0
+Montego Bay,23,5,1,direct,218.46,0
+Aruba,22,1,4,direct,281.15,0
+Montego Bay,107,5,1,booking,221.74,1
+Aruba,25,1,4,direct,317.31,0
+Castries,166,7,1,expedia,263.97,0
+Providenciales,22,5,2,expedia,364.91,0
+San Juan,12,6,1,expedia,268.29,1
+San Juan,106,7,1,expedia,188.69,0
+Bridgetown,152,1,3,direct,278.42,0
+Montego Bay,94,5,1,direct,206.89,0
+Nassau,94,2,2,expedia,236.7,0
+Grand Cayman,64,5,1,direct,344.23,0
+Providenciales,100,3,2,expedia,350.32,1
+Montego Bay,15,4,2,booking,273.89,1
+San Juan,4,6,1,booking,289.68,1
+Aruba,72,1,3,booking,378.76,0
+Punta Cana,56,3,5,booking,219.35,1
+Montego Bay,42,5,4,expedia,279.27,0
+Grand Cayman,46,1,1,direct,324.51,0
+Bridgetown,86,1,1,direct,237.88,1
+Aruba,87,7,1,agent,360.04,0
+Castries,73,6,1,booking,331.84,0
+Aruba,68,3,2,booking,284.61,1
+Punta Cana,101,4,3,direct,193.95,0
+Negril,5,2,2,booking,234.53,0
+Grand Cayman,42,7,3,direct,307.74,0
+Castries,66,5,2,booking,303.64,0
+Punta Cana,1,3,3,direct,151.62,0
+Bridgetown,109,2,1,booking,322.36,1
+Castries,11,3,4,agent,166.35,0
+Castries,25,7,4,expedia,244.4,0
+Nassau,28,4,1,expedia,322.32,0
+Aruba,23,8,1,agent,321.35,0
+Punta Cana,65,6,3,booking,184.44,0
+Punta Cana,31,3,2,direct,236.92,0
+Aruba,103,6,3,expedia,290.73,0
+Punta Cana,46,5,2,booking,196.68,0
+Aruba,66,4,3,direct,299.21,0
+Montego Bay,77,3,1,booking,269.55,0
+Negril,53,3,2,direct,205.46,0
+Bridgetown,23,7,2,booking,276.81,0
+Nassau,88,2,1,booking,267.36,1
+Castries,26,1,1,direct,250.81,0
+Punta Cana,65,4,2,agent,223.86,0
+Aruba,24,2,4,booking,296.93,0
+Montego Bay,29,6,1,expedia,260.45,1
+Montego Bay,32,2,2,booking,136.02,0
+Castries,88,2,2,booking,177.52,0
+San Juan,81,6,1,booking,276.22,1
+Castries,80,2,2,booking,243.28,0
+Aruba,102,6,1,expedia,348.91,1
+Providenciales,136,10,2,booking,433.41,0
+Negril,48,9,2,booking,222.6,0
+Punta Cana,192,2,2,booking,164.87,0
+Bridgetown,21,4,4,direct,281.68,0
+Grand Cayman,127,3,3,booking,355.83,1
+Aruba,29,7,2,agent,248.84,0
+Aruba,55,3,1,direct,402.78,0
+Montego Bay,20,6,2,direct,287.92,0
+Castries,29,2,2,booking,280.61,0
+Nassau,73,2,2,booking,279.02,1
+Grand Cayman,47,5,2,booking,456.36,0
+Negril,60,4,1,expedia,210.44,1
+Castries,112,6,1,booking,239.99,1
+Aruba,41,1,2,expedia,279.51,0
+Nassau,6,3,2,direct,297.53,0
+Montego Bay,53,8,4,booking,239.28,0
+Providenciales,159,4,2,booking,370.21,0
+Punta Cana,46,3,2,direct,166.62,0
+Nassau,42,5,2,booking,367.63,0
+Aruba,31,4,1,direct,337.46,0
+Negril,15,6,1,direct,181.35,0
+Nassau,157,6,1,agent,293.34,0
+Punta Cana,180,1,2,booking,185.44,0
+Nassau,46,1,3,expedia,300.41,0
+Aruba,98,6,3,direct,311.21,0
+San Juan,67,6,2,booking,303.95,0
+San Juan,27,6,1,direct,285.85,0
+San Juan,92,2,3,agent,255.1,0
+Negril,46,1,1,agent,210.83,0
+Grand Cayman,42,6,2,booking,340.69,1
+Punta Cana,5,4,2,direct,120.01,0
+Aruba,71,7,3,agent,326.11,0
+Montego Bay,105,4,2,booking,208.84,0
+San Juan,93,5,2,expedia,199.22,0
+Nassau,18,5,1,agent,346.96,0
+Punta Cana,49,3,3,expedia,131.22,0
+Nassau,145,4,3,expedia,284.62,0
+Aruba,93,3,3,direct,310.19,0
+Providenciales,44,5,3,booking,336.63,1
+Providenciales,42,7,1,agent,388.2,0
+Castries,79,1,2,booking,262.02,0
+Nassau,81,8,2,booking,271.2,0
+San Juan,111,5,3,direct,127.31,0
+Castries,150,2,1,direct,304.16,1
+Castries,166,3,2,booking,268.7,1
+Negril,197,4,2,direct,141.49,0
+Castries,38,5,4,booking,275.9,0
+Aruba,17,2,2,booking,276.27,0
+Nassau,53,6,2,booking,226.63,0
+Aruba,13,5,1,expedia,381.66,0
+Bridgetown,23,5,3,booking,253.28,0
+Negril,34,5,1,direct,172.7,0
+Punta Cana,193,8,2,booking,177.63,0
+Grand Cayman,23,3,2,booking,347.28,1
+San Juan,30,5,2,direct,202.91,0
+Montego Bay,46,7,1,expedia,218.05,0
+Providenciales,98,3,2,booking,338.69,1
+Negril,26,7,1,expedia,191.04,0
+San Juan,109,5,2,booking,243.8,0
+Punta Cana,96,5,2,agent,222.82,1
+Grand Cayman,28,3,2,direct,412.49,0
+Negril,8,6,2,booking,198.07,0
+Grand Cayman,40,4,2,direct,422.97,0
+Bridgetown,149,6,4,direct,278.97,1
+Bridgetown,137,4,3,direct,254.17,1
+Castries,35,2,2,booking,299.68,0
+Nassau,72,2,2,direct,368.94,0
+Nassau,24,1,1,booking,301.15,0
+Montego Bay,83,2,2,agent,248.15,0
+Castries,60,1,2,expedia,247.96,0
+Punta Cana,40,6,2,expedia,137.51,0
+Castries,18,3,1,direct,267.77,0
+Montego Bay,63,3,4,direct,261.84,0
+Aruba,85,5,1,expedia,301.23,0
+Nassau,112,3,2,direct,290.87,0
+Punta Cana,46,5,3,direct,89.03,0
+Aruba,33,6,3,direct,311.66,0
+Grand Cayman,53,4,3,booking,434.98,0
+Nassau,45,5,3,booking,249.98,0
+Castries,19,5,1,direct,261.76,0
+Montego Bay,25,2,3,direct,245.16,0
+Nassau,16,4,1,direct,362.61,0
+Negril,37,6,2,agent,216.73,0
+Punta Cana,27,5,3,direct,146.33,0
+Grand Cayman,78,5,1,booking,432.87,0
+Aruba,100,5,1,booking,353.69,0
+Nassau,107,1,1,expedia,356.82,0
+Aruba,73,5,1,expedia,289.0,0
+San Juan,116,6,1,booking,274.09,0
+Grand Cayman,58,6,2,booking,327.52,0
+San Juan,114,3,2,direct,215.76,0
+San Juan,71,4,3,booking,263.57,0
+Montego Bay,15,4,2,booking,320.89,0
+Aruba,15,5,1,booking,361.6,0
+Punta Cana,62,5,3,booking,169.25,0
+Montego Bay,32,2,2,agent,282.68,0
+Aruba,46,6,2,direct,273.74,0
+Providenciales,99,7,2,booking,351.21,1
+San Juan,15,1,2,expedia,256.89,0
+Montego Bay,85,8,1,direct,181.3,0
+Grand Cayman,34,1,2,direct,285.81,0
+Bridgetown,131,3,2,booking,281.95,0
+San Juan,4,2,1,booking,197.84,0
+Montego Bay,31,9,1,expedia,155.69,0
+Punta Cana,43,8,1,booking,164.24,1
+Grand Cayman,8,3,1,direct,418.95,0
+Montego Bay,78,3,2,booking,192.63,0
+Castries,62,6,3,booking,226.5,1
+San Juan,76,5,1,agent,198.54,0
+Castries,85,1,1,direct,318.81,0
+Montego Bay,136,4,3,direct,212.44,0
+Bridgetown,17,4,1,booking,310.12,0
+Grand Cayman,65,5,2,booking,396.37,0
+Nassau,48,5,4,booking,327.13,0
+Negril,57,3,1,expedia,176.04,0
+Nassau,18,4,1,booking,308.2,1
+Negril,38,3,2,expedia,141.05,0
+Grand Cayman,52,6,3,direct,453.97,0
+Castries,44,4,3,direct,272.17,0
+Grand Cayman,141,4,2,booking,400.2,0
+Punta Cana,114,4,1,expedia,208.26,0
+Punta Cana,70,8,2,booking,167.52,0
+Montego Bay,73,3,2,booking,196.3,1
+San Juan,49,5,1,booking,265.74,0
+Providenciales,22,5,1,expedia,322.34,0
+Negril,79,3,3,expedia,211.31,0
+Bridgetown,64,5,2,direct,208.6,0
+Punta Cana,87,7,1,booking,160.01,0
+Punta Cana,151,2,1,booking,179.52,0
+Providenciales,62,3,1,booking,396.52,0
+Providenciales,35,5,1,agent,284.51,0
+Nassau,41,8,2,booking,315.18,0
+Negril,13,4,2,direct,329.01,0
+Castries,14,5,3,direct,247.54,0
+Montego Bay,34,6,3,booking,255.38,0
+Nassau,11,9,2,booking,278.92,1
+Grand Cayman,34,4,1,expedia,441.78,0
+Providenciales,173,7,2,agent,408.71,0
+Grand Cayman,32,6,3,booking,434.79,1
+Bridgetown,98,6,3,booking,209.62,0
+Punta Cana,5,3,2,agent,160.12,0
+Providenciales,21,5,2,direct,397.35,0
+Grand Cayman,86,2,1,agent,347.3,1
+Aruba,112,7,2,booking,291.51,0
+Bridgetown,3,5,1,direct,361.78,1
+Castries,106,4,1,direct,289.99,1
+Aruba,143,8,2,direct,228.67,0
+Negril,85,7,1,direct,194.35,0
+Montego Bay,113,4,1,direct,244.78,0
+Montego Bay,30,1,5,direct,196.01,0
+Providenciales,151,4,1,direct,368.67,1
+Bridgetown,34,3,3,booking,290.77,0
+Grand Cayman,69,8,1,booking,380.33,1
+Punta Cana,32,5,1,direct,191.79,0
+Negril,108,7,1,direct,176.28,0
+Bridgetown,62,4,2,booking,236.14,0
+Punta Cana,83,4,2,booking,178.73,0
+Punta Cana,5,3,1,booking,191.06,1
+Aruba,21,5,2,direct,340.63,0
+San Juan,134,4,1,booking,237.79,0
+Grand Cayman,95,6,3,booking,399.86,0
+Montego Bay,149,6,3,expedia,195.17,1
+Castries,53,4,3,direct,320.79,0
+Punta Cana,134,3,2,direct,219.29,0
+Punta Cana,27,4,2,expedia,149.06,1
+Aruba,44,5,3,booking,325.14,0
+Providenciales,15,1,3,booking,409.48,1
+Negril,72,6,1,direct,300.55,0
+Providenciales,10,4,1,booking,413.38,0
+Castries,97,6,3,direct,244.24,1
+Providenciales,69,7,2,agent,338.25,0
+Negril,34,7,3,direct,142.44,0
+Montego Bay,29,6,2,agent,212.75,0
+Castries,183,2,3,expedia,178.23,1
+Montego Bay,33,8,1,booking,231.41,0
+Negril,34,2,1,direct,221.17,1
+Grand Cayman,52,4,1,booking,361.09,1
+Providenciales,77,3,2,booking,319.46,0
+Bridgetown,48,5,1,expedia,294.17,0
+Montego Bay,113,7,1,direct,257.76,0
+Negril,56,3,3,direct,199.12,0
+San Juan,62,2,3,booking,238.05,0
+Grand Cayman,48,3,2,direct,407.72,0
+Grand Cayman,35,6,2,agent,340.35,0
+Bridgetown,52,5,2,booking,227.78,0
+Negril,44,6,4,expedia,209.54,1
+Montego Bay,54,1,2,booking,280.09,0
+Montego Bay,63,3,3,booking,271.99,0
+Aruba,78,3,1,booking,228.7,0
+San Juan,59,3,1,booking,189.81,0
+Punta Cana,124,3,2,booking,130.19,1
+Montego Bay,42,3,5,direct,168.75,0
+Montego Bay,73,2,3,booking,307.79,0
+Aruba,115,7,3,booking,344.27,1
+Nassau,142,7,1,direct,307.28,0
+Bridgetown,20,4,1,direct,347.15,1
+Aruba,80,4,1,expedia,303.95,0
+Providenciales,29,8,1,direct,337.6,0
+Castries,111,3,1,booking,252.69,1
+Grand Cayman,45,4,2,booking,392.91,0
+Aruba,9,4,1,direct,451.02,0
+Punta Cana,50,3,2,booking,153.14,1
+San Juan,46,4,3,agent,201.14,0
+Bridgetown,154,5,2,expedia,310.54,0
+San Juan,72,2,3,booking,321.47,0
+Grand Cayman,39,6,2,agent,383.71,0
+San Juan,92,5,3,expedia,216.39,1
+Aruba,103,9,2,agent,359.0,0
+Nassau,100,3,2,expedia,346.15,1
+San Juan,11,4,1,direct,247.17,0
+San Juan,110,5,2,agent,259.84,0
+San Juan,21,5,2,direct,255.1,0
+San Juan,127,3,3,booking,261.98,0
+Negril,36,2,3,direct,154.82,0
+Providenciales,94,2,2,booking,355.47,1
+Montego Bay,62,3,1,expedia,211.68,0
+Providenciales,31,3,1,direct,339.06,0
+Punta Cana,85,6,1,booking,205.77,0
+Punta Cana,116,3,1,expedia,127.53,0
+Montego Bay,211,4,2,direct,204.5,0
+San Juan,102,3,3,booking,244.23,1
+Grand Cayman,100,1,2,direct,424.63,1
+Nassau,37,3,2,agent,319.11,0
+Montego Bay,103,5,3,booking,209.58,1
+San Juan,31,3,2,direct,232.26,1
+Bridgetown,93,4,1,direct,240.07,0
+Grand Cayman,135,6,2,booking,360.25,1
+San Juan,16,5,2,expedia,206.41,0
+Montego Bay,51,3,1,expedia,190.63,0
+Negril,129,2,2,booking,160.09,1
+Aruba,31,6,2,booking,426.99,0
+Castries,47,5,2,agent,261.32,0
+Bridgetown,55,3,2,booking,289.07,0
+Negril,11,3,3,direct,246.4,1
+Aruba,80,3,1,booking,337.79,0
+Nassau,25,6,2,direct,280.34,0
+Montego Bay,50,3,2,direct,250.19,0
+Aruba,43,9,1,direct,291.84,0
+Bridgetown,67,7,4,booking,294.23,1
+Grand Cayman,31,6,1,direct,364.79,0
+Grand Cayman,227,5,2,direct,420.78,0
+San Juan,56,5,3,direct,187.09,0
+San Juan,68,5,3,direct,279.98,1
+Grand Cayman,16,5,4,agent,353.52,0
+Montego Bay,106,6,2,expedia,283.51,0
+Punta Cana,88,5,2,direct,155.87,1
+Aruba,24,5,1,booking,380.96,0
+Nassau,48,3,1,booking,334.38,0
+Punta Cana,81,5,1,expedia,153.53,0
+Montego Bay,46,7,3,direct,207.76,0
+San Juan,47,6,2,agent,177.63,0
+Negril,46,4,3,booking,171.18,0
+Montego Bay,31,7,1,direct,173.54,0
+San Juan,6,6,2,booking,157.13,0
+Nassau,88,4,1,booking,324.61,0
+Aruba,92,6,1,booking,359.98,0
+Montego Bay,103,3,3,booking,192.7,1
+San Juan,65,8,1,booking,284.56,1
+Providenciales,68,1,1,direct,345.64,0
+Providenciales,73,6,2,direct,388.21,0
+Negril,59,3,1,booking,270.1,1
+Punta Cana,81,8,1,booking,237.9,1
+Montego Bay,59,6,1,booking,134.33,1
+Aruba,17,6,3,agent,344.66,0
+Castries,34,3,1,booking,267.97,0
+Aruba,20,5,3,booking,323.15,0
+Aruba,32,3,2,agent,329.95,0
+Nassau,57,5,3,direct,308.49,0
+Negril,29,2,1,expedia,212.31,0
+Bridgetown,56,7,3,booking,264.71,0
+Grand Cayman,79,6,1,agent,333.23,0
+Nassau,38,2,1,booking,203.98,0
+Punta Cana,43,5,2,booking,155.63,1
+Negril,14,5,3,booking,195.47,1
+Montego Bay,10,4,1,direct,268.82,0
+Negril,22,5,1,booking,187.25,0
+Punta Cana,99,9,3,agent,205.17,0
+Castries,44,8,1,direct,258.3,0
+Punta Cana,104,5,1,direct,125.8,0
+San Juan,52,3,4,booking,312.19,1
+Nassau,38,5,2,expedia,325.07,0
+Aruba,40,3,2,booking,326.15,0
+Aruba,171,5,4,booking,398.65,1
+Negril,14,4,3,expedia,146.32,0
+Nassau,181,6,1,agent,316.97,0
+Montego Bay,48,5,3,booking,211.55,0
+Providenciales,28,1,2,expedia,353.23,0
+Montego Bay,23,6,2,booking,208.88,0
+Negril,9,9,1,expedia,231.27,0
+Montego Bay,24,6,1,booking,172.29,0
+Nassau,29,5,1,direct,278.83,0
+Castries,225,7,2,direct,285.35,0
+Negril,41,3,1,agent,195.71,0
+Providenciales,19,4,2,expedia,410.95,0
+Punta Cana,26,1,2,direct,156.15,0
+Nassau,133,7,1,expedia,288.96,1
+Aruba,68,7,1,booking,281.34,0
+Punta Cana,31,7,1,direct,171.78,0
+Nassau,39,2,3,booking,224.42,1
+Punta Cana,1,4,1,direct,169.15,0
+Grand Cayman,76,6,1,direct,454.6,0
+Negril,31,3,1,agent,216.12,0
+Nassau,50,8,2,booking,260.12,0
+Montego Bay,119,8,2,expedia,204.17,1
+San Juan,103,3,3,direct,222.55,0
+Negril,31,1,3,booking,218.5,0
+Bridgetown,90,6,1,direct,320.67,0
+Nassau,43,2,1,expedia,298.0,0
+Nassau,84,3,4,booking,318.47,0
+Punta Cana,44,4,1,booking,237.82,0
+Nassau,42,7,2,direct,269.06,0
+Montego Bay,39,6,2,expedia,208.74,0
+Nassau,74,3,2,agent,230.39,0
+Montego Bay,72,8,1,booking,241.04,0
+Castries,80,1,1,direct,275.97,0
+Nassau,32,1,1,booking,306.97,0
+Castries,10,3,2,direct,278.0,0
+Aruba,146,8,1,direct,321.43,1
+San Juan,71,4,3,expedia,240.71,1
+Nassau,20,3,1,direct,339.44,0
+Negril,36,5,3,agent,210.02,0
+Grand Cayman,24,7,1,direct,369.08,0
+Bridgetown,55,1,1,booking,300.92,1
+Montego Bay,53,3,2,booking,301.14,0
+Aruba,146,2,2,direct,333.37,0
+Bridgetown,48,6,4,booking,346.54,1
+Negril,97,8,3,booking,184.66,0
+Montego Bay,50,4,1,booking,123.85,1
+Providenciales,30,8,1,direct,233.57,0
+Montego Bay,53,1,1,expedia,181.27,0
+Negril,126,5,1,agent,159.06,0
+Punta Cana,97,5,2,direct,248.94,0
+Castries,28,4,3,booking,244.0,0
+Negril,189,3,2,direct,239.31,0
+Punta Cana,55,6,1,booking,180.5,0
+Negril,51,7,1,expedia,265.83,1
+Bridgetown,50,6,2,direct,302.69,0
+Providenciales,83,2,1,booking,324.4,0
+Aruba,94,5,1,booking,269.2,0
+Montego Bay,86,4,3,expedia,216.15,0
+Castries,70,4,1,booking,311.66,0
+Nassau,27,5,3,expedia,305.21,0
+Bridgetown,94,4,1,direct,278.01,0
+Grand Cayman,42,9,3,expedia,358.92,0
+San Juan,29,5,2,booking,245.98,0
+San Juan,95,4,1,expedia,245.37,0
+Aruba,27,5,1,booking,346.31,0
+Montego Bay,37,1,1,direct,269.9,0
+Negril,43,4,2,booking,155.65,1
+Nassau,28,2,2,booking,295.11,0
+Castries,76,6,1,booking,241.56,0
+Providenciales,45,7,1,booking,450.23,1
+Grand Cayman,21,2,1,agent,383.55,1
+Castries,20,4,3,agent,234.96,0
+Punta Cana,90,7,3,direct,221.94,0
+Bridgetown,155,7,2,expedia,222.04,1
+Grand Cayman,124,5,2,direct,409.36,1
+Nassau,70,6,1,booking,272.72,0
+Grand Cayman,36,5,1,booking,368.17,1
+Bridgetown,16,3,1,expedia,221.38,0
+Negril,87,1,2,agent,258.65,1
+Negril,20,5,2,booking,196.46,0
+San Juan,33,3,1,booking,273.85,0
+Grand Cayman,54,4,1,agent,348.9,0
+Grand Cayman,73,3,1,booking,357.99,0
+Montego Bay,22,5,2,agent,240.48,1
+Montego Bay,40,4,1,direct,182.4,0
+Aruba,191,1,1,expedia,247.69,1
+Negril,13,6,3,direct,139.22,0
+Montego Bay,40,5,1,direct,205.53,0
+Aruba,68,8,1,direct,373.4,0
+Nassau,37,4,2,direct,350.09,0
+Negril,33,4,3,booking,288.76,0
+Montego Bay,63,4,2,booking,251.11,0
+Punta Cana,24,7,2,booking,205.96,0
+Punta Cana,19,5,1,direct,215.67,0
+Providenciales,48,6,2,expedia,462.37,0
+Providenciales,55,7,3,expedia,325.18,0
+Punta Cana,8,4,2,agent,185.07,0
+Nassau,178,7,3,agent,268.01,1
+Grand Cayman,67,5,2,booking,408.13,1
+Bridgetown,9,4,2,direct,306.76,0
+Grand Cayman,31,5,1,direct,320.81,0
+Montego Bay,57,4,1,expedia,295.33,0
+San Juan,32,5,1,direct,270.03,0
+Montego Bay,74,6,1,direct,145.63,0
+Aruba,66,4,1,direct,339.26,0
+Negril,73,4,2,direct,205.82,0
+Bridgetown,42,6,1,agent,275.97,0
+Aruba,53,2,1,booking,302.67,0
+Castries,17,3,2,direct,211.23,0
+Montego Bay,51,1,2,direct,206.42,0
+Aruba,16,6,2,expedia,311.04,0
+Grand Cayman,52,3,2,expedia,404.46,0
+San Juan,3,5,3,direct,367.46,0
+Bridgetown,66,5,3,expedia,253.01,0
+Providenciales,32,3,1,booking,336.34,1
+Punta Cana,13,1,2,direct,131.14,0
+Grand Cayman,26,3,3,booking,380.94,0
+Providenciales,72,3,1,expedia,355.75,0
+Aruba,69,1,1,expedia,242.2,0
+Montego Bay,103,8,2,booking,184.47,0
+Punta Cana,84,7,2,direct,193.55,0
+Castries,40,5,2,expedia,266.33,0
+San Juan,160,5,3,direct,169.59,0
+Negril,83,6,4,direct,280.62,0
+Castries,73,7,1,booking,248.38,0
+Grand Cayman,153,3,2,expedia,369.74,0
+Bridgetown,21,8,2,booking,246.12,0
+San Juan,22,6,1,direct,268.67,0
+Negril,46,5,1,direct,192.32,0
+San Juan,44,2,3,booking,195.38,0
+Negril,43,5,1,booking,166.05,0
+Nassau,76,5,3,booking,239.42,0
+Punta Cana,24,6,1,booking,123.72,0
+Punta Cana,70,6,3,booking,121.36,0
+Providenciales,39,1,1,expedia,397.36,0
+Nassau,92,5,2,booking,302.3,0
+San Juan,152,3,2,booking,188.02,0
+Castries,27,3,1,booking,250.88,0
+San Juan,42,5,2,expedia,291.33,1
+Aruba,38,8,1,expedia,286.87,0
+San Juan,150,3,1,booking,304.64,1
+Bridgetown,11,6,5,expedia,286.6,0
+Bridgetown,8,5,1,agent,251.14,0
+Montego Bay,21,1,3,booking,276.33,0
+Castries,61,4,2,booking,203.42,0
+Negril,41,5,1,booking,143.0,0
+Aruba,63,3,1,booking,312.25,1
+Nassau,38,3,2,expedia,285.64,0
+Castries,57,3,2,agent,302.75,1
+Castries,88,6,2,agent,274.54,1
+Aruba,70,3,1,booking,299.16,0
+Punta Cana,138,5,3,direct,140.68,0
+Castries,77,7,2,direct,232.8,0
+Grand Cayman,128,7,2,direct,396.78,0
+Punta Cana,21,2,1,booking,162.36,0
+Bridgetown,111,2,1,direct,258.57,1
+Nassau,16,7,1,direct,264.0,0
+Providenciales,61,2,3,expedia,394.31,0
+Nassau,56,2,2,agent,328.44,0
+Nassau,63,3,1,booking,198.56,0
+Castries,118,4,1,expedia,257.76,1
+San Juan,41,4,2,expedia,304.25,0
+Castries,30,5,3,booking,265.95,1
+Grand Cayman,19,7,3,direct,370.86,0
+Negril,120,7,2,expedia,189.69,0
+Nassau,64,5,1,expedia,332.55,0
+San Juan,92,2,2,agent,244.92,1
+Bridgetown,48,6,1,booking,249.26,1
+Grand Cayman,61,2,1,booking,354.16,0
+Grand Cayman,33,1,2,booking,311.45,1
+Negril,21,5,2,expedia,223.88,0
+Grand Cayman,49,4,3,agent,376.04,0
+San Juan,14,4,2,expedia,231.93,0
+Montego Bay,71,4,2,booking,191.48,0
+San Juan,27,4,3,booking,164.32,0
+Bridgetown,45,7,2,expedia,227.7,1
+Punta Cana,47,4,2,direct,146.68,0
+Bridgetown,1,6,2,booking,268.17,0
+Aruba,110,7,2,direct,337.55,1
+Grand Cayman,72,5,2,agent,373.82,1
+Providenciales,108,4,2,booking,353.25,1
+Bridgetown,49,5,3,booking,314.78,0
+Punta Cana,11,2,1,booking,128.53,1
+Bridgetown,81,7,2,booking,283.41,0
+Bridgetown,66,6,2,direct,278.89,0
+Castries,52,3,1,expedia,215.9,0
+San Juan,91,4,1,direct,232.9,0
+San Juan,111,5,1,expedia,218.44,0
+Nassau,48,6,1,booking,328.35,1
+Punta Cana,138,2,3,booking,143.44,0
+San Juan,123,5,2,direct,279.07,0
+San Juan,141,7,2,booking,209.65,1
+Punta Cana,57,5,1,expedia,116.8,0
+Montego Bay,18,4,1,expedia,292.86,0
+San Juan,31,9,3,direct,244.28,0
+Providenciales,0,6,2,expedia,321.55,0
+Negril,46,1,1,expedia,186.36,1
+Montego Bay,163,3,3,expedia,150.72,0
+Nassau,48,7,2,booking,354.72,1
+Montego Bay,43,3,1,booking,208.76,0
+Punta Cana,34,5,3,booking,155.93,0
+Aruba,58,5,2,direct,276.58,0
+Punta Cana,133,7,1,booking,167.84,1
+Providenciales,11,5,3,expedia,324.95,0
+Nassau,37,9,3,booking,264.13,1
+Montego Bay,86,7,2,booking,158.54,0
+Punta Cana,59,1,2,booking,139.19,1
+Montego Bay,32,2,4,agent,157.41,0
+Grand Cayman,55,6,1,booking,319.88,1
+Providenciales,104,1,2,expedia,377.35,0
+Providenciales,112,6,3,agent,413.48,0
+San Juan,41,3,3,booking,251.98,0
+Nassau,173,3,1,direct,300.44,0
+Punta Cana,105,7,1,agent,222.23,0
+Grand Cayman,47,2,4,agent,379.82,0
+Negril,46,7,2,booking,243.23,0
+Nassau,17,5,3,booking,331.01,0
+Grand Cayman,14,2,2,agent,394.48,0
+Nassau,88,6,1,direct,312.37,0
+Negril,16,6,1,booking,216.57,0
+Nassau,63,4,2,booking,282.72,0
+Grand Cayman,80,8,2,agent,415.36,0
+Aruba,64,3,2,booking,272.07,0
+San Juan,27,2,3,direct,225.92,0
+Nassau,4,2,2,expedia,317.3,0
+San Juan,24,8,2,expedia,268.77,0
+Aruba,19,4,1,booking,365.87,0
+Castries,59,6,3,expedia,286.75,0
+Montego Bay,49,8,2,direct,195.47,0
+Bridgetown,33,3,4,booking,202.07,0
+Montego Bay,17,3,2,expedia,203.81,0
+Punta Cana,174,6,1,booking,235.31,1
+San Juan,47,3,2,booking,164.37,0
+Aruba,50,6,1,expedia,275.2,1
+Montego Bay,21,4,1,direct,192.01,0
+Providenciales,19,1,3,booking,370.62,0
+Aruba,49,3,2,agent,305.33,0
+Bridgetown,56,7,4,expedia,217.36,0
+Bridgetown,63,6,1,direct,317.29,0
+San Juan,79,4,2,expedia,248.07,0
+Bridgetown,28,8,2,agent,345.39,0
+Grand Cayman,47,6,1,booking,372.0,0
+San Juan,49,7,1,direct,250.01,0
+Bridgetown,61,7,3,expedia,239.61,0
+Nassau,88,1,3,direct,300.67,0
+Nassau,19,5,3,booking,305.19,0
+Punta Cana,40,5,2,booking,235.89,0
+Nassau,32,2,1,booking,316.53,0
+Bridgetown,183,1,3,direct,352.02,0
+Bridgetown,47,4,3,expedia,269.94,0
+San Juan,27,7,1,direct,223.61,0
+Montego Bay,34,3,2,direct,236.45,0
+Bridgetown,36,5,1,booking,262.39,0
+San Juan,82,3,2,booking,267.13,0
+Bridgetown,37,8,2,direct,292.1,0
+Bridgetown,60,2,3,direct,348.63,0
+Montego Bay,84,3,3,direct,258.4,0
+San Juan,75,2,1,booking,212.86,1
+San Juan,95,5,2,agent,291.41,0
+Providenciales,19,3,2,direct,391.92,1
+Aruba,33,3,2,agent,319.83,0
+Nassau,61,4,3,direct,265.2,0
+Nassau,51,3,2,expedia,312.57,0
+San Juan,11,6,1,booking,277.03,1
+Grand Cayman,26,6,1,expedia,357.9,0
+Negril,30,5,3,booking,304.25,0
+Grand Cayman,35,3,1,direct,374.15,0
+Grand Cayman,102,4,1,booking,389.75,1
+San Juan,15,4,1,direct,226.49,0
+Providenciales,73,3,3,expedia,322.86,0
+Aruba,32,6,2,expedia,343.04,0
+Punta Cana,61,4,2,booking,229.33,1
+Castries,33,5,1,expedia,223.34,0
+San Juan,49,8,2,booking,219.36,0
+Bridgetown,104,4,2,booking,306.42,1
+San Juan,29,3,1,expedia,238.49,0
+Aruba,63,5,5,booking,317.95,0
+Providenciales,47,5,3,expedia,240.74,0
+Providenciales,50,10,4,expedia,312.74,0
+Providenciales,260,5,1,agent,404.24,0
+Negril,21,8,3,booking,201.13,0
+Castries,83,4,4,direct,216.51,0
+Providenciales,23,6,3,expedia,387.78,0
+Nassau,33,5,2,booking,327.7,0
+San Juan,187,4,1,direct,352.52,0
+Aruba,38,3,3,expedia,329.0,1
+Negril,65,5,1,booking,132.0,0
+San Juan,23,6,3,expedia,313.98,0
+Punta Cana,82,3,2,booking,187.18,0
+Providenciales,55,6,3,booking,403.77,0
+Grand Cayman,143,6,3,booking,436.63,0
+San Juan,44,6,1,booking,201.64,0
+Negril,18,2,3,direct,311.16,0
+Punta Cana,48,4,3,booking,155.21,0
+Aruba,61,5,1,booking,367.43,1
+Bridgetown,25,7,1,booking,225.89,0
+Nassau,45,6,2,booking,347.05,0
+Castries,46,5,3,booking,275.37,0
+Negril,13,7,1,booking,259.12,0
+Grand Cayman,27,3,2,direct,454.43,0
+Punta Cana,139,6,3,direct,182.14,0
+Negril,34,10,2,direct,214.19,0
+Nassau,27,5,3,expedia,264.91,0
+Castries,65,4,2,agent,281.67,0
+Grand Cayman,99,7,2,booking,367.1,0
+Nassau,19,5,2,booking,265.66,0
+Castries,27,5,1,expedia,313.91,1
+Providenciales,41,4,1,booking,360.53,0
+Montego Bay,140,5,1,expedia,197.02,0
+Grand Cayman,59,7,2,direct,372.32,0
+Aruba,108,2,1,expedia,363.15,1
+Punta Cana,116,3,2,booking,183.28,0
+Providenciales,48,7,2,direct,401.55,1
+Grand Cayman,146,7,3,booking,395.94,0
+Nassau,122,5,1,booking,342.99,1
+Castries,77,6,2,booking,293.7,0
+Nassau,85,1,1,booking,312.22,0
+Montego Bay,110,6,1,expedia,224.3,0
+Punta Cana,22,3,2,booking,171.37,0
+Punta Cana,70,4,1,direct,241.51,0
+Grand Cayman,6,4,1,agent,372.02,1
+Castries,39,4,2,expedia,279.74,1
+Punta Cana,74,5,3,booking,193.98,0
+Montego Bay,108,4,2,booking,207.51,0
+Castries,41,3,1,booking,296.3,0
+Negril,24,5,1,booking,179.28,0
+Nassau,49,2,2,booking,329.04,0
+Negril,35,6,1,direct,265.84,0
+Bridgetown,47,7,2,expedia,213.4,0
+Bridgetown,102,4,1,booking,257.47,0
+Nassau,50,6,3,direct,288.47,0
+San Juan,61,3,3,expedia,269.37,0
+San Juan,61,5,2,booking,205.14,1
+San Juan,41,5,2,agent,247.52,0
+Nassau,148,9,1,direct,348.71,0
+Bridgetown,60,8,2,booking,294.04,1
+Grand Cayman,66,4,1,booking,377.63,1
+Montego Bay,75,6,1,direct,231.15,0
+Nassau,16,6,3,expedia,400.02,0
+Aruba,105,4,2,expedia,356.21,0
+Aruba,24,1,1,booking,318.31,0
+Nassau,43,3,2,booking,317.23,0
+Aruba,84,4,1,booking,344.77,0
+Grand Cayman,92,3,3,expedia,350.1,0
+Aruba,42,6,1,booking,285.07,0
+Aruba,65,8,3,booking,258.76,0
+Negril,122,7,1,booking,214.17,1
+Bridgetown,80,9,3,direct,258.78,0
+Castries,40,7,2,direct,345.52,1
+Punta Cana,27,4,2,agent,218.37,0
+Nassau,35,7,3,booking,368.91,0
+Nassau,38,2,2,booking,266.59,0
+Nassau,102,5,1,booking,289.72,1
+Nassau,5,6,1,booking,307.74,0
+Bridgetown,17,5,1,booking,317.79,1
+Nassau,70,8,2,booking,261.44,0
+San Juan,55,5,1,expedia,245.21,0
+Bridgetown,85,3,3,direct,275.73,0
+Negril,39,3,1,booking,219.87,1
+Punta Cana,20,6,2,expedia,197.7,0
+Grand Cayman,34,8,2,agent,435.39,1
+Aruba,86,6,1,agent,317.7,0
+Nassau,85,1,2,expedia,244.38,0
+Aruba,80,5,1,direct,316.68,0
+Aruba,26,4,3,booking,361.52,0
+Nassau,44,5,3,booking,331.87,0
+Providenciales,24,5,2,expedia,300.2,0
+Punta Cana,28,4,2,booking,183.98,1
+Aruba,83,4,2,booking,391.77,0
+Negril,23,7,2,expedia,202.51,0
+Castries,13,1,2,expedia,281.53,0
+Montego Bay,20,3,2,booking,227.44,0
+Nassau,75,6,3,direct,270.34,0
+Punta Cana,83,6,1,booking,143.99,0
+San Juan,48,3,2,agent,232.18,0
+San Juan,93,3,3,direct,274.52,0
+San Juan,151,4,1,booking,297.03,0
+Providenciales,79,7,1,expedia,369.9,1
+Negril,30,2,1,direct,147.49,0
+Aruba,74,3,3,direct,333.13,0
+Montego Bay,25,5,1,expedia,185.67,0
+Negril,32,1,2,direct,249.26,1
+San Juan,31,5,2,booking,186.21,0
+Grand Cayman,136,5,1,direct,388.02,0
+Grand Cayman,13,3,1,expedia,416.96,0
+San Juan,37,4,2,booking,238.45,1
+Negril,98,1,2,direct,275.3,1
+Aruba,33,6,3,expedia,330.3,1
+Nassau,26,3,1,direct,270.58,0
+Montego Bay,31,3,2,agent,224.57,0
+Montego Bay,81,1,3,booking,183.59,1
+Negril,17,1,1,booking,195.36,1
+Negril,40,3,1,agent,224.12,0
+Grand Cayman,43,2,2,agent,450.71,0
+Castries,74,6,3,agent,274.8,0
+Providenciales,27,8,1,booking,336.27,0
+Providenciales,59,4,2,agent,344.8,0
+Providenciales,119,3,4,direct,384.63,1
+Castries,121,3,1,direct,261.39,0
+Punta Cana,33,11,3,booking,186.37,1
+Castries,65,6,2,direct,209.04,0
+San Juan,88,4,2,direct,220.74,0
+San Juan,27,4,2,expedia,184.21,0
+Castries,12,5,2,booking,215.19,0
+Montego Bay,12,3,2,direct,269.11,0
+Montego Bay,86,5,2,direct,265.9,0
+Montego Bay,133,5,1,booking,187.59,1
+Castries,113,4,3,booking,265.6,1
+Nassau,95,3,4,direct,364.5,1
+San Juan,54,5,1,booking,290.72,0
+Providenciales,121,1,1,agent,369.32,0
+Castries,35,6,1,direct,240.42,0
+Castries,37,4,1,agent,224.3,0
+Providenciales,210,2,3,booking,336.13,1
+Providenciales,141,6,3,booking,381.51,0
+Punta Cana,23,5,3,agent,115.32,0
+Castries,27,7,1,direct,323.96,0
+Nassau,50,8,2,expedia,350.53,0
+Providenciales,15,4,2,booking,368.58,0
+Nassau,134,7,3,direct,372.33,0
+Negril,97,3,2,expedia,195.03,0
+San Juan,71,4,1,direct,216.2,0
+Montego Bay,14,6,2,booking,179.92,0
+Nassau,59,5,1,agent,319.28,0
+Grand Cayman,145,4,4,agent,339.78,0
+San Juan,48,3,1,direct,277.54,0
+Castries,38,1,3,booking,254.54,0
+Aruba,188,2,1,expedia,278.63,1
+Castries,107,6,2,direct,304.09,1
+Providenciales,130,7,3,agent,331.13,0
+Castries,24,6,2,booking,260.42,0
+Aruba,86,6,3,booking,319.0,1
+Montego Bay,11,5,1,booking,251.13,1
+Providenciales,43,6,1,booking,365.87,1
+San Juan,51,6,3,booking,194.69,0
+Nassau,39,5,3,expedia,359.42,0
+Bridgetown,35,4,1,direct,204.29,0
+Negril,108,7,1,booking,213.61,1
+Grand Cayman,78,3,1,agent,364.66,0
+Aruba,26,9,2,expedia,368.1,0
+Grand Cayman,123,4,2,direct,388.19,1
+Providenciales,53,5,2,booking,287.59,0
+San Juan,93,2,1,booking,248.45,0
+Bridgetown,45,5,2,expedia,334.92,0
+San Juan,31,7,1,expedia,269.96,1
+Nassau,114,7,2,direct,392.92,0
+Castries,47,7,1,expedia,205.65,0
+Castries,39,3,2,direct,209.97,0
+Punta Cana,56,1,1,expedia,169.07,0
+Providenciales,107,6,3,agent,382.8,0
+Negril,40,4,3,direct,184.74,0
+Providenciales,13,2,3,direct,384.3,0
+San Juan,29,1,1,booking,285.84,0
+Montego Bay,46,3,3,booking,268.41,1
+Castries,45,3,3,expedia,269.59,0
+Castries,33,5,2,booking,296.0,1
+Nassau,41,7,1,direct,327.54,0
+Castries,7,1,3,booking,234.72,1
+San Juan,7,6,2,expedia,228.27,0
+Punta Cana,74,4,1,expedia,212.94,0
+Grand Cayman,31,5,1,direct,398.12,0
+Castries,24,2,3,direct,357.04,0
+Providenciales,43,4,1,expedia,285.14,0
+San Juan,175,8,1,direct,261.83,1
+Aruba,187,3,1,booking,267.56,1
+Nassau,63,1,1,booking,278.64,0
+Montego Bay,176,8,2,direct,215.16,0
+Castries,66,4,1,direct,276.58,0
+Castries,14,2,1,booking,279.74,1
+Aruba,44,4,1,booking,233.56,0
+Nassau,66,5,2,direct,349.98,0
+Grand Cayman,39,3,3,direct,365.1,0
+Providenciales,72,5,1,booking,400.62,1
+Providenciales,59,3,1,direct,347.31,0
+San Juan,27,8,4,booking,293.83,0
+San Juan,68,4,1,direct,205.27,0
+Castries,59,4,3,direct,385.41,0
+Castries,81,3,2,direct,352.14,0
+Castries,17,3,1,booking,262.85,0
+Bridgetown,36,5,3,expedia,230.91,1
+Montego Bay,34,3,3,booking,125.53,1
+Grand Cayman,37,7,1,booking,380.79,0
+San Juan,69,5,2,booking,223.1,0
+San Juan,84,6,2,booking,225.39,0
+Grand Cayman,93,5,3,booking,331.54,0
+Castries,48,4,2,expedia,270.35,0
+Nassau,59,2,3,booking,287.1,0
+Negril,98,3,2,direct,201.63,0
+San Juan,141,1,1,direct,282.75,0
+Aruba,60,4,2,direct,344.31,0
+Aruba,69,5,1,booking,293.06,0
+Negril,42,4,2,direct,124.76,0
+Nassau,35,6,1,booking,289.29,0
+Grand Cayman,38,7,2,direct,451.01,0
+San Juan,20,3,2,booking,264.83,1
+San Juan,54,6,1,expedia,291.22,0
+Grand Cayman,80,4,1,booking,424.34,1
+Bridgetown,56,6,3,agent,298.74,0
+Nassau,1,6,2,booking,307.66,0
+Aruba,56,6,1,expedia,322.16,0
+Nassau,19,5,2,booking,302.76,0
+Aruba,96,2,2,booking,367.39,0
+Aruba,132,5,2,booking,300.35,0
+Nassau,74,7,2,booking,400.07,1
+San Juan,88,2,1,booking,252.67,1
+Grand Cayman,27,4,4,direct,368.45,0
+Montego Bay,71,6,1,direct,197.99,0
+San Juan,48,7,3,expedia,241.68,0
+Castries,21,6,1,direct,245.83,0
+Montego Bay,69,7,2,agent,256.73,0
+Negril,84,1,1,booking,241.19,1
+San Juan,161,4,1,expedia,219.8,0
+San Juan,89,7,1,booking,247.19,0
+Montego Bay,29,7,1,booking,206.62,1
+Aruba,58,1,3,booking,428.57,1
+Grand Cayman,41,1,1,agent,365.96,0
+Grand Cayman,10,5,3,expedia,415.82,0
+Montego Bay,51,7,1,direct,237.53,0
+Providenciales,25,5,2,direct,357.61,0
+Aruba,15,5,1,booking,280.26,0
+Grand Cayman,12,7,2,expedia,328.44,0
+Negril,199,5,1,booking,229.73,0
+Castries,36,8,1,booking,256.71,0
+Castries,80,5,2,booking,264.87,1
+Nassau,63,7,3,expedia,350.99,0
+Punta Cana,11,7,2,agent,113.18,0
+Negril,15,6,3,expedia,230.77,0
+Montego Bay,30,5,3,expedia,219.24,0
+Montego Bay,26,7,1,agent,220.25,0
+Montego Bay,54,5,2,booking,212.76,1
+San Juan,29,9,2,direct,203.46,1
+Nassau,61,5,1,direct,355.08,1
+Negril,76,1,3,booking,151.56,0
+Nassau,32,3,2,booking,252.51,0
+Punta Cana,27,2,4,booking,174.68,0
+Providenciales,51,5,1,booking,386.08,1
+San Juan,28,7,2,booking,234.48,0
+Nassau,119,3,2,expedia,292.03,1
+Punta Cana,77,4,1,booking,261.7,0
+Providenciales,83,7,3,booking,324.04,1
+Negril,61,4,2,expedia,228.11,0
+Punta Cana,2,7,1,expedia,150.23,0
+Castries,34,7,1,booking,277.07,1
+Punta Cana,47,5,3,booking,131.55,0
+Nassau,77,1,2,expedia,252.61,0
+Negril,43,2,2,booking,199.85,0
+San Juan,22,4,2,agent,230.24,0
+Grand Cayman,13,5,3,direct,366.25,0
+Castries,43,2,1,agent,228.07,0
+Bridgetown,149,4,1,direct,217.5,1
+San Juan,47,6,1,expedia,231.08,0
+San Juan,148,3,2,expedia,267.6,0
+Negril,77,5,2,booking,107.57,0
+Aruba,3,4,2,booking,387.17,0
+Aruba,49,5,2,agent,328.19,0
+Castries,66,4,2,agent,211.08,0
+Grand Cayman,34,7,2,booking,322.14,0
+Bridgetown,1,2,2,agent,255.19,1
+Aruba,18,5,2,direct,372.9,0
+Bridgetown,11,8,1,expedia,191.23,1
+Castries,18,5,1,booking,237.05,0
+Bridgetown,116,7,2,expedia,326.49,1
+Providenciales,62,2,3,booking,324.35,0
+Castries,32,6,1,booking,214.34,0
+Bridgetown,30,4,4,expedia,270.84,0
+Punta Cana,113,7,4,booking,217.23,0
+Providenciales,29,1,1,booking,354.84,0
+Providenciales,25,3,1,expedia,361.09,0
+Grand Cayman,50,3,2,direct,351.82,1
+Bridgetown,72,3,2,booking,296.14,1
+Providenciales,19,8,2,direct,299.46,0
+Castries,20,6,2,booking,245.83,1
+Negril,21,9,2,booking,196.45,0
+Nassau,127,3,1,expedia,321.91,1
+Nassau,58,3,3,booking,390.74,0
+Providenciales,88,2,2,booking,385.52,1
+Castries,37,5,1,expedia,190.81,0
+Grand Cayman,28,7,2,booking,309.09,1
+Negril,43,1,2,booking,201.06,0
+Bridgetown,40,5,3,direct,241.06,0
+Bridgetown,49,3,2,direct,273.17,0
+Punta Cana,98,3,1,direct,161.72,0
+Negril,154,7,1,expedia,189.32,1
+San Juan,66,7,2,expedia,198.16,0
+Montego Bay,56,7,3,booking,231.85,1
+Aruba,116,6,3,direct,316.2,0
+Castries,69,4,1,expedia,236.35,1
+Montego Bay,50,6,4,booking,256.16,0
+Montego Bay,44,5,1,direct,284.83,1
+Bridgetown,105,6,3,agent,290.41,0
+Nassau,70,3,2,direct,344.78,0
+Nassau,145,3,1,booking,270.42,1
+Punta Cana,14,3,2,booking,215.48,0
+Montego Bay,111,6,2,direct,184.52,0
+Punta Cana,65,5,2,expedia,117.13,0
+Punta Cana,92,3,1,booking,215.01,1
+San Juan,22,8,2,booking,270.78,0
+Montego Bay,43,1,2,direct,175.68,0
+Grand Cayman,17,6,2,expedia,274.1,0
+Providenciales,160,2,3,booking,346.8,0
+Montego Bay,269,3,2,expedia,266.41,0
+Montego Bay,145,6,1,booking,246.52,1
+Grand Cayman,35,3,2,booking,328.28,0
+Negril,19,4,2,booking,169.26,0
+Nassau,109,4,2,agent,269.82,0
+Montego Bay,14,8,2,booking,237.54,0
+Grand Cayman,67,4,2,direct,427.85,0
+Montego Bay,73,2,3,booking,167.92,0
+Negril,29,5,3,booking,171.66,1
+San Juan,139,4,1,expedia,210.6,0
+Nassau,24,5,1,agent,348.69,0
+Aruba,24,6,2,agent,319.67,0
+Castries,21,5,1,booking,267.87,1
+Castries,72,7,1,direct,236.49,0
+Grand Cayman,94,4,4,agent,408.45,0
+Punta Cana,48,4,4,booking,130.65,0
+Negril,52,3,2,agent,250.43,1
+Grand Cayman,48,6,2,expedia,349.08,0
+Negril,12,3,1,booking,139.99,0
+Grand Cayman,28,1,1,direct,387.24,0
+Castries,89,6,1,expedia,260.26,0
+Grand Cayman,61,7,3,booking,379.55,0
+Castries,54,2,1,booking,232.82,0
+Aruba,100,4,1,agent,403.8,0
+Aruba,26,2,2,direct,348.58,0
+Negril,54,2,2,direct,150.04,0
+San Juan,60,3,2,direct,254.23,0
+Nassau,84,3,3,expedia,288.92,0
+Punta Cana,50,5,1,booking,281.46,1
+Providenciales,36,6,2,booking,369.72,0
+Grand Cayman,66,4,1,agent,392.53,1
+Bridgetown,23,3,2,direct,327.61,0
+Aruba,167,5,4,booking,345.33,0
+Bridgetown,62,5,1,direct,318.89,0
+Punta Cana,33,2,2,booking,238.45,0
+Grand Cayman,42,5,4,direct,316.3,0
+San Juan,177,6,3,booking,201.17,1
+Punta Cana,40,4,1,agent,219.59,0
+Castries,30,4,2,booking,312.38,0
+Negril,57,5,3,direct,206.55,0
+San Juan,83,8,2,direct,231.08,0
+Negril,38,4,2,direct,137.97,0
+Montego Bay,34,4,1,direct,222.5,0
+Punta Cana,104,5,1,booking,80,1
+Bridgetown,18,3,1,direct,225.25,0
+San Juan,26,3,2,booking,294.48,1
+San Juan,231,10,1,direct,207.81,0
+Grand Cayman,138,3,1,booking,354.62,1
+Bridgetown,82,3,1,booking,189.08,0
+Negril,47,5,2,booking,248.46,0
+Nassau,22,3,3,booking,319.32,0
+Grand Cayman,228,1,2,booking,367.24,1
+Aruba,98,3,4,booking,263.64,1
+Montego Bay,37,7,2,expedia,248.23,0
+Castries,84,4,2,expedia,267.7,1
+Grand Cayman,18,5,2,booking,353.67,0
+Montego Bay,56,3,2,expedia,211.35,0
+Grand Cayman,57,4,1,expedia,394.95,1
+Negril,31,4,2,booking,284.7,0
+Aruba,40,5,2,expedia,279.91,0
+Montego Bay,41,6,1,agent,192.08,0
+Montego Bay,27,6,1,booking,239.38,1
+Providenciales,18,3,1,booking,327.35,1
+Nassau,58,5,2,direct,358.54,0
+Punta Cana,38,4,1,booking,239.86,1
+Castries,28,5,2,booking,251.27,0
+Punta Cana,91,6,2,expedia,80.24,0
+Aruba,137,7,3,booking,280.69,1
+Nassau,66,8,3,direct,325.96,0
+Providenciales,15,4,3,booking,337.72,1
+Negril,95,4,3,booking,206.09,1
+Bridgetown,45,3,1,expedia,279.53,0
+Providenciales,20,6,1,direct,330.51,0
+Nassau,26,5,1,booking,326.24,0
+Negril,34,6,3,direct,268.84,0
+Grand Cayman,15,5,2,booking,402.98,0
+Grand Cayman,32,4,1,booking,387.1,0
+Castries,138,4,1,booking,240.79,0
+Aruba,65,4,1,booking,293.05,1
+Nassau,53,8,1,booking,304.49,0
+Castries,106,5,1,booking,323.65,1
+Nassau,9,3,2,direct,305.54,0
+Grand Cayman,195,7,2,booking,335.86,0
+Castries,39,2,3,direct,306.53,0
+Providenciales,51,6,4,direct,350.04,0
+Negril,50,5,2,direct,244.5,0
+Bridgetown,88,2,2,booking,254.72,0
+Punta Cana,18,3,3,booking,152.3,0
+Aruba,29,4,2,expedia,300.54,1
+Providenciales,38,7,1,booking,293.99,1
+Providenciales,31,5,2,agent,336.44,0
+Negril,84,6,5,booking,140.57,1
+Castries,69,6,1,direct,274.22,0
+Grand Cayman,26,1,1,booking,364.07,1
+Montego Bay,63,5,2,direct,279.78,0
+Grand Cayman,66,4,1,booking,415.68,0
+San Juan,47,4,2,expedia,224.13,0
+Aruba,6,4,1,direct,329.58,0
+San Juan,45,5,2,agent,150.69,0
+Negril,77,4,2,booking,179.0,0
+Montego Bay,111,2,1,booking,175.65,0
+San Juan,41,3,1,direct,272.46,0
+Negril,79,4,1,booking,162.98,0
+Castries,110,4,1,expedia,264.85,0
+Montego Bay,5,2,1,booking,243.74,0
+Grand Cayman,24,7,2,booking,352.2,0
+Punta Cana,46,7,2,direct,131.02,0
+Bridgetown,5,4,1,expedia,278.52,1
+Grand Cayman,36,5,1,direct,426.77,0
+Negril,31,3,2,expedia,205.14,0
+Grand Cayman,24,5,1,expedia,393.84,0
+Nassau,61,5,2,booking,283.29,0
+Providenciales,55,8,2,expedia,379.42,1
+Negril,37,1,1,booking,124.81,1
+Bridgetown,57,6,3,booking,256.18,0
+Punta Cana,51,5,2,booking,194.44,0
+San Juan,11,1,3,expedia,168.03,0
+Nassau,13,4,2,booking,312.46,0
+Castries,8,5,2,direct,305.53,0
+Providenciales,172,5,2,booking,426.84,0
+Negril,48,5,1,expedia,221.74,0
+Aruba,102,3,1,direct,209.84,0
+Nassau,4,5,2,direct,196.47,0
+Bridgetown,87,10,1,direct,230.42,1
+Aruba,10,4,1,expedia,276.43,0
+Nassau,24,8,3,agent,261.88,0
+San Juan,15,4,4,expedia,155.97,0
+Punta Cana,51,3,1,direct,267.01,1
+Punta Cana,80,3,2,expedia,182.3,0
+San Juan,27,1,4,booking,208.04,0
+Aruba,93,7,3,booking,297.12,0
+Negril,20,4,4,agent,231.05,0
+Bridgetown,137,5,1,booking,267.19,0
+Punta Cana,41,3,4,booking,164.07,0
+Castries,15,3,1,booking,282.82,0
+Aruba,65,3,1,booking,323.9,0
+Providenciales,47,5,1,direct,406.1,0
+Providenciales,18,5,3,booking,357.57,0
+Grand Cayman,54,6,3,expedia,352.45,0
+Nassau,7,9,2,booking,337.88,1
+Punta Cana,106,5,2,expedia,174.49,0
+Nassau,67,4,3,booking,376.05,1
+Bridgetown,21,6,1,direct,257.01,0
+Grand Cayman,32,7,3,booking,370.74,0
+Castries,68,4,4,direct,280.46,0
+Aruba,67,3,1,direct,372.07,0
+Providenciales,40,5,2,booking,386.29,0
+Grand Cayman,24,3,1,direct,392.82,0
+Negril,163,6,2,agent,200.76,0
+Castries,46,3,2,direct,250.54,0
+Grand Cayman,129,4,1,booking,388.26,0
+Montego Bay,56,3,2,booking,178.79,0
+Grand Cayman,25,4,1,direct,431.95,0
+Montego Bay,15,1,2,booking,268.65,0
+Aruba,19,8,2,direct,338.4,0
+San Juan,36,5,2,expedia,216.89,0
+Providenciales,21,3,2,booking,345.72,1
+Grand Cayman,68,3,2,booking,446.96,0
+Aruba,19,5,1,booking,331.42,0
+Bridgetown,57,2,1,booking,262.76,0
+Grand Cayman,36,7,1,direct,342.93,0
+Punta Cana,82,2,3,expedia,190.28,0
+Punta Cana,59,3,2,expedia,212.5,0
+Negril,138,2,2,booking,163.63,1
+Punta Cana,10,4,2,agent,188.78,0
+Aruba,1,6,1,booking,332.63,0
+San Juan,100,7,2,booking,274.93,1
+San Juan,104,1,1,direct,198.44,1
+Castries,155,4,1,booking,208.3,0
+Castries,42,8,2,expedia,225.85,0
+San Juan,18,4,2,agent,217.79,1
+Montego Bay,27,6,1,booking,207.81,0
+Bridgetown,39,5,3,expedia,228.02,0
+Aruba,78,6,2,expedia,337.42,1
+Montego Bay,47,5,1,agent,150.82,0
+Montego Bay,88,1,3,direct,218.98,0
+Negril,46,4,2,direct,221.73,0
+Providenciales,51,5,2,booking,272.62,0
+Castries,58,3,1,expedia,217.59,1
+Providenciales,55,5,1,booking,331.31,0
+Punta Cana,94,6,2,booking,249.2,0
+Grand Cayman,112,7,3,booking,334.14,0
+Grand Cayman,51,3,1,booking,364.92,0
+San Juan,111,5,1,agent,247.4,0
+Aruba,22,4,4,booking,355.96,0
+Montego Bay,25,3,3,expedia,247.78,0
+Negril,47,7,2,direct,185.51,0
+Negril,74,2,1,booking,213.13,0
+Grand Cayman,120,5,2,direct,407.84,0
+Bridgetown,70,4,2,booking,230.29,0
+Montego Bay,29,3,1,direct,196.85,0
+Montego Bay,44,5,1,booking,218.87,0
+Providenciales,43,6,1,agent,319.14,0
+Castries,70,6,2,agent,263.13,0
+Bridgetown,13,4,1,expedia,294.11,0
+Aruba,49,3,1,direct,333.79,0
+Grand Cayman,51,5,1,direct,351.83,0
+Bridgetown,73,7,3,booking,333.42,0
+Negril,42,4,2,direct,180.57,0
+Castries,35,4,3,direct,245.17,0
+Castries,32,5,1,agent,265.23,0
+San Juan,41,3,1,expedia,231.44,0
+Aruba,90,5,2,direct,292.29,0
+Aruba,38,3,2,direct,382.26,0
+Montego Bay,37,3,2,expedia,253.17,0
+Castries,45,3,1,direct,207.5,0
+Negril,66,5,1,agent,241.1,1
+Punta Cana,54,8,1,booking,158.44,0
+San Juan,12,5,4,booking,209.29,0
+Providenciales,24,7,2,booking,325.99,0
+Castries,32,1,2,direct,228.63,0
+Punta Cana,103,1,1,direct,149.73,0
+Nassau,87,9,3,agent,263.74,0
+Nassau,62,4,4,direct,294.21,1
+Montego Bay,54,1,2,expedia,213.08,0
+Bridgetown,38,7,2,expedia,313.96,0
+Punta Cana,121,3,1,booking,174.12,0
+Providenciales,82,5,1,expedia,400.72,0
+San Juan,35,3,1,booking,260.24,0
+Grand Cayman,53,3,2,booking,365.95,0
+Negril,25,7,1,booking,190.68,1
+Providenciales,64,5,1,direct,401.65,0
+Aruba,24,7,1,booking,273.83,0
+Punta Cana,45,1,2,expedia,212.08,0
+Bridgetown,58,2,1,expedia,239.51,1
+Aruba,4,6,5,direct,240.11,0
+Aruba,61,2,2,booking,265.55,1
+Nassau,4,5,1,booking,238.11,0
+Punta Cana,28,4,2,booking,228.56,0
+Aruba,121,4,1,agent,377.08,1
+Grand Cayman,10,7,1,direct,452.03,0
+Bridgetown,42,4,1,direct,299.33,0
+Bridgetown,163,6,2,direct,268.34,0
+Providenciales,36,6,2,agent,323.59,0
+Punta Cana,62,6,4,agent,155.96,0
+Castries,117,3,1,direct,261.46,0
+Providenciales,56,1,1,agent,355.42,0
+Punta Cana,43,4,1,booking,196.94,0
+San Juan,58,4,1,expedia,263.85,0
+Bridgetown,49,2,1,direct,247.67,0
+Aruba,36,4,2,booking,267.61,0
+Aruba,140,3,1,direct,405.0,0
+Punta Cana,28,5,3,direct,138.55,0
+Nassau,96,5,3,booking,254.62,0
+San Juan,37,8,1,expedia,193.22,1
+San Juan,47,2,2,agent,268.4,1
+Aruba,17,3,2,direct,313.55,0
+Punta Cana,29,2,1,expedia,192.4,1
+Grand Cayman,39,5,1,expedia,380.62,0
+Negril,8,5,2,direct,169.59,0
+Punta Cana,12,5,2,agent,226.37,0
+Nassau,21,10,1,expedia,360.46,0
+Bridgetown,45,1,1,booking,238.01,0
+Grand Cayman,11,6,1,direct,406.62,0
+Bridgetown,31,5,4,expedia,213.8,1
+Nassau,57,1,1,expedia,259.88,0
+Montego Bay,26,5,2,direct,270.97,0
+San Juan,30,1,1,direct,278.44,0
+Nassau,127,3,2,booking,232.45,1
+Negril,18,6,1,direct,179.83,0
+Grand Cayman,41,2,1,agent,339.43,0
+Grand Cayman,94,5,2,direct,439.93,0
+Grand Cayman,44,4,1,direct,405.25,0
+Providenciales,113,6,1,booking,345.56,1
+Aruba,24,3,1,booking,306.95,0
+Castries,56,4,2,booking,190.0,0
+Bridgetown,40,6,1,booking,219.9,0
+Punta Cana,100,2,1,booking,199.55,1
+Nassau,77,7,3,expedia,267.62,1
+Aruba,33,2,1,booking,346.81,1
+Aruba,55,5,4,booking,338.42,0
+Nassau,61,5,3,booking,348.72,0
+Grand Cayman,106,6,1,agent,425.47,1
+Providenciales,19,5,1,direct,328.19,0
+Negril,19,2,2,direct,170.39,0
+Nassau,220,4,1,agent,331.54,1
+Punta Cana,24,8,3,agent,201.53,0
+Punta Cana,11,8,2,direct,138.9,0
+Aruba,72,2,2,booking,342.31,0
+Negril,48,2,1,direct,200.62,0
+Castries,53,2,1,expedia,319.68,1
+Aruba,60,5,2,booking,331.7,0
+Negril,116,5,2,agent,208.88,0
+Providenciales,49,4,1,expedia,337.31,0
+Bridgetown,22,5,1,booking,311.73,1
+Punta Cana,55,7,2,booking,244.15,0
+Providenciales,19,4,3,booking,402.42,1
+Aruba,47,3,2,booking,376.19,0
+Nassau,31,1,4,agent,338.1,0
+San Juan,20,5,1,expedia,260.66,0
+Bridgetown,31,5,2,expedia,307.82,1
+San Juan,45,10,2,agent,332.05,0
+Castries,32,3,2,direct,304.42,0
+Castries,15,4,3,direct,218.33,0
+Grand Cayman,28,8,2,agent,376.98,0
+Punta Cana,20,4,2,booking,182.19,0
+Aruba,172,6,2,booking,431.94,0
+Grand Cayman,60,7,3,direct,389.53,1
+Punta Cana,95,5,2,agent,152.85,0
+Punta Cana,7,6,1,booking,179.86,0
+Negril,79,1,3,expedia,193.66,0
+San Juan,120,9,1,agent,224.79,0
+Aruba,101,3,4,agent,305.21,0
+Aruba,25,7,1,expedia,322.51,1
+Negril,10,7,3,booking,195.31,1
+San Juan,82,2,4,expedia,203.14,0
+Castries,127,2,2,booking,319.74,0
+Providenciales,70,5,4,agent,322.6,0
+Providenciales,37,5,3,booking,346.02,0
+Aruba,28,1,1,direct,298.44,0
+Montego Bay,80,4,1,booking,303.8,1
+Grand Cayman,7,6,2,booking,379.1,0
+Castries,23,3,1,booking,216.56,0
+Punta Cana,40,4,2,booking,334.3,0
+Grand Cayman,50,4,1,agent,386.04,0
+San Juan,100,4,2,booking,258.09,0
+Aruba,71,5,3,direct,275.69,0
+Grand Cayman,25,4,2,booking,370.11,0
+Punta Cana,73,2,1,booking,153.46,0
+Negril,38,3,2,booking,209.48,0
+Nassau,28,3,1,booking,281.97,0
+Aruba,20,6,4,booking,297.09,0
+Nassau,20,4,3,direct,245.66,0
+Bridgetown,129,3,1,booking,240.07,1
+Nassau,39,4,1,expedia,340.41,0
+Aruba,23,4,1,agent,346.4,0
+Providenciales,59,6,3,direct,375.01,0
+Castries,25,7,2,expedia,186.36,1
+Providenciales,134,1,2,agent,384.64,0
+Aruba,35,6,4,booking,375.07,0
+Grand Cayman,18,2,1,expedia,363.1,1
+Montego Bay,80,6,1,booking,269.88,1
+Montego Bay,31,5,2,agent,158.73,0
+Aruba,23,6,2,booking,365.97,0
+Providenciales,29,5,2,booking,334.29,0
+Grand Cayman,25,7,1,expedia,375.74,0
+Aruba,32,1,3,direct,355.68,0
+Negril,26,3,1,direct,211.6,0
+San Juan,130,2,3,expedia,252.54,0
+Negril,47,2,3,expedia,156.79,1
+Punta Cana,27,5,3,expedia,188.36,0
+Grand Cayman,12,4,1,booking,320.21,0
+Providenciales,53,4,2,booking,291.75,0
+Nassau,14,6,3,booking,300.2,1
+Grand Cayman,58,7,1,direct,399.0,0
+Grand Cayman,17,5,2,direct,312.95,0
+Providenciales,63,6,1,booking,366.68,0
+Providenciales,18,4,1,expedia,305.29,0
+Punta Cana,15,3,3,booking,175.72,0
+San Juan,96,6,1,expedia,190.46,0
+Punta Cana,53,4,1,agent,154.18,0
+Bridgetown,135,3,1,agent,279.91,1
+Providenciales,43,1,2,expedia,307.72,0
+Aruba,46,6,1,direct,340.59,0
+Castries,16,3,1,expedia,265.37,0
+Castries,38,6,1,booking,339.82,0
+Punta Cana,31,3,1,direct,247.22,0
+Negril,22,3,1,direct,171.18,0
+Negril,90,6,1,booking,303.63,1
+Grand Cayman,9,8,1,expedia,394.4,1
+Bridgetown,27,7,3,booking,293.77,0
+Castries,98,5,3,direct,321.82,0
+Punta Cana,75,5,2,booking,176.89,0
+Nassau,33,3,2,agent,335.29,0
+Montego Bay,87,4,1,direct,213.99,0
+Nassau,31,1,3,agent,235.16,0
+Negril,74,3,2,expedia,101.02,1
+Negril,141,4,2,booking,230.16,1
+Providenciales,53,4,2,booking,397.52,0
+Providenciales,71,1,2,booking,418.63,0
+Montego Bay,41,3,1,booking,273.07,0
+Aruba,14,1,2,booking,322.61,0
+San Juan,22,7,2,expedia,257.86,0
+Grand Cayman,56,3,2,booking,478.69,0
+Aruba,30,7,4,direct,333.37,0
+Castries,10,4,2,booking,318.68,1
+Castries,44,6,1,agent,223.49,0
+Montego Bay,194,6,2,direct,185.71,0
+Punta Cana,82,3,1,direct,258.41,0
+Bridgetown,119,4,1,expedia,261.09,0
+Providenciales,14,5,2,agent,443.55,0
+Montego Bay,57,2,3,booking,176.06,1
+Nassau,41,5,2,booking,279.97,1
+Castries,42,5,1,expedia,228.53,1
+Montego Bay,12,6,1,booking,216.41,1
+Grand Cayman,107,4,3,booking,323.16,1
+Bridgetown,47,6,1,booking,336.91,0
+Grand Cayman,75,7,2,booking,356.73,0
+Bridgetown,87,2,2,expedia,219.8,0
+Providenciales,71,4,1,booking,427.83,0
+Aruba,202,4,3,booking,294.05,0
+San Juan,12,5,1,booking,262.3,0
+Castries,224,6,2,booking,255.67,0
+Negril,30,1,2,booking,228.48,1
+Castries,88,1,1,booking,244.48,0
+Aruba,19,10,1,direct,299.9,1
+Punta Cana,23,3,3,booking,177.8,0
+Bridgetown,41,4,1,booking,333.9,1
+Providenciales,125,5,2,booking,303.79,0
+Castries,57,1,3,expedia,239.79,0
+Montego Bay,23,3,1,expedia,264.48,1
+Montego Bay,14,5,2,direct,254.88,0
+Nassau,13,7,1,booking,348.93,0
+Bridgetown,32,6,1,direct,289.8,0
+Grand Cayman,78,3,3,agent,380.51,0
+San Juan,54,5,2,agent,267.0,0
+Grand Cayman,5,2,1,booking,383.88,0
+Montego Bay,48,1,3,expedia,181.81,0
+Negril,31,4,2,direct,226.37,0
+Castries,12,5,4,direct,210.44,0
+Grand Cayman,46,6,2,booking,389.9,0
+Montego Bay,25,7,2,expedia,234.67,0
+Castries,51,4,3,expedia,310.31,0
+Grand Cayman,20,6,4,expedia,365.27,0
+Castries,88,7,1,direct,305.66,0
+San Juan,18,5,1,booking,250.72,0
+Nassau,159,1,1,expedia,386.8,0
+Bridgetown,68,3,2,expedia,215.75,0
+Negril,39,6,3,booking,119.82,0
+Punta Cana,46,11,1,booking,175.69,0
+Nassau,29,5,1,agent,233.8,0
+Punta Cana,42,6,1,direct,156.78,0
+Bridgetown,23,4,3,expedia,258.72,0
+Providenciales,104,3,2,expedia,389.37,0
+Bridgetown,36,4,1,direct,365.33,0
+Providenciales,29,1,3,booking,358.74,1
+Negril,13,5,1,expedia,171.11,0
+Montego Bay,52,4,2,booking,220.76,0
+Punta Cana,49,5,3,agent,136.87,0
+Nassau,31,3,3,booking,310.23,0
+San Juan,89,1,3,booking,242.72,0
+Bridgetown,130,9,3,booking,346.36,0
+Punta Cana,89,7,4,booking,191.11,0
+Negril,26,4,2,direct,211.85,0
+Negril,15,2,1,expedia,220.24,0
+Montego Bay,2,2,3,expedia,171.41,0
+Nassau,44,3,2,booking,351.43,0
+Providenciales,84,4,2,direct,307.27,0
+San Juan,9,4,1,booking,264.61,1
+Castries,119,4,1,direct,233.68,1
+Aruba,39,4,2,booking,319.17,0
+Providenciales,31,5,2,direct,403.94,0
+Bridgetown,41,7,1,booking,300.16,0
+Bridgetown,28,7,3,booking,289.5,0
+Grand Cayman,66,6,2,direct,366.69,0
+Providenciales,281,3,3,booking,392.91,0
+Bridgetown,29,6,2,agent,251.46,0
+Montego Bay,171,4,3,expedia,233.59,0
+Nassau,73,4,4,direct,282.77,0
+San Juan,62,6,3,booking,246.32,0
+San Juan,63,6,2,expedia,277.66,0
+Punta Cana,17,1,1,expedia,225.22,0
+Montego Bay,64,5,1,direct,288.26,0
+Montego Bay,11,4,2,booking,211.2,0
+Negril,83,4,1,booking,208.33,1
+Punta Cana,67,3,1,direct,94.83,0
+Castries,49,4,1,booking,212.31,0
+San Juan,47,4,3,expedia,272.84,0
+Punta Cana,110,6,1,booking,199.53,1
+Grand Cayman,27,6,1,direct,408.13,0
+Bridgetown,27,7,2,expedia,348.96,0
+Punta Cana,92,8,2,expedia,228.62,1
+Grand Cayman,83,8,3,agent,325.93,0
+San Juan,34,7,1,booking,292.17,0
+Aruba,60,8,4,direct,331.15,0
+Grand Cayman,24,5,2,booking,475.8,1
+Montego Bay,15,2,3,expedia,228.11,1
+Aruba,47,6,1,expedia,300.45,0
+Nassau,57,5,1,agent,265.05,0
+Punta Cana,60,5,3,expedia,236.97,0
+Nassau,88,5,1,booking,311.36,0
+Bridgetown,18,4,3,direct,272.1,0
+Bridgetown,65,5,2,booking,200.79,0
+Grand Cayman,21,2,1,booking,342.98,0
+Grand Cayman,12,8,4,direct,379.6,0
+Providenciales,26,7,1,booking,296.65,0
+Nassau,53,3,1,booking,277.01,0
+Nassau,68,6,2,expedia,345.32,0
+Castries,61,2,1,expedia,285.92,0
+Montego Bay,65,6,1,direct,293.56,0
+Punta Cana,204,3,3,booking,232.24,1
+Grand Cayman,15,5,2,booking,344.02,0
+Punta Cana,49,7,1,expedia,146.44,0
+Providenciales,31,3,1,booking,409.28,0
+Montego Bay,53,3,4,agent,198.62,0
+Providenciales,67,5,1,agent,352.3,0
+San Juan,39,6,3,expedia,264.41,0
+Montego Bay,35,6,2,direct,272.36,0
+San Juan,101,5,3,booking,183.5,0
+San Juan,18,7,1,agent,225.47,0
+Castries,7,1,2,booking,246.5,0
+Bridgetown,42,5,2,direct,267.38,0
+Providenciales,67,5,2,booking,397.49,1
+Montego Bay,26,2,3,agent,259.55,0
+San Juan,47,9,3,expedia,234.57,0
+Negril,20,2,2,expedia,187.96,1
+Montego Bay,20,4,2,direct,204.83,0
+Aruba,12,6,4,booking,363.6,0
+Providenciales,53,5,2,agent,354.33,1
+Montego Bay,21,4,2,agent,256.14,0
+Castries,41,8,1,booking,300.38,0
+Grand Cayman,25,4,2,agent,421.35,0
+Bridgetown,64,5,1,booking,304.66,0
+Aruba,35,5,1,expedia,341.91,0
+Grand Cayman,42,6,1,booking,390.26,0
+Montego Bay,126,4,3,booking,254.03,0
+Grand Cayman,19,6,3,expedia,382.16,1
+Nassau,56,6,2,expedia,318.99,1
+Aruba,33,6,1,booking,348.58,0
+Aruba,48,5,2,expedia,356.59,0
+Castries,62,6,2,direct,253.67,0
+San Juan,23,2,2,booking,231.88,0
+San Juan,94,4,2,direct,256.71,0
+Punta Cana,102,5,1,expedia,119.33,1
+Aruba,40,3,1,direct,329.51,0
+Bridgetown,40,5,1,booking,288.05,1
+Negril,27,2,2,direct,275.99,0
+Negril,53,7,1,direct,206.12,0
+Providenciales,26,2,2,booking,362.32,0
+Castries,51,2,4,booking,212.02,1
+Aruba,118,5,1,agent,299.67,1
+Montego Bay,48,3,2,direct,232.5,1
+Montego Bay,88,5,2,booking,232.3,0
+Aruba,25,1,2,direct,304.54,0
+Nassau,123,4,2,booking,309.79,0
+Montego Bay,43,5,1,agent,285.91,0
+Negril,104,3,2,booking,240.98,0
+Castries,24,4,1,direct,276.16,0
+Nassau,28,4,1,booking,234.75,1
+Nassau,93,8,3,direct,337.64,0
+Providenciales,38,6,2,direct,321.15,0
+Aruba,51,6,1,expedia,278.95,0
+Punta Cana,120,5,2,direct,157.94,0
+Montego Bay,41,2,1,expedia,307.12,0
+Aruba,55,6,2,booking,396.37,0
+Grand Cayman,60,7,2,agent,440.01,0
+Negril,107,8,1,booking,162.97,0
+Aruba,54,8,2,direct,353.79,0
+San Juan,104,6,3,expedia,185.46,0
+Nassau,53,1,1,agent,257.56,0
+Castries,157,4,2,direct,239.88,0
+Montego Bay,21,1,1,booking,234.78,1
+Nassau,36,4,1,agent,273.46,0
+Punta Cana,74,3,1,booking,262.27,0
+Negril,111,3,3,expedia,205.06,0
+Providenciales,32,1,3,expedia,294.79,0
+Aruba,6,2,3,expedia,316.45,0
+Punta Cana,46,2,1,booking,179.37,0
+San Juan,42,4,5,agent,223.76,0
+Aruba,17,2,1,direct,313.63,0
+Aruba,89,6,4,agent,315.08,0
+Grand Cayman,81,2,3,agent,344.76,0
+Negril,126,4,2,booking,212.59,1
+Grand Cayman,49,3,1,agent,326.72,0
+Castries,30,7,1,booking,290.49,0
+Nassau,10,4,2,booking,241.76,0
+Montego Bay,56,4,1,booking,175.14,0
+Aruba,66,7,3,expedia,265.85,0
+Bridgetown,116,3,1,booking,347.8,1
+Nassau,52,4,3,expedia,290.04,0
+Bridgetown,83,3,2,expedia,280.31,0
+Punta Cana,76,3,4,booking,84.7,0
+Montego Bay,62,3,3,direct,266.75,1
+Negril,72,5,2,agent,202.44,1
+Montego Bay,112,2,1,direct,239.78,0
+Montego Bay,12,8,2,direct,235.59,0
+San Juan,65,6,1,expedia,163.57,0
+Grand Cayman,30,5,2,expedia,286.17,0
+Nassau,7,4,1,expedia,286.61,0
+Bridgetown,57,3,2,booking,238.91,1
+Negril,36,3,1,agent,149.75,0
+San Juan,204,3,1,booking,212.45,0
+Grand Cayman,22,4,2,agent,387.55,0
+Castries,147,9,1,agent,279.26,0
+Nassau,74,8,2,booking,318.46,1
+Negril,49,3,1,booking,187.32,0
+Nassau,89,2,2,booking,237.94,1
+Aruba,24,5,3,direct,287.38,0
+Punta Cana,51,2,3,expedia,158.02,0
+Aruba,49,3,2,booking,233.03,0
+Providenciales,127,7,1,booking,312.59,1
+Punta Cana,68,5,1,expedia,121.89,0
+Castries,3,4,4,booking,198.39,0
+Grand Cayman,67,8,2,direct,369.84,0
+Aruba,42,5,2,agent,265.66,0
+Grand Cayman,62,3,2,booking,335.6,0
+San Juan,58,7,2,booking,238.15,1
+Nassau,66,3,1,booking,295.2,0
+Punta Cana,83,6,1,booking,145.01,1
+Providenciales,64,7,2,agent,373.74,1
+Grand Cayman,22,6,1,booking,386.61,0
+Montego Bay,42,5,1,expedia,241.94,0
+Castries,73,2,2,booking,245.75,0
+San Juan,99,4,2,booking,261.65,1
+Grand Cayman,17,3,1,booking,379.64,0
+Castries,86,1,1,expedia,303.18,1
+San Juan,8,7,1,direct,241.71,0
+San Juan,26,4,2,direct,201.18,0
+Aruba,105,1,1,booking,244.27,1
+Bridgetown,10,5,2,direct,257.71,0
+Negril,58,5,1,booking,180.54,0
+Aruba,40,5,1,direct,385.55,0
+Grand Cayman,78,7,2,booking,365.88,1
+Negril,82,5,2,agent,209.08,0
+San Juan,11,2,2,direct,253.98,0
+Nassau,66,6,3,booking,328.89,0
+Montego Bay,11,5,1,direct,277.87,0
+Negril,205,4,2,booking,209.23,1
+Grand Cayman,57,9,2,booking,385.28,1
+Aruba,50,5,1,booking,304.33,1
+Montego Bay,41,3,1,agent,246.67,0
+Castries,94,2,2,direct,259.41,0
+Bridgetown,42,6,2,booking,286.01,0
+Bridgetown,34,6,1,booking,320.62,1
+Castries,71,1,2,booking,236.52,0
+San Juan,54,2,3,direct,287.59,0
+Bridgetown,7,8,1,booking,332.68,0
+Punta Cana,131,4,2,booking,226.7,1
+Castries,144,3,2,booking,295.48,1
+Aruba,107,4,3,agent,341.72,0
+Castries,47,5,2,booking,241.5,0
+San Juan,95,7,1,booking,266.95,0
+Bridgetown,8,3,4,booking,268.83,0
+Negril,56,7,5,direct,199.45,0
+Punta Cana,31,6,2,expedia,167.15,0
+Grand Cayman,58,8,3,direct,450.03,0
+Castries,86,4,1,booking,233.64,0
+Grand Cayman,81,6,1,booking,503.26,0
+Castries,7,4,2,booking,300.58,0
+Providenciales,49,8,4,booking,317.53,0
+Punta Cana,92,3,2,direct,222.32,0
+Providenciales,38,4,2,booking,411.29,0
+Providenciales,76,3,1,expedia,405.23,0
+Punta Cana,123,7,3,expedia,198.33,1
+Montego Bay,141,3,1,booking,223.1,0
+Grand Cayman,11,9,1,agent,407.66,0
+Negril,33,6,1,booking,215.4,0
+Negril,38,5,2,expedia,210.21,1
+San Juan,52,3,2,expedia,221.97,0
+Negril,32,4,2,booking,238.12,0
+Grand Cayman,90,6,2,direct,446.97,0
+Grand Cayman,42,5,1,direct,331.47,0
+Grand Cayman,33,6,1,direct,371.06,0
+Montego Bay,22,2,3,booking,194.45,0
+Providenciales,26,5,1,booking,367.76,0
+Aruba,65,2,3,agent,313.89,0
+Providenciales,38,6,2,direct,298.61,0
+Providenciales,72,6,3,booking,340.34,0
+Castries,47,5,2,booking,293.26,0
+Nassau,126,5,2,agent,337.75,0
+Montego Bay,19,2,3,direct,218.98,0
+Punta Cana,45,7,1,booking,172.28,0
+Grand Cayman,27,4,3,agent,347.53,0
+Punta Cana,43,6,1,direct,144.56,0
+Bridgetown,23,1,3,direct,290.42,0
+San Juan,128,4,1,expedia,279.68,1
+Grand Cayman,52,6,2,direct,389.23,0
+San Juan,112,6,2,direct,253.39,0
+Grand Cayman,83,5,1,booking,299.84,0
+Bridgetown,42,7,3,expedia,293.35,1
+San Juan,30,5,1,direct,180.57,0
+Negril,21,4,1,booking,228.74,0
+Nassau,12,4,3,expedia,248.09,0
+Nassau,47,4,4,direct,249.16,0
+Bridgetown,174,2,2,expedia,287.24,0
+San Juan,196,1,1,agent,263.15,1
+San Juan,150,3,2,expedia,247.27,1
+Providenciales,182,7,1,direct,377.48,1
+Castries,13,6,3,direct,243.09,0
+Grand Cayman,28,6,1,expedia,332.92,1
+Negril,128,4,2,agent,204.74,1
+Montego Bay,73,8,2,expedia,189.75,0
+Castries,20,5,1,direct,204.11,0
+Aruba,60,3,1,booking,312.88,0
+Grand Cayman,3,5,2,direct,291.56,0
+San Juan,56,5,2,expedia,246.39,0
+Negril,76,5,1,agent,209.81,0
+Nassau,55,3,1,booking,294.98,0
+Bridgetown,56,2,2,direct,292.62,0
+Nassau,71,4,1,direct,322.09,0
+Montego Bay,166,4,2,booking,234.39,1
+San Juan,50,3,1,booking,249.83,0
+Punta Cana,15,4,1,direct,177.95,0
+San Juan,23,5,2,expedia,233.04,0
+Castries,73,7,1,expedia,322.13,0
+Negril,240,6,3,agent,144.07,1
+Grand Cayman,50,4,2,direct,382.82,0
+Bridgetown,27,1,2,agent,306.49,1
+Negril,21,8,2,direct,182.26,0
+Aruba,169,4,2,booking,318.56,0
+Montego Bay,21,6,3,booking,166.28,1
+Providenciales,57,5,1,direct,391.97,0
+Castries,42,7,2,direct,282.79,0
+Punta Cana,13,5,2,direct,188.86,0
+Providenciales,38,2,3,booking,377.74,1
+Nassau,3,3,4,direct,315.03,0
+San Juan,19,6,2,booking,264.46,0
+Providenciales,146,5,2,booking,358.49,0
+Grand Cayman,17,5,1,booking,365.75,0
+Punta Cana,62,6,2,booking,210.05,0
+Montego Bay,31,7,1,booking,208.87,0
+Montego Bay,60,5,3,direct,143.3,0
+Grand Cayman,17,5,1,booking,380.6,0
+Grand Cayman,69,5,1,direct,459.24,1
+Negril,35,3,2,expedia,194.72,0
+Providenciales,78,4,1,direct,423.95,0
+Castries,82,5,1,direct,253.67,0
+Negril,47,5,2,booking,153.61,1
+Providenciales,28,3,1,direct,318.04,0
+Nassau,53,5,3,booking,239.98,0
+Providenciales,57,4,2,expedia,407.35,0
+Negril,26,8,3,direct,204.54,0
+Montego Bay,111,3,1,booking,250.17,1
+Nassau,66,8,1,booking,361.63,1
+San Juan,90,2,2,direct,315.77,0
+Montego Bay,24,7,3,booking,154.81,0
+Nassau,18,9,2,expedia,283.75,0
+Aruba,19,5,2,expedia,333.6,1
+Bridgetown,50,3,3,booking,301.76,0
+Nassau,59,5,3,booking,296.93,0
+Punta Cana,33,5,1,expedia,237.93,0
+Nassau,154,2,2,expedia,318.18,1
+Castries,54,6,3,agent,252.12,0
+Punta Cana,19,2,2,booking,197.42,0
+Negril,89,2,2,direct,240.69,0
+San Juan,38,5,1,booking,230.14,0
+Aruba,89,4,1,booking,312.2,0
+Montego Bay,63,3,2,booking,196.69,0
+Castries,36,7,3,agent,286.18,0
+Castries,76,1,1,direct,266.03,0
+Aruba,57,4,2,expedia,309.18,0
+Punta Cana,21,3,3,booking,150.91,0
+Aruba,35,7,1,booking,344.31,1
+Grand Cayman,27,5,2,direct,353.38,0
+Montego Bay,68,4,1,expedia,202.69,1
+Bridgetown,25,6,1,booking,308.44,0
+Montego Bay,100,3,3,expedia,277.11,0
+Providenciales,75,4,1,direct,420.77,0
+Castries,17,4,2,booking,155.8,1
+Punta Cana,34,3,1,direct,306.63,1
+Nassau,78,4,3,agent,340.79,0
+Montego Bay,31,3,3,booking,281.93,1
+Bridgetown,32,4,1,direct,237.66,0
+Bridgetown,215,5,1,direct,249.87,1
+Grand Cayman,44,3,3,direct,393.49,0
+Bridgetown,142,5,1,agent,271.43,1
+Castries,77,1,1,booking,260.59,0
+Castries,44,3,2,booking,196.43,1
+Punta Cana,77,5,3,booking,176.03,0
+Nassau,33,4,1,agent,330.02,0
+Punta Cana,22,4,1,booking,190.59,0
+Bridgetown,69,7,3,direct,257.53,0
+Bridgetown,48,5,1,expedia,251.48,1
+Aruba,146,4,1,direct,355.71,0
+Providenciales,30,5,3,expedia,395.15,0
+San Juan,78,3,2,booking,253.03,0
+Montego Bay,33,4,3,direct,206.16,0
+Castries,39,6,2,booking,275.83,1
+Grand Cayman,23,4,1,direct,420.97,0
+San Juan,21,5,3,expedia,311.3,0
+Grand Cayman,35,4,2,booking,358.86,0
+Montego Bay,142,9,3,direct,265.13,0
+Castries,116,3,3,expedia,346.56,1
+Montego Bay,60,2,2,booking,248.43,0
+Montego Bay,115,2,2,direct,188.15,0
+Nassau,85,4,2,expedia,245.25,0
+Montego Bay,113,4,2,direct,197.98,0
+Nassau,73,4,3,booking,267.19,0
+Punta Cana,76,4,3,booking,196.69,0
+Aruba,90,3,1,expedia,262.92,0
+Providenciales,21,3,4,agent,390.65,0
+Negril,58,3,2,booking,219.91,0
+Montego Bay,46,2,3,booking,172.49,0
+Negril,151,6,1,booking,238.67,1
+Negril,97,5,1,direct,205.88,1
+Montego Bay,40,8,1,direct,205.78,0
+Punta Cana,147,6,1,expedia,186.8,0
+Castries,131,4,1,agent,295.28,0
+San Juan,28,6,2,expedia,262.47,0
+San Juan,66,5,1,booking,220.87,1
+Bridgetown,49,5,2,expedia,244.12,1
+Montego Bay,43,6,3,booking,210.89,0
+Nassau,104,5,3,agent,339.59,0
+Providenciales,30,6,2,booking,358.4,1
+Negril,16,8,2,agent,243.28,0
+Aruba,10,5,1,booking,281.9,1
+Punta Cana,21,2,3,booking,183.49,0
+Aruba,59,1,3,agent,381.73,0
+Punta Cana,16,7,2,direct,254.96,0
+Montego Bay,30,6,4,direct,177.54,0
+Montego Bay,30,7,1,booking,144.89,1
+Aruba,70,3,3,booking,353.24,0
+Montego Bay,155,6,1,booking,219.08,0
+Castries,36,2,2,agent,243.46,0
+Grand Cayman,91,5,1,booking,401.67,1
+Aruba,132,2,1,agent,350.64,1
+Negril,43,5,2,booking,138.23,1
+Nassau,36,3,4,booking,297.78,0
+Nassau,46,5,1,booking,330.08,0
+Nassau,67,4,1,expedia,315.61,1
+Montego Bay,40,3,1,direct,226.51,0
+Grand Cayman,57,3,2,agent,399.36,0
+San Juan,95,7,3,booking,249.37,1
+Grand Cayman,74,1,1,booking,348.88,0
+San Juan,55,5,3,booking,246.97,0
+Castries,120,5,3,direct,281.46,0
+Bridgetown,62,3,1,booking,278.74,0
+Bridgetown,143,8,1,agent,239.11,0
+Negril,68,5,2,booking,257.72,1
+Aruba,32,2,2,direct,351.27,0
+Nassau,88,4,1,booking,269.34,0
+Negril,16,2,3,booking,229.81,0
+Punta Cana,62,5,1,direct,196.33,0
+Montego Bay,42,9,1,booking,243.43,0
+Montego Bay,101,2,3,expedia,178.79,0
+Punta Cana,28,1,1,direct,167.77,0
+Negril,63,1,2,agent,228.33,0
+Negril,24,3,1,agent,169.51,0
+Bridgetown,53,3,1,direct,274.98,0
+Grand Cayman,32,5,1,direct,433.81,0
+Punta Cana,98,6,2,booking,120.95,1
+Punta Cana,13,3,3,agent,216.51,0
+Castries,40,6,2,booking,290.75,1
+Montego Bay,93,6,1,expedia,196.69,0
+Aruba,81,6,1,booking,306.2,1
+Castries,51,5,3,booking,270.03,1
+Grand Cayman,56,5,1,booking,404.31,0
+Providenciales,107,5,3,agent,352.96,0
+Providenciales,109,1,2,expedia,356.08,0
+Punta Cana,80,6,2,expedia,173.98,1
+Nassau,141,6,2,direct,350.64,0
+Punta Cana,47,4,2,booking,222.94,1
+San Juan,25,7,1,direct,233.8,0
+Nassau,85,5,1,expedia,313.36,0
+Montego Bay,38,4,1,agent,278.48,0
+Nassau,20,6,2,booking,305.21,0
+Nassau,56,6,1,expedia,312.96,0
+Punta Cana,20,4,2,expedia,207.42,0
+Bridgetown,31,1,1,agent,219.61,0
+Nassau,26,4,4,direct,340.25,0
+Providenciales,23,6,1,agent,373.75,0
+San Juan,48,4,3,agent,239.96,0
+Castries,69,3,3,booking,270.36,0
+Grand Cayman,55,7,1,booking,373.91,0
+Nassau,29,3,2,expedia,278.64,0
+Providenciales,8,7,3,booking,323.81,1
+Bridgetown,43,4,2,direct,406.63,0
+Grand Cayman,34,7,2,booking,379.18,0
+Castries,49,6,2,agent,303.37,0
+Nassau,116,7,3,booking,317.7,1
+Negril,133,4,2,direct,136.9,0
+San Juan,111,5,2,direct,198.42,0
+Montego Bay,108,4,3,expedia,308.92,1
+Montego Bay,23,7,2,direct,282.54,0
+Aruba,33,4,3,booking,292.04,1
+Grand Cayman,16,6,3,direct,360.01,0
+Grand Cayman,77,2,2,expedia,306.85,1
+Aruba,30,7,1,expedia,375.54,1
+Montego Bay,9,3,2,booking,162.7,0
+Montego Bay,109,3,5,booking,243.07,0
+Castries,115,3,2,booking,277.76,1
+Montego Bay,30,9,3,direct,268.11,0
+Providenciales,5,7,2,direct,450.36,0
+Grand Cayman,185,1,1,expedia,382.54,1
+Providenciales,89,6,1,direct,310.65,0
+Grand Cayman,29,3,3,direct,366.1,0
+Bridgetown,34,5,2,direct,308.39,0
+Negril,100,5,1,booking,111.14,1
+Nassau,27,2,1,booking,286.66,0
+Bridgetown,104,4,1,agent,344.29,0
+San Juan,59,4,1,direct,202.4,0
+Providenciales,76,6,3,agent,323.67,0
+Aruba,50,1,2,agent,302.67,0
+Nassau,49,6,4,booking,299.58,0
+Aruba,141,1,1,booking,288.55,1
+Grand Cayman,42,6,2,booking,416.1,0
+San Juan,126,5,3,booking,197.89,0
+Nassau,53,8,1,booking,264.44,0
+Bridgetown,25,2,1,booking,267.37,0
+Castries,26,3,2,booking,240.3,1
+Punta Cana,18,5,2,expedia,142.03,0
+San Juan,88,3,2,direct,201.66,0
+Montego Bay,80,4,4,agent,156.17,0
+Castries,49,3,2,expedia,298.26,0
+Punta Cana,49,4,1,booking,155.1,1
+Providenciales,103,4,1,expedia,457.05,1
+Punta Cana,76,4,3,booking,230.96,0
+Punta Cana,22,7,1,direct,247.04,0
+Negril,141,6,2,expedia,215.82,1
+Grand Cayman,28,7,1,direct,357.66,0
+Bridgetown,70,3,1,direct,220.41,0
+Negril,27,4,1,agent,233.67,0
+Providenciales,41,2,2,expedia,360.63,0
+Castries,44,2,3,expedia,338.27,0
+Providenciales,1,7,2,booking,335.55,0
+Negril,91,4,2,expedia,230.54,1
+Bridgetown,37,5,2,direct,290.02,0
+Negril,28,2,4,direct,137.57,0
+Bridgetown,37,6,4,direct,279.42,0
+Castries,71,4,2,booking,294.73,0
+Punta Cana,131,5,4,direct,185.54,0
+Montego Bay,12,4,2,direct,165.88,0
+Aruba,41,6,1,agent,266.49,0
+Grand Cayman,3,4,2,expedia,398.57,0
+Providenciales,62,4,1,direct,285.14,0
+Negril,23,6,2,direct,181.87,0
+Aruba,49,5,1,direct,392.24,0
+Montego Bay,50,5,3,expedia,272.61,0
+Aruba,0,3,1,booking,291.77,0
+Castries,48,3,1,expedia,251.41,0
+Aruba,16,6,2,booking,311.06,0
+Punta Cana,26,8,1,booking,205.14,0
+Montego Bay,105,4,2,direct,265.08,0
+Nassau,56,3,3,booking,239.82,0
+Montego Bay,119,1,1,booking,160.86,0
+Bridgetown,209,6,1,direct,334.38,0
+Bridgetown,10,5,1,direct,281.99,0
+San Juan,75,4,1,expedia,285.63,0
+Punta Cana,49,2,3,agent,200.09,0
+Nassau,30,4,2,direct,302.28,0
+San Juan,103,2,3,agent,253.06,0
+Aruba,33,5,2,direct,342.28,0
+San Juan,30,1,1,expedia,241.77,1
+Negril,236,5,3,agent,210.57,0
+Montego Bay,41,4,2,expedia,287.4,1
+San Juan,22,8,2,expedia,266.17,0
+Punta Cana,54,4,1,expedia,80,0
+Punta Cana,77,5,1,agent,158.86,0
+San Juan,53,6,3,booking,308.07,1
+Negril,8,6,1,direct,128.43,0
+Negril,19,5,2,booking,273.55,1
+Bridgetown,45,2,4,booking,343.34,0
+San Juan,34,6,1,booking,185.71,0
+San Juan,17,8,2,expedia,270.2,0
+Nassau,77,7,1,expedia,301.84,0
+Nassau,95,7,2,booking,264.34,0
+Castries,16,2,4,direct,274.23,0
+Castries,33,2,1,direct,351.37,1
+Negril,151,4,1,direct,128.24,0
+San Juan,80,6,1,booking,227.95,0
+Grand Cayman,30,5,1,booking,394.78,1
+Punta Cana,35,8,1,expedia,243.9,0
+Grand Cayman,98,6,1,booking,347.18,0
+Grand Cayman,57,3,2,booking,275.49,0
+San Juan,19,5,1,expedia,235.03,1
+Negril,56,5,1,expedia,224.82,0
+Grand Cayman,114,5,2,booking,492.67,1
+Bridgetown,53,3,3,agent,284.71,1
+Castries,26,7,2,expedia,310.48,0
+Punta Cana,30,7,2,direct,225.61,0
+Providenciales,68,1,1,direct,417.27,0
+Punta Cana,43,6,2,agent,132.11,0
+Aruba,49,6,1,expedia,259.63,0
+Punta Cana,26,1,2,expedia,232.18,1
+Montego Bay,40,3,1,booking,243.86,0
+Providenciales,68,3,1,direct,378.28,0
+Bridgetown,146,4,2,booking,236.77,0
+Punta Cana,81,6,2,direct,171.72,0
+Montego Bay,58,5,2,booking,181.33,0
+Negril,29,2,3,direct,161.86,0
+San Juan,3,3,2,booking,181.3,1
+Montego Bay,96,3,2,booking,242.47,0
+Grand Cayman,36,3,2,expedia,397.5,0
+Montego Bay,37,4,1,direct,240.52,0
+Negril,10,5,4,expedia,185.27,0
+Bridgetown,51,7,4,booking,275.51,0
+San Juan,23,5,2,booking,340.32,1
+Negril,24,3,1,booking,211.59,1
+Negril,33,2,2,direct,191.37,0
+Montego Bay,34,8,1,expedia,155.94,0
+Negril,180,6,1,direct,250.99,0
+Negril,48,5,1,direct,159.57,0
+Providenciales,56,4,3,expedia,331.2,0
+Punta Cana,58,4,2,direct,200.99,0
+Grand Cayman,29,4,4,booking,404.91,0
+San Juan,71,6,3,expedia,169.69,1
+Grand Cayman,51,7,3,booking,382.42,0
+Aruba,17,7,2,direct,327.45,0
+San Juan,46,5,3,expedia,158.22,1
+Punta Cana,74,5,1,direct,188.72,1
+Castries,11,5,2,direct,226.85,0
+Bridgetown,39,5,2,expedia,291.35,0
+Nassau,81,2,1,booking,331.38,0
+Punta Cana,42,3,3,expedia,221.56,1
+Castries,63,3,3,booking,262.8,1
+Providenciales,168,4,2,direct,361.9,0
+Bridgetown,69,6,2,direct,265.81,0
+San Juan,30,3,1,booking,243.94,0
+Montego Bay,16,4,1,direct,219.85,0
+Montego Bay,123,5,1,booking,230.34,1
+San Juan,46,4,2,booking,217.49,0
+Punta Cana,160,5,1,booking,158.45,1
+Providenciales,71,4,1,expedia,387.58,0
+Castries,50,1,1,booking,196.14,0
+Aruba,82,6,2,booking,401.86,0
+Grand Cayman,8,5,3,booking,324.6,0
+San Juan,8,5,1,direct,250.99,0
+San Juan,60,5,1,expedia,210.66,0
+Nassau,36,5,4,expedia,296.86,0
+Bridgetown,70,3,2,booking,232.36,0
+Providenciales,71,5,2,direct,355.88,0
+Bridgetown,17,4,1,expedia,250.28,1
+Castries,84,1,3,agent,331.34,0
+Nassau,17,6,3,booking,305.14,0
+Punta Cana,52,3,1,booking,215.37,0
+San Juan,39,3,1,agent,177.97,0
+San Juan,136,4,3,booking,258.35,1
+Castries,40,5,2,booking,309.4,1
+Nassau,19,2,1,booking,306.59,1
+Providenciales,11,4,2,booking,325.57,0
+Bridgetown,123,6,1,direct,338.46,0
+Nassau,82,3,1,expedia,217.96,0
+San Juan,56,8,2,booking,122.72,1
+Castries,92,5,3,booking,189.84,1
+Nassau,114,2,1,booking,262.16,1
+Punta Cana,49,4,1,direct,217.2,0
+Negril,30,4,2,expedia,241.16,0
+Grand Cayman,41,4,2,booking,418.72,0
+Providenciales,33,7,1,direct,394.36,0
+Punta Cana,13,5,1,direct,221.06,0
+Castries,72,6,4,agent,254.96,0
+Bridgetown,11,5,5,booking,267.88,1
+Nassau,87,4,1,expedia,291.32,0
+Bridgetown,140,4,3,direct,236.49,0
+San Juan,43,8,1,booking,161.92,0
+Montego Bay,96,5,2,expedia,268.72,1
+Aruba,18,4,1,booking,330.77,0
+Negril,112,4,1,agent,154.03,1
+Providenciales,20,2,3,booking,352.56,0
+Providenciales,17,4,1,booking,373.93,1
+Nassau,70,7,2,direct,304.6,0
+Punta Cana,117,5,2,direct,80.31,0
+Aruba,109,3,2,agent,313.76,1
+Negril,35,8,1,booking,151.89,0
+Providenciales,122,3,1,booking,372.88,1
+Grand Cayman,65,5,3,direct,419.74,0
+Bridgetown,15,4,1,direct,260.3,0
+Providenciales,117,2,2,expedia,294.55,0
+Aruba,26,7,1,expedia,290.69,0
+Grand Cayman,13,7,1,booking,456.15,0
+Bridgetown,179,1,1,direct,330.7,0
+Grand Cayman,63,2,2,direct,401.38,0
+Aruba,57,2,2,agent,290.4,0
+Castries,49,8,1,expedia,251.84,0
+Negril,19,2,3,booking,228.12,0
+Montego Bay,108,2,1,booking,137.5,0
+Montego Bay,58,5,2,booking,167.07,0
+Montego Bay,60,3,1,expedia,242.3,0
+Nassau,76,4,1,booking,337.01,1
+Punta Cana,85,3,2,expedia,185.11,1
+Castries,45,7,2,booking,277.03,0
+Grand Cayman,18,6,1,direct,339.82,0
+Grand Cayman,65,5,3,direct,420.64,0
+Montego Bay,127,6,2,direct,152.68,0
+Providenciales,23,5,1,direct,344.22,0
+Punta Cana,65,4,1,booking,122.82,0
+Grand Cayman,67,6,2,booking,401.68,0
+Bridgetown,22,5,3,direct,221.12,0
+Bridgetown,33,1,3,direct,282.8,0
+Providenciales,29,6,2,booking,384.34,0
+Punta Cana,19,6,2,booking,112.2,0
+Aruba,39,5,1,direct,365.84,0
+Montego Bay,45,8,1,booking,198.31,1
+Providenciales,22,3,1,booking,422.03,0
+Castries,40,3,2,booking,264.42,0
+San Juan,19,4,3,direct,177.59,0
+Castries,26,6,2,direct,213.37,0
+Bridgetown,8,4,3,booking,260.25,0
+San Juan,11,1,1,direct,250.66,0
+San Juan,12,5,3,direct,244.8,0
+San Juan,81,3,1,booking,232.05,0
+Providenciales,46,5,2,direct,366.62,0
+Nassau,120,2,2,booking,355.12,1
+Castries,111,3,4,expedia,306.6,1
+Castries,125,7,3,direct,239.78,1
+Grand Cayman,42,5,2,booking,349.77,0
+Aruba,49,5,3,booking,336.15,0
+Nassau,91,6,2,booking,318.35,1
+San Juan,144,4,1,booking,300.39,1
+Grand Cayman,20,5,1,booking,340.82,0
+Castries,19,3,1,agent,276.14,1
+Aruba,92,4,1,expedia,266.33,0
+Negril,79,3,2,agent,134.56,0
+Providenciales,23,8,1,expedia,393.66,0
+Grand Cayman,74,4,2,booking,360.57,0
+San Juan,77,7,4,booking,269.13,0
+Aruba,57,3,1,expedia,308.03,0
+Providenciales,8,6,2,direct,327.55,1
+Montego Bay,30,4,3,booking,180.03,0
+Negril,89,4,2,expedia,187.49,0
+Nassau,72,1,2,direct,282.35,0
+Grand Cayman,38,4,3,booking,396.07,0
+Providenciales,29,2,1,agent,366.25,0
+Castries,65,2,2,direct,335.51,0
+Castries,68,8,1,booking,263.04,1
+Aruba,39,8,1,booking,283.33,0
+Negril,103,2,1,booking,260.44,1
+Grand Cayman,15,4,2,expedia,445.97,0
+Aruba,46,6,1,direct,326.7,0
+San Juan,15,9,2,booking,219.63,0
+Bridgetown,37,2,3,expedia,339.73,0
+San Juan,123,6,3,expedia,236.31,0
+Montego Bay,43,5,1,direct,243.23,0
+Montego Bay,101,8,1,booking,147.97,0
+Punta Cana,28,2,3,booking,155.57,1
+Grand Cayman,18,4,2,direct,327.07,0
+Punta Cana,54,1,1,expedia,142.98,0
+Negril,101,4,1,booking,177.75,1
+Punta Cana,40,9,2,booking,129.81,0
+Aruba,112,1,1,direct,351.36,0
+Grand Cayman,34,5,2,expedia,378.2,0
+San Juan,51,4,1,booking,195.75,0
+Punta Cana,43,6,3,direct,109.82,0
+Castries,60,6,2,booking,258.06,0
+Aruba,248,6,1,booking,297.77,0
+Nassau,42,6,1,agent,325.86,0
+Aruba,88,5,1,booking,277.53,0
+Punta Cana,32,3,3,expedia,135.9,0
+Grand Cayman,78,6,1,booking,371.05,0
+Bridgetown,42,4,3,agent,273.2,0
+Nassau,64,3,3,direct,269.21,0
+Aruba,179,5,1,direct,267.9,1
+Grand Cayman,135,10,1,booking,397.89,1
+Nassau,46,6,2,booking,286.59,0
+Nassau,46,8,1,expedia,302.71,0
+Montego Bay,22,2,1,booking,207.13,0
+Montego Bay,20,4,3,expedia,217.77,1
+Castries,66,4,3,booking,219.99,0
+Punta Cana,8,4,3,booking,163.18,0
+Providenciales,30,4,1,expedia,368.51,1
+Grand Cayman,19,8,1,booking,322.61,0
+Castries,4,2,2,booking,295.18,0
+Punta Cana,54,6,4,booking,213.94,0
+Grand Cayman,16,5,3,booking,381.69,1
+Castries,225,6,1,direct,196.93,0
+Negril,132,7,3,booking,233.63,1
+Bridgetown,30,2,3,booking,327.96,0
+Negril,128,5,1,booking,168.17,1
+San Juan,38,5,3,expedia,263.7,0
+Providenciales,22,6,1,direct,389.77,1
+Punta Cana,121,5,2,direct,214.59,1
+Nassau,29,5,1,expedia,257.97,0
+Aruba,70,4,3,agent,301.31,0
+Aruba,36,11,1,booking,400.97,0
+Bridgetown,26,7,1,agent,330.44,0
+Negril,42,3,1,booking,130.64,0
+Bridgetown,115,2,2,direct,282.31,1
+Punta Cana,10,2,2,expedia,227.6,0
+Castries,11,5,1,booking,256.53,0
+Negril,110,2,1,agent,136.4,0
+Negril,70,6,1,booking,220.47,0
+Negril,123,8,1,booking,255.69,1
+San Juan,15,1,2,expedia,233.08,0
+Bridgetown,66,3,3,booking,322.59,0
+Nassau,13,3,1,booking,257.38,0
+Grand Cayman,44,5,2,direct,297.6,0
+San Juan,102,4,1,direct,282.91,0
+Providenciales,73,4,3,expedia,308.39,0
+Bridgetown,20,5,2,direct,293.77,0
+Castries,40,3,1,booking,283.53,1
+Grand Cayman,60,4,2,booking,400.52,0
+Nassau,74,7,1,agent,285.7,0
+Aruba,36,1,1,direct,326.91,0
+Castries,61,3,2,booking,284.34,0
+Castries,232,7,2,direct,238.26,0
+Bridgetown,6,6,1,expedia,217.1,1
+Bridgetown,88,3,2,expedia,241.73,0
+Aruba,83,3,2,booking,366.23,0
+Nassau,15,3,2,expedia,316.24,0
+Aruba,17,1,2,booking,270.07,0
+Castries,17,7,1,booking,266.62,0
+Castries,50,8,2,agent,284.85,0
+Montego Bay,119,4,3,direct,164.63,0
+Nassau,68,2,2,booking,255.93,0
+Montego Bay,54,1,2,direct,204.17,1
+Grand Cayman,109,6,3,booking,374.02,0
+Montego Bay,20,1,4,direct,236.19,0
+Montego Bay,82,3,2,booking,256.96,0
+Negril,106,2,2,booking,96.92,1
+Bridgetown,106,5,1,booking,255.11,1
+Aruba,51,4,3,expedia,327.61,0
+Grand Cayman,73,3,1,direct,393.84,0
+Castries,71,4,1,direct,222.22,0
+Punta Cana,128,4,3,direct,245.55,0
+Punta Cana,64,4,3,booking,123.26,1
+Grand Cayman,19,4,3,booking,319.73,1
+San Juan,57,2,1,booking,260.11,0
+Negril,5,5,1,direct,170.85,0
+Punta Cana,189,8,1,booking,140.82,1
+Providenciales,122,4,3,booking,373.15,1
+Aruba,54,5,1,direct,233.95,0
+Grand Cayman,56,10,2,booking,376.42,0
+Negril,19,4,1,direct,213.51,0
+Montego Bay,109,4,2,expedia,176.85,0
+Castries,32,2,2,booking,264.49,0
+Aruba,15,7,1,direct,360.49,0
+Bridgetown,56,7,2,direct,203.82,0
+Castries,80,5,1,booking,280.92,0
+Providenciales,22,8,2,booking,423.19,0
+Providenciales,26,4,1,booking,403.54,0
+Nassau,66,5,2,booking,339.95,0
+Grand Cayman,218,7,1,direct,415.58,0
+Negril,26,3,2,agent,196.91,0
+Negril,14,4,3,booking,189.1,0
+Providenciales,9,5,3,direct,320.79,0
+Negril,43,7,1,booking,179.37,1
+Castries,67,5,1,agent,257.72,0
+Montego Bay,50,3,2,direct,157.29,0
+Grand Cayman,62,2,3,expedia,299.94,0
+Grand Cayman,86,4,2,booking,418.98,0
+Punta Cana,60,7,2,booking,146.61,0
+San Juan,96,5,1,agent,246.03,1
+Montego Bay,71,4,3,booking,217.04,0
+Bridgetown,13,5,1,direct,286.71,1
+Bridgetown,24,5,2,direct,338.09,0
+Providenciales,36,1,1,direct,372.29,1
+Bridgetown,99,8,1,booking,318.46,1
+Punta Cana,1,3,1,agent,197.34,0
+Bridgetown,49,3,3,direct,271.76,0
+Punta Cana,38,4,3,booking,187.47,0
+Aruba,88,6,1,booking,385.99,0
+Bridgetown,49,8,1,booking,245.18,1
+Montego Bay,70,2,3,expedia,192.99,0
+Providenciales,41,4,3,agent,447.13,0
+Aruba,94,4,3,direct,336.49,0
+Castries,18,4,2,direct,275.11,0
+Providenciales,28,6,3,direct,387.44,0
+Negril,55,6,1,booking,147.37,0
+Aruba,48,7,2,booking,280.98,0
+Montego Bay,9,7,1,booking,211.53,0
+Bridgetown,129,4,2,expedia,195.92,1
+Providenciales,12,3,2,expedia,409.13,0
+Providenciales,68,6,2,direct,354.46,0
+Aruba,26,5,3,booking,308.79,0
+Providenciales,51,5,1,booking,339.74,0
+Negril,29,3,1,agent,130.93,0
+San Juan,34,4,4,expedia,294.63,1
+Castries,55,5,1,booking,185.63,1
+Castries,66,6,2,expedia,273.28,1
+Nassau,35,8,3,direct,238.65,0
+Negril,28,7,3,direct,123.21,0
+Montego Bay,10,5,1,direct,223.59,0
+Punta Cana,123,7,1,booking,180.8,1
+Grand Cayman,12,7,2,direct,368.13,0
+Bridgetown,70,5,1,booking,321.73,0
+Providenciales,27,6,2,booking,349.9,0
+Grand Cayman,102,3,1,booking,348.65,1
+Montego Bay,90,7,2,direct,190.44,0
+Negril,106,2,2,direct,195.96,0
+Bridgetown,81,5,4,agent,296.04,0
+Aruba,125,5,4,agent,348.48,1
+Nassau,104,4,2,agent,300.61,0
+Aruba,53,4,3,booking,316.99,0
+San Juan,44,3,1,booking,224.83,0
+Grand Cayman,27,5,1,direct,366.39,0
+San Juan,99,4,2,direct,218.19,0
+Negril,64,4,3,direct,280.62,0
+Bridgetown,59,2,1,direct,279.88,0
+Nassau,72,2,3,booking,277.14,0
+Montego Bay,48,6,1,booking,210.78,1
+Bridgetown,80,7,1,booking,303.96,0
+Montego Bay,14,1,1,direct,244.84,0
+Punta Cana,289,6,2,direct,105.12,0
+Providenciales,163,3,2,booking,395.52,1
+San Juan,129,6,2,direct,183.17,1
+Grand Cayman,35,4,1,booking,441.82,0
+Castries,139,3,1,expedia,273.99,0
+Bridgetown,46,6,1,expedia,184.7,0
+Grand Cayman,90,6,1,expedia,471.64,0
+San Juan,25,6,1,booking,251.63,0
+Bridgetown,50,4,1,booking,349.98,0
+Montego Bay,91,7,1,direct,261.31,1
+Negril,20,1,2,direct,181.28,0
+Castries,84,8,2,booking,180.45,0
+Nassau,80,5,1,booking,260.14,0
+Punta Cana,106,5,1,booking,207.63,1
+Grand Cayman,54,4,1,booking,440.87,1
+Montego Bay,59,7,3,expedia,236.41,0
+Nassau,54,5,1,direct,323.32,0
+Punta Cana,45,2,1,agent,194.32,0
+San Juan,16,7,1,direct,261.57,0
+Grand Cayman,58,2,1,expedia,383.29,1
+Castries,22,5,1,booking,273.95,0
+Grand Cayman,33,8,1,booking,407.55,0
+Grand Cayman,99,5,3,expedia,401.78,0
+San Juan,203,6,1,booking,167.61,1
+Punta Cana,84,4,2,expedia,165.89,0
+Punta Cana,129,2,1,direct,157.82,0
+Grand Cayman,43,6,3,direct,453.71,0
+San Juan,53,6,1,booking,202.11,0
+Nassau,28,7,1,agent,289.88,0
+Punta Cana,36,5,2,expedia,159.0,1
+Bridgetown,44,7,2,direct,263.3,0
+Aruba,78,4,3,booking,265.08,0
+Providenciales,15,5,1,booking,359.93,0
+Aruba,6,6,1,direct,273.04,0
+Aruba,68,8,1,booking,387.84,0
+Bridgetown,93,7,2,expedia,242.09,0
+Negril,31,5,3,direct,161.28,0
+San Juan,29,6,2,booking,300.59,0
+Nassau,100,6,1,booking,331.03,1
+Aruba,25,4,2,booking,301.68,0
+Aruba,44,6,2,direct,302.15,0
+Aruba,12,5,2,booking,283.21,0
+Nassau,34,5,2,agent,176.84,1
+Castries,181,5,2,booking,345.37,1
+San Juan,34,5,2,booking,248.99,0
+Grand Cayman,45,4,1,direct,301.44,0
+Nassau,58,2,2,expedia,328.96,0
+Montego Bay,75,6,1,agent,202.23,0
+Grand Cayman,20,4,3,booking,356.95,0
+Montego Bay,52,6,2,expedia,228.59,0
+Aruba,58,2,3,expedia,253.45,0
+Aruba,88,7,1,direct,411.77,0
+Providenciales,8,7,1,expedia,368.86,0
+Bridgetown,19,6,1,booking,241.37,1
+Castries,71,4,2,booking,237.19,0
+Negril,65,3,2,expedia,159.24,0
+Aruba,21,5,3,booking,352.77,0
+Negril,56,5,2,direct,252.93,0
+Castries,69,3,3,booking,259.43,0
+Montego Bay,12,3,3,booking,193.79,0
+Castries,17,3,2,direct,319.51,0
+Punta Cana,78,6,3,direct,151.24,0
+Punta Cana,23,4,3,booking,154.8,0
+San Juan,15,5,1,booking,207.56,0
+Punta Cana,142,8,3,booking,136.79,0
+Nassau,163,8,2,direct,258.73,0
+Grand Cayman,34,3,2,expedia,357.21,1
+Providenciales,10,5,1,booking,328.81,1
+San Juan,168,7,1,booking,191.51,1
+Grand Cayman,21,2,2,booking,388.64,0
+Grand Cayman,95,2,1,booking,403.9,1
+Aruba,16,2,1,direct,322.43,0
+Negril,20,7,1,booking,174.51,1
+Negril,51,4,1,expedia,194.85,0
+Punta Cana,36,6,1,direct,186.76,0
+Negril,31,5,3,expedia,167.48,0
+Providenciales,58,4,3,expedia,382.16,0
+Punta Cana,11,7,1,booking,151.2,1
+Montego Bay,121,4,1,direct,230.99,1
+Bridgetown,36,2,1,direct,309.76,0
+Montego Bay,76,2,4,booking,230.58,1
+Montego Bay,69,7,3,booking,230.97,1
+San Juan,7,3,1,booking,226.19,0
+Punta Cana,22,5,2,agent,204.0,0
+Negril,19,5,3,booking,174.89,0
+Providenciales,48,8,3,direct,354.28,0
+Bridgetown,28,3,2,expedia,276.81,0
+Negril,53,4,1,direct,239.37,1
+Montego Bay,65,4,2,booking,215.2,0
+Providenciales,42,6,1,direct,373.78,1
+Nassau,27,1,4,expedia,431.79,0
+Aruba,49,6,3,direct,331.6,0
+San Juan,119,7,3,booking,197.69,1
+Negril,78,6,3,direct,190.11,0
+Castries,30,3,2,booking,229.24,0
+Negril,31,3,1,direct,185.14,0
+Providenciales,53,7,2,booking,412.47,1
+Castries,73,5,2,booking,187.36,0
+Castries,61,3,1,booking,258.18,0
+San Juan,80,5,2,expedia,206.66,1
+Punta Cana,104,6,4,expedia,141.59,1
+Punta Cana,45,8,1,expedia,226.56,0
+San Juan,22,3,3,booking,215.27,0
+Montego Bay,47,5,1,direct,248.38,0
+Aruba,51,7,2,agent,274.61,0
+Negril,110,4,1,direct,208.34,0
+San Juan,34,1,3,expedia,245.37,0
+Grand Cayman,111,7,2,booking,370.39,0
+Montego Bay,73,5,3,booking,195.32,0
+Montego Bay,36,4,1,booking,267.3,0
+San Juan,35,6,1,expedia,263.97,0
+San Juan,25,6,2,direct,147.61,0
+Montego Bay,77,1,3,agent,182.11,0
+Bridgetown,36,8,2,booking,277.87,0
+Nassau,70,4,2,booking,259.27,0
+Castries,18,3,3,agent,225.37,0
+Grand Cayman,151,5,4,direct,337.23,0
+Montego Bay,171,4,1,booking,308.12,1
+Providenciales,23,5,1,expedia,438.23,1
+Castries,28,4,3,booking,228.95,0
+San Juan,13,3,1,agent,245.07,0
+Bridgetown,29,3,3,expedia,345.8,0
+Castries,28,5,3,agent,220.33,0
+Montego Bay,41,6,1,booking,188.31,1
+Castries,36,4,2,booking,338.86,1
+Montego Bay,22,4,1,direct,216.42,0
+Aruba,2,3,2,direct,353.42,0
+Negril,21,5,3,expedia,214.22,1
+Bridgetown,74,3,3,booking,264.29,0
+Nassau,64,4,1,direct,334.97,0
+Providenciales,70,2,2,expedia,418.97,0
+Grand Cayman,26,6,1,booking,410.23,1
+Nassau,39,3,4,direct,253.29,0
+Bridgetown,7,5,2,booking,359.0,0
+Castries,48,5,1,direct,181.73,0
+Bridgetown,62,6,2,booking,265.18,1
+Providenciales,43,6,1,direct,383.47,0
+Punta Cana,37,4,1,booking,213.78,0
+Punta Cana,81,3,3,booking,175.76,0
+Negril,42,3,4,direct,232.37,0
+Providenciales,67,6,1,expedia,459.18,1
+Providenciales,34,2,1,booking,391.55,1
+Bridgetown,86,6,3,booking,277.91,0
+Grand Cayman,16,7,1,direct,412.6,0
+Montego Bay,20,6,2,booking,283.94,1
+Aruba,51,7,1,booking,316.39,0
+Punta Cana,77,6,4,booking,213.72,1
+Castries,170,6,2,direct,286.97,0
+Montego Bay,45,5,3,direct,160.41,0
+Punta Cana,46,1,2,direct,188.25,0
+Negril,138,4,2,direct,230.36,0
+Punta Cana,107,5,1,direct,161.1,0
+Aruba,10,4,2,booking,286.61,0
+Negril,59,7,1,booking,235.52,1
+Punta Cana,7,6,1,direct,160.93,0
+Negril,39,3,2,booking,130.28,0
+Punta Cana,68,3,2,booking,123.14,1
+Aruba,53,1,1,booking,352.0,0
+Bridgetown,20,4,1,expedia,318.98,0
+Providenciales,34,4,1,booking,413.41,0
+Nassau,29,3,1,booking,264.68,0
+Aruba,51,7,2,booking,277.66,0
+Montego Bay,91,6,3,booking,187.39,0
+Providenciales,16,6,2,direct,318.83,0
+San Juan,52,5,3,direct,238.5,0
+Negril,24,4,1,direct,252.79,0
+Punta Cana,58,5,2,booking,138.42,1
+Providenciales,6,4,1,booking,343.87,1
+Nassau,66,9,1,expedia,314.37,0
+Negril,14,4,2,booking,179.08,0
+Castries,25,5,2,booking,329.41,0
+Nassau,22,2,2,direct,257.48,0
+Providenciales,60,8,1,direct,436.91,0
+Montego Bay,46,4,2,booking,224.58,0
+Castries,34,4,2,booking,276.7,0
+Castries,27,5,1,agent,273.15,0
+Aruba,141,5,1,direct,414.07,0
+Providenciales,36,4,2,direct,344.09,0
+San Juan,34,3,4,direct,336.19,0
+Bridgetown,25,5,2,booking,335.88,0
+Punta Cana,102,4,1,booking,132.59,0
+Negril,52,5,3,booking,88.21,0
+Bridgetown,83,4,3,direct,324.69,0
+San Juan,22,5,2,direct,263.33,1
+Punta Cana,61,3,1,expedia,219.58,1
+Negril,53,3,1,agent,288.71,0
+Punta Cana,13,6,3,expedia,172.2,0
+Providenciales,54,5,2,expedia,306.76,0
+Punta Cana,108,4,1,booking,210.11,1
+San Juan,29,4,1,direct,174.6,0
+Punta Cana,53,9,2,booking,218.55,1
+San Juan,22,4,3,booking,236.61,0
+Castries,78,7,3,booking,340.99,0
+Providenciales,39,6,2,booking,358.77,0
+Negril,22,5,4,booking,181.28,0
+Nassau,30,5,2,direct,344.4,0
+Bridgetown,44,1,2,agent,295.81,0
+Negril,34,6,1,direct,244.99,1
+Providenciales,57,4,1,direct,398.76,1
+Providenciales,17,8,1,booking,378.39,0
+Castries,61,6,2,direct,261.84,0
+Punta Cana,67,5,3,booking,212.11,0
+Montego Bay,10,6,1,booking,190.05,0
+Negril,68,5,2,booking,145.22,1
+Providenciales,35,4,2,agent,344.79,0
+Grand Cayman,51,6,3,expedia,306.6,0
+Providenciales,14,5,2,booking,309.41,0
+Nassau,52,4,1,agent,289.46,1
+Nassau,88,1,3,booking,343.11,0
+Castries,50,3,2,booking,207.52,0
+Castries,80,1,3,booking,237.59,0
+Castries,15,7,4,expedia,321.31,0
+San Juan,121,6,2,expedia,178.97,0
+Punta Cana,43,5,3,booking,180.83,0
+Punta Cana,5,6,2,booking,110.75,0
+Aruba,30,6,2,booking,247.86,0
+Bridgetown,44,4,3,booking,250.97,1
+Bridgetown,25,3,2,direct,323.16,0
+Montego Bay,70,3,3,booking,197.06,0
+Aruba,13,4,3,expedia,349.51,0
+Punta Cana,73,6,1,booking,103.98,0
+Punta Cana,71,4,4,agent,193.43,0
+San Juan,59,4,2,expedia,244.58,0
+Bridgetown,23,3,2,direct,274.79,0
+Grand Cayman,184,4,2,agent,377.62,0
+Bridgetown,87,5,1,booking,278.93,0
+Negril,28,4,1,booking,245.61,1
+San Juan,78,3,2,direct,233.22,0
+Negril,14,2,1,booking,176.11,0
+Montego Bay,16,3,1,booking,249.88,0
+Nassau,178,8,2,agent,266.74,0
+Aruba,64,3,2,agent,327.52,1
+Aruba,27,5,2,direct,356.64,0
+Nassau,71,2,1,booking,346.64,1
+Aruba,127,4,2,booking,339.72,0
+Providenciales,70,3,2,agent,322.53,0
+Bridgetown,13,5,3,direct,270.69,0
+Nassau,12,2,1,booking,295.69,0
+Providenciales,11,4,1,booking,363.02,0
+Punta Cana,100,5,1,expedia,177.55,0
+Nassau,25,6,2,booking,385.62,0
+Punta Cana,56,5,2,booking,184.8,1
+Montego Bay,33,5,1,expedia,194.32,0
+Nassau,26,4,2,direct,263.31,0
+Nassau,18,4,3,booking,311.36,0
+Castries,68,3,2,direct,208.79,0
+Nassau,121,9,3,agent,311.68,0
+Castries,106,1,1,booking,240.25,1
+Punta Cana,56,5,3,expedia,164.87,0
+Grand Cayman,83,3,1,booking,424.37,0
+Negril,5,1,1,direct,193.94,0
+Negril,114,3,1,direct,240.31,0
+Providenciales,186,5,2,direct,435.41,0
+San Juan,161,5,3,booking,240.71,0
+Negril,15,2,2,expedia,201.4,0
+Negril,20,6,1,direct,207.76,0
+Negril,111,7,3,booking,157.14,1
+Nassau,35,6,2,booking,298.44,0
+San Juan,20,1,2,expedia,218.21,0
+Nassau,104,3,1,direct,253.39,0
+San Juan,29,3,2,direct,227.76,0
+Bridgetown,51,6,2,booking,266.41,1
+Providenciales,33,3,2,booking,367.5,1
+Negril,66,7,1,expedia,234.67,0
+Nassau,30,5,2,direct,251.1,0
+Aruba,20,7,1,direct,400.64,0
+Bridgetown,39,8,2,expedia,302.44,0
+Montego Bay,47,4,4,direct,190.84,0
+Montego Bay,14,4,2,booking,214.64,0
+Bridgetown,63,2,3,direct,275.82,0
+Nassau,160,7,2,agent,314.36,0
+Bridgetown,5,6,3,booking,221.75,0
+San Juan,58,1,4,agent,187.11,0
+Bridgetown,99,2,1,expedia,266.88,0
+Grand Cayman,21,3,3,booking,391.82,1
+Negril,31,2,1,booking,196.69,0
+Providenciales,39,2,1,expedia,387.98,0
+Grand Cayman,20,5,1,expedia,399.41,0
+Bridgetown,92,1,2,agent,276.3,0
+Providenciales,29,3,2,expedia,320.21,0
+Montego Bay,68,10,2,direct,208.78,0
+Nassau,187,3,1,booking,331.06,0
+San Juan,52,2,2,expedia,236.26,0
+Punta Cana,16,8,4,booking,190.88,1
+Castries,68,2,2,booking,305.91,0
+San Juan,45,4,1,direct,99.2,0
+Grand Cayman,52,3,1,booking,335.42,1
+Punta Cana,82,1,1,direct,198.36,0
+San Juan,19,4,2,booking,222.8,0
+Grand Cayman,104,6,3,agent,427.67,1
+San Juan,15,2,1,booking,234.52,0
+Bridgetown,27,6,1,booking,296.04,0
+Providenciales,13,6,1,expedia,309.31,1
+San Juan,25,3,1,direct,184.89,0
+Montego Bay,144,4,2,booking,280.86,0
+Aruba,50,6,3,direct,321.57,0
+Montego Bay,69,5,2,booking,276.42,1
+Aruba,44,1,3,expedia,231.8,0
+Nassau,20,5,1,booking,357.96,0
+Grand Cayman,47,3,2,booking,371.08,0
+Castries,73,7,1,expedia,240.99,0
+Providenciales,33,7,4,expedia,288.79,0
+Montego Bay,45,5,2,booking,203.27,0
+Castries,45,3,1,agent,222.39,1
+Punta Cana,8,4,1,expedia,225.73,1
+Nassau,62,3,3,expedia,256.76,0
+Bridgetown,129,4,2,direct,238.44,1
+Aruba,28,5,2,direct,283.26,0
+Nassau,132,5,1,expedia,334.11,0
+Negril,25,2,1,booking,209.79,0
+Montego Bay,77,2,4,expedia,230.08,0
+Providenciales,62,5,4,agent,372.63,0
+Castries,66,7,2,expedia,293.08,1

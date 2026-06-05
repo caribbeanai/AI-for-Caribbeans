@@ -1,0 +1,1201 @@
+city,neighbourhood,beds,baths,sqft,price_local,currency
+Kingston,New Kingston,4,3,1845,13539576.0,JMD
+Kingston,New Kingston,1,1,1338,10484327.0,JMD
+Kingston,New Kingston,1,1,1173,7114688.0,JMD
+Kingston,New Kingston,2,2,1614,12863552.0,JMD
+Kingston,New Kingston,2,1,1403,11069653.0,JMD
+Kingston,New Kingston,4,4,1477,9098735.0,JMD
+Kingston,New Kingston,3,3,1800,13268860.0,JMD
+Kingston,New Kingston,3,3,1494,9450581.0,JMD
+Kingston,New Kingston,2,2,1561,8573795.0,JMD
+Kingston,New Kingston,4,3,1805,12626751.0,JMD
+Kingston,New Kingston,4,4,1787,9875758.0,JMD
+Kingston,New Kingston,3,3,1592,12625260.0,JMD
+Kingston,New Kingston,1,1,1242,9556302.0,JMD
+Kingston,New Kingston,4,3,2210,17350147.0,JMD
+Kingston,New Kingston,4,3,1943,12443685.0,JMD
+Kingston,New Kingston,1,1,1174,6760659.0,JMD
+Kingston,New Kingston,4,4,1829,14508843.0,JMD
+Kingston,New Kingston,3,3,1871,11396243.0,JMD
+Kingston,New Kingston,4,4,2087,10939658.0,JMD
+Kingston,New Kingston,3,2,1742,12915362.0,JMD
+Kingston,New Kingston,1,1,1067,8012603.0,JMD
+Kingston,New Kingston,3,3,1636,11489186.0,JMD
+Kingston,New Kingston,4,4,1572,9784029.0,JMD
+Kingston,New Kingston,3,2,1703,11074133.0,JMD
+Kingston,New Kingston,4,3,2211,13836818.0,JMD
+Kingston,New Kingston,2,2,1325,7098474.0,JMD
+Kingston,New Kingston,4,4,2131,15818023.0,JMD
+Kingston,New Kingston,1,1,1012,5672792.0,JMD
+Kingston,New Kingston,1,1,1095,5964418.0,JMD
+Kingston,New Kingston,2,1,1402,8525231.0,JMD
+Kingston,New Kingston,4,4,1841,11893337.0,JMD
+Kingston,New Kingston,3,2,1908,13355598.0,JMD
+Kingston,New Kingston,3,3,1707,13072078.0,JMD
+Kingston,New Kingston,3,2,1492,11260868.0,JMD
+Kingston,New Kingston,2,2,1582,8973127.0,JMD
+Kingston,New Kingston,4,4,1801,11655551.0,JMD
+Kingston,New Kingston,1,1,1362,11041400.0,JMD
+Kingston,New Kingston,1,1,1217,6417724.0,JMD
+Kingston,New Kingston,1,1,1291,7545309.0,JMD
+Kingston,New Kingston,2,2,1824,11445013.0,JMD
+Kingston,New Kingston,2,2,1438,9734775.0,JMD
+Kingston,New Kingston,2,2,1429,9312770.0,JMD
+Kingston,New Kingston,4,4,1841,10347482.0,JMD
+Kingston,New Kingston,1,1,1196,9299675.0,JMD
+Kingston,New Kingston,4,4,1888,9923738.0,JMD
+Kingston,New Kingston,4,4,2325,14794491.0,JMD
+Kingston,New Kingston,1,1,1128,8850640.0,JMD
+Kingston,New Kingston,3,3,1468,11201601.0,JMD
+Kingston,New Kingston,3,3,1941,10361104.0,JMD
+Kingston,New Kingston,4,4,1814,13974018.0,JMD
+Kingston,New Kingston,3,3,1532,12207683.0,JMD
+Kingston,New Kingston,2,1,1792,13021220.0,JMD
+Kingston,New Kingston,2,1,1386,7272571.0,JMD
+Kingston,New Kingston,3,2,1661,12363791.0,JMD
+Kingston,New Kingston,4,3,1735,11382970.0,JMD
+Kingston,New Kingston,4,3,2019,12138222.0,JMD
+Kingston,New Kingston,1,1,1201,9695151.0,JMD
+Kingston,New Kingston,4,3,1697,13000409.0,JMD
+Kingston,New Kingston,3,3,1391,10434275.0,JMD
+Kingston,New Kingston,2,1,1540,8962073.0,JMD
+Kingston,New Kingston,1,1,1011,5732370.0,JMD
+Kingston,New Kingston,4,3,1980,13233079.0,JMD
+Kingston,New Kingston,3,2,1771,14109438.0,JMD
+Kingston,New Kingston,1,1,1209,8351156.0,JMD
+Kingston,New Kingston,2,1,745,6051156.0,JMD
+Kingston,New Kingston,2,2,1245,7375956.0,JMD
+Kingston,New Kingston,1,1,1228,8248511.0,JMD
+Kingston,New Kingston,1,1,816,5772965.0,JMD
+Kingston,New Kingston,2,1,1504,10810225.0,JMD
+Kingston,New Kingston,1,1,1371,7699491.0,JMD
+Kingston,New Kingston,4,4,1937,11596106.0,JMD
+Kingston,New Kingston,1,1,998,5281281.0,JMD
+Kingston,New Kingston,3,3,1712,11269317.0,JMD
+Kingston,New Kingston,1,1,985,7133199.0,JMD
+Kingston,New Kingston,1,1,1016,8010459.0,JMD
+Kingston,New Kingston,4,3,2029,11296662.0,JMD
+Kingston,New Kingston,2,2,1575,9220992.0,JMD
+Kingston,New Kingston,1,1,1214,9615059.0,JMD
+Kingston,New Kingston,1,1,1705,11115962.0,JMD
+Kingston,New Kingston,1,1,1196,9253016.0,JMD
+Kingston,New Kingston,1,1,1415,11173798.0,JMD
+Kingston,New Kingston,3,3,1730,12790315.0,JMD
+Kingston,New Kingston,1,1,1129,6084182.0,JMD
+Kingston,New Kingston,1,1,1046,6515350.0,JMD
+Kingston,New Kingston,2,2,1764,9605539.0,JMD
+Kingston,New Kingston,4,3,2119,14893809.0,JMD
+Kingston,New Kingston,2,2,1377,8281504.0,JMD
+Kingston,New Kingston,3,3,1435,7872016.0,JMD
+Kingston,New Kingston,3,2,1654,8667315.0,JMD
+Kingston,New Kingston,2,1,1306,8353819.0,JMD
+Kingston,New Kingston,4,3,2054,14406368.0,JMD
+Kingston,New Kingston,3,3,1879,13753698.0,JMD
+Kingston,New Kingston,1,1,989,7797053.0,JMD
+Kingston,New Kingston,3,3,1570,11205300.0,JMD
+Kingston,New Kingston,2,1,1344,8250770.0,JMD
+Kingston,New Kingston,4,3,2093,11117083.0,JMD
+Kingston,New Kingston,2,1,1768,12129730.0,JMD
+Kingston,New Kingston,1,1,1205,8173329.0,JMD
+Kingston,New Kingston,4,4,1766,12988503.0,JMD
+Kingston,New Kingston,4,4,2181,16828236.0,JMD
+Kingston,New Kingston,1,1,1199,6441637.0,JMD
+Kingston,New Kingston,2,2,1318,10286056.0,JMD
+Kingston,New Kingston,4,3,1989,14891629.0,JMD
+Kingston,New Kingston,1,1,1019,6021009.0,JMD
+Kingston,New Kingston,2,2,1221,7744555.0,JMD
+Kingston,New Kingston,4,3,1822,11574306.0,JMD
+Kingston,New Kingston,1,1,1210,6601272.0,JMD
+Kingston,New Kingston,3,2,1910,13077448.0,JMD
+Kingston,New Kingston,1,1,1047,6016327.0,JMD
+Kingston,New Kingston,4,4,1792,10554105.0,JMD
+Kingston,New Kingston,3,2,1567,12605667.0,JMD
+Kingston,New Kingston,2,1,1109,8360414.0,JMD
+Kingston,New Kingston,2,2,1371,8556830.0,JMD
+Kingston,New Kingston,4,4,1951,11029804.0,JMD
+Kingston,New Kingston,1,1,1347,9413016.0,JMD
+Kingston,New Kingston,1,1,1440,8258802.0,JMD
+Kingston,New Kingston,4,3,1879,15141371.0,JMD
+Kingston,New Kingston,4,3,1631,13076345.0,JMD
+Kingston,New Kingston,3,2,1618,9946953.0,JMD
+Kingston,New Kingston,1,1,1143,6644298.0,JMD
+Kingston,New Kingston,1,1,1002,5986406.0,JMD
+Kingston,New Kingston,1,1,1481,10486782.0,JMD
+Kingston,New Kingston,4,4,1938,15237762.0,JMD
+Kingston,New Kingston,1,1,1359,7239015.0,JMD
+Kingston,New Kingston,3,2,1744,9230585.0,JMD
+Kingston,New Kingston,4,3,1936,15576739.0,JMD
+Kingston,New Kingston,2,1,1356,8608411.0,JMD
+Kingston,New Kingston,2,2,1643,11255253.0,JMD
+Kingston,New Kingston,2,1,1433,7850964.0,JMD
+Kingston,New Kingston,2,2,1575,8802008.0,JMD
+Kingston,New Kingston,4,3,1985,13048096.0,JMD
+Kingston,New Kingston,1,1,1330,10433511.0,JMD
+Kingston,New Kingston,4,3,1984,10804405.0,JMD
+Kingston,New Kingston,1,1,998,7114327.0,JMD
+Kingston,New Kingston,1,1,1445,8077639.0,JMD
+Kingston,New Kingston,2,2,778,4545168.0,JMD
+Kingston,New Kingston,4,4,1795,12613825.0,JMD
+Kingston,New Kingston,1,1,1228,8308410.0,JMD
+Kingston,New Kingston,4,3,1631,11739717.0,JMD
+Kingston,New Kingston,3,3,1488,11225309.0,JMD
+Kingston,New Kingston,3,2,1576,9399205.0,JMD
+Kingston,New Kingston,1,1,961,7358103.0,JMD
+Kingston,New Kingston,2,2,1532,8733076.0,JMD
+Kingston,New Kingston,4,3,1567,11868504.0,JMD
+Kingston,New Kingston,2,1,1262,9807283.0,JMD
+Kingston,New Kingston,2,2,1460,8464987.0,JMD
+Kingston,New Kingston,1,1,1064,6297348.0,JMD
+Kingston,New Kingston,4,4,1897,11520018.0,JMD
+Kingston,New Kingston,4,3,1875,12871649.0,JMD
+Kingston,New Kingston,2,2,1260,9015433.0,JMD
+Kingston,Liguanea,1,1,1202,6896484.0,JMD
+Kingston,Liguanea,4,4,2158,12499822.0,JMD
+Kingston,Liguanea,2,2,1609,9684473.0,JMD
+Kingston,Liguanea,1,1,1142,5698101.0,JMD
+Kingston,Liguanea,4,4,1567,6826343.0,JMD
+Kingston,Liguanea,3,2,1475,8583533.0,JMD
+Kingston,Liguanea,4,3,2207,14097092.0,JMD
+Kingston,Liguanea,3,2,1528,9739297.0,JMD
+Kingston,Liguanea,1,1,659,3116415.0,JMD
+Kingston,Liguanea,3,2,1321,8288054.0,JMD
+Kingston,Liguanea,3,3,1635,8264766.0,JMD
+Kingston,Liguanea,1,1,1209,6436139.0,JMD
+Kingston,Liguanea,4,4,2091,13055614.0,JMD
+Kingston,Liguanea,2,1,1453,6673760.0,JMD
+Kingston,Liguanea,2,2,1051,5407148.0,JMD
+Kingston,Liguanea,1,1,1188,6568069.0,JMD
+Kingston,Liguanea,3,2,1561,8269894.0,JMD
+Kingston,Liguanea,4,4,1800,9355194.0,JMD
+Kingston,Liguanea,2,2,1630,9832028.0,JMD
+Kingston,Liguanea,1,1,1156,6219343.0,JMD
+Kingston,Liguanea,2,2,1008,4392713.0,JMD
+Kingston,Liguanea,1,1,1448,6877014.0,JMD
+Kingston,Liguanea,2,2,1754,10678796.0,JMD
+Kingston,Liguanea,3,3,1842,8480520.0,JMD
+Kingston,Liguanea,4,3,1751,7483935.0,JMD
+Kingston,Liguanea,1,1,1203,5584961.0,JMD
+Kingston,Liguanea,4,3,1795,10501643.0,JMD
+Kingston,Liguanea,2,1,1490,6667735.0,JMD
+Kingston,Liguanea,3,2,1562,6596648.0,JMD
+Kingston,Liguanea,1,1,1146,6294811.0,JMD
+Kingston,Liguanea,4,3,1856,9998849.0,JMD
+Kingston,Liguanea,4,4,1633,7510777.0,JMD
+Kingston,Liguanea,1,1,1097,6247186.0,JMD
+Kingston,Liguanea,3,3,1834,10790223.0,JMD
+Kingston,Liguanea,1,1,1096,6679690.0,JMD
+Kingston,Liguanea,2,2,1102,5825097.0,JMD
+Kingston,Liguanea,3,3,1952,9245928.0,JMD
+Kingston,Liguanea,2,1,1070,5407699.0,JMD
+Kingston,Liguanea,4,4,2466,12757818.0,JMD
+Kingston,Liguanea,2,2,1493,9251804.0,JMD
+Kingston,Liguanea,3,2,1973,11208880.0,JMD
+Kingston,Liguanea,1,1,1376,5751501.0,JMD
+Kingston,Liguanea,4,4,1722,9091138.0,JMD
+Kingston,Liguanea,3,3,1770,10151838.0,JMD
+Kingston,Liguanea,4,3,1885,11167113.0,JMD
+Kingston,Liguanea,1,1,1241,7642597.0,JMD
+Kingston,Liguanea,2,1,1308,8140752.0,JMD
+Kingston,Liguanea,2,2,1556,10040932.0,JMD
+Kingston,Liguanea,2,1,1295,7226191.0,JMD
+Kingston,Liguanea,2,2,963,4767414.0,JMD
+Kingston,Liguanea,2,1,1360,8679095.0,JMD
+Kingston,Liguanea,3,3,1501,8155878.0,JMD
+Kingston,Liguanea,2,2,1281,8274657.0,JMD
+Kingston,Liguanea,3,2,1858,9701257.0,JMD
+Kingston,Liguanea,2,1,1094,5564909.0,JMD
+Kingston,Liguanea,1,1,1118,5060097.0,JMD
+Kingston,Liguanea,2,1,1112,6832701.0,JMD
+Kingston,Liguanea,1,1,1148,5734277.0,JMD
+Kingston,Liguanea,1,1,1074,5530531.0,JMD
+Kingston,Liguanea,2,2,1715,11038303.0,JMD
+Kingston,Liguanea,3,2,1721,8404847.0,JMD
+Kingston,Liguanea,3,3,1638,9311168.0,JMD
+Kingston,Liguanea,4,4,1752,9405483.0,JMD
+Kingston,Liguanea,3,2,1866,9214554.0,JMD
+Kingston,Liguanea,4,4,1820,9929457.0,JMD
+Kingston,Liguanea,4,4,1723,9074958.0,JMD
+Kingston,Liguanea,3,2,1351,6926594.0,JMD
+Kingston,Liguanea,1,1,1417,7852186.0,JMD
+Kingston,Liguanea,4,3,1511,6577746.0,JMD
+Kingston,Liguanea,3,2,1635,9583309.0,JMD
+Kingston,Liguanea,2,1,1357,5813819.0,JMD
+Kingston,Liguanea,2,2,1407,7234089.0,JMD
+Kingston,Liguanea,1,1,926,4751008.0,JMD
+Kingston,Liguanea,4,3,2028,10849703.0,JMD
+Kingston,Liguanea,4,4,2110,10929634.0,JMD
+Kingston,Liguanea,2,2,1260,7330395.0,JMD
+Kingston,Liguanea,2,2,1121,7066675.0,JMD
+Kingston,Liguanea,3,3,1657,8003509.0,JMD
+Kingston,Liguanea,2,2,1302,8456152.0,JMD
+Kingston,Liguanea,1,1,1215,7592003.0,JMD
+Kingston,Liguanea,1,1,1278,6616567.0,JMD
+Kingston,Liguanea,2,2,1576,9856652.0,JMD
+Kingston,Liguanea,2,1,1447,7465773.0,JMD
+Kingston,Liguanea,3,3,2024,11576644.0,JMD
+Kingston,Liguanea,4,3,1935,12061411.0,JMD
+Kingston,Liguanea,1,1,1430,8690004.0,JMD
+Kingston,Liguanea,3,2,1394,8862771.0,JMD
+Kingston,Liguanea,1,1,987,4533301.0,JMD
+Kingston,Liguanea,3,2,1446,6997034.0,JMD
+Kingston,Liguanea,1,1,883,4344392.0,JMD
+Kingston,Liguanea,4,4,1894,11601536.0,JMD
+Kingston,Liguanea,2,2,1427,9019146.0,JMD
+Kingston,Liguanea,4,3,1744,8945416.0,JMD
+Kingston,Liguanea,1,1,763,4512500.0,JMD
+Kingston,Liguanea,1,1,1413,7146750.0,JMD
+Kingston,Liguanea,3,3,1358,7815020.0,JMD
+Kingston,Liguanea,3,3,1693,9350898.0,JMD
+Kingston,Liguanea,1,1,836,3990140.0,JMD
+Kingston,Liguanea,3,3,1872,9949508.0,JMD
+Kingston,Liguanea,3,2,1354,7793550.0,JMD
+Kingston,Liguanea,1,1,1146,5513580.0,JMD
+Kingston,Liguanea,1,1,1183,6308648.0,JMD
+Kingston,Liguanea,3,2,1341,6766602.0,JMD
+Kingston,Liguanea,2,2,1413,8785242.0,JMD
+Kingston,Liguanea,1,1,971,4536686.0,JMD
+Kingston,Liguanea,4,4,1851,10572050.0,JMD
+Kingston,Liguanea,3,2,1788,8192678.0,JMD
+Kingston,Liguanea,4,3,1990,8607632.0,JMD
+Kingston,Liguanea,3,3,1810,9433286.0,JMD
+Kingston,Liguanea,2,1,1669,7674466.0,JMD
+Kingston,Liguanea,4,4,1837,8176143.0,JMD
+Kingston,Liguanea,1,1,1416,6604833.0,JMD
+Kingston,Liguanea,2,2,1663,9025194.0,JMD
+Kingston,Liguanea,1,1,1030,5151177.0,JMD
+Kingston,Liguanea,2,2,1835,8722626.0,JMD
+Kingston,Liguanea,1,1,1301,6062311.0,JMD
+Kingston,Liguanea,2,1,1521,6495063.0,JMD
+Kingston,Liguanea,2,1,1433,8950661.0,JMD
+Kingston,Liguanea,4,3,1894,8059684.0,JMD
+Kingston,Liguanea,2,1,1370,7969803.0,JMD
+Kingston,Liguanea,3,3,1449,8230406.0,JMD
+Kingston,Liguanea,4,3,1879,11183217.0,JMD
+Kingston,Liguanea,4,3,2071,8700061.0,JMD
+Kingston,Liguanea,2,1,1035,6715891.0,JMD
+Kingston,Liguanea,4,4,2093,9552982.0,JMD
+Kingston,Liguanea,3,2,1516,8489950.0,JMD
+Kingston,Liguanea,2,2,1360,8370552.0,JMD
+Kingston,Liguanea,1,1,684,3230881.0,JMD
+Kingston,Liguanea,1,1,1164,5112967.0,JMD
+Kingston,Liguanea,4,3,1749,8674949.0,JMD
+Kingston,Liguanea,1,1,966,5411198.0,JMD
+Kingston,Liguanea,1,1,1347,7202867.0,JMD
+Kingston,Liguanea,1,1,1084,6776600.0,JMD
+Kingston,Liguanea,1,1,1120,7066876.0,JMD
+Kingston,Liguanea,3,2,1718,8709577.0,JMD
+Kingston,Liguanea,1,1,929,5699769.0,JMD
+Kingston,Liguanea,2,1,1575,6643852.0,JMD
+Kingston,Liguanea,1,1,1355,7741209.0,JMD
+Kingston,Liguanea,1,1,1387,6188314.0,JMD
+Kingston,Liguanea,1,1,996,5914179.0,JMD
+Kingston,Liguanea,4,4,1800,8845683.0,JMD
+Kingston,Liguanea,3,3,1551,9091096.0,JMD
+Kingston,Liguanea,3,3,1610,9977953.0,JMD
+Kingston,Liguanea,3,3,1843,8469398.0,JMD
+Kingston,Liguanea,3,3,1597,8524518.0,JMD
+Kingston,Liguanea,2,2,1192,7070073.0,JMD
+Kingston,Liguanea,3,2,1373,6289668.0,JMD
+Kingston,Liguanea,2,2,1314,8030237.0,JMD
+Kingston,Liguanea,2,1,1176,6735662.0,JMD
+Kingston,Liguanea,2,1,1558,10077777.0,JMD
+Kingston,Cherry Gardens,2,2,1550,7782675.0,JMD
+Kingston,Cherry Gardens,4,3,1848,11706444.0,JMD
+Kingston,Cherry Gardens,2,2,1432,9820527.0,JMD
+Kingston,Cherry Gardens,4,4,1947,10218680.0,JMD
+Kingston,Cherry Gardens,4,4,2166,11451689.0,JMD
+Kingston,Cherry Gardens,2,2,1626,9809930.0,JMD
+Kingston,Cherry Gardens,2,1,1342,7968516.0,JMD
+Kingston,Cherry Gardens,3,2,1794,12982444.0,JMD
+Kingston,Cherry Gardens,3,3,2028,10691755.0,JMD
+Kingston,Cherry Gardens,2,2,1542,8078018.0,JMD
+Kingston,Cherry Gardens,2,2,1343,7487221.0,JMD
+Kingston,Cherry Gardens,2,1,1218,7937280.0,JMD
+Kingston,Cherry Gardens,3,2,1397,8222703.0,JMD
+Kingston,Cherry Gardens,2,1,1335,9195237.0,JMD
+Kingston,Cherry Gardens,1,1,1355,6570583.0,JMD
+Kingston,Cherry Gardens,4,3,1914,12691720.0,JMD
+Kingston,Cherry Gardens,3,2,1977,13301335.0,JMD
+Kingston,Cherry Gardens,4,3,1796,9471697.0,JMD
+Kingston,Cherry Gardens,2,1,1329,9509480.0,JMD
+Kingston,Cherry Gardens,3,3,1501,9043826.0,JMD
+Kingston,Cherry Gardens,3,2,1910,9493800.0,JMD
+Kingston,Cherry Gardens,4,3,2111,13641407.0,JMD
+Kingston,Cherry Gardens,2,1,1772,12815226.0,JMD
+Kingston,Cherry Gardens,1,1,1165,6414761.0,JMD
+Kingston,Cherry Gardens,4,4,2211,11802662.0,JMD
+Kingston,Cherry Gardens,3,2,1778,9458833.0,JMD
+Kingston,Cherry Gardens,1,1,888,4420304.0,JMD
+Kingston,Cherry Gardens,4,3,2006,13738347.0,JMD
+Kingston,Cherry Gardens,4,4,1952,10767306.0,JMD
+Kingston,Cherry Gardens,3,3,1420,6866820.0,JMD
+Kingston,Cherry Gardens,3,3,1267,7452347.0,JMD
+Kingston,Cherry Gardens,2,1,1396,9121377.0,JMD
+Kingston,Cherry Gardens,2,1,1395,10100147.0,JMD
+Kingston,Cherry Gardens,4,4,2003,11225717.0,JMD
+Kingston,Cherry Gardens,4,3,2024,9654866.0,JMD
+Kingston,Cherry Gardens,4,3,1957,14169444.0,JMD
+Kingston,Cherry Gardens,2,2,1756,9358174.0,JMD
+Kingston,Cherry Gardens,3,2,1980,13119245.0,JMD
+Kingston,Cherry Gardens,3,3,1533,7840754.0,JMD
+Kingston,Cherry Gardens,3,2,1392,6598242.0,JMD
+Kingston,Cherry Gardens,4,4,2105,11201290.0,JMD
+Kingston,Cherry Gardens,2,2,1439,6816631.0,JMD
+Kingston,Cherry Gardens,4,3,1824,12338734.0,JMD
+Kingston,Cherry Gardens,1,1,1381,6984639.0,JMD
+Kingston,Cherry Gardens,2,1,1497,8637632.0,JMD
+Kingston,Cherry Gardens,1,1,973,6220049.0,JMD
+Kingston,Cherry Gardens,4,3,1841,10197363.0,JMD
+Kingston,Cherry Gardens,2,1,1416,9777745.0,JMD
+Kingston,Cherry Gardens,1,1,704,3784971.0,JMD
+Kingston,Cherry Gardens,4,4,1891,12047668.0,JMD
+Kingston,Cherry Gardens,3,2,1714,9510476.0,JMD
+Kingston,Cherry Gardens,1,1,1194,7645278.0,JMD
+Kingston,Cherry Gardens,4,3,2159,14521913.0,JMD
+Kingston,Cherry Gardens,4,3,2034,11249581.0,JMD
+Kingston,Cherry Gardens,2,1,1477,7146772.0,JMD
+Kingston,Cherry Gardens,1,1,1480,10547964.0,JMD
+Kingston,Cherry Gardens,3,2,1568,9447820.0,JMD
+Kingston,Cherry Gardens,3,3,1303,6898957.0,JMD
+Kingston,Cherry Gardens,1,1,1377,9699980.0,JMD
+Kingston,Cherry Gardens,2,1,1613,11568068.0,JMD
+Kingston,Cherry Gardens,3,2,1857,10733078.0,JMD
+Kingston,Cherry Gardens,1,1,1187,6606919.0,JMD
+Kingston,Cherry Gardens,1,1,1170,8059700.0,JMD
+Kingston,Cherry Gardens,2,1,1174,7114047.0,JMD
+Kingston,Cherry Gardens,4,4,1885,9734384.0,JMD
+Kingston,Cherry Gardens,1,1,1252,6598133.0,JMD
+Kingston,Cherry Gardens,4,4,2122,11751203.0,JMD
+Kingston,Cherry Gardens,1,1,1036,7261353.0,JMD
+Kingston,Cherry Gardens,2,1,1042,7271316.0,JMD
+Kingston,Cherry Gardens,2,1,1462,7759226.0,JMD
+Kingston,Cherry Gardens,2,1,1248,8943921.0,JMD
+Kingston,Cherry Gardens,2,1,1296,7330936.0,JMD
+Kingston,Cherry Gardens,3,3,1401,8948859.0,JMD
+Kingston,Cherry Gardens,4,3,1529,10128332.0,JMD
+Kingston,Cherry Gardens,3,2,1909,9167490.0,JMD
+Kingston,Cherry Gardens,4,3,1902,12871237.0,JMD
+Kingston,Cherry Gardens,1,1,1284,6638860.0,JMD
+Kingston,Cherry Gardens,4,3,1675,8166521.0,JMD
+Kingston,Cherry Gardens,3,3,1309,8728332.0,JMD
+Kingston,Cherry Gardens,2,2,1227,6716365.0,JMD
+Kingston,Cherry Gardens,1,1,880,4627081.0,JMD
+Kingston,Cherry Gardens,1,1,1197,6498968.0,JMD
+Kingston,Cherry Gardens,4,3,2123,10050138.0,JMD
+Kingston,Cherry Gardens,1,1,1128,7544112.0,JMD
+Kingston,Cherry Gardens,1,1,854,4746041.0,JMD
+Kingston,Cherry Gardens,3,3,1833,11895413.0,JMD
+Kingston,Cherry Gardens,1,1,1251,8044160.0,JMD
+Kingston,Cherry Gardens,4,3,2031,11075279.0,JMD
+Kingston,Cherry Gardens,1,1,819,5352984.0,JMD
+Kingston,Cherry Gardens,3,3,1697,10323488.0,JMD
+Kingston,Cherry Gardens,4,3,1909,11441800.0,JMD
+Kingston,Cherry Gardens,1,1,1038,5222940.0,JMD
+Kingston,Cherry Gardens,2,2,1387,9694582.0,JMD
+Kingston,Cherry Gardens,2,1,1161,6351906.0,JMD
+Kingston,Cherry Gardens,4,4,2044,13971298.0,JMD
+Kingston,Cherry Gardens,3,2,1708,10864737.0,JMD
+Kingston,Cherry Gardens,2,1,818,5283161.0,JMD
+Kingston,Cherry Gardens,2,1,1347,9361582.0,JMD
+Kingston,Cherry Gardens,3,2,1787,10410592.0,JMD
+Kingston,Cherry Gardens,4,4,1735,9262214.0,JMD
+Kingston,Cherry Gardens,3,2,1586,8731264.0,JMD
+Kingston,Cherry Gardens,3,2,1813,12594180.0,JMD
+Kingston,Cherry Gardens,1,1,1236,8289117.0,JMD
+Kingston,Cherry Gardens,4,3,1902,12569135.0,JMD
+Kingston,Cherry Gardens,3,2,1694,10224998.0,JMD
+Kingston,Cherry Gardens,3,3,1745,9101831.0,JMD
+Kingston,Cherry Gardens,2,1,1322,7351278.0,JMD
+Kingston,Cherry Gardens,4,4,2046,13309324.0,JMD
+Kingston,Cherry Gardens,1,1,1010,6040972.0,JMD
+Kingston,Cherry Gardens,1,1,1295,8368317.0,JMD
+Kingston,Cherry Gardens,1,1,905,5578071.0,JMD
+Kingston,Cherry Gardens,2,1,1475,7610822.0,JMD
+Kingston,Cherry Gardens,2,2,1216,5936567.0,JMD
+Kingston,Cherry Gardens,2,1,1983,13731716.0,JMD
+Kingston,Cherry Gardens,2,2,1192,6815417.0,JMD
+Kingston,Cherry Gardens,3,3,1882,9280023.0,JMD
+Kingston,Cherry Gardens,4,4,1977,13963828.0,JMD
+Kingston,Cherry Gardens,3,2,1536,8199435.0,JMD
+Kingston,Cherry Gardens,1,1,1406,7878659.0,JMD
+Kingston,Cherry Gardens,1,1,1171,6879864.0,JMD
+Kingston,Cherry Gardens,4,4,1965,12030872.0,JMD
+Kingston,Cherry Gardens,4,3,2010,11475845.0,JMD
+Kingston,Cherry Gardens,2,2,1020,5976942.0,JMD
+Kingston,Cherry Gardens,2,1,1742,9788679.0,JMD
+Kingston,Cherry Gardens,3,2,1555,8371047.0,JMD
+Kingston,Cherry Gardens,3,2,1610,10967723.0,JMD
+Kingston,Cherry Gardens,4,3,2000,10450164.0,JMD
+Kingston,Cherry Gardens,2,2,1341,9697169.0,JMD
+Kingston,Cherry Gardens,2,1,1449,7499019.0,JMD
+Kingston,Cherry Gardens,2,2,1673,11655251.0,JMD
+Kingston,Cherry Gardens,1,1,1207,6363739.0,JMD
+Kingston,Cherry Gardens,4,4,1991,13898233.0,JMD
+Kingston,Cherry Gardens,4,4,2421,12971542.0,JMD
+Kingston,Cherry Gardens,1,1,970,5757796.0,JMD
+Kingston,Cherry Gardens,1,1,1354,7609667.0,JMD
+Kingston,Cherry Gardens,4,3,1979,11861567.0,JMD
+Kingston,Cherry Gardens,4,4,2131,11981666.0,JMD
+Kingston,Cherry Gardens,2,1,1402,8984589.0,JMD
+Kingston,Cherry Gardens,1,1,1358,8289945.0,JMD
+Kingston,Cherry Gardens,1,1,1025,5842118.0,JMD
+Kingston,Cherry Gardens,3,3,1707,10278119.0,JMD
+Kingston,Cherry Gardens,1,1,1282,7955546.0,JMD
+Kingston,Cherry Gardens,2,1,1467,7167487.0,JMD
+Kingston,Cherry Gardens,4,3,2183,14826162.0,JMD
+Kingston,Cherry Gardens,3,3,1414,8018862.0,JMD
+Kingston,Cherry Gardens,2,1,1328,7982659.0,JMD
+Kingston,Cherry Gardens,1,1,1121,7136507.0,JMD
+Kingston,Cherry Gardens,3,3,1528,9101922.0,JMD
+Kingston,Cherry Gardens,1,1,1177,7207545.0,JMD
+Kingston,Cherry Gardens,1,1,1075,6174670.0,JMD
+Port of Spain,Westmoorings,1,1,1484,114060.0,TTD
+Port of Spain,Westmoorings,1,1,1237,99762.0,TTD
+Port of Spain,Westmoorings,4,4,1669,133656.0,TTD
+Port of Spain,Westmoorings,2,2,1298,140377.0,TTD
+Port of Spain,Westmoorings,2,2,1623,126430.0,TTD
+Port of Spain,Westmoorings,3,2,1803,201319.0,TTD
+Port of Spain,Westmoorings,2,1,1187,121396.0,TTD
+Port of Spain,Westmoorings,2,1,1332,109743.0,TTD
+Port of Spain,Westmoorings,1,1,987,80830.0,TTD
+Port of Spain,Westmoorings,1,1,1189,111859.0,TTD
+Port of Spain,Westmoorings,3,3,2035,169210.0,TTD
+Port of Spain,Westmoorings,3,2,1245,131507.0,TTD
+Port of Spain,Westmoorings,3,3,1712,153996.0,TTD
+Port of Spain,Westmoorings,3,2,1431,160476.0,TTD
+Port of Spain,Westmoorings,2,1,1589,149400.0,TTD
+Port of Spain,Westmoorings,3,3,1292,100832.0,TTD
+Port of Spain,Westmoorings,4,3,1884,145883.0,TTD
+Port of Spain,Westmoorings,1,1,1351,133945.0,TTD
+Port of Spain,Westmoorings,4,3,1784,163660.0,TTD
+Port of Spain,Westmoorings,2,1,1239,113769.0,TTD
+Port of Spain,Westmoorings,2,1,1774,172579.0,TTD
+Port of Spain,Westmoorings,2,2,1451,164292.0,TTD
+Port of Spain,Westmoorings,1,1,1166,115307.0,TTD
+Port of Spain,Westmoorings,1,1,1029,92330.0,TTD
+Port of Spain,Westmoorings,3,2,1507,136325.0,TTD
+Port of Spain,Westmoorings,4,3,2063,160115.0,TTD
+Port of Spain,Westmoorings,2,1,1294,132097.0,TTD
+Port of Spain,Westmoorings,3,3,1085,116036.0,TTD
+Port of Spain,Westmoorings,3,2,1469,146975.0,TTD
+Port of Spain,Westmoorings,4,3,1918,149980.0,TTD
+Port of Spain,Westmoorings,3,2,1626,170303.0,TTD
+Port of Spain,Westmoorings,1,1,1358,160202.0,TTD
+Port of Spain,Westmoorings,3,2,1704,134194.0,TTD
+Port of Spain,Westmoorings,4,3,1950,198635.0,TTD
+Port of Spain,Westmoorings,2,1,1275,110195.0,TTD
+Port of Spain,Westmoorings,1,1,1173,94391.0,TTD
+Port of Spain,Westmoorings,3,3,1706,146214.0,TTD
+Port of Spain,Westmoorings,2,1,1079,104088.0,TTD
+Port of Spain,Westmoorings,4,3,1999,214318.0,TTD
+Port of Spain,Westmoorings,4,4,1891,187436.0,TTD
+Port of Spain,Westmoorings,3,2,1621,154698.0,TTD
+Port of Spain,Westmoorings,3,3,1631,177269.0,TTD
+Port of Spain,Westmoorings,2,2,1342,110241.0,TTD
+Port of Spain,Westmoorings,4,3,2541,258392.0,TTD
+Port of Spain,Westmoorings,3,2,1539,139924.0,TTD
+Port of Spain,Westmoorings,4,3,1926,179994.0,TTD
+Port of Spain,Westmoorings,2,1,1358,139108.0,TTD
+Port of Spain,Westmoorings,4,3,2096,201124.0,TTD
+Port of Spain,Westmoorings,2,2,1188,137464.0,TTD
+Port of Spain,Westmoorings,3,2,1341,140779.0,TTD
+Port of Spain,Westmoorings,2,1,1188,118321.0,TTD
+Port of Spain,Westmoorings,4,4,2140,221793.0,TTD
+Port of Spain,Westmoorings,1,1,1296,122266.0,TTD
+Port of Spain,Westmoorings,3,2,1597,183911.0,TTD
+Port of Spain,Westmoorings,3,3,1589,121354.0,TTD
+Port of Spain,Westmoorings,3,3,1648,184728.0,TTD
+Port of Spain,Westmoorings,4,3,1998,199374.0,TTD
+Port of Spain,Westmoorings,4,3,1824,192846.0,TTD
+Port of Spain,Westmoorings,3,3,1784,157920.0,TTD
+Port of Spain,Westmoorings,3,2,1986,225118.0,TTD
+Port of Spain,Westmoorings,4,4,1936,207778.0,TTD
+Port of Spain,Westmoorings,1,1,1164,104338.0,TTD
+Port of Spain,Westmoorings,4,4,2152,237532.0,TTD
+Port of Spain,Westmoorings,2,2,1221,116483.0,TTD
+Port of Spain,Westmoorings,2,2,1254,147555.0,TTD
+Port of Spain,Westmoorings,1,1,939,73289.0,TTD
+Port of Spain,Westmoorings,2,1,1418,136233.0,TTD
+Port of Spain,Westmoorings,4,3,2237,202523.0,TTD
+Port of Spain,Westmoorings,3,2,1475,114240.0,TTD
+Port of Spain,Westmoorings,3,3,1580,148612.0,TTD
+Port of Spain,Westmoorings,1,1,1066,112120.0,TTD
+Port of Spain,Westmoorings,3,2,1296,149084.0,TTD
+Port of Spain,Westmoorings,1,1,1326,101422.0,TTD
+Port of Spain,Westmoorings,3,2,1735,205841.0,TTD
+Port of Spain,Westmoorings,2,2,1118,90976.0,TTD
+Port of Spain,Westmoorings,2,2,1306,134254.0,TTD
+Port of Spain,Westmoorings,1,1,1015,99226.0,TTD
+Port of Spain,Westmoorings,2,2,971,74984.0,TTD
+Port of Spain,Westmoorings,1,1,1311,146695.0,TTD
+Port of Spain,Westmoorings,1,1,1353,109960.0,TTD
+Port of Spain,Westmoorings,2,2,1165,131030.0,TTD
+Port of Spain,Westmoorings,2,2,1302,132857.0,TTD
+Port of Spain,Westmoorings,2,2,1368,144521.0,TTD
+Port of Spain,Westmoorings,1,1,1329,141916.0,TTD
+Port of Spain,Westmoorings,4,4,1625,146697.0,TTD
+Port of Spain,Westmoorings,1,1,1243,100622.0,TTD
+Port of Spain,Westmoorings,3,3,1552,153119.0,TTD
+Port of Spain,Westmoorings,1,1,662,56315.0,TTD
+Port of Spain,Westmoorings,1,1,1111,85196.0,TTD
+Port of Spain,Westmoorings,3,3,1723,171325.0,TTD
+Port of Spain,Westmoorings,1,1,1108,90819.0,TTD
+Port of Spain,Westmoorings,3,2,1780,163898.0,TTD
+Port of Spain,Westmoorings,4,4,1943,172644.0,TTD
+Port of Spain,Westmoorings,3,2,1691,131726.0,TTD
+Port of Spain,Westmoorings,2,1,1504,114791.0,TTD
+Port of Spain,Westmoorings,1,1,1361,117695.0,TTD
+Port of Spain,Westmoorings,2,1,1208,134319.0,TTD
+Port of Spain,Westmoorings,3,2,1574,174606.0,TTD
+Port of Spain,Westmoorings,4,4,1769,182616.0,TTD
+Port of Spain,Westmoorings,2,1,1707,180850.0,TTD
+Port of Spain,Westmoorings,3,2,1404,112884.0,TTD
+Port of Spain,Westmoorings,1,1,992,114536.0,TTD
+Port of Spain,Westmoorings,2,2,1826,180752.0,TTD
+Port of Spain,Westmoorings,4,3,1689,149940.0,TTD
+Port of Spain,Westmoorings,4,4,1880,145100.0,TTD
+Port of Spain,Westmoorings,2,1,1242,126391.0,TTD
+Port of Spain,Westmoorings,3,3,1599,159679.0,TTD
+Port of Spain,Westmoorings,1,1,864,89221.0,TTD
+Port of Spain,Westmoorings,4,3,1444,158697.0,TTD
+Port of Spain,Westmoorings,1,1,933,76801.0,TTD
+Port of Spain,Westmoorings,1,1,1403,147295.0,TTD
+Port of Spain,Westmoorings,4,3,1876,221156.0,TTD
+Port of Spain,Westmoorings,1,1,1288,114701.0,TTD
+Port of Spain,Westmoorings,4,3,1752,162475.0,TTD
+Port of Spain,Westmoorings,4,4,1401,122943.0,TTD
+Port of Spain,Westmoorings,2,1,1464,117387.0,TTD
+Port of Spain,Westmoorings,4,4,2002,198009.0,TTD
+Port of Spain,Westmoorings,3,2,1651,152772.0,TTD
+Port of Spain,Westmoorings,1,1,1267,112014.0,TTD
+Port of Spain,Westmoorings,1,1,944,96329.0,TTD
+Port of Spain,Westmoorings,2,1,1098,97703.0,TTD
+Port of Spain,Westmoorings,4,4,1983,175140.0,TTD
+Port of Spain,Westmoorings,1,1,1322,134151.0,TTD
+Port of Spain,Westmoorings,4,3,1945,176067.0,TTD
+Port of Spain,Westmoorings,1,1,1261,120652.0,TTD
+Port of Spain,Westmoorings,1,1,948,105220.0,TTD
+Port of Spain,Westmoorings,2,2,1648,182869.0,TTD
+Port of Spain,Westmoorings,2,1,1425,150814.0,TTD
+Port of Spain,Westmoorings,2,2,1266,130314.0,TTD
+Port of Spain,Westmoorings,4,4,2318,221566.0,TTD
+Port of Spain,Westmoorings,1,1,1314,140261.0,TTD
+Port of Spain,Westmoorings,4,3,1897,162913.0,TTD
+Port of Spain,Westmoorings,4,3,1689,129913.0,TTD
+Port of Spain,Westmoorings,4,4,1935,194889.0,TTD
+Port of Spain,Westmoorings,1,1,1040,109802.0,TTD
+Port of Spain,Westmoorings,4,3,1971,168809.0,TTD
+Port of Spain,Westmoorings,3,3,1577,175334.0,TTD
+Port of Spain,Westmoorings,2,1,1473,161924.0,TTD
+Port of Spain,Westmoorings,1,1,1182,125153.0,TTD
+Port of Spain,Westmoorings,1,1,1166,93413.0,TTD
+Port of Spain,Westmoorings,1,1,1222,117187.0,TTD
+Port of Spain,Westmoorings,2,2,1372,121442.0,TTD
+Port of Spain,Westmoorings,2,2,1329,104201.0,TTD
+Port of Spain,Westmoorings,3,2,1644,165596.0,TTD
+Port of Spain,Westmoorings,2,1,1086,84541.0,TTD
+Port of Spain,Westmoorings,1,1,1221,117358.0,TTD
+Port of Spain,Westmoorings,2,2,1670,152368.0,TTD
+Port of Spain,Westmoorings,2,2,1837,154425.0,TTD
+Port of Spain,Westmoorings,1,1,1358,108549.0,TTD
+Port of Spain,Westmoorings,4,4,1786,197306.0,TTD
+Castries,Cap Estate,2,2,1744,71191.0,XCD
+Castries,Cap Estate,3,3,1300,42975.0,XCD
+Castries,Cap Estate,4,4,1628,70909.0,XCD
+Castries,Cap Estate,1,1,1497,53879.0,XCD
+Castries,Cap Estate,2,1,1209,39419.0,XCD
+Castries,Cap Estate,3,3,1732,61674.0,XCD
+Castries,Cap Estate,4,4,1857,71108.0,XCD
+Castries,Cap Estate,4,4,2304,74984.0,XCD
+Castries,Cap Estate,1,1,1251,36202.0,XCD
+Castries,Cap Estate,3,2,1815,56738.0,XCD
+Castries,Cap Estate,4,4,1709,60982.0,XCD
+Castries,Cap Estate,1,1,1312,48170.0,XCD
+Castries,Cap Estate,4,4,1729,60801.0,XCD
+Castries,Cap Estate,1,1,1291,42954.0,XCD
+Castries,Cap Estate,4,3,1985,71658.0,XCD
+Castries,Cap Estate,1,1,1117,31415.0,XCD
+Castries,Cap Estate,4,3,2142,79555.0,XCD
+Castries,Cap Estate,1,1,814,33411.0,XCD
+Castries,Cap Estate,1,1,1228,46105.0,XCD
+Castries,Cap Estate,3,3,1976,72948.0,XCD
+Castries,Cap Estate,3,2,1799,56289.0,XCD
+Castries,Cap Estate,1,1,676,19689.0,XCD
+Castries,Cap Estate,4,4,2027,85263.0,XCD
+Castries,Cap Estate,4,3,1922,66036.0,XCD
+Castries,Cap Estate,3,3,1449,47109.0,XCD
+Castries,Cap Estate,2,2,1393,58902.0,XCD
+Castries,Cap Estate,3,3,1731,67656.0,XCD
+Castries,Cap Estate,4,3,2043,57517.0,XCD
+Castries,Cap Estate,3,2,1682,68190.0,XCD
+Castries,Cap Estate,4,3,2078,88783.0,XCD
+Castries,Cap Estate,1,1,1215,38677.0,XCD
+Castries,Cap Estate,3,3,1686,62424.0,XCD
+Castries,Cap Estate,3,3,1541,48533.0,XCD
+Castries,Cap Estate,3,2,1568,60045.0,XCD
+Castries,Cap Estate,1,1,1077,39677.0,XCD
+Castries,Cap Estate,1,1,961,30161.0,XCD
+Castries,Cap Estate,1,1,1089,40380.0,XCD
+Castries,Cap Estate,1,1,1112,37336.0,XCD
+Castries,Cap Estate,4,4,2182,65726.0,XCD
+Castries,Cap Estate,4,3,2197,65539.0,XCD
+Castries,Cap Estate,3,2,1507,43210.0,XCD
+Castries,Cap Estate,2,2,1532,63058.0,XCD
+Castries,Cap Estate,4,3,2095,72463.0,XCD
+Castries,Cap Estate,3,2,1263,45913.0,XCD
+Castries,Cap Estate,3,2,1676,48911.0,XCD
+Castries,Cap Estate,4,3,1716,50076.0,XCD
+Castries,Cap Estate,3,2,1558,57563.0,XCD
+Castries,Cap Estate,2,1,1262,40963.0,XCD
+Castries,Cap Estate,4,4,1773,72972.0,XCD
+Castries,Cap Estate,1,1,1194,50165.0,XCD
+Castries,Cap Estate,1,1,1166,33581.0,XCD
+Castries,Cap Estate,4,3,1832,79742.0,XCD
+Castries,Cap Estate,2,1,1092,46683.0,XCD
+Castries,Cap Estate,2,2,1158,45478.0,XCD
+Castries,Cap Estate,4,4,1939,73483.0,XCD
+Castries,Cap Estate,1,1,1198,36408.0,XCD
+Castries,Cap Estate,2,1,1482,64277.0,XCD
+Castries,Cap Estate,1,1,884,30166.0,XCD
+Castries,Cap Estate,1,1,885,37301.0,XCD
+Castries,Cap Estate,1,1,1072,36723.0,XCD
+Castries,Cap Estate,1,1,1060,32238.0,XCD
+Castries,Cap Estate,3,2,1911,58091.0,XCD
+Castries,Cap Estate,3,3,1446,43003.0,XCD
+Castries,Cap Estate,2,2,1527,64106.0,XCD
+Castries,Cap Estate,3,3,1687,72941.0,XCD
+Castries,Cap Estate,4,3,2096,90634.0,XCD
+Castries,Cap Estate,2,2,1236,46543.0,XCD
+Castries,Cap Estate,3,3,1763,71499.0,XCD
+Castries,Cap Estate,2,2,1639,48482.0,XCD
+Castries,Cap Estate,4,3,1934,66917.0,XCD
+Castries,Cap Estate,2,2,1209,51196.0,XCD
+Castries,Cap Estate,4,3,2191,80738.0,XCD
+Castries,Cap Estate,4,3,1926,64113.0,XCD
+Castries,Cap Estate,3,3,1608,55687.0,XCD
+Castries,Cap Estate,4,3,1530,56926.0,XCD
+Castries,Cap Estate,1,1,1041,31307.0,XCD
+Castries,Cap Estate,4,4,1849,79002.0,XCD
+Castries,Cap Estate,4,4,2083,66614.0,XCD
+Castries,Cap Estate,1,1,881,32406.0,XCD
+Castries,Cap Estate,4,4,1882,62505.0,XCD
+Castries,Cap Estate,3,3,1607,59319.0,XCD
+Castries,Cap Estate,4,4,1588,68410.0,XCD
+Castries,Cap Estate,2,2,1400,50802.0,XCD
+Castries,Cap Estate,1,1,1011,32297.0,XCD
+Castries,Cap Estate,4,3,1844,61503.0,XCD
+Castries,Cap Estate,3,3,1864,80543.0,XCD
+Castries,Cap Estate,1,1,1140,37921.0,XCD
+Castries,Cap Estate,4,3,1892,62228.0,XCD
+Castries,Cap Estate,4,3,1988,65930.0,XCD
+Castries,Cap Estate,3,2,1670,50669.0,XCD
+Castries,Cap Estate,2,1,1677,47103.0,XCD
+Castries,Cap Estate,3,2,1511,50562.0,XCD
+Castries,Cap Estate,2,2,1390,58944.0,XCD
+Castries,Cap Estate,3,3,1559,48773.0,XCD
+Castries,Cap Estate,2,1,1430,57726.0,XCD
+Castries,Cap Estate,1,1,1047,43828.0,XCD
+Castries,Cap Estate,3,3,2036,76724.0,XCD
+Castries,Cap Estate,3,3,1968,81335.0,XCD
+Castries,Cap Estate,4,4,1918,60905.0,XCD
+Castries,Cap Estate,3,3,1764,73744.0,XCD
+Castries,Cap Estate,3,3,1788,69483.0,XCD
+Castries,Cap Estate,3,2,1823,76789.0,XCD
+Castries,Cap Estate,4,3,1942,82582.0,XCD
+Castries,Cap Estate,1,1,841,23565.0,XCD
+Castries,Cap Estate,1,1,1019,30141.0,XCD
+Castries,Cap Estate,3,3,1483,58115.0,XCD
+Castries,Cap Estate,2,2,1376,58714.0,XCD
+Castries,Cap Estate,3,2,1694,58509.0,XCD
+Castries,Cap Estate,3,2,1799,74460.0,XCD
+Castries,Cap Estate,3,3,1566,59921.0,XCD
+Castries,Cap Estate,4,3,2182,82024.0,XCD
+Castries,Cap Estate,2,1,1059,30330.0,XCD
+Castries,Cap Estate,1,1,1117,44439.0,XCD
+Castries,Cap Estate,4,4,1645,61527.0,XCD
+Castries,Cap Estate,1,1,1407,58248.0,XCD
+Castries,Cap Estate,2,2,1646,62221.0,XCD
+Castries,Cap Estate,1,1,859,28281.0,XCD
+Castries,Cap Estate,3,3,1560,63830.0,XCD
+Castries,Cap Estate,4,3,1446,50944.0,XCD
+Castries,Cap Estate,4,3,2100,85929.0,XCD
+Castries,Cap Estate,4,4,2156,63803.0,XCD
+Castries,Cap Estate,1,1,925,26510.0,XCD
+Castries,Cap Estate,4,3,1663,49166.0,XCD
+Castries,Cap Estate,1,1,936,38956.0,XCD
+Castries,Cap Estate,1,1,744,26205.0,XCD
+Castries,Cap Estate,2,2,1756,76422.0,XCD
+Castries,Cap Estate,3,3,1796,64486.0,XCD
+Castries,Cap Estate,3,3,1634,48968.0,XCD
+Castries,Cap Estate,2,1,1364,43203.0,XCD
+Castries,Cap Estate,2,1,1662,71533.0,XCD
+Castries,Cap Estate,4,3,1753,49688.0,XCD
+Castries,Cap Estate,1,1,1095,39229.0,XCD
+Castries,Cap Estate,1,1,1128,32550.0,XCD
+Castries,Cap Estate,4,4,1504,58287.0,XCD
+Castries,Cap Estate,4,3,2109,79136.0,XCD
+Castries,Cap Estate,1,1,1033,41161.0,XCD
+Castries,Cap Estate,4,3,1793,76670.0,XCD
+Castries,Cap Estate,3,3,1537,46722.0,XCD
+Castries,Cap Estate,1,1,1267,55261.0,XCD
+Castries,Cap Estate,4,3,2150,75720.0,XCD
+Castries,Cap Estate,4,4,2174,93483.0,XCD
+Castries,Cap Estate,4,3,2233,96775.0,XCD
+Castries,Cap Estate,1,1,1145,49167.0,XCD
+Castries,Cap Estate,1,1,840,27266.0,XCD
+Castries,Cap Estate,2,2,1483,64380.0,XCD
+Castries,Cap Estate,1,1,1235,39954.0,XCD
+Castries,Cap Estate,4,4,2100,82171.0,XCD
+Castries,Cap Estate,2,1,1330,43266.0,XCD
+Castries,Cap Estate,4,3,2183,76201.0,XCD
+Castries,Cap Estate,3,2,1763,75860.0,XCD
+Bridgetown,Christ Church,2,2,1286,38023.0,BBD
+Bridgetown,Christ Church,1,1,1333,36308.0,BBD
+Bridgetown,Christ Church,4,3,1906,54758.0,BBD
+Bridgetown,Christ Church,3,3,1632,41017.0,BBD
+Bridgetown,Christ Church,2,1,1281,41947.0,BBD
+Bridgetown,Christ Church,1,1,1073,25285.0,BBD
+Bridgetown,Christ Church,4,4,1873,44929.0,BBD
+Bridgetown,Christ Church,3,3,1562,36821.0,BBD
+Bridgetown,Christ Church,1,1,900,31126.0,BBD
+Bridgetown,Christ Church,2,2,1501,38940.0,BBD
+Bridgetown,Christ Church,4,3,1838,41942.0,BBD
+Bridgetown,Christ Church,1,1,1332,30471.0,BBD
+Bridgetown,Christ Church,3,2,1746,50860.0,BBD
+Bridgetown,Christ Church,4,3,1963,61013.0,BBD
+Bridgetown,Christ Church,2,1,1354,41260.0,BBD
+Bridgetown,Christ Church,3,3,1597,47543.0,BBD
+Bridgetown,Christ Church,4,3,2230,62540.0,BBD
+Bridgetown,Christ Church,4,4,2030,51616.0,BBD
+Bridgetown,Christ Church,1,1,1302,35671.0,BBD
+Bridgetown,Christ Church,3,2,1672,56833.0,BBD
+Bridgetown,Christ Church,4,4,1708,59722.0,BBD
+Bridgetown,Christ Church,2,1,1313,41708.0,BBD
+Bridgetown,Christ Church,3,3,1337,30887.0,BBD
+Bridgetown,Christ Church,2,2,1329,32521.0,BBD
+Bridgetown,Christ Church,4,4,1630,39014.0,BBD
+Bridgetown,Christ Church,2,1,1272,36121.0,BBD
+Bridgetown,Christ Church,3,3,1756,50427.0,BBD
+Bridgetown,Christ Church,2,2,1588,41956.0,BBD
+Bridgetown,Christ Church,1,1,1312,31503.0,BBD
+Bridgetown,Christ Church,1,1,1229,35589.0,BBD
+Bridgetown,Christ Church,2,2,1172,31700.0,BBD
+Bridgetown,Christ Church,3,3,1816,51427.0,BBD
+Bridgetown,Christ Church,2,2,1931,44395.0,BBD
+Bridgetown,Christ Church,4,4,1840,52005.0,BBD
+Bridgetown,Christ Church,2,1,1225,33325.0,BBD
+Bridgetown,Christ Church,3,3,1759,61447.0,BBD
+Bridgetown,Christ Church,3,2,1594,44827.0,BBD
+Bridgetown,Christ Church,3,3,1893,58055.0,BBD
+Bridgetown,Christ Church,1,1,1104,26905.0,BBD
+Bridgetown,Christ Church,1,1,1105,31826.0,BBD
+Bridgetown,Christ Church,4,3,1727,54014.0,BBD
+Bridgetown,Christ Church,2,1,1514,47001.0,BBD
+Bridgetown,Christ Church,3,2,1364,47179.0,BBD
+Bridgetown,Christ Church,4,3,2087,68357.0,BBD
+Bridgetown,Christ Church,3,2,1664,39146.0,BBD
+Bridgetown,Christ Church,3,3,1850,55439.0,BBD
+Bridgetown,Christ Church,4,3,1816,43974.0,BBD
+Bridgetown,Christ Church,2,2,1441,50236.0,BBD
+Bridgetown,Christ Church,2,2,1233,30844.0,BBD
+Bridgetown,Christ Church,3,2,1629,50186.0,BBD
+Bridgetown,Christ Church,3,3,1660,38949.0,BBD
+Bridgetown,Christ Church,3,3,1905,44437.0,BBD
+Bridgetown,Christ Church,3,2,1682,55453.0,BBD
+Bridgetown,Christ Church,3,2,1593,55496.0,BBD
+Bridgetown,Christ Church,2,1,1058,29012.0,BBD
+Bridgetown,Christ Church,2,2,1333,38687.0,BBD
+Bridgetown,Christ Church,3,2,1585,50740.0,BBD
+Bridgetown,Christ Church,1,1,979,30216.0,BBD
+Bridgetown,Christ Church,3,3,1813,46371.0,BBD
+Bridgetown,Christ Church,1,1,1059,28356.0,BBD
+Bridgetown,Christ Church,2,2,2014,55819.0,BBD
+Bridgetown,Christ Church,2,2,1306,38709.0,BBD
+Bridgetown,Christ Church,2,1,1375,31543.0,BBD
+Bridgetown,Christ Church,1,1,1008,22675.0,BBD
+Bridgetown,Christ Church,2,2,1121,34184.0,BBD
+Bridgetown,Christ Church,4,4,1451,34868.0,BBD
+Bridgetown,Christ Church,2,2,1679,56845.0,BBD
+Bridgetown,Christ Church,1,1,942,23214.0,BBD
+Bridgetown,Christ Church,3,2,1671,42725.0,BBD
+Bridgetown,Christ Church,1,1,1336,37468.0,BBD
+Bridgetown,Christ Church,1,1,1612,50069.0,BBD
+Bridgetown,Christ Church,2,2,1576,42053.0,BBD
+Bridgetown,Christ Church,2,1,1405,34324.0,BBD
+Bridgetown,Christ Church,1,1,575,13772.0,BBD
+Bridgetown,Christ Church,2,1,1566,51265.0,BBD
+Bridgetown,Christ Church,3,2,1480,48073.0,BBD
+Bridgetown,Christ Church,3,3,1593,46287.0,BBD
+Bridgetown,Christ Church,2,2,1675,56068.0,BBD
+Bridgetown,Christ Church,2,2,1184,37865.0,BBD
+Bridgetown,Christ Church,2,2,1610,55692.0,BBD
+Bridgetown,Christ Church,1,1,1341,45415.0,BBD
+Bridgetown,Christ Church,1,1,1007,30503.0,BBD
+Bridgetown,Christ Church,2,2,1358,34682.0,BBD
+Bridgetown,Christ Church,4,4,2096,52648.0,BBD
+Bridgetown,Christ Church,4,4,1670,44225.0,BBD
+Bridgetown,Christ Church,2,2,1675,53853.0,BBD
+Bridgetown,Christ Church,2,2,1538,34689.0,BBD
+Bridgetown,Christ Church,4,4,1938,55416.0,BBD
+Bridgetown,Christ Church,1,1,1428,33500.0,BBD
+Bridgetown,Christ Church,3,2,1725,50545.0,BBD
+Bridgetown,Christ Church,1,1,1044,23641.0,BBD
+Bridgetown,Christ Church,4,3,1708,52034.0,BBD
+Bridgetown,Christ Church,1,1,1242,39576.0,BBD
+Bridgetown,Christ Church,1,1,1258,31759.0,BBD
+Bridgetown,Christ Church,2,2,1560,38923.0,BBD
+Bridgetown,Christ Church,4,3,1949,58047.0,BBD
+Bridgetown,Christ Church,2,1,1537,45551.0,BBD
+Bridgetown,Christ Church,1,1,1354,30656.0,BBD
+Bridgetown,Christ Church,4,3,1792,46947.0,BBD
+Bridgetown,Christ Church,1,1,1374,45901.0,BBD
+Bridgetown,Christ Church,1,1,940,25615.0,BBD
+Bridgetown,Christ Church,3,2,1545,36573.0,BBD
+Bridgetown,Christ Church,2,2,1502,43487.0,BBD
+Bridgetown,Christ Church,4,3,1877,59616.0,BBD
+Bridgetown,Christ Church,3,3,2147,68075.0,BBD
+Bridgetown,Christ Church,2,1,1347,43925.0,BBD
+Bridgetown,Christ Church,3,2,1687,47490.0,BBD
+Bridgetown,Christ Church,3,3,1506,44926.0,BBD
+Bridgetown,Christ Church,4,3,1661,57235.0,BBD
+Bridgetown,Christ Church,3,3,1212,28589.0,BBD
+Bridgetown,Christ Church,1,1,1042,35704.0,BBD
+Bridgetown,Christ Church,4,4,2171,51388.0,BBD
+Bridgetown,Christ Church,3,2,1467,43481.0,BBD
+Bridgetown,Christ Church,4,4,1703,58139.0,BBD
+Bridgetown,Christ Church,4,4,1658,53891.0,BBD
+Bridgetown,Christ Church,1,1,840,26664.0,BBD
+Bridgetown,Christ Church,1,1,928,24904.0,BBD
+Bridgetown,Christ Church,4,4,1679,51639.0,BBD
+Bridgetown,Christ Church,2,2,1665,49944.0,BBD
+Bridgetown,Christ Church,3,2,1776,46766.0,BBD
+Bridgetown,Christ Church,1,1,1012,32707.0,BBD
+Bridgetown,Christ Church,1,1,1072,34797.0,BBD
+Bridgetown,Christ Church,1,1,1451,35293.0,BBD
+Bridgetown,Christ Church,4,4,1835,42655.0,BBD
+Bridgetown,Christ Church,1,1,1522,34782.0,BBD
+Bridgetown,Christ Church,2,2,1333,43447.0,BBD
+Bridgetown,Christ Church,3,2,1560,36845.0,BBD
+Bridgetown,Christ Church,4,3,1933,50087.0,BBD
+Bridgetown,Christ Church,2,2,1607,50851.0,BBD
+Bridgetown,Christ Church,3,3,1633,54532.0,BBD
+Bridgetown,Christ Church,4,3,1964,65981.0,BBD
+Bridgetown,Christ Church,3,2,1381,34593.0,BBD
+Bridgetown,Christ Church,2,1,1263,39648.0,BBD
+Bridgetown,Christ Church,2,1,1284,31281.0,BBD
+Bridgetown,Christ Church,4,3,1492,34258.0,BBD
+Bridgetown,Christ Church,1,1,941,31326.0,BBD
+Bridgetown,Christ Church,3,3,1667,43680.0,BBD
+Bridgetown,Christ Church,1,1,1458,34974.0,BBD
+Bridgetown,Christ Church,1,1,1002,24613.0,BBD
+Bridgetown,Christ Church,1,1,1022,24968.0,BBD
+Bridgetown,Christ Church,1,1,1268,41327.0,BBD
+Bridgetown,Christ Church,4,4,2171,52586.0,BBD
+Bridgetown,Christ Church,2,1,1091,26179.0,BBD
+Bridgetown,Christ Church,1,1,1236,27706.0,BBD
+Bridgetown,Christ Church,2,2,1357,38610.0,BBD
+Bridgetown,Christ Church,1,1,1347,46428.0,BBD
+Bridgetown,Christ Church,3,2,1634,38065.0,BBD
+Bridgetown,Christ Church,4,4,1923,62092.0,BBD
+Bridgetown,Christ Church,2,1,1397,47667.0,BBD
+Bridgetown,Christ Church,4,4,1925,55865.0,BBD
+Punta Cana,Bavaro,4,4,1980,167706568.0,DOP
+Punta Cana,Bavaro,2,1,1421,116467848.0,DOP
+Punta Cana,Bavaro,2,1,1574,160164363.0,DOP
+Punta Cana,Bavaro,1,1,1082,116828893.0,DOP
+Punta Cana,Bavaro,2,2,1379,120614426.0,DOP
+Punta Cana,Bavaro,2,1,1227,133603465.0,DOP
+Punta Cana,Bavaro,1,1,1221,118688219.0,DOP
+Punta Cana,Bavaro,2,2,1532,140634737.0,DOP
+Punta Cana,Bavaro,1,1,937,84811785.0,DOP
+Punta Cana,Bavaro,2,1,1526,168203530.0,DOP
+Punta Cana,Bavaro,1,1,1388,136456321.0,DOP
+Punta Cana,Bavaro,3,2,1836,157879993.0,DOP
+Punta Cana,Bavaro,4,4,1662,170883564.0,DOP
+Punta Cana,Bavaro,2,1,1602,147074872.0,DOP
+Punta Cana,Bavaro,2,1,1356,139737210.0,DOP
+Punta Cana,Bavaro,3,3,1364,112744284.0,DOP
+Punta Cana,Bavaro,1,1,1372,128719532.0,DOP
+Punta Cana,Bavaro,3,2,1612,172248055.0,DOP
+Punta Cana,Bavaro,2,1,1282,138948902.0,DOP
+Punta Cana,Bavaro,4,4,1800,213122586.0,DOP
+Punta Cana,Bavaro,2,2,1276,125851664.0,DOP
+Punta Cana,Bavaro,2,2,1613,156335896.0,DOP
+Punta Cana,Bavaro,4,3,1768,158369828.0,DOP
+Punta Cana,Bavaro,3,2,1858,204590603.0,DOP
+Punta Cana,Bavaro,1,1,1507,163632364.0,DOP
+Punta Cana,Bavaro,4,4,1720,146153099.0,DOP
+Punta Cana,Bavaro,1,1,1068,104031645.0,DOP
+Punta Cana,Bavaro,4,3,1642,181764336.0,DOP
+Punta Cana,Bavaro,3,3,1690,130325573.0,DOP
+Punta Cana,Bavaro,1,1,987,102838642.0,DOP
+Punta Cana,Bavaro,3,2,1497,154863644.0,DOP
+Punta Cana,Bavaro,3,2,1378,162250514.0,DOP
+Punta Cana,Bavaro,3,3,1114,103504715.0,DOP
+Punta Cana,Bavaro,1,1,1085,122412436.0,DOP
+Punta Cana,Bavaro,1,1,1045,90270949.0,DOP
+Punta Cana,Bavaro,3,3,1504,158112894.0,DOP
+Punta Cana,Bavaro,4,4,1612,147209761.0,DOP
+Punta Cana,Bavaro,3,2,1734,183270614.0,DOP
+Punta Cana,Bavaro,3,3,1617,136208294.0,DOP
+Punta Cana,Bavaro,1,1,989,100235460.0,DOP
+Punta Cana,Bavaro,2,1,1314,133083825.0,DOP
+Punta Cana,Bavaro,1,1,1241,96768892.0,DOP
+Punta Cana,Bavaro,1,1,1006,108184475.0,DOP
+Punta Cana,Bavaro,1,1,922,77265173.0,DOP
+Punta Cana,Bavaro,3,3,1870,163286783.0,DOP
+Punta Cana,Bavaro,3,3,1751,204981147.0,DOP
+Punta Cana,Bavaro,2,2,1518,144928313.0,DOP
+Punta Cana,Bavaro,4,4,2256,251888522.0,DOP
+Punta Cana,Bavaro,1,1,1247,133782737.0,DOP
+Punta Cana,Bavaro,2,1,1451,142429227.0,DOP
+Punta Cana,Bavaro,2,2,1317,145833546.0,DOP
+Punta Cana,Bavaro,2,2,1179,91335840.0,DOP
+Punta Cana,Bavaro,2,1,1057,86029565.0,DOP
+Punta Cana,Bavaro,3,3,1586,147114997.0,DOP
+Punta Cana,Bavaro,1,1,1263,104892458.0,DOP
+Punta Cana,Bavaro,2,2,1192,133090152.0,DOP
+Punta Cana,Bavaro,4,3,2117,242272725.0,DOP
+Punta Cana,Bavaro,4,3,2011,184970511.0,DOP
+Punta Cana,Bavaro,4,4,1961,217819902.0,DOP
+Punta Cana,Bavaro,1,1,1151,123422271.0,DOP
+Punta Cana,Bavaro,3,2,1791,140771813.0,DOP
+Punta Cana,Bavaro,1,1,1321,110212612.0,DOP
+Punta Cana,Bavaro,3,3,1728,199411536.0,DOP
+Punta Cana,Bavaro,1,1,1225,145344721.0,DOP
+Punta Cana,Bavaro,3,3,1569,158905977.0,DOP
+Punta Cana,Bavaro,4,3,1874,155393080.0,DOP
+Punta Cana,Bavaro,4,3,2110,179765403.0,DOP
+Punta Cana,Bavaro,3,3,1683,134282898.0,DOP
+Punta Cana,Bavaro,4,4,1940,195203560.0,DOP
+Punta Cana,Bavaro,2,2,1492,149079185.0,DOP
+Punta Cana,Bavaro,4,3,1866,190094363.0,DOP
+Punta Cana,Bavaro,3,2,1882,188329683.0,DOP
+Punta Cana,Bavaro,1,1,1260,101024495.0,DOP
+Punta Cana,Bavaro,2,2,1404,160967595.0,DOP
+Punta Cana,Bavaro,1,1,996,102492879.0,DOP
+Punta Cana,Bavaro,4,3,1630,124736776.0,DOP
+Punta Cana,Bavaro,4,3,2076,197045461.0,DOP
+Punta Cana,Bavaro,1,1,1200,138554376.0,DOP
+Punta Cana,Bavaro,1,1,1356,108713836.0,DOP
+Punta Cana,Bavaro,4,3,1670,133711074.0,DOP
+Punta Cana,Bavaro,4,4,1875,213931574.0,DOP
+Punta Cana,Bavaro,2,1,1568,168561217.0,DOP
+Punta Cana,Bavaro,1,1,942,91451640.0,DOP
+Punta Cana,Bavaro,3,2,1405,120026139.0,DOP
+Punta Cana,Bavaro,2,2,999,92714300.0,DOP
+Punta Cana,Bavaro,3,2,1799,210497387.0,DOP
+Punta Cana,Bavaro,1,1,1022,103327393.0,DOP
+Punta Cana,Bavaro,3,2,2077,217910679.0,DOP
+Punta Cana,Bavaro,2,2,1316,115563156.0,DOP
+Punta Cana,Bavaro,1,1,1169,115074012.0,DOP
+Punta Cana,Bavaro,2,2,918,78089274.0,DOP
+Punta Cana,Bavaro,2,2,1287,149883050.0,DOP
+Punta Cana,Bavaro,1,1,1215,110556059.0,DOP
+Punta Cana,Bavaro,4,4,1803,154514591.0,DOP
+Punta Cana,Bavaro,2,2,1377,115691062.0,DOP
+Punta Cana,Bavaro,3,3,1956,157005102.0,DOP
+Punta Cana,Bavaro,3,2,1901,151691270.0,DOP
+Punta Cana,Bavaro,3,3,1733,173970099.0,DOP
+Punta Cana,Bavaro,1,1,1273,104818388.0,DOP
+Punta Cana,Bavaro,3,3,2059,200453308.0,DOP
+Punta Cana,Bavaro,2,1,1553,180883368.0,DOP
+Punta Cana,Bavaro,3,3,1790,151928324.0,DOP
+Punta Cana,Bavaro,2,1,1341,157453588.0,DOP
+Punta Cana,Bavaro,1,1,1208,106073850.0,DOP
+Punta Cana,Bavaro,4,4,2030,172455411.0,DOP
+Punta Cana,Bavaro,2,2,1521,177569967.0,DOP
+Punta Cana,Bavaro,4,3,1825,161742610.0,DOP
+Punta Cana,Bavaro,1,1,1222,104672291.0,DOP
+Punta Cana,Bavaro,1,1,1090,103833201.0,DOP
+Punta Cana,Bavaro,3,3,1934,162585137.0,DOP
+Punta Cana,Bavaro,3,2,1652,171733465.0,DOP
+Punta Cana,Bavaro,1,1,944,98649295.0,DOP
+Punta Cana,Bavaro,2,2,1542,138064434.0,DOP
+Punta Cana,Bavaro,3,3,1820,150218234.0,DOP
+Punta Cana,Bavaro,3,2,1390,157563809.0,DOP
+Punta Cana,Bavaro,2,1,964,99372038.0,DOP
+Punta Cana,Bavaro,2,1,1606,177676093.0,DOP
+Punta Cana,Bavaro,1,1,1221,97048535.0,DOP
+Punta Cana,Bavaro,4,4,1981,203423867.0,DOP
+Punta Cana,Bavaro,1,1,1385,159319460.0,DOP
+Punta Cana,Bavaro,4,4,1651,192346543.0,DOP
+Punta Cana,Bavaro,2,2,1230,100824331.0,DOP
+Punta Cana,Bavaro,4,3,2155,204666562.0,DOP
+Punta Cana,Bavaro,1,1,1380,149029582.0,DOP
+Punta Cana,Bavaro,2,2,1460,119805344.0,DOP
+Punta Cana,Bavaro,2,1,1392,114858768.0,DOP
+Punta Cana,Bavaro,4,4,1886,206559300.0,DOP
+Punta Cana,Bavaro,1,1,1468,125497790.0,DOP
+Punta Cana,Bavaro,3,3,1954,172923810.0,DOP
+Punta Cana,Bavaro,3,2,1820,209175268.0,DOP
+Punta Cana,Bavaro,1,1,1088,88649263.0,DOP
+Punta Cana,Bavaro,2,1,1314,123797645.0,DOP
+Punta Cana,Bavaro,1,1,1742,154634431.0,DOP
+Punta Cana,Bavaro,1,1,1184,138239659.0,DOP
+Punta Cana,Bavaro,3,3,1875,150163406.0,DOP
+Punta Cana,Bavaro,1,1,846,89680939.0,DOP
+Punta Cana,Bavaro,2,2,1430,110761778.0,DOP
+Punta Cana,Bavaro,2,2,1748,174876104.0,DOP
+Punta Cana,Bavaro,2,2,1604,169768662.0,DOP
+Punta Cana,Bavaro,1,1,1014,108167878.0,DOP
+Punta Cana,Bavaro,3,2,1664,158569082.0,DOP
+Punta Cana,Bavaro,3,2,1748,141831868.0,DOP
+Punta Cana,Bavaro,2,1,1398,130707718.0,DOP
+Punta Cana,Bavaro,3,2,1639,132047756.0,DOP
+Punta Cana,Bavaro,2,2,1497,154235498.0,DOP
+Punta Cana,Bavaro,1,1,1111,88148412.0,DOP
+Punta Cana,Bavaro,4,3,2144,241848414.0,DOP
+Punta Cana,Bavaro,3,3,1638,180969892.0,DOP
+Punta Cana,Bavaro,1,1,1456,135065905.0,DOP
+Punta Cana,Bavaro,2,2,1586,166274582.0,DOP
+Sint Maarten,Cole Bay,3,3,1524,6603.0,USD
+Sint Maarten,Cole Bay,3,3,1866,5996.0,USD
+Sint Maarten,Cole Bay,2,1,1414,6455.0,USD
+Sint Maarten,Cole Bay,1,1,969,4393.0,USD
+Sint Maarten,Cole Bay,2,1,1056,3609.0,USD
+Sint Maarten,Cole Bay,2,2,1426,6179.0,USD
+Sint Maarten,Cole Bay,4,4,2125,7158.0,USD
+Sint Maarten,Cole Bay,4,4,1735,6063.0,USD
+Sint Maarten,Cole Bay,2,2,1486,6543.0,USD
+Sint Maarten,Cole Bay,1,1,959,3326.0,USD
+Sint Maarten,Cole Bay,4,4,2149,9167.0,USD
+Sint Maarten,Cole Bay,3,2,1727,6778.0,USD
+Sint Maarten,Cole Bay,2,1,1611,7668.0,USD
+Sint Maarten,Cole Bay,2,2,1477,6722.0,USD
+Sint Maarten,Cole Bay,3,2,1295,6121.0,USD
+Sint Maarten,Cole Bay,1,1,1348,6682.0,USD
+Sint Maarten,Cole Bay,2,1,1140,5453.0,USD
+Sint Maarten,Cole Bay,1,1,1064,3591.0,USD
+Sint Maarten,Cole Bay,4,3,1679,8112.0,USD
+Sint Maarten,Cole Bay,3,2,1867,7677.0,USD
+Sint Maarten,Cole Bay,1,1,1069,3487.0,USD
+Sint Maarten,Cole Bay,3,3,1500,6412.0,USD
+Sint Maarten,Cole Bay,1,1,935,4153.0,USD
+Sint Maarten,Cole Bay,3,2,1551,6413.0,USD
+Sint Maarten,Cole Bay,4,3,1996,6942.0,USD
+Sint Maarten,Cole Bay,2,1,1521,5913.0,USD
+Sint Maarten,Cole Bay,1,1,1343,5010.0,USD
+Sint Maarten,Cole Bay,4,3,2278,7928.0,USD
+Sint Maarten,Cole Bay,1,1,1449,7134.0,USD
+Sint Maarten,Cole Bay,4,4,1922,9415.0,USD
+Sint Maarten,Cole Bay,3,2,1456,5536.0,USD
+Sint Maarten,Cole Bay,2,1,1385,5990.0,USD
+Sint Maarten,Cole Bay,2,2,1552,6722.0,USD
+Sint Maarten,Cole Bay,3,2,1979,8922.0,USD
+Sint Maarten,Cole Bay,4,4,1848,6611.0,USD
+Sint Maarten,Cole Bay,4,3,1978,7829.0,USD
+Sint Maarten,Cole Bay,1,1,1038,5168.0,USD
+Sint Maarten,Cole Bay,2,2,1676,6781.0,USD
+Sint Maarten,Cole Bay,2,1,1316,5203.0,USD
+Sint Maarten,Cole Bay,1,1,914,3574.0,USD
+Sint Maarten,Cole Bay,3,2,1552,6225.0,USD
+Sint Maarten,Cole Bay,2,2,1156,4120.0,USD
+Sint Maarten,Cole Bay,2,2,1197,4149.0,USD
+Sint Maarten,Cole Bay,4,3,2014,6629.0,USD
+Sint Maarten,Cole Bay,1,1,903,2918.0,USD
+Sint Maarten,Cole Bay,2,2,1476,5712.0,USD
+Sint Maarten,Cole Bay,1,1,1331,5732.0,USD
+Sint Maarten,Cole Bay,3,3,1937,9393.0,USD
+Sint Maarten,Cole Bay,3,2,1946,8577.0,USD
+Sint Maarten,Cole Bay,1,1,996,3332.0,USD
+Sint Maarten,Cole Bay,1,1,850,3748.0,USD
+Sint Maarten,Cole Bay,2,1,1163,4464.0,USD
+Sint Maarten,Cole Bay,1,1,1040,4066.0,USD
+Sint Maarten,Cole Bay,2,2,1025,3848.0,USD
+Sint Maarten,Cole Bay,4,3,1956,7497.0,USD
+Sint Maarten,Cole Bay,1,1,1355,6687.0,USD
+Sint Maarten,Cole Bay,2,1,1631,5984.0,USD
+Sint Maarten,Cole Bay,3,3,1808,8465.0,USD
+Sint Maarten,Cole Bay,3,2,1835,8354.0,USD
+Sint Maarten,Cole Bay,3,3,1535,6333.0,USD
+Sint Maarten,Cole Bay,2,2,1210,4957.0,USD
+Sint Maarten,Cole Bay,1,1,1228,4915.0,USD
+Sint Maarten,Cole Bay,1,1,951,4749.0,USD
+Sint Maarten,Cole Bay,1,1,1131,5305.0,USD
+Sint Maarten,Cole Bay,1,1,1075,5311.0,USD
+Sint Maarten,Cole Bay,4,4,2120,6830.0,USD
+Sint Maarten,Cole Bay,2,1,1225,3947.0,USD
+Sint Maarten,Cole Bay,1,1,922,3870.0,USD
+Sint Maarten,Cole Bay,4,4,1738,7715.0,USD
+Sint Maarten,Cole Bay,1,1,1150,4393.0,USD
+Sint Maarten,Cole Bay,1,1,1005,4226.0,USD
+Sint Maarten,Cole Bay,3,3,1478,6793.0,USD
+Sint Maarten,Cole Bay,1,1,929,4013.0,USD
+Sint Maarten,Cole Bay,4,4,2022,7932.0,USD
+Sint Maarten,Cole Bay,4,4,1716,6963.0,USD
+Sint Maarten,Cole Bay,2,1,1428,6497.0,USD
+Sint Maarten,Cole Bay,1,1,1200,5768.0,USD
+Sint Maarten,Cole Bay,2,2,1393,6213.0,USD
+Sint Maarten,Cole Bay,2,1,1405,4509.0,USD
+Sint Maarten,Cole Bay,4,4,2178,10117.0,USD
+Sint Maarten,Cole Bay,1,1,1112,4522.0,USD
+Sint Maarten,Cole Bay,2,2,1315,5246.0,USD
+Sint Maarten,Cole Bay,1,1,1178,5503.0,USD
+Sint Maarten,Cole Bay,3,3,1456,5431.0,USD
+Sint Maarten,Cole Bay,3,3,1571,7186.0,USD
+Sint Maarten,Cole Bay,4,3,1541,7522.0,USD
+Sint Maarten,Cole Bay,2,1,1636,6300.0,USD
+Sint Maarten,Cole Bay,1,1,875,3479.0,USD
+Sint Maarten,Cole Bay,2,1,1475,6820.0,USD
+Sint Maarten,Cole Bay,4,4,1787,8747.0,USD
+Sint Maarten,Cole Bay,1,1,1045,3417.0,USD
+Sint Maarten,Cole Bay,3,3,1731,7082.0,USD
+Sint Maarten,Cole Bay,1,1,1201,5219.0,USD
+Sint Maarten,Cole Bay,2,1,1305,5327.0,USD
+Sint Maarten,Cole Bay,2,1,1605,5395.0,USD
+Sint Maarten,Cole Bay,1,1,962,4617.0,USD
+Sint Maarten,Cole Bay,3,2,1436,5955.0,USD
+Sint Maarten,Cole Bay,4,3,1619,6642.0,USD
+Sint Maarten,Cole Bay,2,2,1229,3938.0,USD
+Sint Maarten,Cole Bay,4,4,1906,9231.0,USD
+Sint Maarten,Cole Bay,2,1,1473,6951.0,USD
+Sint Maarten,Cole Bay,2,2,1217,4870.0,USD
+Sint Maarten,Cole Bay,3,2,1553,5309.0,USD
+Sint Maarten,Cole Bay,1,1,1006,3551.0,USD
+Sint Maarten,Cole Bay,1,1,1265,4427.0,USD
+Sint Maarten,Cole Bay,3,2,2000,7208.0,USD
+Sint Maarten,Cole Bay,1,1,1100,3975.0,USD
+Sint Maarten,Cole Bay,2,1,1569,5523.0,USD
+Sint Maarten,Cole Bay,1,1,1151,3713.0,USD
+Sint Maarten,Cole Bay,2,1,1360,5057.0,USD
+Sint Maarten,Cole Bay,1,1,1106,4134.0,USD
+Sint Maarten,Cole Bay,2,1,1326,4292.0,USD
+Sint Maarten,Cole Bay,1,1,1051,4492.0,USD
+Sint Maarten,Cole Bay,2,2,1501,6931.0,USD
+Sint Maarten,Cole Bay,1,1,1192,5448.0,USD
+Sint Maarten,Cole Bay,4,4,1426,6653.0,USD
+Sint Maarten,Cole Bay,4,3,1849,8816.0,USD
+Sint Maarten,Cole Bay,3,2,1694,7305.0,USD
+Sint Maarten,Cole Bay,2,2,1817,8848.0,USD
+Sint Maarten,Cole Bay,4,3,2004,6914.0,USD
+Sint Maarten,Cole Bay,3,2,1701,5708.0,USD
+Sint Maarten,Cole Bay,2,2,1466,5752.0,USD
+Sint Maarten,Cole Bay,3,2,1451,5497.0,USD
+Sint Maarten,Cole Bay,3,3,1677,5904.0,USD
+Sint Maarten,Cole Bay,1,1,1478,5153.0,USD
+Sint Maarten,Cole Bay,3,3,1797,7297.0,USD
+Sint Maarten,Cole Bay,1,1,1221,5203.0,USD
+Sint Maarten,Cole Bay,3,3,1780,5815.0,USD
+Sint Maarten,Cole Bay,2,1,1341,6426.0,USD
+Sint Maarten,Cole Bay,3,3,1713,7644.0,USD
+Sint Maarten,Cole Bay,1,1,940,3370.0,USD
+Sint Maarten,Cole Bay,4,4,1556,6597.0,USD
+Sint Maarten,Cole Bay,2,1,1216,5032.0,USD
+Sint Maarten,Cole Bay,1,1,1108,3683.0,USD
+Sint Maarten,Cole Bay,4,4,1757,8637.0,USD
+Sint Maarten,Cole Bay,1,1,1263,6258.0,USD
+Sint Maarten,Cole Bay,1,1,1304,4783.0,USD
+Sint Maarten,Cole Bay,1,1,1066,4151.0,USD
+Sint Maarten,Cole Bay,2,2,1221,5479.0,USD
+Sint Maarten,Cole Bay,4,3,1750,7514.0,USD
+Sint Maarten,Cole Bay,3,2,2074,8480.0,USD
+Sint Maarten,Cole Bay,1,1,1156,4217.0,USD
+Sint Maarten,Cole Bay,1,1,1091,4950.0,USD
+Sint Maarten,Cole Bay,4,3,2000,7900.0,USD
+Sint Maarten,Cole Bay,4,3,2056,8630.0,USD
+Sint Maarten,Cole Bay,1,1,671,2183.0,USD
+Sint Maarten,Cole Bay,4,4,1629,6684.0,USD
+Sint Maarten,Cole Bay,1,1,1094,5104.0,USD
+Sint Maarten,Cole Bay,4,4,2120,9323.0,USD
+Sint Maarten,Cole Bay,3,3,1495,5746.0,USD

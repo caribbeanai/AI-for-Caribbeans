@@ -1,0 +1,225 @@
+date,format,opponent,venue,wi_runs,opp_runs,wi_wickets,opp_wickets,result
+2018-05-26,Test,Bangladesh,Kingsmead,427,294,7,5,WI win
+2018-02-15,Test,New Zealand,Kensington Oval,389,173,10,7,WI win
+2018-06-15,T20I,Afghanistan,Sabina Park,148,178,4,8,WI loss
+2018-10-14,T20I,Zimbabwe,Kingsmead,133,119,4,6,WI win
+2018-12-04,ODI,Afghanistan,Brian Lara Stadium,231,194,9,9,WI win
+2018-03-05,ODI,Sri Lanka,Sabina Park,217,281,4,5,WI loss
+2018-03-06,T20I,England,Sabina Park,153,140,7,2,WI win
+2018-11-01,ODI,Bangladesh,Kingsmead,221,213,8,5,WI win
+2018-06-01,Test,England,Warner Park,440,413,10,5,WI win
+2018-10-05,T20I,England,Brian Lara Stadium,178,183,4,2,WI loss
+2018-12-06,Test,England,Daren Sammy Stadium,294,338,8,9,WI loss
+2018-07-06,Test,Australia,Brian Lara Stadium,321,384,7,9,WI loss
+2018-04-24,Test,Sri Lanka,Kensington Oval,380,453,8,7,WI loss
+2018-07-10,Test,India,Queen's Park Oval,322,249,7,10,WI win
+2018-07-12,ODI,Bangladesh,Queen's Park Oval,175,243,2,2,WI loss
+2018-11-20,Test,Australia,Daren Sammy Stadium,187,288,5,8,WI loss
+2018-08-13,T20I,New Zealand,Warner Park,168,164,3,3,WI win
+2018-08-05,T20I,Sri Lanka,Warner Park,157,158,2,5,WI loss
+2018-08-25,T20I,Australia,Sabina Park,116,205,8,2,WI loss
+2018-05-07,ODI,India,Sabina Park,182,332,4,7,WI loss
+2018-06-19,Test,Sri Lanka,Kensington Oval,263,315,5,6,WI loss
+2018-07-04,ODI,England,Kensington Oval,300,236,2,10,WI win
+2018-10-02,Test,Afghanistan,Kingsmead,282,392,7,9,WI loss
+2018-05-23,T20I,Afghanistan,Brian Lara Stadium,156,144,9,2,WI win
+2018-05-07,T20I,New Zealand,Daren Sammy Stadium,157,172,2,9,WI loss
+2018-09-17,Test,England,Queen's Park Oval,416,392,8,8,WI win
+2018-02-23,Test,Bangladesh,Brian Lara Stadium,476,531,7,6,WI loss
+2018-04-28,ODI,Sri Lanka,Kingsmead,282,271,5,4,WI win
+2019-07-23,Test,Sri Lanka,Queen's Park Oval,270,351,7,5,WI loss
+2019-05-19,T20I,India,Brian Lara Stadium,169,167,2,4,WI win
+2019-02-20,ODI,South Africa,Daren Sammy Stadium,249,281,8,9,WI loss
+2019-04-02,T20I,Bangladesh,Kingsmead,137,142,10,7,WI loss
+2019-06-25,ODI,Zimbabwe,Daren Sammy Stadium,201,213,6,6,WI loss
+2019-01-13,Test,New Zealand,Warner Park,205,501,9,8,WI loss
+2019-04-15,ODI,India,Daren Sammy Stadium,270,314,3,5,WI loss
+2019-12-02,ODI,Australia,Kensington Oval,263,278,10,2,WI loss
+2019-12-04,ODI,Australia,Warner Park,229,200,3,6,WI win
+2019-04-08,ODI,England,Sabina Park,289,235,3,4,WI win
+2019-06-28,T20I,England,Daren Sammy Stadium,129,144,6,8,WI loss
+2019-09-02,Test,Afghanistan,Sabina Park,463,337,9,5,WI win
+2019-08-02,Test,Zimbabwe,Queen's Park Oval,365,301,10,5,WI win
+2019-05-27,ODI,Afghanistan,Warner Park,289,178,6,9,WI win
+2019-11-03,ODI,Afghanistan,Daren Sammy Stadium,341,237,4,7,WI win
+2019-03-26,T20I,India,Daren Sammy Stadium,148,187,9,3,WI loss
+2019-04-06,T20I,Sri Lanka,Warner Park,141,183,2,5,WI loss
+2019-01-13,ODI,England,Daren Sammy Stadium,192,287,8,6,WI loss
+2019-09-14,T20I,Afghanistan,Sabina Park,124,183,3,10,WI loss
+2019-11-01,ODI,New Zealand,Sabina Park,286,269,6,3,WI win
+2019-05-27,ODI,Bangladesh,Brian Lara Stadium,262,276,6,10,WI loss
+2019-07-02,T20I,Zimbabwe,Kingsmead,170,156,7,5,WI win
+2019-07-13,T20I,Zimbabwe,Sabina Park,168,117,4,8,WI win
+2019-09-15,ODI,Bangladesh,Brian Lara Stadium,236,268,10,7,WI loss
+2019-10-17,T20I,England,Queen's Park Oval,170,155,10,2,WI win
+2019-07-25,Test,Australia,Kensington Oval,326,487,8,8,WI loss
+2019-04-09,ODI,Sri Lanka,Sabina Park,209,258,5,5,WI loss
+2019-10-10,ODI,Sri Lanka,Kensington Oval,265,405,9,10,WI loss
+2020-04-27,T20I,Pakistan,Kingsmead,178,159,10,8,WI win
+2020-11-12,T20I,Bangladesh,Warner Park,158,175,10,3,WI loss
+2020-03-19,T20I,England,Kingsmead,165,162,8,2,WI win
+2020-02-09,Test,Pakistan,Sabina Park,493,431,8,7,WI win
+2020-03-23,T20I,England,Sabina Park,171,90,6,2,WI win
+2020-02-09,Test,Zimbabwe,Warner Park,444,235,7,8,WI win
+2020-02-26,ODI,Sri Lanka,Kensington Oval,248,272,3,4,WI loss
+2020-04-11,ODI,India,Sabina Park,277,253,9,4,WI win
+2020-02-22,T20I,South Africa,Daren Sammy Stadium,143,147,7,3,WI loss
+2020-11-25,T20I,India,Warner Park,143,142,10,3,WI win
+2020-12-17,T20I,Bangladesh,Brian Lara Stadium,142,162,4,5,WI loss
+2020-05-11,ODI,Bangladesh,Brian Lara Stadium,276,232,7,5,WI win
+2020-01-15,T20I,Sri Lanka,Queen's Park Oval,171,142,5,6,WI win
+2020-03-05,T20I,New Zealand,Warner Park,153,187,6,7,WI loss
+2020-11-10,T20I,Zimbabwe,Kingsmead,198,183,8,6,WI win
+2020-06-11,ODI,Sri Lanka,Brian Lara Stadium,260,178,4,6,WI win
+2020-11-27,T20I,Australia,Kingsmead,122,168,10,4,WI loss
+2020-10-27,ODI,England,Warner Park,180,360,7,3,WI loss
+2020-08-18,T20I,Bangladesh,Kingsmead,198,179,7,6,WI win
+2020-10-08,Test,Bangladesh,Kensington Oval,404,185,9,10,WI win
+2020-07-05,T20I,Bangladesh,Warner Park,146,142,4,3,WI win
+2020-04-27,Test,Pakistan,Queen's Park Oval,465,363,9,5,WI win
+2020-06-11,ODI,Bangladesh,Brian Lara Stadium,201,391,5,9,WI loss
+2020-07-10,ODI,South Africa,Kensington Oval,290,349,9,4,WI loss
+2020-06-01,ODI,Pakistan,Queen's Park Oval,301,334,2,2,WI loss
+2020-01-07,Test,India,Warner Park,337,434,5,10,WI loss
+2020-02-07,T20I,India,Sabina Park,156,135,7,9,WI win
+2020-11-17,ODI,England,Kensington Oval,272,227,4,10,WI win
+2021-11-05,T20I,Australia,Warner Park,122,199,2,6,WI loss
+2021-11-18,ODI,England,Brian Lara Stadium,204,214,10,2,WI loss
+2021-05-04,T20I,New Zealand,Brian Lara Stadium,183,170,9,9,WI win
+2021-06-24,T20I,India,Kingsmead,158,188,2,7,WI loss
+2021-06-27,T20I,Australia,Brian Lara Stadium,155,123,7,6,WI win
+2021-10-14,T20I,Afghanistan,Queen's Park Oval,113,141,8,6,WI loss
+2021-10-10,ODI,Australia,Sabina Park,253,286,8,2,WI loss
+2021-03-24,T20I,South Africa,Sabina Park,170,182,5,5,WI loss
+2021-01-28,Test,South Africa,Warner Park,222,292,5,9,WI loss
+2021-03-05,T20I,Bangladesh,Daren Sammy Stadium,153,197,7,6,WI loss
+2021-04-01,T20I,Bangladesh,Queen's Park Oval,141,164,10,2,WI loss
+2021-12-21,ODI,Australia,Brian Lara Stadium,175,212,2,7,WI loss
+2021-11-23,ODI,India,Kensington Oval,209,250,3,3,WI loss
+2021-03-08,ODI,Afghanistan,Kensington Oval,318,275,6,2,WI win
+2021-06-17,ODI,Sri Lanka,Queen's Park Oval,197,332,3,5,WI loss
+2021-03-05,T20I,Zimbabwe,Kensington Oval,136,194,7,3,WI loss
+2021-07-11,Test,Zimbabwe,Sabina Park,186,103,8,8,WI win
+2021-06-25,Test,South Africa,Kensington Oval,338,310,8,7,WI win
+2021-10-11,T20I,Australia,Sabina Park,170,122,8,5,WI win
+2021-02-15,T20I,England,Kensington Oval,161,160,9,7,WI win
+2021-01-28,T20I,Pakistan,Kensington Oval,198,191,7,7,WI win
+2021-08-17,T20I,England,Brian Lara Stadium,164,132,3,3,WI win
+2021-08-21,ODI,Australia,Queen's Park Oval,248,249,7,9,WI loss
+2021-04-24,T20I,Bangladesh,Queen's Park Oval,175,179,4,7,WI loss
+2021-10-16,T20I,Australia,Warner Park,156,145,4,3,WI win
+2021-04-20,Test,Bangladesh,Kingsmead,354,471,7,7,WI loss
+2021-03-28,ODI,Afghanistan,Queen's Park Oval,376,281,4,9,WI win
+2021-12-20,ODI,South Africa,Warner Park,139,316,8,4,WI loss
+2022-05-06,ODI,Sri Lanka,Warner Park,311,339,7,8,WI loss
+2022-08-18,T20I,India,Queen's Park Oval,185,129,9,6,WI win
+2022-12-08,ODI,India,Daren Sammy Stadium,266,155,3,2,WI win
+2022-07-17,Test,Pakistan,Kingsmead,467,311,7,10,WI win
+2022-02-26,ODI,Sri Lanka,Queen's Park Oval,210,260,2,8,WI loss
+2022-10-23,ODI,Bangladesh,Kingsmead,262,279,9,8,WI loss
+2022-01-16,Test,Zimbabwe,Kingsmead,338,557,10,9,WI loss
+2022-03-01,Test,Sri Lanka,Queen's Park Oval,242,400,6,9,WI loss
+2022-08-16,ODI,England,Daren Sammy Stadium,216,229,7,9,WI loss
+2022-06-17,Test,Afghanistan,Warner Park,493,290,9,6,WI win
+2022-07-18,ODI,England,Kensington Oval,277,296,4,4,WI loss
+2022-11-03,ODI,Australia,Brian Lara Stadium,202,338,3,5,WI loss
+2022-10-22,ODI,India,Kensington Oval,304,161,5,5,WI win
+2022-07-03,ODI,Zimbabwe,Daren Sammy Stadium,182,307,3,6,WI loss
+2022-11-16,ODI,Sri Lanka,Brian Lara Stadium,292,281,7,9,WI win
+2022-02-16,ODI,Australia,Kensington Oval,261,272,10,6,WI loss
+2022-03-17,T20I,Bangladesh,Brian Lara Stadium,208,141,4,7,WI win
+2022-05-03,ODI,Bangladesh,Brian Lara Stadium,225,174,9,7,WI win
+2022-09-04,ODI,Bangladesh,Kingsmead,198,219,8,8,WI loss
+2022-09-13,ODI,New Zealand,Kensington Oval,203,157,3,4,WI win
+2022-02-07,ODI,Afghanistan,Kensington Oval,221,150,3,7,WI win
+2022-10-17,ODI,Zimbabwe,Queen's Park Oval,313,196,2,7,WI win
+2022-07-18,T20I,New Zealand,Sabina Park,135,164,8,4,WI loss
+2022-05-15,ODI,Pakistan,Queen's Park Oval,363,360,4,2,WI win
+2022-01-03,T20I,Sri Lanka,Brian Lara Stadium,168,124,9,10,WI win
+2022-09-16,T20I,Australia,Kingsmead,181,172,2,3,WI win
+2022-10-28,Test,Afghanistan,Warner Park,256,91,7,8,WI win
+2022-04-12,Test,South Africa,Queen's Park Oval,400,385,9,9,WI win
+2023-12-13,Test,New Zealand,Brian Lara Stadium,278,239,10,8,WI win
+2023-03-27,ODI,England,Sabina Park,280,402,4,5,WI loss
+2023-12-19,ODI,Sri Lanka,Sabina Park,268,317,8,9,WI loss
+2023-11-21,T20I,Pakistan,Daren Sammy Stadium,123,198,10,3,WI loss
+2023-10-27,ODI,Zimbabwe,Warner Park,204,261,4,3,WI loss
+2023-10-19,T20I,Sri Lanka,Kensington Oval,176,209,8,10,WI loss
+2023-12-22,Test,Australia,Kensington Oval,421,281,5,7,WI win
+2023-01-05,T20I,India,Queen's Park Oval,224,145,5,2,WI win
+2023-07-04,ODI,Afghanistan,Kensington Oval,276,314,10,8,WI loss
+2023-09-21,Test,Afghanistan,Sabina Park,236,254,7,9,WI loss
+2023-10-12,T20I,Bangladesh,Kingsmead,202,137,2,9,WI win
+2023-11-21,T20I,Australia,Kensington Oval,224,125,3,5,WI win
+2023-09-15,ODI,New Zealand,Brian Lara Stadium,376,265,7,5,WI win
+2023-12-14,Test,New Zealand,Brian Lara Stadium,322,371,10,5,WI loss
+2023-05-27,ODI,Afghanistan,Brian Lara Stadium,300,173,9,5,WI win
+2023-01-06,Test,South Africa,Queen's Park Oval,156,241,5,9,WI loss
+2023-03-24,ODI,Sri Lanka,Daren Sammy Stadium,212,249,6,10,WI loss
+2023-02-25,ODI,Zimbabwe,Kingsmead,292,209,7,10,WI win
+2023-07-16,T20I,India,Brian Lara Stadium,163,150,10,3,WI win
+2023-08-21,T20I,Sri Lanka,Kingsmead,181,127,3,9,WI win
+2023-06-10,Test,Australia,Daren Sammy Stadium,362,471,7,5,WI loss
+2023-10-25,ODI,Afghanistan,Queen's Park Oval,282,251,10,5,WI win
+2023-09-20,Test,New Zealand,Brian Lara Stadium,270,455,6,8,WI loss
+2023-06-04,Test,Australia,Daren Sammy Stadium,255,253,7,10,WI win
+2023-11-24,Test,Pakistan,Daren Sammy Stadium,419,329,10,7,WI win
+2023-09-07,Test,Bangladesh,Kensington Oval,370,357,10,9,WI win
+2023-03-28,ODI,Bangladesh,Warner Park,276,282,9,7,WI loss
+2023-11-14,Test,New Zealand,Brian Lara Stadium,282,372,9,6,WI loss
+2024-02-16,ODI,Australia,Queen's Park Oval,258,256,9,9,WI win
+2024-06-08,ODI,South Africa,Warner Park,237,288,6,10,WI loss
+2024-11-09,Test,Zimbabwe,Queen's Park Oval,179,45,9,10,WI win
+2024-12-22,Test,India,Sabina Park,227,462,6,7,WI loss
+2024-02-17,T20I,Pakistan,Kingsmead,182,161,6,5,WI win
+2024-10-23,Test,England,Sabina Park,444,334,8,10,WI win
+2024-07-21,Test,Sri Lanka,Queen's Park Oval,455,477,6,8,WI loss
+2024-10-01,Test,Pakistan,Daren Sammy Stadium,376,385,9,6,WI loss
+2024-01-01,ODI,New Zealand,Brian Lara Stadium,253,248,2,10,WI win
+2024-05-02,Test,India,Kensington Oval,361,329,9,10,WI win
+2024-11-01,Test,Australia,Warner Park,317,331,10,7,WI loss
+2024-03-18,ODI,Afghanistan,Brian Lara Stadium,347,173,5,7,WI win
+2024-09-07,Test,South Africa,Brian Lara Stadium,391,453,5,7,WI loss
+2024-05-24,T20I,Sri Lanka,Sabina Park,149,148,8,8,WI win
+2024-12-27,T20I,Pakistan,Queen's Park Oval,181,181,9,7,Tie
+2024-07-08,ODI,Zimbabwe,Daren Sammy Stadium,265,250,3,10,WI win
+2024-08-28,ODI,India,Warner Park,233,352,9,8,WI loss
+2024-02-22,T20I,South Africa,Sabina Park,151,172,8,3,WI loss
+2024-04-22,T20I,New Zealand,Kensington Oval,130,152,4,8,WI loss
+2024-08-20,ODI,India,Brian Lara Stadium,289,261,7,3,WI win
+2024-09-11,T20I,South Africa,Warner Park,185,160,7,6,WI win
+2024-02-04,ODI,Zimbabwe,Daren Sammy Stadium,270,202,9,7,WI win
+2024-06-18,Test,Pakistan,Queen's Park Oval,80,318,9,9,WI loss
+2024-04-21,T20I,Sri Lanka,Warner Park,202,205,7,10,WI loss
+2024-08-09,T20I,South Africa,Kensington Oval,144,182,4,4,WI loss
+2024-02-21,Test,India,Brian Lara Stadium,348,301,6,6,WI win
+2024-12-01,T20I,England,Brian Lara Stadium,145,180,10,4,WI loss
+2024-09-09,T20I,New Zealand,Brian Lara Stadium,126,191,5,7,WI loss
+2025-11-25,T20I,Sri Lanka,Sabina Park,166,186,10,5,WI loss
+2025-04-24,T20I,Pakistan,Kensington Oval,154,141,5,8,WI win
+2025-08-28,Test,Zimbabwe,Kingsmead,280,291,7,9,WI loss
+2025-10-05,ODI,Zimbabwe,Kingsmead,300,337,2,7,WI loss
+2025-04-22,T20I,Sri Lanka,Daren Sammy Stadium,148,187,7,3,WI loss
+2025-11-24,ODI,New Zealand,Brian Lara Stadium,240,281,2,3,WI loss
+2025-10-10,ODI,Pakistan,Daren Sammy Stadium,223,239,7,8,WI loss
+2025-12-12,T20I,Zimbabwe,Kingsmead,233,152,8,10,WI win
+2025-10-08,ODI,England,Warner Park,241,276,9,8,WI loss
+2025-09-26,T20I,Bangladesh,Daren Sammy Stadium,170,179,7,9,WI loss
+2025-11-14,T20I,Sri Lanka,Warner Park,170,185,5,9,WI loss
+2025-01-24,Test,India,Kingsmead,239,259,5,10,WI loss
+2025-12-09,ODI,Zimbabwe,Daren Sammy Stadium,291,373,5,3,WI loss
+2025-10-06,ODI,India,Brian Lara Stadium,299,261,2,5,WI win
+2025-06-14,T20I,England,Sabina Park,148,172,7,4,WI loss
+2025-05-28,ODI,Sri Lanka,Kensington Oval,294,289,9,3,WI win
+2025-10-14,Test,India,Daren Sammy Stadium,487,335,8,7,WI win
+2025-03-06,ODI,Zimbabwe,Sabina Park,235,278,4,8,WI loss
+2025-01-28,Test,Pakistan,Daren Sammy Stadium,317,327,8,8,WI loss
+2025-04-05,Test,Afghanistan,Warner Park,324,303,10,8,WI win
+2025-01-28,ODI,South Africa,Brian Lara Stadium,255,240,8,5,WI win
+2025-10-26,Test,India,Kensington Oval,500,329,6,7,WI win
+2025-04-22,ODI,New Zealand,Kensington Oval,246,216,6,8,WI win
+2025-02-26,ODI,Pakistan,Sabina Park,253,347,9,3,WI loss
+2025-10-28,ODI,Zimbabwe,Kensington Oval,248,323,3,2,WI loss
+2025-12-19,T20I,Sri Lanka,Sabina Park,189,191,5,8,WI loss
+2025-10-13,T20I,Pakistan,Kingsmead,165,197,6,5,WI loss
+2025-06-03,T20I,South Africa,Brian Lara Stadium,97,160,10,7,WI loss

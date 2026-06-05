@@ -1,0 +1,625 @@
+date,item,price_jmd_per_lb
+2024-W01,yam,189.9
+2024-W01,callaloo,124.2
+2024-W01,tomato,200.4
+2024-W01,scotch bonnet,348.8
+2024-W01,sweet potato,131.2
+2024-W01,plantain,91.7
+2024-W02,yam,181.6
+2024-W02,callaloo,119.1
+2024-W02,tomato,205.8
+2024-W02,scotch bonnet,362.3
+2024-W02,sweet potato,131.4
+2024-W02,plantain,98.8
+2024-W03,yam,177.4
+2024-W03,callaloo,137.5
+2024-W03,tomato,214.2
+2024-W03,scotch bonnet,365.8
+2024-W03,sweet potato,155.5
+2024-W03,plantain,94.9
+2024-W04,yam,196.7
+2024-W04,callaloo,129.0
+2024-W04,tomato,220.5
+2024-W04,scotch bonnet,380.8
+2024-W04,sweet potato,144.3
+2024-W04,plantain,92.6
+2024-W05,yam,197.4
+2024-W05,callaloo,129.0
+2024-W05,tomato,203.3
+2024-W05,scotch bonnet,392.0
+2024-W05,sweet potato,138.9
+2024-W05,plantain,85.2
+2024-W06,yam,190.2
+2024-W06,callaloo,135.3
+2024-W06,tomato,230.7
+2024-W06,scotch bonnet,383.4
+2024-W06,sweet potato,151.6
+2024-W06,plantain,100.0
+2024-W07,yam,198.0
+2024-W07,callaloo,134.0
+2024-W07,tomato,215.6
+2024-W07,scotch bonnet,391.9
+2024-W07,sweet potato,158.1
+2024-W07,plantain,85.5
+2024-W08,yam,201.6
+2024-W08,callaloo,135.8
+2024-W08,tomato,228.1
+2024-W08,scotch bonnet,388.3
+2024-W08,sweet potato,149.3
+2024-W08,plantain,95.4
+2024-W09,yam,207.2
+2024-W09,callaloo,130.8
+2024-W09,tomato,222.0
+2024-W09,scotch bonnet,403.3
+2024-W09,sweet potato,153.9
+2024-W09,plantain,96.6
+2024-W10,yam,204.7
+2024-W10,callaloo,138.0
+2024-W10,tomato,234.3
+2024-W10,scotch bonnet,393.8
+2024-W10,sweet potato,150.2
+2024-W10,plantain,101.9
+2024-W11,yam,210.1
+2024-W11,callaloo,128.6
+2024-W11,tomato,226.2
+2024-W11,scotch bonnet,402.8
+2024-W11,sweet potato,161.8
+2024-W11,plantain,103.6
+2024-W12,yam,205.3
+2024-W12,callaloo,133.1
+2024-W12,tomato,224.2
+2024-W12,scotch bonnet,409.1
+2024-W12,sweet potato,154.1
+2024-W12,plantain,110.8
+2024-W13,yam,199.1
+2024-W13,callaloo,155.4
+2024-W13,tomato,219.6
+2024-W13,scotch bonnet,412.1
+2024-W13,sweet potato,155.6
+2024-W13,plantain,102.8
+2024-W14,yam,206.4
+2024-W14,callaloo,134.0
+2024-W14,tomato,243.2
+2024-W14,scotch bonnet,402.7
+2024-W14,sweet potato,152.9
+2024-W14,plantain,107.3
+2024-W15,yam,210.5
+2024-W15,callaloo,130.6
+2024-W15,tomato,232.3
+2024-W15,scotch bonnet,401.4
+2024-W15,sweet potato,165.3
+2024-W15,plantain,107.4
+2024-W16,yam,205.2
+2024-W16,callaloo,134.4
+2024-W16,tomato,233.5
+2024-W16,scotch bonnet,401.0
+2024-W16,sweet potato,150.7
+2024-W16,plantain,99.4
+2024-W17,yam,201.0
+2024-W17,callaloo,134.4
+2024-W17,tomato,240.3
+2024-W17,scotch bonnet,394.2
+2024-W17,sweet potato,161.5
+2024-W17,plantain,111.9
+2024-W18,yam,205.2
+2024-W18,callaloo,137.4
+2024-W18,tomato,232.5
+2024-W18,scotch bonnet,394.4
+2024-W18,sweet potato,158.4
+2024-W18,plantain,105.2
+2024-W19,yam,202.7
+2024-W19,callaloo,129.4
+2024-W19,tomato,215.5
+2024-W19,scotch bonnet,388.6
+2024-W19,sweet potato,164.1
+2024-W19,plantain,98.7
+2024-W20,yam,204.8
+2024-W20,callaloo,134.4
+2024-W20,tomato,218.0
+2024-W20,scotch bonnet,369.0
+2024-W20,sweet potato,155.3
+2024-W20,plantain,97.3
+2024-W21,yam,185.7
+2024-W21,callaloo,133.3
+2024-W21,tomato,216.9
+2024-W21,scotch bonnet,382.1
+2024-W21,sweet potato,148.3
+2024-W21,plantain,98.9
+2024-W22,yam,189.7
+2024-W22,callaloo,134.8
+2024-W22,tomato,214.7
+2024-W22,scotch bonnet,366.0
+2024-W22,sweet potato,151.0
+2024-W22,plantain,96.7
+2024-W23,yam,188.4
+2024-W23,callaloo,118.3
+2024-W23,tomato,217.0
+2024-W23,scotch bonnet,364.2
+2024-W23,sweet potato,156.9
+2024-W23,plantain,90.8
+2024-W24,yam,186.7
+2024-W24,callaloo,124.0
+2024-W24,tomato,208.1
+2024-W24,scotch bonnet,378.4
+2024-W24,sweet potato,142.0
+2024-W24,plantain,105.6
+2024-W25,yam,187.0
+2024-W25,callaloo,118.0
+2024-W25,tomato,211.1
+2024-W25,scotch bonnet,361.4
+2024-W25,sweet potato,148.3
+2024-W25,plantain,83.6
+2024-W26,yam,183.0
+2024-W26,callaloo,117.6
+2024-W26,tomato,199.1
+2024-W26,scotch bonnet,349.2
+2024-W26,sweet potato,140.2
+2024-W26,plantain,99.5
+2024-W27,yam,179.0
+2024-W27,callaloo,106.8
+2024-W27,tomato,203.9
+2024-W27,scotch bonnet,344.2
+2024-W27,sweet potato,138.3
+2024-W27,plantain,77.4
+2024-W28,yam,175.9
+2024-W28,callaloo,112.7
+2024-W28,tomato,198.6
+2024-W28,scotch bonnet,340.2
+2024-W28,sweet potato,139.9
+2024-W28,plantain,84.5
+2024-W29,yam,159.4
+2024-W29,callaloo,119.4
+2024-W29,tomato,191.9
+2024-W29,scotch bonnet,329.4
+2024-W29,sweet potato,129.2
+2024-W29,plantain,79.9
+2024-W30,yam,156.9
+2024-W30,callaloo,104.6
+2024-W30,tomato,185.6
+2024-W30,scotch bonnet,335.3
+2024-W30,sweet potato,133.0
+2024-W30,plantain,93.4
+2024-W31,yam,158.6
+2024-W31,callaloo,117.3
+2024-W31,tomato,180.5
+2024-W31,scotch bonnet,329.0
+2024-W31,sweet potato,135.4
+2024-W31,plantain,82.5
+2024-W32,yam,162.9
+2024-W32,callaloo,115.4
+2024-W32,tomato,175.3
+2024-W32,scotch bonnet,302.2
+2024-W32,sweet potato,131.0
+2024-W32,plantain,94.1
+2024-W33,yam,148.4
+2024-W33,callaloo,107.8
+2024-W33,tomato,170.5
+2024-W33,scotch bonnet,309.0
+2024-W33,sweet potato,118.3
+2024-W33,plantain,85.1
+2024-W34,yam,154.5
+2024-W34,callaloo,104.0
+2024-W34,tomato,168.8
+2024-W34,scotch bonnet,311.2
+2024-W34,sweet potato,119.7
+2024-W34,plantain,76.6
+2024-W35,yam,155.6
+2024-W35,callaloo,95.4
+2024-W35,tomato,173.3
+2024-W35,scotch bonnet,293.8
+2024-W35,sweet potato,120.1
+2024-W35,plantain,76.7
+2024-W36,yam,152.4
+2024-W36,callaloo,102.0
+2024-W36,tomato,167.9
+2024-W36,scotch bonnet,304.0
+2024-W36,sweet potato,120.3
+2024-W36,plantain,74.5
+2024-W37,yam,152.4
+2024-W37,callaloo,98.5
+2024-W37,tomato,170.1
+2024-W37,scotch bonnet,297.1
+2024-W37,sweet potato,108.8
+2024-W37,plantain,86.8
+2024-W38,yam,150.5
+2024-W38,callaloo,98.1
+2024-W38,tomato,172.0
+2024-W38,scotch bonnet,285.3
+2024-W38,sweet potato,116.8
+2024-W38,plantain,78.4
+2024-W39,yam,151.4
+2024-W39,callaloo,102.4
+2024-W39,tomato,167.3
+2024-W39,scotch bonnet,295.3
+2024-W39,sweet potato,118.8
+2024-W39,plantain,77.4
+2024-W40,yam,146.6
+2024-W40,callaloo,103.8
+2024-W40,tomato,172.0
+2024-W40,scotch bonnet,294.2
+2024-W40,sweet potato,115.7
+2024-W40,plantain,77.3
+2024-W41,yam,160.8
+2024-W41,callaloo,109.0
+2024-W41,tomato,165.9
+2024-W41,scotch bonnet,295.8
+2024-W41,sweet potato,116.2
+2024-W41,plantain,79.2
+2024-W42,yam,153.8
+2024-W42,callaloo,105.1
+2024-W42,tomato,179.4
+2024-W42,scotch bonnet,302.2
+2024-W42,sweet potato,122.7
+2024-W42,plantain,79.4
+2024-W43,yam,151.4
+2024-W43,callaloo,103.0
+2024-W43,tomato,171.9
+2024-W43,scotch bonnet,300.3
+2024-W43,sweet potato,130.3
+2024-W43,plantain,81.2
+2024-W44,yam,141.4
+2024-W44,callaloo,100.1
+2024-W44,tomato,174.5
+2024-W44,scotch bonnet,306.5
+2024-W44,sweet potato,117.5
+2024-W44,plantain,76.7
+2024-W45,yam,157.2
+2024-W45,callaloo,103.4
+2024-W45,tomato,181.1
+2024-W45,scotch bonnet,310.1
+2024-W45,sweet potato,120.6
+2024-W45,plantain,77.9
+2024-W46,yam,161.8
+2024-W46,callaloo,101.2
+2024-W46,tomato,176.6
+2024-W46,scotch bonnet,318.6
+2024-W46,sweet potato,131.8
+2024-W46,plantain,66.7
+2024-W47,yam,179.2
+2024-W47,callaloo,105.9
+2024-W47,tomato,187.7
+2024-W47,scotch bonnet,311.9
+2024-W47,sweet potato,132.2
+2024-W47,plantain,82.5
+2024-W48,yam,167.0
+2024-W48,callaloo,109.8
+2024-W48,tomato,184.5
+2024-W48,scotch bonnet,330.0
+2024-W48,sweet potato,125.7
+2024-W48,plantain,82.2
+2024-W49,yam,168.1
+2024-W49,callaloo,103.8
+2024-W49,tomato,189.9
+2024-W49,scotch bonnet,331.1
+2024-W49,sweet potato,129.7
+2024-W49,plantain,77.0
+2024-W50,yam,171.4
+2024-W50,callaloo,114.7
+2024-W50,tomato,192.8
+2024-W50,scotch bonnet,337.7
+2024-W50,sweet potato,127.8
+2024-W50,plantain,92.9
+2024-W51,yam,181.5
+2024-W51,callaloo,122.6
+2024-W51,tomato,199.2
+2024-W51,scotch bonnet,351.6
+2024-W51,sweet potato,141.9
+2024-W51,plantain,95.1
+2024-W52,yam,182.0
+2024-W52,callaloo,120.9
+2024-W52,tomato,203.8
+2024-W52,scotch bonnet,345.8
+2024-W52,sweet potato,138.6
+2024-W52,plantain,91.2
+2025-W01,yam,179.7
+2025-W01,callaloo,107.5
+2025-W01,tomato,200.1
+2025-W01,scotch bonnet,351.9
+2025-W01,sweet potato,147.7
+2025-W01,plantain,80.2
+2025-W02,yam,181.8
+2025-W02,callaloo,133.9
+2025-W02,tomato,193.0
+2025-W02,scotch bonnet,360.9
+2025-W02,sweet potato,141.1
+2025-W02,plantain,82.9
+2025-W03,yam,189.6
+2025-W03,callaloo,121.0
+2025-W03,tomato,194.4
+2025-W03,scotch bonnet,364.9
+2025-W03,sweet potato,139.3
+2025-W03,plantain,101.2
+2025-W04,yam,192.6
+2025-W04,callaloo,121.7
+2025-W04,tomato,215.1
+2025-W04,scotch bonnet,385.8
+2025-W04,sweet potato,142.0
+2025-W04,plantain,90.2
+2025-W05,yam,194.6
+2025-W05,callaloo,130.4
+2025-W05,tomato,218.0
+2025-W05,scotch bonnet,370.7
+2025-W05,sweet potato,152.5
+2025-W05,plantain,90.5
+2025-W06,yam,193.1
+2025-W06,callaloo,137.3
+2025-W06,tomato,215.4
+2025-W06,scotch bonnet,388.3
+2025-W06,sweet potato,151.8
+2025-W06,plantain,99.8
+2025-W07,yam,201.0
+2025-W07,callaloo,137.2
+2025-W07,tomato,226.7
+2025-W07,scotch bonnet,384.7
+2025-W07,sweet potato,165.6
+2025-W07,plantain,103.6
+2025-W08,yam,207.9
+2025-W08,callaloo,140.7
+2025-W08,tomato,221.8
+2025-W08,scotch bonnet,392.8
+2025-W08,sweet potato,157.7
+2025-W08,plantain,102.8
+2025-W09,yam,214.1
+2025-W09,callaloo,147.1
+2025-W09,tomato,247.3
+2025-W09,scotch bonnet,566.1
+2025-W09,sweet potato,168.7
+2025-W09,plantain,101.6
+2025-W10,yam,200.3
+2025-W10,callaloo,137.0
+2025-W10,tomato,226.4
+2025-W10,scotch bonnet,393.1
+2025-W10,sweet potato,158.2
+2025-W10,plantain,105.3
+2025-W11,yam,206.6
+2025-W11,callaloo,142.9
+2025-W11,tomato,232.9
+2025-W11,scotch bonnet,403.6
+2025-W11,sweet potato,168.0
+2025-W11,plantain,102.5
+2025-W12,yam,207.3
+2025-W12,callaloo,146.7
+2025-W12,tomato,235.6
+2025-W12,scotch bonnet,393.2
+2025-W12,sweet potato,161.7
+2025-W12,plantain,112.8
+2025-W13,yam,210.0
+2025-W13,callaloo,145.5
+2025-W13,tomato,221.1
+2025-W13,scotch bonnet,405.3
+2025-W13,sweet potato,149.1
+2025-W13,plantain,107.9
+2025-W14,yam,199.7
+2025-W14,callaloo,146.6
+2025-W14,tomato,225.9
+2025-W14,scotch bonnet,403.1
+2025-W14,sweet potato,162.7
+2025-W14,plantain,103.5
+2025-W15,yam,197.2
+2025-W15,callaloo,142.1
+2025-W15,tomato,226.4
+2025-W15,scotch bonnet,415.9
+2025-W15,sweet potato,159.0
+2025-W15,plantain,104.7
+2025-W16,yam,203.5
+2025-W16,callaloo,147.4
+2025-W16,tomato,237.3
+2025-W16,scotch bonnet,403.0
+2025-W16,sweet potato,166.1
+2025-W16,plantain,97.6
+2025-W17,yam,198.5
+2025-W17,callaloo,144.0
+2025-W17,tomato,221.6
+2025-W17,scotch bonnet,394.9
+2025-W17,sweet potato,149.5
+2025-W17,plantain,99.8
+2025-W18,yam,204.9
+2025-W18,callaloo,134.5
+2025-W18,tomato,215.7
+2025-W18,scotch bonnet,398.2
+2025-W18,sweet potato,158.5
+2025-W18,plantain,86.0
+2025-W19,yam,193.8
+2025-W19,callaloo,131.5
+2025-W19,tomato,219.3
+2025-W19,scotch bonnet,390.3
+2025-W19,sweet potato,162.3
+2025-W19,plantain,99.7
+2025-W20,yam,197.4
+2025-W20,callaloo,140.2
+2025-W20,tomato,229.6
+2025-W20,scotch bonnet,383.0
+2025-W20,sweet potato,163.7
+2025-W20,plantain,88.5
+2025-W21,yam,204.8
+2025-W21,callaloo,133.2
+2025-W21,tomato,212.0
+2025-W21,scotch bonnet,376.9
+2025-W21,sweet potato,152.8
+2025-W21,plantain,105.7
+2025-W22,yam,197.8
+2025-W22,callaloo,130.2
+2025-W22,tomato,211.7
+2025-W22,scotch bonnet,375.0
+2025-W22,sweet potato,142.5
+2025-W22,plantain,93.9
+2025-W23,yam,184.5
+2025-W23,callaloo,124.2
+2025-W23,tomato,213.3
+2025-W23,scotch bonnet,366.6
+2025-W23,sweet potato,136.8
+2025-W23,plantain,101.2
+2025-W24,yam,186.3
+2025-W24,callaloo,126.8
+2025-W24,tomato,202.8
+2025-W24,scotch bonnet,360.9
+2025-W24,sweet potato,143.1
+2025-W24,plantain,101.6
+2025-W25,yam,175.7
+2025-W25,callaloo,127.3
+2025-W25,tomato,202.9
+2025-W25,scotch bonnet,360.4
+2025-W25,sweet potato,138.6
+2025-W25,plantain,81.5
+2025-W26,yam,185.3
+2025-W26,callaloo,117.5
+2025-W26,tomato,202.6
+2025-W26,scotch bonnet,354.0
+2025-W26,sweet potato,129.4
+2025-W26,plantain,86.8
+2025-W27,yam,175.3
+2025-W27,callaloo,121.0
+2025-W27,tomato,199.8
+2025-W27,scotch bonnet,348.2
+2025-W27,sweet potato,136.0
+2025-W27,plantain,96.3
+2025-W28,yam,173.6
+2025-W28,callaloo,115.2
+2025-W28,tomato,189.8
+2025-W28,scotch bonnet,330.6
+2025-W28,sweet potato,134.8
+2025-W28,plantain,88.3
+2025-W29,yam,172.0
+2025-W29,callaloo,126.6
+2025-W29,tomato,191.1
+2025-W29,scotch bonnet,333.6
+2025-W29,sweet potato,124.7
+2025-W29,plantain,83.6
+2025-W30,yam,167.6
+2025-W30,callaloo,114.4
+2025-W30,tomato,184.8
+2025-W30,scotch bonnet,327.6
+2025-W30,sweet potato,124.2
+2025-W30,plantain,90.4
+2025-W31,yam,170.7
+2025-W31,callaloo,102.8
+2025-W31,tomato,173.8
+2025-W31,scotch bonnet,316.0
+2025-W31,sweet potato,128.9
+2025-W31,plantain,76.9
+2025-W32,yam,162.9
+2025-W32,callaloo,112.4
+2025-W32,tomato,185.8
+2025-W32,scotch bonnet,321.7
+2025-W32,sweet potato,117.1
+2025-W32,plantain,68.9
+2025-W33,yam,162.6
+2025-W33,callaloo,101.7
+2025-W33,tomato,172.7
+2025-W33,scotch bonnet,304.0
+2025-W33,sweet potato,120.2
+2025-W33,plantain,82.8
+2025-W34,yam,148.7
+2025-W34,callaloo,96.7
+2025-W34,tomato,181.0
+2025-W34,scotch bonnet,310.1
+2025-W34,sweet potato,112.1
+2025-W34,plantain,67.3
+2025-W35,yam,157.7
+2025-W35,callaloo,108.5
+2025-W35,tomato,185.1
+2025-W35,scotch bonnet,306.8
+2025-W35,sweet potato,124.6
+2025-W35,plantain,75.8
+2025-W36,yam,154.3
+2025-W36,callaloo,99.9
+2025-W36,tomato,178.2
+2025-W36,scotch bonnet,302.4
+2025-W36,sweet potato,125.9
+2025-W36,plantain,78.4
+2025-W37,yam,147.4
+2025-W37,callaloo,101.6
+2025-W37,tomato,176.5
+2025-W37,scotch bonnet,300.4
+2025-W37,sweet potato,108.4
+2025-W37,plantain,82.4
+2025-W38,yam,149.7
+2025-W38,callaloo,109.5
+2025-W38,tomato,167.5
+2025-W38,scotch bonnet,292.0
+2025-W38,sweet potato,123.3
+2025-W38,plantain,68.8
+2025-W39,yam,159.3
+2025-W39,callaloo,98.3
+2025-W39,tomato,172.9
+2025-W39,scotch bonnet,288.2
+2025-W39,sweet potato,118.5
+2025-W39,plantain,72.6
+2025-W40,yam,162.1
+2025-W40,callaloo,96.9
+2025-W40,tomato,168.5
+2025-W40,scotch bonnet,292.4
+2025-W40,sweet potato,118.6
+2025-W40,plantain,76.9
+2025-W41,yam,160.1
+2025-W41,callaloo,106.2
+2025-W41,tomato,161.3
+2025-W41,scotch bonnet,309.7
+2025-W41,sweet potato,120.0
+2025-W41,plantain,83.3
+2025-W42,yam,152.4
+2025-W42,callaloo,107.4
+2025-W42,tomato,171.0
+2025-W42,scotch bonnet,298.8
+2025-W42,sweet potato,119.3
+2025-W42,plantain,72.0
+2025-W43,yam,158.6
+2025-W43,callaloo,106.0
+2025-W43,tomato,177.2
+2025-W43,scotch bonnet,310.7
+2025-W43,sweet potato,127.3
+2025-W43,plantain,80.5
+2025-W44,yam,163.8
+2025-W44,callaloo,106.1
+2025-W44,tomato,180.9
+2025-W44,scotch bonnet,306.2
+2025-W44,sweet potato,112.0
+2025-W44,plantain,74.6
+2025-W45,yam,154.1
+2025-W45,callaloo,103.7
+2025-W45,tomato,176.7
+2025-W45,scotch bonnet,311.3
+2025-W45,sweet potato,127.5
+2025-W45,plantain,73.7
+2025-W46,yam,159.4
+2025-W46,callaloo,112.2
+2025-W46,tomato,183.8
+2025-W46,scotch bonnet,322.7
+2025-W46,sweet potato,124.7
+2025-W46,plantain,94.4
+2025-W47,yam,160.8
+2025-W47,callaloo,100.8
+2025-W47,tomato,180.9
+2025-W47,scotch bonnet,312.2
+2025-W47,sweet potato,131.8
+2025-W47,plantain,81.6
+2025-W48,yam,158.4
+2025-W48,callaloo,112.5
+2025-W48,tomato,191.8
+2025-W48,scotch bonnet,321.9
+2025-W48,sweet potato,127.7
+2025-W48,plantain,79.0
+2025-W49,yam,166.7
+2025-W49,callaloo,105.3
+2025-W49,tomato,187.6
+2025-W49,scotch bonnet,324.8
+2025-W49,sweet potato,133.1
+2025-W49,plantain,91.6
+2025-W50,yam,177.7
+2025-W50,callaloo,117.0
+2025-W50,tomato,199.0
+2025-W50,scotch bonnet,340.8
+2025-W50,sweet potato,131.1
+2025-W50,plantain,88.8
+2025-W51,yam,180.1
+2025-W51,callaloo,116.0
+2025-W51,tomato,199.5
+2025-W51,scotch bonnet,338.3
+2025-W51,sweet potato,139.4
+2025-W51,plantain,91.5
+2025-W52,yam,180.7
+2025-W52,callaloo,118.0
+2025-W52,tomato,201.3
+2025-W52,scotch bonnet,344.7
+2025-W52,sweet potato,136.4
+2025-W52,plantain,93.0
