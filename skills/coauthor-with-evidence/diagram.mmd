@@ -1,0 +1,10 @@
+flowchart TD
+ A[Author question and source packet] --> B[Claim ledger]
+ B --> C{Support matches the claim?}
+ C -- No --> D[Flag gap or narrow claim]
+ D --> B
+ C -- Yes --> E[Draft and author interpretation]
+ E --> F[Compare revisions against sources]
+ F --> G{Meaning preserved?}
+ G -- No --> E
+ G -- Yes --> H[Human decision on release]

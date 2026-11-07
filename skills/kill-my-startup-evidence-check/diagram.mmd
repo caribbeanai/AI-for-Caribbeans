@@ -1,0 +1,9 @@
+flowchart TD
+ A[Startup assumption] --> B[Evidence and counterevidence]
+ B --> C{Enough evidence for next commitment?}
+ C -- No --> D[Bounded falsification test]
+ D --> B
+ C -- Yes --> E[Contribution and dependency stress]
+ E --> F{Within agreed limits?}
+ F -- Yes --> G[Continue next bounded step]
+ F -- No --> H[Change one assumption or stop experiment]

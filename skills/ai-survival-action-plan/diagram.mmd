@@ -1,0 +1,10 @@
+flowchart TD
+ A[Concern or urgent request] --> B[Separate facts from fears]
+ B --> C{Payment or identity request?}
+ C -- Yes --> D[Pause and use independently trusted channel]
+ D --> E{Verification sufficient?}
+ E -- No --> F[Keep action paused]
+ E -- Yes --> G[Human decision under normal safeguards]
+ C -- No --> H[Choose one seven-day reversible action]
+ H --> I[Observable completion check]
+ I --> J[Review limits and next step]

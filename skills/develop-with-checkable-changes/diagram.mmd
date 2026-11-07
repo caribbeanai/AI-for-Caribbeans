@@ -1,0 +1,10 @@
+flowchart LR
+ A[Observed failure] --> B[Acceptance examples]
+ B --> C[Small scoped patch]
+ C --> D[Relevant checks]
+ D --> E{Actual evidence satisfies cases?}
+ E -- No --> C
+ E -- Yes --> F[Diff and rollback review]
+ F --> G[Delivery with test limits]
+ D --> H[Unavailable checks recorded as NOT RUN]
+ H --> F
