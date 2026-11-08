@@ -1,0 +1,8 @@
+notice_id,origin,destination,service_date,issued_local,departure_local,authority,supersedes
+N01,Barbuda,Antigua,2031-05-18,2031-05-17T12:00,08:00,dispatch,
+N02,Antigua,Barbuda,2031-05-18,2031-05-17T12:30,07:30,dispatch,
+N03,Antigua,Barbuda,2031-05-18,2031-05-18T06:45,09:00,dispatch,N02
+N04,Antigua,Barbuda,2031-05-19,2031-05-17T13:00,07:30,dispatch,
+N05,Antigua,Barbuda,2031-05-18,2031-05-18T07:00,08:15,unverified,
+N06,Antigua,Barbuda,2031-05-20,2031-05-19T14:00,07:00,dispatch,
+N07,Antigua,Barbuda,2031-05-20,2031-05-19T14:00,08:00,dispatch,

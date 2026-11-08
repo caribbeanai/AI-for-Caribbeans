@@ -1,0 +1,45 @@
+\chapter{\B{Preface}{Prefacio}}
+\B{You can start this book with a pencil and a calculator. The opening problem is a choice among three possible sites for a Jamaican patty shop. You will decide what counts as a good site, compute a ranking and then ask whether a model can explain it using the same records. The calculation and the explanation are two separate things you can check.}
+{Puedes empezar este libro con un lápiz y una calculadora. El primer problema consiste en escoger uno de tres posibles locales para vender patties jamaicanos, empanadas saladas típicas de Jamaica. Decidirás qué define un buen local, calcularás una clasificación y luego comprobarás si un modelo puede explicarla con los mismos registros. Puedes verificar el cálculo y la explicación por separado.}
+
+\B{The chapters move from data and pre-training to tokenisation, Transformers, generative training, prompting, retrieval, alignment, inference and reasoning. The chapters use hand calculations and offline labs. The capstone compares a records lookup with an optional model draft. The technical methods are established. The original teaching work is in the bilingual explanations and cases where place, language, authority or units change the answer. The mathematics uses short sequences, small matrices and numbers you can recompute. Once you can follow a calculation on paper, ask which parts change when the vocabulary has thousands of entries or the documents arrive from different institutions.}
+{Los capítulos avanzan desde los datos y el preentrenamiento hasta la tokenización, los Transformers, el entrenamiento generativo, las instrucciones, la recuperación de información, el alineamiento, la inferencia y el razonamiento. Los capítulos usan cálculos a mano y laboratorios sin conexión. El proyecto final compara una consulta de registros con un borrador opcional de un modelo. Los métodos técnicos son conocidos. La aportación didáctica está en las explicaciones bilingües y los casos donde lugar, lengua, autoridad o unidad cambian la respuesta. Las matemáticas usan secuencias cortas, matrices pequeñas y cifras que puedes volver a calcular. Cuando puedas seguir una cuenta en papel, pregúntate qué cambia si el vocabulario tiene miles de entradas o si los documentos llegan de distintas instituciones.}
+
+\B{Teachers can pair each chapter with one of the small exercises and assign the capstone to a group. Developers can follow the model, data and verification paths and use the companion scripts to reproduce the numbers. Readers who are new to algebra can use the plain-language explanation below each numbered equation, then return to the symbols after trying the example. The equations express relationships, including who has to choose a threshold and what happens when a value is missing.}
+{Los docentes pueden acompañar cada capítulo con un ejercicio breve y asignar el proyecto final a un grupo. Los desarrolladores pueden seguir las rutas del modelo, los datos y la verificación, y reproducir las cifras con los programas complementarios. Si estás aprendiendo álgebra, lee la explicación en palabras debajo de cada ecuación numerada y vuelve a los símbolos después de probar el ejemplo. Las ecuaciones describen relaciones, como quién elige un umbral y qué ocurre cuando falta un valor.}
+
+\B{The region appears in questions about work, school, family and public services. A ferry notice calls for a date and an issuing authority. A produce order calls for a unit. A school message may switch languages in the middle of a sentence. Original examples use short, glossed language samples. A sample represents one utterance in a teaching context. Speakers may prefer other spellings, registers or terms. Keep the original input in your experiment, and ask speakers to judge whether an answer preserves the intended meaning.}
+{La región aparece en preguntas sobre el trabajo, la escuela, la familia y los servicios públicos. Un aviso de ferri requiere una fecha y una autoridad emisora. Un pedido de productos agrícolas requiere una unidad. Un mensaje escolar puede cambiar de idioma a mitad de una oración. Los ejemplos originales usan muestras lingüísticas breves con glosas. Cada muestra representa un enunciado en un contexto didáctico. Los hablantes pueden preferir otras grafías, registros o términos. Conserva la entrada original en tu experimento y pide a los hablantes que juzguen si la respuesta preserva el sentido.}
+
+\B{The geographic index covers the UN M49 Caribbean reporting areas, adds mainland and Atlantic contexts from regional institutions, and identifies constituent islands in cases where a single territory label could hide an operational difference. The wider Caribbean cases use Association of Caribbean States membership as a guide. The scope is jurisdictional and instructional. Individual cays and local communities can be added using the index's case format \citep{m49,caricom,acs}.}
+{El índice geográfico abarca las áreas estadísticas del Caribe de la clasificación M49 de la ONU, incorpora contextos continentales y atlánticos a partir de instituciones regionales e identifica islas integrantes cuando una sola etiqueta territorial podría ocultar una diferencia operativa. Los casos del Gran Caribe se orientan por la membresía de la Asociación de Estados del Caribe. El alcance es jurisdiccional y didáctico. Se pueden añadir cayos y comunidades con el formato del índice \citep{m49,caricom,acs}.}
+
+\B{The volume is in conversation with \citet{xiao}, whose six-chapter reference gives a deeper treatment of several training and inference methods. This edition builds a foundation for reading that work and for testing whether a system serves the community you have in mind.}
+{El volumen dialoga con \citet{xiao}, cuya referencia de seis capítulos desarrolla con mayor profundidad varios métodos de entrenamiento e inferencia. Esta edición ofrece una base para leer esa obra y para comprobar si un sistema sirve a la comunidad que tienes en mente.}
+
+\chapter{\B{Notation}{Notación}}
+\noindent\begin{tabularx}{\textwidth}{@{}>{$}l<{$}Y@{}}
+\toprule
+\text{\B{Symbol}{Símbolo}} & \B{Meaning in this book}{Significado en este libro}\\
+\midrule
+x,\;x_t & \B{Input sequence and token at position \(t\).}{Secuencia de entrada y token en la posición \(t\).}\\
+x_{<t} & \B{Tokens before position \(t\).}{Tokens que preceden a la posición \(t\).}\\
+\mathcal V,\;|\mathcal V| & \B{Tokenizer vocabulary and its size.}{Vocabulario del tokenizador y su tamaño.}\\
+\theta,\;\theta_0 & \B{Model parameters and a reference set of parameters.}{Parámetros del modelo y conjunto de referencia.}\\
+p_\theta(y\mid x) & \B{Probability the model assigns to \(y\) given \(x\).}{Probabilidad que el modelo asigna a \(y\) dado \(x\).}\\
+z,\;\softmax(z) & \B{Scores before normalisation and the resulting probability vector.}{Puntuaciones previas a la normalización y vector de probabilidades resultante.}\\
+Q,K,V & \B{Query, key and value matrices in attention. \(V\) differs from \(\mathcal V\).}{Matrices de consultas, claves y valores en atención. \(V\) se distingue de \(\mathcal V\).}\\
+d_k & \B{Number of components in a query or key for one head.}{Número de componentes de una consulta o clave en una cabeza.}\\
+M,\;M_{ij} & \B{Attention mask and entry controlling access from position \(i\) to \(j\).}{Máscara de atención y entrada que controla el acceso de la posición \(i\) a \(j\).}\\
+\mathcal L,\;\eta & \B{Loss and learning rate.}{Pérdida y tasa de aprendizaje.}\\
+\ln,\;\exp & \B{Natural logarithm and its inverse. \(\ln(1)=0\), and \(\exp(0)=1\).}{Logaritmo natural y su inversa. \(\ln(1)=0\) y \(\exp(0)=1\).}\\
+\sum,\;\prod & \B{Add terms and multiply terms, respectively.}{Suma de términos y producto de términos, respectivamente.}\\
+\argmax,\;\argmin & \B{Input yielding the largest or smallest score, respectively.}{Entrada que da la mayor o menor puntuación, respectivamente.}\\
+\mathbf 1[\cdot] & \B{Indicator. It is 1 when its condition holds and 0 otherwise.}{Indicador. Vale 1 si se cumple la condición y 0 en caso contrario.}\\
+\text{MiB},\;\text{GiB} & \B{\(2^{20}\) and \(2^{30}\) bytes.}{\(2^{20}\) y \(2^{30}\) bytes.}\\
+\bottomrule
+\end{tabularx}
+
+\medskip
+\noindent\B{Lowercase letters usually denote scalars or sequences. A vector is an ordered list of numbers. A matrix arranges numbers in rows and columns. Superscript \({}^\top\) transposes a matrix, exchanging rows and columns. The context of an equation identifies when a symbol is reused for a different quantity.}
+{Las letras minúsculas suelen indicar escalares o secuencias. Un vector es una lista ordenada de números. Una matriz organiza números en filas y columnas. El superíndice \({}^\top\) transpone una matriz, intercambiando filas y columnas. El contexto de cada ecuación indica si un símbolo se reutiliza para otra magnitud.}

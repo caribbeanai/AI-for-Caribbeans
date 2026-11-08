@@ -1,0 +1,66 @@
+\chapter{\B{Solutions and checks}{Soluciones y comprobaciones}}
+\label{app:solutions}
+
+\section*{\B{Chapter 1. Data and pre-training}{Capítulo 1. Datos y preentrenamiento}}
+\begin{enumerate}
+\item \B{For K1 the sum is \(73.6+0.8+8=82.4\). For K2 it is \(64+6+7=77.0\). For K3 it is \(52+9+6=67.0\). K1 wins under this rule. The row K1 supports its inputs. The other rows and all three weights support the comparative claim.}{Para K1, la suma es \(73.6+0.8+8=82.4\). Para K2 es \(64+6+7=77.0\). Para K3 es \(52+9+6=67.0\). K1 gana con esta regla. Su fila respalda sus entradas. Las demás filas y los tres pesos respaldan la comparación.}
+\item \B{Sample both sites in the same time blocks on comparable days. Collect enough windows to compare wet with wet and dry with dry. Track actual purchases if sales are the target.}{Muestrea los dos sitios en los mismos horarios y en días comparables. Recoge suficientes intervalos para comparar lluvia con lluvia y tiempo seco con seco. Registra compras si la meta son las ventas.}
+\item \B{Each penalty is \(\ln 8\). The mean is \(\ln 8\approx2.0794\). Its exponential is 8, the perplexity.}{Cada penalización es \(\ln 8\). La media es \(\ln 8\approx2.0794\). Su exponencial es 8, la perplejidad.}
+\item \B{Group the two versions into one document family and assign that family to one split. This protects the claim that test performance reflects unfamiliar text.}{Agrupa las dos versiones en una familia documental y asigna esa familia a una sola partición. Esto protege la afirmación de que la prueba refleja texto desconocido.}
+\end{enumerate}
+
+\section*{\B{Chapter 2. Tokens and Transformer blocks}{Capítulo 2. Tokens y bloques Transformer}}
+\begin{enumerate}
+\item \B{A uses 3 pieces for 3 words, so \(F=1\). B uses 5 pieces for 3 words, so \(F=5/3\). A spelling variant can have a different longest match.}{A usa 3 piezas para 3 palabras, así que \(F=1\). B usa 5 para 3 palabras, así que \(F=5/3\). Una grafía distinta puede tener otra coincidencia más larga.}
+\item \B{Only the first key is available. The row is \((1,0,0)\). Its weighted output is the first value, 0.}{Solo está disponible la primera clave. La fila es \((1,0,0)\). La salida ponderada es el primer valor, 0.}
+\item \B{All three weights are \(1/3\), so the output is \((0+3+6)/3=3\). When the values are all 7, any nonnegative weights that sum to one give 7.}{Los tres pesos son \(1/3\), así que la salida es \((0+3+6)/3=3\). Si todos los valores son 7, cualquier conjunto de pesos no negativos que sumen uno da 7.}
+\item \B{Attention mixes value vectors across positions allowed by the mask. The feed-forward sublayer maps each position separately.}{La atención mezcla valores entre las posiciones permitidas por la máscara. La red de propagación hacia delante transforma por separado cada posición.}
+\end{enumerate}
+
+\section*{\B{Chapter 3. Generative models at scale}{Capítulo 3. Modelos generativos a gran escala}}
+\begin{enumerate}
+\item \B{The prefix has \(0.4(0.5)=0.20\). Ending there multiplies by the final \(0.5\) to give \(0.10\).}{El prefijo tiene \(0.4(0.5)=0.20\). Terminar allí multiplica por el último \(0.5\) y da \(0.10\).}
+\item \B{The approximate product \(ND\) stays fixed, so divide \(D\) by three. Communication, memory pressure or attention cost can change operations per second or total operations.}{El producto aproximado \(ND\) queda fijo, así que divide \(D\) entre tres. Comunicación, presión de memoria o costo de atención pueden cambiar las operaciones por segundo o el total de operaciones.}
+\item \B{\(3(2)(4)=24\) sequences. \(24(256)=6{,}144\) scored tokens.}{\(3(2)(4)=24\) secuencias. \(24(256)=6{,}144\) tokens puntuados.}
+\item \B{The decoder could rely on a similar distractor or miss information in the middle. Move the same applicable record to different positions while holding wording, date and distractors fixed.}{El decodificador podría apoyarse en un distractor parecido u omitir información en el medio. Mueve el mismo registro aplicable y conserva texto, fecha y distractores.}
+\end{enumerate}
+
+\section*{\B{Chapter 4. Prompts, retrieval and tools}{Capítulo 4. Instrucciones, recuperación y herramientas}}
+\begin{enumerate}
+\item \B{At 06:30, N02 is applicable. At 07:15, N03 is applicable and replaces N02. N05 fails the authority filter even though it is later.}{A las 06:30 se aplica N02. A las 07:15 se aplica N03, que sustituye N02. N05 no pasa el filtro de autoridad aunque sea posterior.}
+\item \B{Recall is \(3/5=0.60\). Precision is \(3/4=0.75\). The two denominators count relevant records and retrieved records respectively.}{La exhaustividad es \(3/5=0.60\). La precisión es \(3/4=0.75\). Los denominadores cuentan registros pertinentes y recuperados, respectivamente.}
+\item \B{For example, “For Antigua to Barbuda on 18 May 2031, N03 gives 09:00 local time. N03 gives no fare.” The practice record supports a time and leaves the price unknown.}{Por ejemplo, «Para Antigua a Barbuda el 18 de mayo de 2031, N03 indica las 09:00 hora local. N03 no indica la tarifa». El registro didáctico respalda la hora y deja el precio sin determinar.}
+\item \B{Give the assistant only the read-only notice lookup. Deny passenger-list access at the data layer. Either control can operate without interpreting the notice as an instruction.}{Da al asistente solo la consulta de avisos de lectura. Deniega el acceso a la lista de pasajeros en la capa de datos. Ambos controles funcionan sin interpretar el aviso como instrucción.}
+\end{enumerate}
+
+\section*{\B{Chapter 5. Alignment and regional language}{Capítulo 5. Alineamiento y lenguas de la región}}
+\begin{enumerate}
+\item \B{The difference is zero, so the sigmoid yields \(0.5\).}{La diferencia es cero, así que la sigmoide da \(0.5\).}
+\item \B{The factors use \(4(256+512)=3{,}072\) parameters. The full matrix uses \(256(512)=131{,}072\).}{Los factores usan \(4(256+512)=3{,}072\) parámetros. La matriz completa usa \(256(512)=131{,}072\).}
+\item \B{Swapping responses negates the logit to \(-\ln 2\). The sigmoid is \(1/3\) and the loss is \(\ln3\approx1.0986\).}{Intercambiar las respuestas cambia el signo del logit a \(-\ln 2\). La sigmoide es \(1/3\) y la pérdida es \(\ln3\approx1.0986\).}
+\item \B{Prefer the supported answer under a factual rubric and record the language issue separately. Add a held-out version where the source does provide a time, to check whether the system can answer when evidence exists.}{Prefiere la respuesta respaldada según el criterio factual y registra aparte el problema de redacción. Añade una versión reservada donde la fuente sí da una hora, para comprobar que el sistema responda cuando haya evidencia.}
+\end{enumerate}
+
+\section*{\B{Chapter 6. Inference under local constraints}{Capítulo 6. Inferencia con restricciones locales}}
+\begin{enumerate}
+\item \B{The first two have mass 0.75 and the first three have 0.90. Retain three, with probabilities \(5/9,5/18,1/6\). Their sum is 1.}{Las dos primeras suman 0.75 y las tres primeras 0.90. Conserva tres, con probabilidades \(5/9,5/18,1/6\). Su suma es 1.}
+\item \B{\(0.8+39/13=3.8\) seconds. The 39 tokens exclude the first one.}{\(0.8+39/13=3.8\) segundos. Los 39 tokens excluyen el primero.}
+\item \B{The formula is linear in the number of KV heads, so the payload halves from 512 to 256 MiB.}{La fórmula es lineal en la cantidad de cabezas KV, así que la carga baja de 512 a 256 MiB.}
+\item \B{A smaller batch can wait less in the queue and use the device less efficiently. Measure request count, active sequences and prompt lengths to check that explanation.}{Un lote menor puede esperar menos en cola y aprovechar peor el equipo. Mide peticiones, secuencias activas y longitudes para comprobar esa explicación.}
+\end{enumerate}
+
+\section*{\B{Chapter 7. Reasoning and verification}{Capítulo 7. Razonamiento y verificación}}
+\begin{enumerate}
+\item \B{The feasible range becomes \(42\le c\le45\). The score \(72+c\) is largest at \(c=45,p=27\), or 117 points.}{El intervalo factible pasa a \(42\le c\le45\). La puntuación \(72+c\) es mayor con \(c=45,p=27\), o 117 puntos.}
+\item \B{At \(p=1/2\), the expression gives \(3/8+1/8=1/2\). At \(p=1\), the exactly-two term is zero and the result is 1.}{Con \(p=1/2\), da \(3/8+1/8=1/2\). Con \(p=1\), el término de exactamente dos vale cero y el resultado es 1.}
+\item \B{Coverage is \(24/30=80\%\). Answered error is \(3/24=12.5\%\).}{La cobertura es \(24/30=80\%\). El error entre respuestas es \(3/24=12.5\%\).}
+\item \B{One example with a chosen service threshold is to withhold time-sensitive answers after the next required update is missed, show the last verified time and point to the authorised help desk. Name the owner who re-enables answers.}{Un ejemplo con umbral de servicio elegido es retener respuestas que dependen de datos vigentes si falta la siguiente actualización obligatoria, mostrar la última hora verificada y dirigir a la mesa autorizada. Nombra a quien vuelve a habilitar respuestas.}
+\end{enumerate}
+
+\section*{\B{Chapter 8. Grounded assistant}{Capítulo 8. Asistente basado en fuentes}}
+\begin{enumerate}
+\item \B{The displayed inputs sum to 17.9 million. Their ratio to 34.2 million is about 52.3\%. The release separately states about 56\%. A valid answer labels both and does not infer a missing denominator \citep{cto}.}{Las entradas mostradas suman 17.9 millones. Su razón con 34.2 millones da cerca de 52.3\%. El comunicado indica por separado cerca de 56\%. Una respuesta válida etiqueta las dos y no deduce un denominador ausente \citep{cto}.}
+\item \B{“What monthly rate did STATIN report for food and non-alcoholic beverages?” yields 0.9\%. “Calculate the monthly change using the displayed food and non-alcoholic beverages indices” yields \(100(158.6-157.1)/157.1\approx0.9548\%\). Give the source and month in both \citep{statin}.}{«¿Qué tasa mensual de alimentos y bebidas no alcohólicas informó STATIN?» da 0.9\%. «Calcula el cambio con los índices mostrados de alimentos y bebidas no alcohólicas» da \(100(158.6-157.1)/157.1\approx0.9548\%\). Incluye fuente y mes en ambos \citep{statin}.}
+\item \B{Set the query after 07:00 on 18 May and require N03. An answer giving 08:15 from N05 fails the authority rule. Also test that the system can still identify N05 as unverified in an audit view.}{Fija la consulta después de las 07:00 del 18 de mayo y exige N03. Una respuesta de 08:15 a partir de N05 falla la regla de autoridad. Comprueba también que una vista de auditoría identifique N05 como no verificado.}
+\item \B{For example, a clinic directory in Bonaire could read public office hours from the clinic's approved notice. A query asking for a diagnosis exceeds that task. The directory routes the person to the clinic's published contact.}{Por ejemplo, un directorio de Bonaire podría leer horarios de atención al público de avisos aprobados por la clínica. Una petición de diagnóstico supera el alcance. El directorio remite al contacto publicado de la clínica.}
+\end{enumerate}

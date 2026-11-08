@@ -1,0 +1,106 @@
+[
+  {
+    "variety": "Jamaican Creole",
+    "text": "Mi waan patty",
+    "a": [
+      "Mi",
+      "waan",
+      "patty"
+    ],
+    "b": [
+      "Mi",
+      "wa",
+      "an",
+      "pat",
+      "ty"
+    ],
+    "gloss_en": "I want a patty",
+    "source_key": "jlu",
+    "source_scope": "Informal Jamaican Creole classroom wording. JLU workshop describes the Cassidy/JLU system, which is not imposed here."
+  },
+  {
+    "variety": "Haitian Creole",
+    "text": "Mwen vle dlo",
+    "a": [
+      "Mwen",
+      "vle",
+      "dlo"
+    ],
+    "b": [
+      "M",
+      "wen",
+      "vle",
+      "d",
+      "lo"
+    ],
+    "gloss_en": "I want water",
+    "source_key": "mit",
+    "source_scope": "Authored teaching utterance. MIT-Haiti establishes the Kreyòl educational context."
+  },
+  {
+    "variety": "Aruban Papiamento",
+    "text": "Bon dia",
+    "a": [
+      "Bon",
+      "dia"
+    ],
+    "b": [
+      "Bon",
+      "di",
+      "a"
+    ],
+    "gloss_en": "Good morning",
+    "source_key": "aruba",
+    "source_scope": "Aruba Tourism Authority language guide, greeting list."
+  },
+  {
+    "variety": "Saint Lucian Kwéyòl",
+    "text": "Bonjou",
+    "a": [
+      "Bonjou"
+    ],
+    "b": [
+      "Bon",
+      "jou"
+    ],
+    "gloss_en": "Hello / good morning",
+    "source_key": "kweyol",
+    "source_scope": "Crosbie et al., printed page 26, entry bonjou."
+  },
+  {
+    "variety": "Caribbean Spanish",
+    "text": "La guagua llegó",
+    "a": [
+      "La",
+      "guagua",
+      "llegó"
+    ],
+    "b": [
+      "La",
+      "gua",
+      "gua",
+      "lle",
+      "gó"
+    ],
+    "gloss_en": "The bus arrived",
+    "source_key": "asale",
+    "source_scope": "Authored utterance. ASALE entry guagua, sense II.1, documents bus usage."
+  },
+  {
+    "variety": "Trinidadian English Creole",
+    "text": "Ah reach",
+    "a": [
+      "Ah",
+      "reach"
+    ],
+    "b": [
+      "A",
+      "h",
+      "re",
+      "ach"
+    ],
+    "gloss_en": "I have arrived",
+    "source_key": "apics",
+    "source_scope": "Authored utterance. APiCS Trinidad English Creole example (19) documents reach meaning arrive."
+  }
+]

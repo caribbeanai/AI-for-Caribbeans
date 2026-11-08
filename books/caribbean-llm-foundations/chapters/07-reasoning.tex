@@ -1,0 +1,110 @@
+\chapter{\B{Reasoning, verification and deployment}{Razonamiento, verificación y puesta en servicio}}
+\label{ch:reasoning}
+
+\B{A dispatch team in Grenada allocates 72 crates between Carriacou and Petite Martinique in a fictional exercise. Each destination has a minimum and a maximum. A plausible answer can fail by dropping one constraint, confusing boxes with crates or carrying forward yesterday's capacity. The team needs a way to verify a proposed allocation from its own records. CDEMA's dated Hurricane Beryl situation reports are regional examples of why an island and a reporting date belong together. The numbers here are for teaching \citep{cdema}.}
+{Un equipo de despacho de Granada asigna 72 cajas entre Carriacou y Petite Martinique en un ejercicio ficticio. Cada destino tiene un mínimo y un máximo. Una respuesta plausible puede omitir una restricción, confundir unidades o arrastrar la capacidad de ayer. El equipo necesita verificar la asignación propuesta con sus propios registros. Los informes fechados de CDEMA sobre el huracán Beryl son ejemplos regionales de por qué conviene vincular cada isla con una fecha de reporte. Las cifras de aquí son didácticas \citep{cdema}.}
+
+\section{\B{Write the constraints before you ask for a plan}{Escribe las restricciones antes de pedir un plan}}
+
+\B{Reasoning in this chapter means producing an answer that follows from stated information and can be checked. For the allocation, separate the facts, the rules, the criterion and the explanation. A person sets the priorities. A calculator can enumerate feasible choices. A model can present a candidate plan and describe which constraints it uses. The application can check that explanation against the record before anyone dispatches a shipment.}
+{En este capítulo, razonar significa producir una respuesta que se deriva de información declarada y se puede comprobar. Para la asignación, separa hechos, reglas, criterio y explicación. Una persona fija prioridades. Una calculadora puede enumerar opciones factibles. Un modelo puede presentar un plan candidato e indicar las restricciones usadas. La aplicación puede verificar la explicación contra el registro antes de despachar un envío.}
+
+\begin{table}[htbp]\centering\small
+\begin{tabularx}{\textwidth}{@{}Yrrr@{}}
+\toprule
+\B{Destination}{Destino} & \B{Minimum crates}{Mínimo de cajas} & \B{Maximum crates}{Máximo de cajas} & \B{Points per crate}{Puntos por caja}\\
+\midrule
+Carriacou & 24 & 48 & 2\\
+Petite Martinique & 18 & 30 & 1\\
+\bottomrule
+\end{tabularx}
+\caption{\B{The dispatch exercise uses whole crates and a fixed 72-crate shipment. The point weights express the exercise owner's priorities.}{El ejercicio usa cajas enteras y un envío fijo de 72. Los pesos en puntos expresan prioridades del responsable del ejercicio.} \toy}
+\label{tab:crates}
+\end{table}
+
+\begin{align}
+ c+p&=72,\qquad 24\le c\le48,\qquad18\le p\le30,\notag\\
+ \text{\B{maximise}{maximizar}}\quad U&=2c+p,\qquad c,p\in\mathbb Z .
+ \label{eq:crates}
+\end{align}
+\B{\(c\) and \(p\) count whole crates for Carriacou and Petite Martinique. The equality uses the full shipment. The inequalities give the allowed ranges. \(U\) adds two points per crate for Carriacou and one for Petite Martinique. Substituting \(p=72-c\) gives \(U=72+c\). The bound \(p\le30\) requires \(c\ge42\), and \(p\ge18\) requires \(c\le54\). Combined with the Carriacou bounds, the allowed integers are 42 through 48. More \(c\) gives a higher score here, so choose \(c=48,p=24\). The score is 120 points.}
+{\(c\) y \(p\) cuentan cajas enteras para Carriacou y Petite Martinique. La igualdad usa el envío completo. Las desigualdades dan los intervalos permitidos. \(U\) suma dos puntos por caja para Carriacou y uno para Petite Martinique. Al sustituir \(p=72-c\), queda \(U=72+c\). La condición \(p\le30\) exige \(c\ge42\), y \(p\ge18\) exige \(c\le54\). Con los límites de Carriacou, se admiten los enteros de 42 a 48. Aquí un \(c\) mayor da mayor puntuación, así que elige \(c=48,p=24\). La puntuación es 120.}
+
+\B{Check a changed record. If Carriacou's cap falls to 40 while Petite Martinique can take only 30, the largest total is 70. The requirement to send all 72 is infeasible. A safe draft names the conflict and asks an authorised person to change the shipment or capacity. A fluent answer offering \(40+32\) has a total of 72 and breaks the second cap. Test this case even if the training examples only showed successful allocations.}
+{Comprueba un registro modificado. Si el límite de Carriacou baja a 40 y Petite Martinique solo acepta 30, el mayor total es 70. Enviar las 72 resulta inviable. Un borrador adecuado identifica el conflicto y pide a una persona autorizada cambiar el envío o la capacidad. Una respuesta fluida de \(40+32\) suma 72 e incumple el segundo límite. Prueba este caso aunque los ejemplos de entrenamiento solo mostraran asignaciones exitosas.}
+
+\begin{figure}[htbp]\centering
+\begin{tikzpicture}
+\begin{axis}[width=.86\textwidth,height=52mm,xmin=41.5,xmax=48.5,ymin=113,ymax=121,
+ xlabel={\B{Carriacou crates \(c\)}{Cajas para Carriacou \(c\)}},ylabel={\B{Priority score \(U\)}{Puntuación \(U\)}},
+ xtick={42,43,44,45,46,47,48},ytick={114,116,118,120},grid=major,grid style={softgrey}]
+ \addplot[only marks,mark=*,navy] coordinates {(42,114)(43,115)(44,116)(45,117)(46,118)(47,119)(48,120)};
+ \addplot[only marks,mark=square*,mark size=3pt,red!56!black] coordinates {(48,120)};
+\end{axis}
+\end{tikzpicture}
+\caption{\B{Each mark is a feasible whole-crate allocation under the original caps. For each \(c\), the other island gets \(72-c\). The square marks the best score under the specified weights.}{Cada marca es una asignación factible de cajas enteras con los límites originales. Para cada \(c\), la otra isla recibe \(72-c\). El cuadrado marca la mayor puntuación con los pesos indicados.} \toy}
+\label{fig:crates}
+\end{figure}
+
+\section{\B{Ask for evidence you can verify}{Pide evidencia que puedas verificar}}
+
+\B{A chain-of-thought prompt asks a model to produce intermediate reasoning. Such prompts have improved performance on some tasks in published experiments \citep{cot}. An intermediate explanation can still misreport how an answer was produced or omit an influence. Ask for inspectable work products such as the rows used, equations checked, tool results and the final assignment. Reviewers can evaluate these directly without needing a model's hidden reasoning \citep{unfaithful}.}
+{Una instrucción de cadena de razonamiento pide al modelo pasos intermedios. Esas instrucciones han mejorado el desempeño en algunas tareas de experimentos publicados \citep{cot}. Una explicación intermedia todavía puede describir mal cómo se obtuvo una respuesta u omitir una influencia. Pide productos verificables como filas usadas, ecuaciones comprobadas, resultados de herramientas y asignación final. Los revisores pueden evaluarlos directamente sin necesitar el razonamiento oculto del modelo \citep{unfaithful}.}
+
+\B{For the crate case, test sum, limits and objective separately. A plan that satisfies every constraint can still be suboptimal. A wrong plan can accidentally earn the right objective if another arithmetic error cancels it. Enumerate all seven feasible choices and compare against the symbolic expression \(U=72+c\). Include a fixture with a reduced cap to prove the checker rejects an infeasible request. The two routes share the task's assumptions, while their calculations differ.}
+{Para las cajas, verifica por separado la suma, los límites y el objetivo. Un plan que cumple todas las restricciones todavía puede ser subóptimo. Un plan equivocado puede dar por accidente la puntuación correcta si otro error aritmético lo compensa. Enumera las siete opciones factibles y compáralas con \(U=72+c\). Incluye un caso con límite reducido para demostrar que el verificador rechaza una petición inviable. Las dos rutas comparten los supuestos de la tarea y usan cálculos distintos.}
+
+\B{Inference-time search samples or constructs several answers, then chooses with a vote, score or verifier. Self-consistency samples several completions and can select the most frequent final answer \citep{selfconsistency}. To see the assumption, imagine three binary decisions that are independent and each correct with probability \(p\).}
+{La búsqueda durante la inferencia construye o muestrea varias respuestas y luego elige por votación, puntuación o verificación. La autoconsistencia muestrea varias continuaciones y puede elegir la respuesta final más frecuente \citep{selfconsistency}. Para ver el supuesto, imagina tres decisiones binarias independientes, cada una correcta con probabilidad \(p\).}
+\begin{equation}
+ P(\text{\B{correct majority}{mayoría correcta}})=3p^2(1-p)+p^3 .
+ \label{eq:majority}
+\end{equation}
+\B{There are three orders with exactly two correct decisions, each with probability \(p^2(1-p)\). Add the case with all three correct, \(p^3\). At \(p=0.7\), the result is \(0.784\). Three draws using one fixed wrong record can still be independent conditional on that record. Voting cannot repair an error all draws inherit from it. In the extreme of identical outcomes the majority has the same accuracy as one attempt. Compare repeated sampling with a lookup or exact verifier before spending more compute.}
+{Hay tres órdenes con exactamente dos decisiones correctas, cada uno con probabilidad \(p^2(1-p)\). Añade el caso de las tres correctas, \(p^3\). Para \(p=0.7\), el resultado es \(0.784\). Tres muestras con un mismo registro erróneo fijo todavía pueden ser independientes dadas esas condiciones. Votar no corrige un error que todas heredan del registro. En el extremo de resultados idénticos, la mayoría tiene la misma exactitud que un intento. Compara el muestreo repetido con una consulta o un verificador exacto antes de gastar más cómputo.}
+
+\B{Training a model to solve multistep tasks can use demonstrations of valid intermediate work, feedback on final answers or feedback on individual steps. A process score can locate an early wrong assumption. An outcome score can identify whether a whole task succeeded. Both depend on correct reference answers. Hold out new instances and changed constraints to test transfer beyond familiar templates \citep{process,xiao}.}
+{Para entrenar un modelo en tareas de varios pasos puedes usar demostraciones válidas, retroalimentación sobre respuestas finales o retroalimentación paso a paso. Una puntuación del proceso puede localizar un supuesto incorrecto temprano. Una puntuación del resultado indica si la tarea completa tuvo éxito. Las dos dependen de referencias correctas. Reserva instancias nuevas y restricciones distintas para comprobar transferencia más allá de plantillas conocidas \citep{process,xiao}.}
+
+\section{\B{Decide when a reply should be withheld}{Decide cuándo retener una respuesta}}
+\label{sec:release}
+
+\B{An assistant can return an answer, ask a clarifying question or abstain. For an evaluation set, define which of those counts as a substantive answer. Let \(n>0\) be the number of requests, \(a\) the number substantively answered and \(e\) the number of those answers with material errors.}
+{Un asistente puede responder, pedir una aclaración o abstenerse. Define qué cuenta como respuesta sustantiva en la evaluación. Sea \(n>0\) el número de peticiones, \(a\) las respondidas de forma sustantiva y \(e\) las respuestas con errores materiales.}
+\begin{equation}
+ \mathrm{Coverage}=\frac{a}{n},\qquad
+ \mathrm{Error}_{\mathrm{answered}}=\frac{e}{a}\quad(a>0).
+ \label{eq:coverage}
+\end{equation}
+\B{Coverage divides answers by requests. Answered error divides material errors by answers. If 16 of 20 receive answers and two have errors, coverage is 80\% and answered error is 12.5\%. A stricter policy that answers 12 and misses one gives 60\% coverage and about 8.3\% answered error. The remaining requests still need a route to help. If the assistant answers none, the second fraction has no denominator. Record zero coverage and leave answered error undefined.}
+{La cobertura divide respuestas por peticiones. El error entre respuestas divide errores materiales por respuestas. Si se responden 16 de 20 y dos tienen errores, la cobertura es 80\% y el error entre respuestas 12.5\%. Una política más estricta que responda 12 y falle una da 60\% de cobertura y cerca de 8.3\% de error. Las peticiones restantes todavía necesitan una vía de ayuda. Si el asistente no responde ninguna, la segunda fracción carece de denominador. Registra cobertura cero y deja ese error sin definir.}
+
+\B{Define material errors by consequence. In Saint Eustatius, a fictional public-office assistant that gets a room number wrong may send someone to the wrong building. A system that misstates an application deadline could cause a missed service. Track both. Use a severity rubric, a named human reviewer and an action for each failure category. Retain denominators by task, place and language. A small audit with zero observed critical errors gives limited information about rare failures \citep{helm,nist}.}
+{Define los errores materiales por su consecuencia. En San Eustaquio, un asistente ficticio de oficina pública que se equivoca de sala puede enviar a alguien al edificio incorrecto. Un sistema que indique mal el plazo puede hacer que se pierda un trámite. Registra ambos. Usa criterios de gravedad, una persona revisora identificada y una acción por categoría. Conserva los denominadores por tarea, lugar e idioma. Una auditoría pequeña con cero errores críticos observados da poca información sobre fallos raros \citep{helm,nist}.}
+
+\begin{figure}[htbp]\centering
+\begin{tikzpicture}[node distance=8mm]
+\node[nodebox] (a) {\B{Proposed answer}{Respuesta propuesta}};
+\node[nodebox,fill=softgold,right=of a] (b) {\B{Check facts and permissions}{Verifica hechos y permisos}};
+\node[nodebox,fill=softgreen,right=of b,yshift=9mm] (c) {\B{Release answer with evidence}{Entrega la respuesta con evidencia}};
+\node[nodebox,fill=softruby,right=of b,yshift=-9mm] (d) {\B{Clarify or hand off}{Aclara o deriva}};
+\draw[mainarr](a)--(b);
+\draw[mainarr](b.east)--node[tag,above,sloped]{\B{pass}{cumple}}(c.west);
+\draw[mainarr](b.east)--node[tag,below,sloped]{\B{review}{revisión}}(d.west);
+\end{tikzpicture}
+\caption{\B{The review branch keeps the question and relevant record IDs. An unsupported time, a denied action or a missing route can lead to different forms of handoff.}{La rama de revisión conserva la pregunta y los identificadores pertinentes. Una hora sin respaldo, una acción denegada o una ruta ausente pueden llevar a distintos tipos de derivación.}}
+\label{fig:review}
+\end{figure}
+
+\B{Before a pilot, document the intended uses and known limits in a model or system card \citep{modelcards}. Record the version of the data, tokenizer, model and prompt. Specify how to disable generation while keeping access to official records. During the pilot, sample accepted and withheld outputs, observe the fallback queue and record incidents. A rollback needs an owner, a trigger and a tested recovery route.}
+{Antes de un piloto, documenta usos previstos y límites conocidos en una ficha del modelo o sistema \citep{modelcards}. Registra versiones de datos, tokenizador, modelo e instrucción. Especifica cómo apagar la generación manteniendo acceso a registros oficiales. Durante el piloto, toma muestras de salidas aceptadas y retenidas, observa la cola de respaldo y registra incidentes. Una reversión necesita responsable, condición de activación y ruta de recuperación probada.}
+
+\checklist{
+\item \B{Check a proposed allocation and independently test optimality.}{Verificar una asignación propuesta y comprobar por otra vía si es óptima.}
+\item \B{State the independence assumption behind the majority calculation.}{Indicar el supuesto de independencia detrás del cálculo de mayoría.}
+\item \B{Choose a response policy using both coverage and error severity.}{Elegir una política de respuesta con cobertura y gravedad de errores.}}
+\exercises{
+\item \B{If Carriacou's cap is 45 and other inputs stay fixed, find the best whole-crate allocation and score.}{Si el máximo de Carriacou es 45 y lo demás sigue igual, halla la mejor asignación entera y su puntuación.}
+\item \B{Compute majority correctness at \(p=1/2\) and \(p=1\) under independence.}{Calcula la exactitud de la mayoría en \(p=1/2\) y \(p=1\) con independencia.}
+\item \B{An assistant answers 24 of 30 requests with three material errors. Report coverage and answered error.}{Un asistente responde 24 de 30 peticiones y comete tres errores materiales. Informa cobertura y error entre respuestas.}
+\item \B{Write a stop rule for a stale official source. Specify how users reach a person when it triggers.}{Redacta una regla de suspensión por una fuente oficial desactualizada. Indica cómo se contacta a una persona cuando se activa.}}

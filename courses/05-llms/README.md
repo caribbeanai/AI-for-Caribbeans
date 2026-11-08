@@ -31,3 +31,7 @@ Full index in [../../datasets/CATALOG.md](../../datasets/CATALOG.md).
 ## Capstone
 
 Build a chatbot that helps a specific Caribbean audience. A WhatsApp like UI is enough. Ground it in real local facts. Test it with five real users from your target group.
+
+## Caribbean AI Association textbook
+
+Read [Caribbean foundations of Large Language Models](../../books/caribbean-llm-foundations/README.md) by Adrian Dunkley. The companion includes the English and Spanish editions, classroom data and offline exercises.

@@ -1,0 +1,52 @@
+\chapter{\B{Laboratory files and terms}{Archivos de laboratorio y términos}}
+\label{app:labs}
+
+\section{\B{Reproduce the classroom calculations}{Reproduce los cálculos de aula}}
+
+\B{The companion repository includes the files below. The examples need no service account, credentials or network access after download. Each CSV uses a header row. Dates use year, month and day. The teaching ferry notices add a local issue time and identify their issuer. Do not use them for travel.}
+{El repositorio complementario incluye los archivos siguientes. Los ejemplos no necesitan cuenta, credenciales ni conexión después de la descarga. Cada CSV usa una fila de encabezados. Las fechas siguen el orden año, mes y día. Los avisos didácticos de ferris añaden hora local de emisión y emisor. No uses esos avisos para planificar viajes.}
+
+\noindent\begin{tabularx}{\textwidth}{@{}L{.41\textwidth}Y@{}}
+\toprule
+\B{File}{Archivo} & \B{Contents}{Contenido}\\
+\midrule
+\texttt{data/patty-sites.csv} & \B{Fictional site IDs, lunch counts, JMD rents and hub distances.}{ID, conteos, alquileres en JMD y distancias ficticios.}\\
+\texttt{data/language-samples.json} & \B{Teaching utterances and two model-free segmentations.}{Enunciados didácticos y dos segmentaciones sin modelo.}\\
+\texttt{data/ferry-notices.csv} & \B{Fictional notice records for the retrieval lab.}{Avisos ficticios del laboratorio de recuperación.}\\
+\texttt{data/shipment.csv} & \B{Fictional capacities and weights for the dispatch exercise.}{Capacidades y pesos ficticios para el despacho.}\\
+\texttt{data/regional-observations.csv} & \B{CTO and STATIN displayed observations. See Chapter~\ref{ch:capstone} for units and source limits.}{Observaciones mostradas por la CTO y STATIN. Véanse unidades y límites en el capítulo~\ref{ch:capstone}.}\\
+\texttt{data/place-lab-cases.json} & \B{Fictional lookup fixtures and answer IDs for the geographic index.}{Registros ficticios de consulta e identificadores de respuesta del índice geográfico.}\\
+\texttt{checks/verify\_examples.py} & \B{Recomputes selected results, tests the lookup and checks deliberate failures.}{Recalcula resultados, prueba la consulta y comprueba fallos deliberados.}\\
+\bottomrule
+\end{tabularx}
+
+\B{From the companion directory, use \texttt{python3 checks/verify\_examples.py}. Change the weights in a separate copy of the file, print the scores and record which constraint or priority changed. For the ferry case, use the provided lookup tests before adding a language model. Keep a copy of the original files so you can reproduce the classroom answer. The companion review record uses BootLoops procedures for independent numerical checks, deliberate failures and reference checking \citep{boot}.}
+{Desde el directorio complementario, usa \texttt{python3 checks/verify\_examples.py}. Cambia los pesos en una copia, imprime las puntuaciones y anota qué restricción o prioridad cambió. Para el ferri, usa las pruebas de consulta antes de añadir un modelo de lenguaje. Conserva una copia de los archivos originales para reproducir la respuesta de aula. El registro de revisión usa procedimientos de BootLoops para cálculos independientes, fallos deliberados y comprobación de referencias \citep{boot}.}
+
+\section{\B{Keep an evidence record}{Conserva un registro de evidencia}}
+
+\B{For each project record the source title, issuer, location, publication date, effective date, measurement unit and version. If you transform a number, retain the input precision and the operation. If a source is updated, keep the former record and mark the supersession explicitly. Add a test where the old record should still apply at an earlier as-of time. A correction to a document and an update to a dataset have different provenance paths.}
+{Para cada proyecto registra título, emisor, lugar, fecha de publicación, vigencia, unidad y versión de la fuente. Si transformas una cifra, conserva la precisión de entrada y la operación. Si cambia una fuente, conserva el registro anterior e indica la sustitución. Añade una prueba en que el registro anterior aún se aplique a una hora previa. Corregir un documento y actualizar datos tienen rutas de procedencia distintas.}
+
+\section{\B{Terminology used in the two editions}{Terminología de las dos ediciones}}
+
+\small
+\begin{longtable}{@{}L{.27\textwidth}L{.26\textwidth}L{.39\textwidth}@{}}
+\toprule
+English & Español & \B{Use}{Uso}\\
+\midrule\endhead
+Attention & Atención & \B{Weight and mix information across positions.}{Ponderar y mezclar información entre posiciones.}\\
+Context window & Ventana de contexto & \B{Positions the model interface can process in a request.}{Posiciones que admite la interfaz por petición.}\\
+Decoder & Decodificador & \B{Module that predicts target tokens using its allowed context.}{Módulo que predice tokens objetivo con el contexto permitido.}\\
+Embedding & Representación vectorial & \B{Learned vector for a token, passage or other object.}{Vector aprendido para un token, pasaje u objeto.}\\
+Fine-tuning & Ajuste fino & \B{Update model parameters using a specified objective and data.}{Actualizar parámetros con un objetivo y datos definidos.}\\
+Grounding & Respaldo en fuentes & \B{Tie an answer's factual claims to applicable evidence.}{Vincular afirmaciones factuales a evidencia aplicable.}\\
+Inference & Inferencia & \B{Apply a trained model to a new input.}{Aplicar un modelo entrenado a una entrada nueva.}\\
+Logit & Logit & \B{Score before converting a vector to probabilities.}{Puntuación previa a convertir un vector en probabilidades.}\\
+Pre-training & Preentrenamiento & \B{Fit shared parameters before task adaptation.}{Ajustar parámetros compartidos antes de adaptar a tareas.}\\
+Prompt & Instrucción o entrada & \B{Text or other input given to a model for a task.}{Texto u otra entrada dada al modelo para una tarea.}\\
+Retrieval & Recuperación & \B{Find applicable records or passages for a request.}{Encontrar registros o pasajes aplicables a una petición.}\\
+Token & Token & \B{Vocabulary item used by a model to represent input or output.}{Elemento del vocabulario con que el modelo representa entradas o salidas.}\\
+\bottomrule
+\end{longtable}
+\normalsize

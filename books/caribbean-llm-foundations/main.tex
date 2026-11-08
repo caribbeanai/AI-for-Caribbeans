@@ -1,0 +1,159 @@
+\documentclass[11pt,a4paper,twoside,openany]{book}
+\usepackage[inner=27mm,outer=25mm,top=25mm,bottom=26mm,headheight=15pt]{geometry}
+\usepackage{fontspec}
+\setmainfont{Latin Modern Roman}
+\setsansfont{Latin Modern Sans}
+\setmonofont[Scale=.88]{Latin Modern Mono}
+\usepackage{amsmath}
+\usepackage{unicode-math}
+\setmathfont{Latin Modern Math}
+\usepackage[british]{babel}
+\ifES\babelprovide[main,import]{spanish}\fi
+\usepackage{microtype}
+\usepackage{booktabs,tabularx,longtable,array}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tikz,pgfplots}
+\usetikzlibrary{arrows.meta,positioning,fit,calc,matrix,backgrounds}
+\pgfplotsset{compat=1.18}
+\usepackage[font=small,labelfont=bf,skip=6pt]{caption}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage[round,authoryear]{natbib}
+\usepackage{enumitem,needspace}
+\usepackage{xurl}
+\usepackage[unicode,pdfencoding=auto,colorlinks=true,linkcolor=blue!44!black,citecolor=blue!48!black,urlcolor=blue!51!black]{hyperref}
+\usepackage{bookmark}
+\newcommand{\B}[2]{\ifES#2\else#1\fi}
+\newcommand{\BookTitle}{\B{Caribbean foundations of Large Language Models}{Fundamentos caribeños de los grandes modelos de lenguaje}}
+\hypersetup{pdftitle={\BookTitle},pdfauthor={Adrian Dunkley},pdfsubject={\B{Caribbean AI Association textbook, first edition}{Libro de la Caribbean AI Association, primera edición}},pdfkeywords={Caribbean, LLM, tokenisation, Transformer, AI},pdflang={\B{en}{es}},pdfdisplaydoctitle=true}
+\definecolor{navy}{HTML}{233750}
+\definecolor{softblue}{HTML}{E1EAF6}
+\definecolor{softgold}{HTML}{F9EAD6}
+\definecolor{softgreen}{HTML}{E3EDDF}
+\definecolor{softruby}{HTML}{F5E0E5}
+\definecolor{softgrey}{HTML}{F0F1F3}
+\definecolor{rulegrey}{HTML}{7A8490}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\setlength{\parindent}{1.2em}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{2.5em}
+\setcounter{tocdepth}{1}
+\setcounter{secnumdepth}{2}
+\renewcommand{\arraystretch}{1.17}
+\setlist[itemize]{leftmargin=1.6em,itemsep=2pt,topsep=4pt}
+\setlist[enumerate]{leftmargin=1.8em,itemsep=4pt,topsep=4pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE]{\small\itshape\leftmark}
+\fancyhead[LO]{\small\itshape\rightmark}
+\renewcommand{\headrulewidth}{0.3pt}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{#1}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\quad#1}}
+\fancypagestyle{plain}{\fancyhf{}\fancyfoot[C]{\thepage}\renewcommand{\headrulewidth}{0pt}}
+\titleformat{\chapter}[display]{\normalfont\color{black}\bfseries}{\large\normalfont\MakeUppercase{\chaptertitlename}\ \thechapter}{5pt}{\huge}
+\titlespacing*{\chapter}{0pt}{1mm}{15pt}
+\titleformat{\section}{\normalfont\Large\bfseries}{\thesection}{.55em}{}
+\titleformat{\subsection}{\normalfont\large\bfseries}{\thesubsection}{.55em}{}
+\raggedbottom
+\allowdisplaybreaks[1]
+\renewcommand{\topfraction}{.86}
+\renewcommand{\bottomfraction}{.68}
+\renewcommand{\textfraction}{.10}
+\renewcommand{\floatpagefraction}{.66}
+\setlength{\abovecaptionskip}{6pt}
+\newcommand{\term}[1]{\emph{#1}}
+\newcommand{\prov}[1]{\textbf{\B{Provenance}{Procedencia}.} #1}
+\newcommand{\toy}{\B{Fictional teaching data.}{Datos ficticios para el aprendizaje.}}
+\newcommand{\logit}{\operatorname{logit}}
+\newcommand{\softmax}{\operatorname{softmax}}
+\newcommand{\argmax}{\operatorname*{arg\,max}}
+\newcommand{\argmin}{\operatorname*{arg\,min}}
+\newcommand{\rank}{\operatorname{rank}}
+\newcommand{\E}{\mathbb E}
+\newcommand{\RR}{\mathbb R}
+\newcommand{\lesson}[1]{\par\medskip\noindent\textbf{#1}\enspace\ignorespaces}
+\newcommand{\lab}[1]{\subsection*{\B{Worked example}{Ejemplo resuelto}. #1}}
+\newcommand{\checklist}[1]{\subsection*{\B{What you should be able to check}{Lo que debes poder comprobar}}\begin{itemize}#1\end{itemize}}
+\newcommand{\exercises}[1]{%
+ \Needspace{13\baselineskip}\section{\B{Exercises}{Ejercicios}}%
+ \begin{enumerate}#1\end{enumerate}%
+ \par
+ \ifdim\pagetotal<.46\textheight
+   \vspace{1.1\baselineskip}\noindent\textit{\B{Working space}{Espacio de trabajo}}\par
+   \medskip
+   \foreach \lineindex in {1,...,7}{\par\noindent\textcolor{rulegrey!43}{\rule{\textwidth}{.35pt}}\par\vspace{.65\baselineskip}}%
+ \fi
+}
+\newcommand{\Key}[1]{\texttt{#1}}
+\newcommand{\urltext}[2]{\href{#1}{#2}}
+\tikzset{
+ nodebox/.style={draw=navy,rounded corners=1pt,fill=softblue,text=black,minimum height=9mm,
+   text width=31mm,align=center,font=\small,inner sep=3pt},
+ mainarr/.style={-{Latex[length=2mm]},thin,draw=navy},
+ tag/.style={align=center,font=\footnotesize,text=black},
+ }
+\newcommand{\flow}[4]{%
+ \begin{tikzpicture}[node distance=6mm]
+ \node[nodebox] (a) {#1};
+ \node[nodebox,fill=softgreen,right=of a] (b) {#2};
+ \node[nodebox,fill=softgold,right=of b] (c) {#3};
+ \node[nodebox,fill=softgrey,right=of c] (d) {#4};
+ \draw[mainarr] (a)--(b);\draw[mainarr] (b)--(c);\draw[mainarr] (c)--(d);
+ \end{tikzpicture}}
+\begin{document}
+\frontmatter
+\begin{titlepage}
+\centering
+\vspace*{33mm}
+{\Huge\bfseries\B{Caribbean foundations\\[3pt]of Large Language Models}{Fundamentos caribeños\\[3pt]de los grandes modelos de lenguaje}\par}
+\vspace{28mm}
+{\Large Adrian Dunkley\par}
+\vspace{28mm}
+{\large \B{First edition}{Primera edición}\par}
+\vspace{4mm}
+{\large \B{November 2026}{Noviembre de 2026}\par}
+\vfill
+{\large Caribbean AI Association\par}
+\vspace{15mm}
+\end{titlepage}
+\thispagestyle{empty}
+\noindent\textcopyright\ 2026 Adrian Dunkley
+
+\bigskip
+\noindent\textbf{Caribbean AI Association}\\
+\url{https://caribbeanaiassociation.com/}
+
+\bigskip
+\noindent\B{First edition. English. November 2026.}{Primera edición. Español. Noviembre de 2026.}
+
+\bigskip
+\noindent\B{The book uses original text, worked examples and illustrations. The supplied reference, Tong Xiao and Jingbo Zhu's \emph{Foundations of Large Language Models}, version 4, informed the academic layout and reading path. It is listed in the bibliography and is available under its own terms. The two works have separate authors.}{El libro emplea texto, ejemplos resueltos e ilustraciones originales. La obra de referencia, \emph{Foundations of Large Language Models}, versión 4, de Tong Xiao y Jingbo Zhu, orientó el diseño académico y el recorrido de lectura. Figura en la bibliografía y está disponible bajo sus propios términos. Las dos obras tienen autores distintos.}
+
+\medskip
+\noindent\B{Fictional classroom scenarios and dialogue are labelled. Where the book uses observations or published counts, it identifies their source and dates. AI-assisted drafting, translation and technical checks were used in preparing this edition.}{Los casos y diálogos de aula ficticios están identificados. Cuando el libro utiliza observaciones o cifras publicadas, indica la fuente y las fechas. La preparación de esta edición incluyó redacción, traducción y comprobaciones técnicas asistidas por IA.}
+
+\vfill
+\noindent\B{Companion files and edition records}{Archivos complementarios y registro de la edición}\\
+\url{https://github.com/caribbeanai/AI-for-Caribbeans/tree/main/books/caribbean-llm-foundations}
+\clearpage
+\input{front}
+\tableofcontents
+\mainmatter
+\input{chapters/01-data}
+\input{chapters/02-tokens}
+\input{chapters/03-generative}
+\input{chapters/04-retrieval}
+\input{chapters/05-alignment}
+\input{chapters/06-inference}
+\input{chapters/07-reasoning}
+\input{chapters/08-capstone}
+\appendix
+\input{appendices/solutions}
+\input{appendices/places}
+\input{appendices/labs}
+\backmatter
+\input{references}
+\end{document}

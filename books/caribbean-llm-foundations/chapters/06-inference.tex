@@ -1,0 +1,107 @@
+\chapter{\B{Inference under local constraints}{Inferencia con restricciones locales}}
+\label{ch:inference}
+
+\B{A cooperative on Carriacou asks for a short packing summary that staff can read on a phone. The connection may drop after the first lines arrive. A good interface puts the task ID and source date near the beginning, keeps the official record available in a lightweight format and tells staff when an old copy is all it has. These choices depend on how the system processes a prompt and sends an answer.}
+{Una cooperativa de Carriacou pide un resumen de empaque que el personal pueda leer en un teléfono. La conexión puede caer después de las primeras líneas. Una buena interfaz pone el identificador de tarea y la fecha de la fuente al principio, mantiene el registro oficial disponible en un formato ligero y avisa si solo tiene una copia antigua. Estas decisiones dependen de cómo el sistema procesa una entrada y envía una respuesta.}
+
+\section{\B{Separate prefill from decoding}{Separa el procesamiento inicial de la decodificación}}
+
+\B{Inference applies a trained model to a new input. In a decoder-only model, \term{prefill} processes the prompt positions together under a causal mask. It creates keys and values for those positions and computes logits for the first generated token. After choosing that token, the \term{decode} phase processes new tokens as they become available. Caching keys and values saves recomputing the previous positions' projections. Each new query still compares with allowed cached keys \citep{xiao,paged}.}
+{La inferencia aplica un modelo entrenado a una entrada nueva. En un modelo de solo decodificador, el \term{procesamiento inicial} procesa juntas las posiciones de la entrada con una máscara causal. Crea claves y valores para esas posiciones y calcula logits para el primer token generado. Tras elegirlo, la fase de \term{decodificación} procesa tokens nuevos conforme aparecen. Guardar claves y valores evita recalcular las proyecciones de posiciones anteriores. Cada consulta nueva todavía se compara con las claves guardadas que estén permitidas \citep{xiao,paged}.}
+
+\begin{figure}[htbp]\centering
+\begin{tikzpicture}[x=1cm,y=1cm]
+\draw[mainarr] (0,-.4)--(13.5,-.4) node[right,tag]{\B{Time}{Tiempo}};
+\draw[draw=navy,fill=softblue] (0,0) rectangle (5,1.08);
+\node[tag] at (2.5,.54){\B{Queue, network and prefill}{Cola, red y procesamiento inicial}};
+\draw[dashed,navy] (5,-.45)--(5,1.45);
+\node[tag,anchor=south] at (5,1.45){\B{First output token}{Primer token de salida}};
+\foreach \x/\name in {5/2,7/3,9/4,11/5}{
+ \draw[draw=navy,fill=softgold] (\x,0) rectangle ++(2,1.08);
+ \node[tag] at (\x+1,.54){\B{Token}{Token} \name};
+}
+\end{tikzpicture}
+\caption{\B{Time to first token includes work before the first output arrives. Inter-token delays describe subsequent delivery. This timeline shows stages, with no measured time scale.}{El tiempo hasta el primer token incluye el trabajo previo a su llegada. Las demoras entre tokens describen la entrega posterior. La cronología muestra etapas sin una escala de tiempos medidos.}}
+\label{fig:ttft}
+\end{figure}
+
+\B{For an approximate user wait, let \(t_{\mathrm{first}}\) be the measured time to first token, \(m\) the output length and \(r\) the average subsequent rate in tokens per second. Assume \(m\ge1\) and \(r>0\).}
+{Para una espera aproximada, sea \(t_{\mathrm{first}}\) el tiempo medido hasta el primer token, \(m\) la longitud de salida y \(r\) la tasa posterior promedio en tokens por segundo. Supón \(m\ge1\) y \(r>0\).}
+\begin{equation}
+ t_{\mathrm{total}}\approx t_{\mathrm{first}}+\frac{m-1}{r}.
+ \label{eq:latency}
+\end{equation}
+\B{The first token is already included in the first wait. Divide the remaining \(m-1\) tokens by tokens per second to get seconds. At \(1.2\) seconds to first token and \(20\) tokens per second for the remaining \(79\) tokens of an 80-token answer, the estimate is \(5.15\) seconds. One-token output has no additional decode delay in this model. Measure from the user's device to include queue and network time.}
+{El primer token ya está incluido en la espera inicial. Divide los \(m-1\) tokens restantes por la tasa de tokens por segundo para obtener segundos. Con \(1.2\) segundos hasta el primer token y \(20\) tokens por segundo para los \(79\) restantes de una respuesta de 80, la estimación es \(5.15\) segundos. Una salida de un token carece de demora adicional de decodificación en este modelo. Mide desde el dispositivo del usuario para incluir cola y red.}
+
+\section{\B{Choose how to pick a token}{Elige cómo seleccionar un token}}
+
+\B{Greedy decoding chooses the token with highest current probability, with a tie rule if needed. It can miss the most probable complete sequence. In a toy tree, the first branches have probabilities \(0.60\) and \(0.40\). The best completion under the first has conditional probability \(0.50\), and the best completion under the second has \(0.90\). The best paths through the two branches have probabilities \(0.30\) and \(0.36\). Greedy goes down the first. Beam search keeps several partial sequences and uses their scores to decide which to extend. A finite beam can still prune the eventual best answer, and length penalties change the criterion \citep{xiao}.}
+{La decodificación voraz elige el token de mayor probabilidad actual, con una regla de desempate si hace falta. Puede perder la secuencia completa más probable. En un árbol didáctico, las primeras ramas tienen probabilidades \(0.60\) y \(0.40\). La mejor continuación de la primera tiene probabilidad condicional \(0.50\), y la de la segunda \(0.90\). Las mejores rutas por cada rama tienen probabilidades \(0.30\) y \(0.36\). La decodificación voraz toma la primera. La búsqueda por haz conserva varias secuencias parciales y usa sus puntuaciones para decidir cuáles extender. Un haz finito todavía puede podar la mejor respuesta y las penalizaciones por longitud cambian el criterio \citep{xiao}.}
+
+\B{Sampling draws a token from a distribution. A temperature parameter \(\tau>0\) rescales logits \(z_i\) before softmax.}
+{El muestreo elige un token de una distribución. Un parámetro de temperatura \(\tau>0\) cambia la escala de los logits \(z_i\) antes de softmax.}
+\begin{equation}
+ p_i(\tau)=\frac{\exp(z_i/\tau)}{\sum_j\exp(z_j/\tau)} .
+ \label{eq:temperature}
+\end{equation}
+\B{Divide each logit by the same temperature and convert the result to probabilities. At \(\tau=1\), the distribution stays at its original scale. Lowering \(\tau\) gives the larger logits more relative weight. With two logits \(0,\ln 3\), the probabilities are \(1/4,3/4\) at \(\tau=1\) and \(1/10,9/10\) at \(\tau=0.5\). As temperature grows without bound, the probabilities for a finite set of finite logits approach a uniform distribution. Some interfaces label greedy mode as temperature zero. Equation~\eqref{eq:temperature} itself requires positive temperature.}
+{Divide cada logit por la misma temperatura y convierte el resultado en probabilidades. Con \(\tau=1\), la distribución conserva su escala original. Reducir \(\tau\) da mayor peso relativo a los logits grandes. Con dos logits \(0,\ln 3\), las probabilidades son \(1/4,3/4\) para \(\tau=1\) y \(1/10,9/10\) para \(\tau=0.5\). Si la temperatura crece sin límite, las probabilidades de un conjunto finito de logits finitos se acercan a una distribución uniforme. Algunas interfaces llaman temperatura cero al modo voraz. La ecuación~\eqref{eq:temperature} requiere temperatura positiva.}
+
+\B{Top-\(k\) sampling keeps the \(k\) highest-probability tokens and renormalises. Top-\(p\), also called nucleus sampling, sorts tokens by probability and keeps the smallest prefix whose cumulative mass reaches a threshold \(p\). Decide the order of filtering operations and tie rules when reproducing a result \citep{nucleus}.}
+{El muestreo top-\(k\) conserva los \(k\) tokens más probables y vuelve a normalizar. Top-\(p\), también llamado muestreo de núcleo, ordena los tokens por probabilidad y conserva el prefijo más corto cuya masa acumulada alcanza el umbral \(p\). Define el orden de filtros y los desempates al reproducir un resultado \citep{nucleus}.}
+
+\lab{\B{A small nucleus}{Un núcleo pequeño}}
+\B{Use four sorted probabilities \(0.50,0.25,0.15,0.10\). A threshold of \(0.70\) retains the first two, since the first alone falls short and together they total \(0.75\). The retained probabilities are \(0.50/0.75=2/3\) and \(0.25/0.75=1/3\). A threshold of \(0.50\) keeps only the first token under the reach-or-exceed rule. A distribution choice changes the variety of generated answers. Accuracy still depends on evidence and verification.}
+{Usa cuatro probabilidades ordenadas \(0.50,0.25,0.15,0.10\). Un umbral de \(0.70\) conserva las dos primeras porque la primera no basta y juntas suman \(0.75\). Las probabilidades conservadas son \(0.50/0.75=2/3\) y \(0.25/0.75=1/3\). Un umbral de \(0.50\) conserva solo el primer token con la regla de alcanzar o superar. La distribución cambia la variedad de respuestas. La exactitud sigue dependiendo de evidencia y verificación.}
+
+\section{\B{Budget for weights and the key--value cache}{Presupuesta los pesos y la caché de claves y valores}}
+
+\B{Model weights consume memory before a prompt arrives. A model with seven billion weights at two bytes each uses 14 billion bytes for the weights, about 13.0 GiB. Four-bit storage has an ideal weight payload of 3.5 billion bytes. Scales, metadata, temporary buffers and parts kept at higher precision add to it. Quantisation changes which numbers can be represented. Evaluate the actual model on your tasks after quantising.}
+{Los pesos consumen memoria antes de que llegue la entrada. Un modelo con siete mil millones de pesos de dos bytes usa 14 mil millones de bytes solo para los pesos, unos 13.0 GiB. El almacenamiento de cuatro bits tiene una carga ideal de 3.5 mil millones de bytes. Escalas, metadatos, búferes y partes de mayor precisión se añaden a la cifra. La cuantización cambia qué números se pueden representar. Evalúa el modelo en tus tareas después de cuantizarlo.}
+
+\B{The key--value (KV) cache grows with tokens stored per active sequence. For a single sequence and fixed dimensions across layers, an idealised cache payload is}
+{La caché de claves y valores (KV) crece con los tokens guardados por secuencia activa. Para una sola secuencia y dimensiones fijas entre capas, una carga idealizada es}
+\begin{equation}
+ B_{\mathrm{KV}}=2Lnh_{\mathrm{kv}}d_hb .
+ \label{eq:kv}
+\end{equation}
+\B{The first factor of two counts keys and values. \(L\) is the number of layers, \(n\) the number of stored positions, \(h_{\mathrm{kv}}\) the number of key--value heads per layer, \(d_h\) the width of one such head and \(b\) bytes per number. With \(L=32,n=4{,}096,h_{\mathrm{kv}}=8,d_h=128,b=2\), the payload is \(536{,}870{,}912\) bytes, or 512 MiB. At 1,024 positions it is 128 MiB. Two unrelated 4,096-position sequences double the payload if they share no storage.}
+{El primer factor dos cuenta claves y valores. \(L\) es el número de capas, \(n\) las posiciones guardadas, \(h_{\mathrm{kv}}\) las cabezas de claves y valores por capa, \(d_h\) el ancho de una cabeza y \(b\) los bytes por número. Con \(L=32,n=4{,}096,h_{\mathrm{kv}}=8,d_h=128,b=2\), la carga es \(536{,}870{,}912\) bytes, o 512 MiB. Para 1\,024 posiciones es 128 MiB. Dos secuencias independientes de 4\,096 posiciones duplican la carga si no comparten almacenamiento.}
+
+\begin{figure}[htbp]\centering
+\begin{tikzpicture}
+\begin{axis}[width=.9\textwidth,height=57mm,xmin=0,xmax=4200,ymin=0,ymax=550,
+ xlabel={\B{Stored positions}{Posiciones guardadas}},ylabel={\B{Cache payload (MiB)}{Carga de caché (MiB)}},
+ xtick={0,1024,2048,3072,4096},ytick={0,128,256,384,512},grid=major,grid style={softgrey},scaled ticks=false,
+ /pgf/number format/1000 sep={\,}]
+\addplot[navy,thick,mark=*] coordinates {(0,0)(1024,128)(2048,256)(3072,384)(4096,512)};
+\end{axis}
+\end{tikzpicture}
+\caption{\B{Idealised KV payload under Equation~\eqref{eq:kv} and the worked example's dimensions. The slope is 128 KiB per position. Allocation overhead and model weights are outside the plotted quantity.}{Carga idealizada de caché KV según la ecuación~\eqref{eq:kv} y las dimensiones del ejemplo. La pendiente es 128 KiB por posición. Los gastos de asignación y los pesos quedan fuera de la gráfica.}}
+\label{fig:kvmemory}
+\end{figure}
+
+\B{Grouped-query attention shares key and value heads across several query heads, which reduces the payload for a given query head count. Some servers reuse a cached prefix across identical authorised prompts. A cache key needs to distinguish model, tokenizer, prefix and permission boundary. Batching can process more requests per second while adding queue time. Paged allocation can reduce waste from variable sequence lengths. Record active requests, input lengths and output lengths with your latency results \citep{paged,gqa}.}
+{La atención de consultas agrupadas comparte cabezas de claves y valores entre varias cabezas de consulta, lo que reduce la carga para una cantidad dada de cabezas de consulta. Algunos servidores reutilizan un prefijo guardado entre entradas autorizadas idénticas. Una clave de caché debe distinguir modelo, tokenizador, prefijo y límite de permisos. Los lotes pueden procesar más peticiones por segundo y añadir espera en cola. La asignación por páginas puede reducir desperdicio con longitudes variables. Registra peticiones activas y longitudes de entrada y salida junto a los tiempos \citep{paged,gqa}.}
+
+\B{Speculative decoding proposes several tokens with a cheaper process and checks them with the target model. Under the method's acceptance and correction rules, sampling can preserve the target distribution. Copying a draft without that check changes the procedure and may change the distribution. Measure speedups at the intended batch size, since checks and rejected drafts also consume work \citep{specdec}.}
+{La decodificación especulativa propone varios tokens con un proceso de menor costo y los comprueba con el modelo objetivo. Con las reglas de aceptación y corrección del método, el muestreo puede conservar la distribución objetivo. Copiar un borrador sin esa comprobación cambia el procedimiento y puede alterar la distribución. Mide las mejoras con el tamaño de lote previsto, porque las comprobaciones y los borradores rechazados también consumen trabajo \citep{specdec}.}
+
+\section{\B{Measure the service where people use it}{Mide el servicio donde se utiliza}}
+
+\B{A team in the Turks and Caicos Islands tests a public information assistant under a fast connection and a constrained one. Record time to first token, completion time, failure to complete and reply size. Throughput measures total completed work per unit time across requests. Latency measures a request's wait. A service can improve throughput and worsen the wait for a person in the queue. Report median and high-percentile delays, sample counts, prompt lengths and test conditions. Report the percentile for completed responses alongside the completion and timeout rates.}
+{Un equipo en las Islas Turcas y Caicos prueba un asistente de información pública con una conexión rápida y otra limitada. Registra tiempo hasta el primer token, tiempo total, respuestas inconclusas y tamaño. El rendimiento mide trabajo total completado por unidad de tiempo entre solicitudes. La latencia mide la espera de una petición. Un servicio puede mejorar el rendimiento y empeorar la espera de quien está en cola. Informa la mediana y percentiles altos, cantidades de muestras, longitudes y condiciones. Informa el percentil de respuestas completadas junto con las tasas de finalización y espera agotada.}
+
+\B{For a clinic appointment directory or an island office with a weak connection, a compact list of dated records may work during outages. Store only approved information for offline access. Show when it was last updated and which questions need a live check. Provide an equivalent route by phone, desk or printed sheet when the task calls for it. A generative answer can follow after the person receives the record they need.}
+{Para un directorio de citas o una oficina insular con mala conexión, una lista compacta de registros fechados puede servir durante fallas. Guarda solo información aprobada para acceso sin conexión. Muestra la fecha de actualización y qué preguntas requieren una consulta actual. Cuando la tarea lo requiera, ofrece una vía equivalente por teléfono, ventanilla o papel. Una respuesta generativa puede llegar después de que la persona reciba el registro que necesita.}
+
+\checklist{
+\item \B{Distinguish prefill, decode, cache and observed user latency.}{Distinguir procesamiento inicial, decodificación, caché y latencia observada.}
+\item \B{Reproduce the probabilities after temperature or nucleus filtering.}{Reproducir probabilidades después de aplicar temperatura o filtro de núcleo.}
+\item \B{Estimate KV payload and explain what the estimate excludes.}{Estimar la carga de caché y explicar qué excluye.}}
+\exercises{
+\item \B{For \(0.50,0.25,0.15,0.10\), compute top-\(p\) probabilities at \(p=0.80\).}{Para \(0.50,0.25,0.15,0.10\), calcula las probabilidades top-\(p\) con \(p=0.80\).}
+\item \B{If first-token time is \(0.8\) s and 39 later tokens arrive at 13 tokens/s, estimate the total time.}{Si el primer token tarda \(0.8\) s y 39 tokens posteriores llegan a 13 tokens/s, estima el tiempo total.}
+\item \B{Halve the number of key--value heads in the cache example, keeping other dimensions fixed. What is the new payload at 4,096 positions?}{Reduce a la mitad las cabezas KV del ejemplo y conserva las demás dimensiones. ¿Cuál es la carga con 4\,096 posiciones?}
+\item \B{You observe lower throughput and lower first-token time in one test. Give a workload change that could explain both.}{Observas menor rendimiento y menor tiempo al primer token en una prueba. Da un cambio de carga que pueda explicar ambos.}}

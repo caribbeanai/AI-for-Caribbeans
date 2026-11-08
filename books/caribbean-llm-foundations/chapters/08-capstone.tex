@@ -1,0 +1,87 @@
+\chapter{\B{Build and test a grounded assistant}{Construye y prueba un asistente basado en fuentes}}
+\label{ch:capstone}
+
+\B{Build a small assistant that answers questions from approved records and cites the row behind each answer. It should use a date or ask for one, follow an explicit revision rule and escalate a conflict. Start with the fictional ferry records. Then test what happens when an official regional publication contains figures that are difficult to reconcile. The learning objective is a checkable answer. The lookup and arithmetic examples can be completed offline.}
+{Construye un asistente pequeño que responda con registros aprobados y cite la fila que respalda cada respuesta. Debe usar una fecha o pedirla, seguir una regla explícita de revisión y derivar conflictos. Empieza con los avisos ficticios de ferris. Luego prueba qué ocurre cuando una publicación regional contiene cifras difíciles de conciliar. El objetivo es obtener una respuesta verificable. Puedes completar sin conexión los ejemplos de consulta y aritmética.}
+
+\section{\B{Write the answer contract first}{Escribe primero el contrato de respuesta}}
+
+\B{Pick one question family. A ferry lookup answers a route and service date. A statistics lookup reports a measure, geography, period, unit and source. A campus assistant might list a deadline from a dated notice. Keep the scope narrow enough to inspect every outcome in the first test. Write a compact record schema before deciding on a model. Each answer should carry a state, source IDs and a short reason. The state says whether it answered, needs clarification, found a conflict or lacks evidence.}
+{Escoge una familia de preguntas. Una consulta de ferris responde sobre una ruta y una fecha. Una consulta estadística informa medida, geografía, periodo, unidad y fuente. Un asistente universitario podría mostrar un plazo a partir de un aviso fechado. Mantén un alcance que permita inspeccionar cada resultado de la primera prueba. Escribe un esquema compacto antes de decidir el modelo. Cada respuesta debe llevar estado, identificadores de fuente y una razón breve. El estado indica si respondió, necesita aclaración, encontró un conflicto o carece de evidencia.}
+
+\begin{table}[htbp]\centering\small
+\begin{tabularx}{\textwidth}{@{}YYY@{}}
+\toprule
+\B{Condition}{Condición} & \B{Expected state}{Estado esperado} & \B{What to inspect}{Qué inspeccionar}\\
+\midrule
+\B{Corrected time after N03}{Hora corregida después de N03} & \B{Answer from N03}{Responde con N03} & \B{Direction, date, as-of time}{Dirección, fecha y momento de consulta}\\
+\B{Same request before N03}{Misma consulta antes de N03} & \B{Answer from N02}{Responde con N02} & \B{No future record}{Ningún registro futuro}\\
+\B{Origin omitted}{Sin origen} & \B{Ask for origin}{Pide el origen} & \B{Direction remains open}{Dirección sin resolver}\\
+\B{Two applicable notices disagree}{Dos avisos aplicables discrepan} & \B{Conflict and both IDs}{Conflicto y ambos ID} & \B{No arbitrary tie break}{Sin desempate arbitrario}\\
+\B{Fare absent}{Tarifa ausente} & \B{Insufficient evidence}{Evidencia insuficiente} & \B{No invented amount}{Sin monto inventado}\\
+\bottomrule
+\end{tabularx}
+\caption{\B{One reference state per question type. The conflict row uses N06 and N07 as of 20 May 2031.}{Un estado de referencia por tipo de pregunta. La fila de conflicto usa N06 y N07 al 20 de mayo de 2031.}}
+\label{tab:capstone}
+\end{table}
+
+\B{Implement a search-only baseline with route, date and as-of filters. Remove superseded records only if the superseding notice is also applicable and trusted. Return conflicts in a stable ID order. In a source where notices take effect later, store both issue and effective times and check expiry as well. Give a generator only the selected records and ask it for a short answer in the requested language. Recheck every factual field. Compare search-only and generation on the same questions. A lookup can be enough if it returns the information in a form the reader can use.}
+{Implementa una referencia de solo búsqueda con filtros de ruta, fecha y momento de consulta. Retira registros sustituidos solo si el aviso que los sustituye es aplicable y confiable. Devuelve conflictos en un orden estable de identificadores. Si los avisos entran en vigor después, guarda las horas de emisión y vigencia y comprueba también el vencimiento. Da al generador solo los registros seleccionados y pídele una respuesta breve en el idioma solicitado. Vuelve a comprobar cada campo factual. Compara búsqueda y generación con las mismas preguntas. La consulta puede bastar si devuelve la información en un formato que la persona pueda usar.}
+
+\section{\B{Compare published counts with a calculation}{Compara cifras publicadas con un cálculo}}
+
+\B{The Caribbean Tourism Organization (CTO) reported an estimated 34.2 million international overnight arrivals for the Caribbean in 2024. Its public release of 28 April 2025 lists six destination figures. Figure~\ref{fig:cto} plots those displayed estimates. Use the release as a dated source. An arrivals count differs from a count of unique people and cannot establish a town's occupancy \citep{cto}.}
+{La Organización de Turismo del Caribe (CTO) informó una estimación de 34.2 millones de llegadas internacionales con pernoctación al Caribe en 2024. Su comunicado del 28 de abril de 2025 enumera cifras de seis destinos. La figura~\ref{fig:cto} grafica las estimaciones mostradas. Usa el comunicado como fuente fechada. El conteo de llegadas difiere del de personas únicas y no determina la ocupación de un municipio \citep{cto}.}
+
+\begin{figure}[htbp]\centering
+\begin{tikzpicture}
+\begin{axis}[xbar,width=.73\textwidth,height=63mm,xmin=0,xmax=10,bar width=7pt,
+ ytick={0,1,2,3,4,5},yticklabels={Puerto Rico,Aruba,\B{The Bahamas}{Las Bahamas},Cuba,Jamaica,\B{Dominican Republic}{República Dominicana}},
+ yticklabel style={font=\small},xlabel={\B{Estimated arrivals (millions)}{Llegadas estimadas (millones)}},
+ axis lines*=left,nodes near coords,nodes near coords style={font=\scriptsize},enlarge y limits=.12,xmajorgrids,grid style={softgrey}]
+ \addplot[fill=softblue,draw=navy] coordinates {(1.0,0)(1.4,1)(1.9,2)(2.2,3)(2.9,4)(8.5,5)};
+\end{axis}
+\end{tikzpicture}
+\caption{\B{CTO's six displayed destination estimates for 2024. The axis shows millions of international overnight arrivals \citep{cto}.}{Las seis estimaciones de destinos que muestra la CTO para 2024. El eje indica millones de llegadas internacionales con pernoctación \citep{cto}.}}
+\label{fig:cto}
+\end{figure}
+
+\begin{equation}
+ s_{\mathrm{display}}=100\,\frac{\sum_{j=1}^{6}a_j}{A_{\mathrm{region}}}.
+ \label{eq:cto}
+\end{equation}
+\B{Add the six published estimates \(a_j\), divide by the displayed regional estimate \(A_{\mathrm{region}}\) and multiply by 100. All inputs use millions of arrivals, so the units cancel. The displayed sum is 17.9 million and the ratio gives about 52.3\%. The release also describes the destinations as about 56\% of all visitor arrivals to the region. Label the two statements separately. The calculation does not establish the denominator behind the published share. Request the underlying table or methodology before explaining the discrepancy \citep{cto}.}
+{Suma las seis estimaciones publicadas \(a_j\), divide por la estimación regional mostrada \(A_{\mathrm{region}}\) y multiplica por 100. Todas las entradas están en millones de llegadas, así que las unidades se cancelan. La suma mostrada es 17.9 millones y la razón da cerca de 52.3\%. El comunicado también describe esos destinos como aproximadamente 56\% de todas las llegadas de visitantes a la región. Etiqueta ambas cifras por separado. El cálculo no establece el denominador de la proporción publicada. Pide la tabla o metodología subyacente antes de explicar la diferencia \citep{cto}.}
+
+\B{Jamaica's September 2025 consumer price index bulletin displays 142.4 and 143.5 as the all-items index values for August and September. The change from displayed values is \(100(143.5-142.4)/142.4\approx0.7725\%\), consistent with the reported 0.8\% at one decimal place. For food and non-alcoholic beverages it displays 157.1 and 158.6, which give about 0.9548\%. The bulletin reports 0.9\%. One-decimal indices can hide the precision used in a published rate. Quote the reported rate when asked what STATIN published. When asked for arithmetic, label the recalculation and name the precision of its inputs \citep{statin}.}
+{El boletín del índice de precios al consumidor de Jamaica de septiembre de 2025 muestra 142.4 y 143.5 como índices generales de agosto y septiembre. El cambio con los valores mostrados es \(100(143.5-142.4)/142.4\approx0.7725\%\), compatible con el 0.8\% publicado a un decimal. Para alimentos y bebidas no alcohólicas muestra 157.1 y 158.6, que dan cerca de 0.9548\%. El boletín informa 0.9\%. Los índices de un decimal pueden ocultar la precisión usada para una tasa publicada. Cita la tasa publicada si te preguntan qué informó STATIN. Si te piden la cuenta, etiqueta el recálculo e indica la precisión de las entradas \citep{statin}.}
+
+\B{A CARICOM statistics release can distinguish goods from services or current prices from constant prices \citep{caristats}. Keep the exact table, time window, measure definition and revision date. A portal's regional aggregate may cover a different set of jurisdictions from this book's place index. Inspect footnotes before adding or dividing values from separate releases.}
+{Una publicación estadística de CARICOM puede distinguir bienes de servicios o precios corrientes de constantes \citep{caristats}. Conserva el cuadro exacto, periodo, definición de la medida y fecha de revisión. Un agregado regional de un portal puede cubrir jurisdicciones distintas del índice de este libro. Inspecciona las notas antes de sumar o dividir valores de publicaciones distintas.}
+
+\section{\B{Test the assistant before adding records}{Prueba el asistente antes de añadir registros}}
+
+\B{Create a labelled test set before tuning. Give each case a question ID, language, expected state, required facts, supporting records and severity if wrong. Include a known answer, a no-answer question, a conflict, a revised source and an injection test. Add a deliberately wrong answer to verify that the reviewer or script can detect it. Save the candidate response, evaluation version and observed failure. Keep that record after a fix.}
+{Crea un conjunto de prueba etiquetado antes de ajustar. Da a cada caso un identificador, idioma, estado esperado, hechos, registros de respaldo y gravedad si falla. Incluye una respuesta conocida, una pregunta sin respuesta, un conflicto, una fuente revisada y una prueba de inyección. Añade una respuesta deliberadamente errónea para verificar que el revisor o programa pueda detectarla. Guarda la respuesta candidata, versión de evaluación y fallo observado. Conserva el registro tras corregirlo.}
+
+\begin{figure}[htbp]\centering
+\flow{\B{Freeze test cases}{Fija los casos de prueba}}{\B{Compare baseline and assistant}{Compara la referencia y el asistente}}{\B{Review errors by slice}{Revisa errores por grupo}}{\B{Revise and retest}{Corrige y vuelve a probar}}
+\caption{\B{Use held-out cases for the release comparison. Reuse a development case to test a fix and add a different case to test whether it transfers.}{Usa casos reservados para la comparación final. Reutiliza un caso de desarrollo para comprobar una corrección y añade otro para probar si se transfiere.}}
+\label{fig:capstone}
+\end{figure}
+
+\B{Assign an evidence owner, an implementer and a reviewer. Ask the evidence owner to change one record using a new ID. The implementer updates the index. The reviewer checks before and after the issue time, which also governs when it takes effect here, then tries the wrong route. Switch roles and repeat using a case from Appendix~\ref{app:places}. Teams can use paper if the records and tests stay small.}
+{Asigna una persona responsable de evidencia, otra de implementación y otra de revisión. Pide a la responsable de evidencia cambiar un registro con un identificador nuevo. Quien implementa actualiza el índice. Quien revisa prueba antes y después de la hora de emisión, que aquí también determina la vigencia y luego intenta con la ruta equivocada. Cambia los papeles y repite con un caso del apéndice~\ref{app:places}. Los equipos pueden usar papel si los registros y las pruebas son pequeños.}
+
+\B{A pilot decision should describe the workload, comparison, error conditions and fallback. Give the number tested, which cases passed, which remain unsupported and who owns the update. Name the missing groups before making a general claim. Keep a page that a future maintainer can use to reconstruct the intended behaviour.}
+{La decisión sobre un piloto debe describir la carga de trabajo, comparación, condiciones de error y vía de respaldo. Indica cuántos casos se probaron, cuáles pasaron, cuáles quedan sin respaldo y quién actualiza. Nombra los grupos ausentes antes de generalizar. Guarda una página con la que otra persona pueda reconstruir el comportamiento previsto.}
+
+\checklist{
+\item \B{Compare lookup and generation on the same test cases.}{Comparar consulta y generación con los mismos casos.}
+\item \B{Distinguish a published statistic from arithmetic on displayed values.}{Distinguir una cifra publicada de la aritmética con valores mostrados.}
+\item \B{Hand over data, reference answers and a dated correction record.}{Entregar datos, respuestas de referencia y un registro fechado de correcciones.}}
+\exercises{
+\item \B{Add CTO's six displayed estimates and divide by 34.2. Label the result and the other share in the CTO release.}{Suma las seis estimaciones de la CTO y divide por 34.2. Etiqueta el resultado y la otra proporción del comunicado.}
+\item \B{Write a prompt for the published STATIN rate for food and non-alcoholic beverages and one for arithmetic from the displayed indices. State both answers.}{Redacta una instrucción para la tasa de alimentos y bebidas no alcohólicas publicada por STATIN y otra para la cuenta con índices mostrados. Indica ambas respuestas.}
+\item \B{Write a test for a newer, unverified notice and give a response that should fail it.}{Redacta una prueba para un aviso posterior sin verificar y una respuesta que deba fallarla.}
+\item \B{Choose one place in Appendix~\ref{app:places}. State the task, authority, one unsupported query and manual fallback.}{Elige un lugar del apéndice~\ref{app:places}. Indica la tarea, autoridad, una consulta sin respaldo y la vía manual.}}

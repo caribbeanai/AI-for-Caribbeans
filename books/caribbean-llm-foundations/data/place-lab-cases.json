@@ -1,0 +1,1592 @@
+{
+  "C01": {
+    "place_en": "Anguilla",
+    "place_es": "Anguila",
+    "task_en": "At a Blowing Point service counter, use a dated list to answer an office-hours question. Ask which counter when the message names only the terminal.",
+    "task_es": "En una ventanilla de Blowing Point, usa una lista fechada para responder sobre horarios. Pregunta cuál ventanilla si el mensaje solo nombra la terminal.",
+    "field": "counter_closing_time",
+    "unit": "local HH:MM",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "C01-A",
+        "place_key": "C01",
+        "field": "counter_closing_time",
+        "value": "15:30",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "C01-B",
+        "place_key": "C01",
+        "field": "counter_closing_time",
+        "value": "16:30",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "C01-A",
+    "expected_value": "15:30"
+  },
+  "C02": {
+    "place_en": "Antigua and Barbuda",
+    "place_es": "Antigua y Barbuda",
+    "task_en": "Trace the Antigua–Barbuda notice correction in Chapter 4. Reverse the route and check that the model changes which record it uses.",
+    "task_es": "Rastrea la corrección Antigua–Barbuda del capítulo 4. Invierte la ruta y verifica que el modelo cambie de registro.",
+    "field": "departure",
+    "unit": "local HH:MM",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "C02-A",
+        "place_key": "C02",
+        "field": "departure",
+        "value": "09:00",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "C02-B",
+        "place_key": "C02",
+        "field": "departure",
+        "value": "08:15",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "C02-A",
+    "expected_value": "09:00"
+  },
+  "C03": {
+    "place_en": "Aruba",
+    "place_es": "Aruba",
+    "task_en": "Use the Papiamento greeting in Chapter 2 to compare token budgets. Test a longer visitor query and ask a speaker to score meaning separately.",
+    "task_es": "Usa el saludo en papiamento del capítulo 2 para comparar presupuestos de tokens. Prueba una consulta turística más larga y pide a un hablante puntuar el sentido por separado.",
+    "field": "greeting",
+    "unit": "text",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "C03-A",
+        "place_key": "C03",
+        "field": "greeting",
+        "value": "Bon dia",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "C03-B",
+        "place_key": "C03",
+        "field": "greeting",
+        "value": "Bon nochi",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "C03-A",
+    "expected_value": "Bon dia"
+  },
+  "C04": {
+    "place_en": "The Bahamas",
+    "place_es": "Las Bahamas",
+    "task_en": "Find the authorised notice for a clinic appointment on a named island. Refuse to substitute a Nassau record when the island key is missing.",
+    "task_es": "Busca el aviso autorizado para una cita en una isla indicada. Evita sustituirlo por un registro de Nassau si falta la clave de isla.",
+    "field": "appointment_window",
+    "unit": "local HH:MM",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "C04-A",
+        "place_key": "C04",
+        "field": "appointment_window",
+        "value": "10:15",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "C04-B",
+        "place_key": "C04",
+        "field": "appointment_window",
+        "value": "11:15",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "C04-A",
+    "expected_value": "10:15"
+  },
+  "C05": {
+    "place_en": "Barbados",
+    "place_es": "Barbados",
+    "task_en": "In a Bridgetown shop ledger, retrieve a product code before explaining weekly sales. Keep revenue and units sold in separate fields.",
+    "task_es": "En un registro comercial de Bridgetown, recupera el código del producto antes de explicar ventas semanales. Separa ingresos y unidades.",
+    "field": "units_sold",
+    "unit": "count",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "C05-A",
+        "place_key": "C05",
+        "field": "units_sold",
+        "value": "18",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "C05-B",
+        "place_key": "C05",
+        "field": "units_sold",
+        "value": "180",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "C05-A",
+    "expected_value": "18"
+  },
+  "C06": {
+    "place_en": "Bonaire, Sint Eustatius and Saba",
+    "place_es": "Bonaire, San Eustaquio y Saba",
+    "task_en": "Keep three location keys even when a table groups the islands. A notice from Bonaire cannot settle a case for Saba unless the issuer gives it that scope.",
+    "task_es": "Conserva tres claves de ubicación aunque una tabla agrupe las islas. Un aviso de Bonaire solo resuelve un caso de Saba si su emisor le da ese alcance.",
+    "field": "island_scope",
+    "unit": "place",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "C06-A",
+        "place_key": "C06",
+        "field": "island_scope",
+        "value": "Saba",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "C06-B",
+        "place_key": "C06",
+        "field": "island_scope",
+        "value": "Bonaire",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "C06-A",
+    "expected_value": "Saba"
+  },
+  "C07": {
+    "place_en": "British Virgin Islands",
+    "place_es": "Islas Vírgenes Británicas",
+    "task_en": "Resolve travel direction across Tortola, Virgin Gorda, Anegada and Jost Van Dyke before matching a fictional manifest. Record the departure date and dock.",
+    "task_es": "Resuelve la dirección entre Tórtola, Virgen Gorda, Anegada y Jost Van Dyke antes de buscar un manifiesto ficticio. Registra fecha y muelle.",
+    "field": "pickup_dock",
+    "unit": "place",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "C07-A",
+        "place_key": "C07",
+        "field": "pickup_dock",
+        "value": "Road Town",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "C07-B",
+        "place_key": "C07",
+        "field": "pickup_dock",
+        "value": "Spanish Town",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "C07-A",
+    "expected_value": "Road Town"
+  },
+  "C08": {
+    "place_en": "Cayman Islands",
+    "place_es": "Islas Caimán",
+    "task_en": "Use Grand Cayman, Cayman Brac and Little Cayman as separate filters in a public directory. Test a query that gives only “Cayman”.",
+    "task_es": "Usa Gran Caimán, Caimán Brac y Pequeño Caimán como filtros separados de un directorio. Prueba una consulta que solo diga «Caimán».",
+    "field": "clinic_island",
+    "unit": "place",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "C08-A",
+        "place_key": "C08",
+        "field": "clinic_island",
+        "value": "Cayman Brac",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "C08-B",
+        "place_key": "C08",
+        "field": "clinic_island",
+        "value": "Little Cayman",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "C08-A",
+    "expected_value": "Cayman Brac"
+  },
+  "C09": {
+    "place_en": "Cuba",
+    "place_es": "Cuba",
+    "task_en": "Use a Spanish service query mentioning guagua. Keep a Cienfuegos route distinct from a Nueva Gerona record on Isla de la Juventud.",
+    "task_es": "Usa una consulta en español que diga guagua. Distingue una ruta de Cienfuegos de un registro de Nueva Gerona, en Isla de la Juventud.",
+    "field": "route_origin",
+    "unit": "place",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "C09-A",
+        "place_key": "C09",
+        "field": "route_origin",
+        "value": "Nueva Gerona",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "C09-B",
+        "place_key": "C09",
+        "field": "route_origin",
+        "value": "Cienfuegos",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "C09-A",
+    "expected_value": "Nueva Gerona"
+  },
+  "C10": {
+    "place_en": "Curaçao",
+    "place_es": "Curazao",
+    "task_en": "Classify a Willemstad utility ticket before generating a draft. Record which language the customer used and whether the requested action requires a person.",
+    "task_es": "Clasifica una solicitud de servicios de Willemstad antes de generar un borrador. Registra el idioma y si la acción requiere una persona.",
+    "field": "service_category",
+    "unit": "category",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "C10-A",
+        "place_key": "C10",
+        "field": "service_category",
+        "value": "water",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "C10-B",
+        "place_key": "C10",
+        "field": "service_category",
+        "value": "electricity",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "C10-A",
+    "expected_value": "water"
+  },
+  "C11": {
+    "place_en": "Dominica",
+    "place_es": "Dominica",
+    "task_en": "For a Roseau produce exchange, check that the model preserves the buyer's unit when paraphrasing a message. Test a Kwéyòl input with a local reviewer.",
+    "task_es": "En un intercambio agrícola de Roseau, verifica que el modelo conserve la unidad del comprador al parafrasear. Prueba una entrada en kwéyòl con revisión local.",
+    "field": "order_unit",
+    "unit": "unit",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "C11-A",
+        "place_key": "C11",
+        "field": "order_unit",
+        "value": "kilogram",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "C11-B",
+        "place_key": "C11",
+        "field": "order_unit",
+        "value": "box",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "C11-A",
+    "expected_value": "kilogram"
+  },
+  "C12": {
+    "place_en": "Dominican Republic",
+    "place_es": "República Dominicana",
+    "task_en": "When explaining 2024 overnight arrivals, separate the CTO's national estimate from any claim about occupancy in Samaná or travel to Saona.",
+    "task_es": "Al explicar llegadas con pernoctación en 2024, separa la estimación nacional de la CTO de afirmaciones sobre ocupación en Samaná o viajes a Saona.",
+    "field": "measure_definition",
+    "unit": "category",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "C12-A",
+        "place_key": "C12",
+        "field": "measure_definition",
+        "value": "overnight arrivals",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "C12-B",
+        "place_key": "C12",
+        "field": "measure_definition",
+        "value": "room occupancy",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "C12-A",
+    "expected_value": "overnight arrivals"
+  },
+  "C13": {
+    "place_en": "Grenada",
+    "place_es": "Granada",
+    "task_en": "Compute the Carriacou and Petite Martinique allocation in Chapter 7 from Grenada's fictional dispatch record. Lower a cap and verify the no-plan outcome.",
+    "task_es": "Calcula la asignación a Carriacou y Petite Martinique del capítulo 7 con el registro ficticio de Granada. Reduce un máximo y comprueba la inviabilidad.",
+    "field": "carriacou_cap",
+    "unit": "crates",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "C13-A",
+        "place_key": "C13",
+        "field": "carriacou_cap",
+        "value": "48",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "C13-B",
+        "place_key": "C13",
+        "field": "carriacou_cap",
+        "value": "40",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "C13-A",
+    "expected_value": "48"
+  },
+  "C14": {
+    "place_en": "Guadeloupe",
+    "place_es": "Guadalupe",
+    "task_en": "Keep a notice's island, French or Creole language label and issue date attached when splitting it for search. Test a matching subject on the wrong island.",
+    "task_es": "Conserva isla, etiqueta de francés o criollo y fecha al dividir un aviso para búsqueda. Prueba el mismo tema en otra isla.",
+    "field": "notice_language",
+    "unit": "language tag",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "C14-A",
+        "place_key": "C14",
+        "field": "notice_language",
+        "value": "fr",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "C14-B",
+        "place_key": "C14",
+        "field": "notice_language",
+        "value": "en",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "C14-A",
+    "expected_value": "fr"
+  },
+  "C15": {
+    "place_en": "Haiti",
+    "place_es": "Haití",
+    "task_en": "Compare a Haitian Creole water notice reply with its source. Separate Port-au-Prince from La Gonâve, Île-à-Vache and Île de la Tortue in the practice index.",
+    "task_es": "Compara una respuesta en criollo haitiano sobre agua con su fuente. Separa Puerto Príncipe de La Gonâve, Île-à-Vache e Île de la Tortue en el índice.",
+    "field": "water_collection_time",
+    "unit": "local HH:MM",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "C15-A",
+        "place_key": "C15",
+        "field": "water_collection_time",
+        "value": "unknown",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "C15-B",
+        "place_key": "C15",
+        "field": "water_collection_time",
+        "value": "08:00",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "C15-A",
+    "expected_value": "unknown"
+  },
+  "C16": {
+    "place_en": "Jamaica",
+    "place_es": "Jamaica",
+    "task_en": "Recompute the Kingston patty ranking. Then use STATIN's CPI bulletin to distinguish a published rate from a calculation on rounded inputs.",
+    "task_es": "Recalcula la clasificación de locales de Kingston. Luego usa el boletín del IPC de STATIN para distinguir la tasa publicada de una cuenta con cifras redondeadas.",
+    "field": "default_winning_site",
+    "unit": "record ID",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "C16-A",
+        "place_key": "C16",
+        "field": "default_winning_site",
+        "value": "K2",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "C16-B",
+        "place_key": "C16",
+        "field": "default_winning_site",
+        "value": "K1",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "C16-A",
+    "expected_value": "K2"
+  },
+  "C17": {
+    "place_en": "Martinique",
+    "place_es": "Martinica",
+    "task_en": "Use a dated training timetable near Le Lamentin. Ask for the campus when a translated question supplies a programme name only.",
+    "task_es": "Usa un horario formativo fechado cerca de Le Lamentin. Pide el campus si una pregunta traducida solo indica el programa.",
+    "field": "campus_room",
+    "unit": "room code",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "C17-A",
+        "place_key": "C17",
+        "field": "campus_room",
+        "value": "L-12",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "C17-B",
+        "place_key": "C17",
+        "field": "campus_room",
+        "value": "L-21",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "C17-A",
+    "expected_value": "L-12"
+  },
+  "C18": {
+    "place_en": "Montserrat",
+    "place_es": "Montserrat",
+    "task_en": "Use a fictional Brades public-office directory. Test whether an old address survives after a corrected entry is indexed.",
+    "task_es": "Usa un directorio público ficticio de Brades. Comprueba si una dirección antigua sobrevive tras indexar una corrección.",
+    "field": "directory_building",
+    "unit": "building code",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "C18-A",
+        "place_key": "C18",
+        "field": "directory_building",
+        "value": "BR-2",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "C18-B",
+        "place_key": "C18",
+        "field": "directory_building",
+        "value": "BR-1",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "C18-A",
+    "expected_value": "BR-2"
+  },
+  "C19": {
+    "place_en": "Puerto Rico",
+    "place_es": "Puerto Rico",
+    "task_en": "Match guagua and autobús to the same intent with the same evidence. Test Vieques and Culebra as distinct destination keys in a separate ferry exercise.",
+    "task_es": "Asocia guagua y autobús a la misma intención con igual evidencia. Prueba Vieques y Culebra como destinos distintos en otro ejercicio de ferris.",
+    "field": "departure_island",
+    "unit": "place",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "C19-A",
+        "place_key": "C19",
+        "field": "departure_island",
+        "value": "Vieques",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "C19-B",
+        "place_key": "C19",
+        "field": "departure_island",
+        "value": "Culebra",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "C19-A",
+    "expected_value": "Vieques"
+  },
+  "C20": {
+    "place_en": "Saint Barthélemy",
+    "place_es": "San Bartolomé",
+    "task_en": "Use a fictional Gustavia delivery booking. Check whether a currency or local date inserted by the model can be traced to a record.",
+    "task_es": "Usa una reserva de reparto ficticia de Gustavia. Comprueba si una moneda o fecha insertada se puede rastrear a un registro.",
+    "field": "booking_currency",
+    "unit": "currency code",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "C20-A",
+        "place_key": "C20",
+        "field": "booking_currency",
+        "value": "EUR",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "C20-B",
+        "place_key": "C20",
+        "field": "booking_currency",
+        "value": "USD",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "C20-A",
+    "expected_value": "EUR"
+  },
+  "C21": {
+    "place_en": "Saint Kitts and Nevis",
+    "place_es": "San Cristóbal y Nieves",
+    "task_en": "Keep Basseterre on Saint Kitts separate from Charlestown on Nevis. In an intake form, ask for island before supplying an office.",
+    "task_es": "Separa Basseterre, en San Cristóbal, de Charlestown, en Nieves. En un formulario, pide la isla antes de indicar la oficina.",
+    "field": "office_island",
+    "unit": "place",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "C21-A",
+        "place_key": "C21",
+        "field": "office_island",
+        "value": "Nevis",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "C21-B",
+        "place_key": "C21",
+        "field": "office_island",
+        "value": "Saint Kitts",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "C21-A",
+    "expected_value": "Nevis"
+  },
+  "C22": {
+    "place_en": "Saint Lucia",
+    "place_es": "Santa Lucía",
+    "task_en": "Use the Kwéyòl greeting in Chapter 2, then test a Vieux Fort public-notice lookup with a differently spelled query and the same underlying intent.",
+    "task_es": "Usa el saludo en kwéyòl del capítulo 2 y prueba una consulta de avisos de Vieux Fort con otra grafía y la misma intención.",
+    "field": "publication_day",
+    "unit": "ISO date",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "C22-A",
+        "place_key": "C22",
+        "field": "publication_day",
+        "value": "2031-06-01",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "C22-B",
+        "place_key": "C22",
+        "field": "publication_day",
+        "value": "2031-05-01",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "C22-A",
+    "expected_value": "2031-06-01"
+  },
+  "C23": {
+    "place_en": "Saint Martin (French part)",
+    "place_es": "San Martín (parte francesa)",
+    "task_en": "In a Marigot service question, use the French-side issuer and date. A shared island name leaves the competent office ambiguous.",
+    "task_es": "En una consulta de Marigot, usa el emisor y fecha de la parte francesa. El nombre compartido de la isla deja ambigua la oficina.",
+    "field": "authority_area",
+    "unit": "place",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "C23-A",
+        "place_key": "C23",
+        "field": "authority_area",
+        "value": "Saint Martin",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "C23-B",
+        "place_key": "C23",
+        "field": "authority_area",
+        "value": "Sint Maarten",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "C23-A",
+    "expected_value": "Saint Martin"
+  },
+  "C24": {
+    "place_en": "Saint Vincent and the Grenadines",
+    "place_es": "San Vicente y las Granadinas",
+    "task_en": "Keep Saint Vincent, Bequia, Mustique, Canouan, Mayreau and Union Island distinct when testing whether a supply notice applies to a destination.",
+    "task_es": "Distingue San Vicente, Bequia, Mustique, Canouan, Mayreau e isla Unión al comprobar si un aviso de suministros se aplica a un destino.",
+    "field": "supply_destination",
+    "unit": "place",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "C24-A",
+        "place_key": "C24",
+        "field": "supply_destination",
+        "value": "Mayreau",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "C24-B",
+        "place_key": "C24",
+        "field": "supply_destination",
+        "value": "Bequia",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "C24-A",
+    "expected_value": "Mayreau"
+  },
+  "C25": {
+    "place_en": "Sint Maarten (Dutch part)",
+    "place_es": "Sint Maarten (parte neerlandesa)",
+    "task_en": "For a Philipsburg query, retrieve from the relevant issuer. Test a distractor with an almost identical place label from the French side.",
+    "task_es": "Para una consulta de Philipsburg, recupera datos del emisor pertinente. Prueba un distractor con una etiqueta casi idéntica de la parte francesa.",
+    "field": "authority_area",
+    "unit": "place",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "C25-A",
+        "place_key": "C25",
+        "field": "authority_area",
+        "value": "Sint Maarten",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "C25-B",
+        "place_key": "C25",
+        "field": "authority_area",
+        "value": "Saint Martin",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "C25-A",
+    "expected_value": "Sint Maarten"
+  },
+  "C26": {
+    "place_en": "Trinidad and Tobago",
+    "place_es": "Trinidad y Tobago",
+    "task_en": "Test the Trinidadian English Creole example with two vocabularies. In a second task, ask whether a Tobago appointment is wrongly assigned a Port of Spain location.",
+    "task_es": "Prueba el ejemplo criollo de Trinidad con dos vocabularios. En otra tarea, verifica si una cita de Tobago recibe por error una ubicación de Puerto España.",
+    "field": "appointment_island",
+    "unit": "place",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "C26-A",
+        "place_key": "C26",
+        "field": "appointment_island",
+        "value": "Tobago",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "C26-B",
+        "place_key": "C26",
+        "field": "appointment_island",
+        "value": "Trinidad",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "C26-A",
+    "expected_value": "Tobago"
+  },
+  "C27": {
+    "place_en": "Turks and Caicos Islands",
+    "place_es": "Islas Turcas y Caicos",
+    "task_en": "Test response time and stale-source behaviour separately for Grand Turk, Salt Cay, Providenciales, North Caicos, Middle Caicos and South Caicos.",
+    "task_es": "Prueba tiempos de respuesta y fuentes desactualizadas por separado para Gran Turca, Salt Cay, Providenciales, Caicos del Norte, Central y del Sur.",
+    "field": "help_desk_island",
+    "unit": "place",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "C27-A",
+        "place_key": "C27",
+        "field": "help_desk_island",
+        "value": "South Caicos",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "C27-B",
+        "place_key": "C27",
+        "field": "help_desk_island",
+        "value": "Grand Turk",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "C27-A",
+    "expected_value": "South Caicos"
+  },
+  "C28": {
+    "place_en": "United States Virgin Islands",
+    "place_es": "Islas Vírgenes de los Estados Unidos",
+    "task_en": "Use Saint Croix, Saint John, Saint Thomas and Water Island as distinct keys in a fictional notice index. Ask for the issuing office and local date.",
+    "task_es": "Usa Santa Cruz, San Juan, Santo Tomás y Water Island como claves separadas en avisos ficticios. Pide oficina emisora y fecha local.",
+    "field": "directory_island",
+    "unit": "place",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "C28-A",
+        "place_key": "C28",
+        "field": "directory_island",
+        "value": "Saint Croix",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "C28-B",
+        "place_key": "C28",
+        "field": "directory_island",
+        "value": "Saint Thomas",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "C28-A",
+    "expected_value": "Saint Croix"
+  },
+  "I01": {
+    "place_en": "Abaco, Andros, Berry Islands, Bimini, Eleuthera and Grand Bahama",
+    "place_es": "Ábaco, Andros, islas Berry, Bimini, Eleuthera y Gran Bahama",
+    "task_en": "Give each island group its own service record. Vary route and destination independently to test whether exact filters beat text similarity.",
+    "task_es": "Da a cada grupo insular su propio registro de servicio. Varía ruta y destino por separado para probar si los filtros exactos superan la similitud textual.",
+    "field": "service_destination",
+    "unit": "place",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "I01-A",
+        "place_key": "I01",
+        "field": "service_destination",
+        "value": "Bimini",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "I01-B",
+        "place_key": "I01",
+        "field": "service_destination",
+        "value": "Grand Bahama",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "I01-A",
+    "expected_value": "Bimini"
+  },
+  "I02": {
+    "place_en": "Acklins, Cat Island, Crooked Island, Exuma, Harbour Island and Inagua",
+    "place_es": "Acklins, isla Cat, isla Crooked, Exuma, Harbour Island e Inagua",
+    "task_en": "Compare appointment replies across these fictional district records. A notice that applies to one locality should carry its place key through translation.",
+    "task_es": "Compara respuestas de citas en registros distritales ficticios. Un aviso local debe conservar su clave geográfica al traducirse.",
+    "field": "appointment_island",
+    "unit": "place",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "I02-A",
+        "place_key": "I02",
+        "field": "appointment_island",
+        "value": "Inagua",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "I02-B",
+        "place_key": "I02",
+        "field": "appointment_island",
+        "value": "Cat Island",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "I02-A",
+    "expected_value": "Inagua"
+  },
+  "I03": {
+    "place_en": "Long Island, Mayaguana, New Providence, Ragged Island, Rum Cay and San Salvador",
+    "place_es": "Long Island, Mayaguana, Nueva Providencia, Ragged Island, Rum Cay y San Salvador",
+    "task_en": "Test outdated and current date pairs for each named island. Ask the system to return the record ID before drafting a reply.",
+    "task_es": "Prueba pares de fechas antiguas y vigentes para cada isla. Pide el identificador del registro antes de redactar.",
+    "field": "notice_island",
+    "unit": "place",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "I03-A",
+        "place_key": "I03",
+        "field": "notice_island",
+        "value": "Rum Cay",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "I03-B",
+        "place_key": "I03",
+        "field": "notice_island",
+        "value": "Long Island",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "I03-A",
+    "expected_value": "Rum Cay"
+  },
+  "I04": {
+    "place_en": "Basse-Terre, Grande-Terre, Marie-Galante, La Désirade and Les Saintes",
+    "place_es": "Basse-Terre, Grande-Terre, Marie-Galante, La Désirade y Les Saintes",
+    "task_en": "Keep Terre-de-Haut and Terre-de-Bas as separate island keys. Confirm whether a notice covers one commune or a wider group before summarising.",
+    "task_es": "Conserva Terre-de-Haut y Terre-de-Bas como claves insulares distintas. Confirma si el aviso abarca una comuna o un grupo mayor antes de resumirlo.",
+    "field": "commune_scope",
+    "unit": "place",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "I04-A",
+        "place_key": "I04",
+        "field": "commune_scope",
+        "value": "Terre-de-Bas",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "I04-B",
+        "place_key": "I04",
+        "field": "commune_scope",
+        "value": "Terre-de-Haut",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "I04-A",
+    "expected_value": "Terre-de-Bas"
+  },
+  "I05": {
+    "place_en": "Bonaire",
+    "place_es": "Bonaire",
+    "task_en": "For a Kralendijk clinic-directory question, require an approved office-hours record and an escalation path if the request is for a diagnosis.",
+    "task_es": "Para una consulta de directorio clínico en Kralendijk, exige un horario aprobado y una vía de derivación si piden un diagnóstico.",
+    "field": "counter_open_time",
+    "unit": "local HH:MM",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "I05-A",
+        "place_key": "I05",
+        "field": "counter_open_time",
+        "value": "08:30",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "I05-B",
+        "place_key": "I05",
+        "field": "counter_open_time",
+        "value": "08:00",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "I05-A",
+    "expected_value": "08:30"
+  },
+  "I06": {
+    "place_en": "Sint Eustatius",
+    "place_es": "San Eustaquio",
+    "task_en": "Separate the location of an Oranjestad service counter from its application deadline. Grade each fact on the current notice.",
+    "task_es": "Separa la ubicación de una ventanilla de Oranjestad de su plazo de solicitud. Evalúa cada hecho con el aviso vigente.",
+    "field": "application_deadline",
+    "unit": "ISO date",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "I06-A",
+        "place_key": "I06",
+        "field": "application_deadline",
+        "value": "2031-06-16",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "I06-B",
+        "place_key": "I06",
+        "field": "application_deadline",
+        "value": "2031-06-09",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "I06-A",
+    "expected_value": "2031-06-16"
+  },
+  "I07": {
+    "place_en": "Saba",
+    "place_es": "Saba",
+    "task_en": "Use a fictional campus notice in The Bottom. Test whether the assistant remembers a replaced room number instead of using the new record.",
+    "task_es": "Usa un aviso universitario ficticio en The Bottom. Comprueba si el asistente recuerda una sala sustituida en vez de usar el registro nuevo.",
+    "field": "training_room",
+    "unit": "room code",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "I07-A",
+        "place_key": "I07",
+        "field": "training_room",
+        "value": "S-04",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "I07-B",
+        "place_key": "I07",
+        "field": "training_room",
+        "value": "S-03",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "I07-A",
+    "expected_value": "S-04"
+  },
+  "I08": {
+    "place_en": "Palm Island and Petit Saint Vincent",
+    "place_es": "Palm Island y Petit Saint Vincent",
+    "task_en": "In a training manifest, distinguish island destination from the pickup island and ask for confirmation if one is omitted.",
+    "task_es": "En un manifiesto didáctico, distingue la isla de destino de la de recogida y pide confirmación si falta alguna.",
+    "field": "manifest_destination",
+    "unit": "place",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "I08-A",
+        "place_key": "I08",
+        "field": "manifest_destination",
+        "value": "Petit Saint Vincent",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "I08-B",
+        "place_key": "I08",
+        "field": "manifest_destination",
+        "value": "Palm Island",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "I08-A",
+    "expected_value": "Petit Saint Vincent"
+  },
+  "I09": {
+    "place_en": "Hispaniola",
+    "place_es": "La Española",
+    "task_en": "Compare a Haitian and a Dominican service record for the same shared-island question. Require the jurisdiction and keep the two issuing authorities distinct.",
+    "task_es": "Compara registros haitiano y dominicano para una pregunta sobre la isla compartida. Exige la jurisdicción y distingue las dos autoridades emisoras.",
+    "field": "issuing_jurisdiction",
+    "unit": "place",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "I09-A",
+        "place_key": "I09",
+        "field": "issuing_jurisdiction",
+        "value": "Haiti",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "I09-B",
+        "place_key": "I09",
+        "field": "issuing_jurisdiction",
+        "value": "Dominican Republic",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "I09-A",
+    "expected_value": "Haiti"
+  },
+  "I10": {
+    "place_en": "Spanish Wells and Grand Cay",
+    "place_es": "Spanish Wells y Grand Cay",
+    "task_en": "Keep two island-office records in the training index. Check that a Spanish Wells appointment time cannot answer a Grand Cay question.",
+    "task_es": "Mantén dos registros insulares en el índice. Comprueba que una hora de cita de Spanish Wells no responda una pregunta sobre Grand Cay.",
+    "field": "appointment_locality",
+    "unit": "place",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "I10-A",
+        "place_key": "I10",
+        "field": "appointment_locality",
+        "value": "Spanish Wells",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "I10-B",
+        "place_key": "I10",
+        "field": "appointment_locality",
+        "value": "Grand Cay",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "I10-A",
+    "expected_value": "Spanish Wells"
+  },
+  "I11": {
+    "place_en": "Pine Cay, Parrot Cay and Ambergris Cay",
+    "place_es": "Pine Cay, Parrot Cay y Ambergris Cay",
+    "task_en": "Use distinct access notice IDs for the inhabited cays. Ask for the cay and the effective date if the query only gives the island group.",
+    "task_es": "Usa identificadores distintos para avisos de los cayos habitados. Pide el cayo y la fecha de vigencia si la consulta solo nombra el archipiélago.",
+    "field": "notice_cay",
+    "unit": "place",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "I11-A",
+        "place_key": "I11",
+        "field": "notice_cay",
+        "value": "Ambergris Cay",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "I11-B",
+        "place_key": "I11",
+        "field": "notice_cay",
+        "value": "Parrot Cay",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "I11-A",
+    "expected_value": "Ambergris Cay"
+  },
+  "W01": {
+    "place_en": "Belize and its cayes",
+    "place_es": "Belice y sus cayos",
+    "task_en": "Use Belize City, Orange Walk, Ambergris Caye and Caye Caulker in a fictional produce corpus. Test whether a location name survives span recovery.",
+    "task_es": "Usa Ciudad de Belice, Orange Walk, Cayo Ambergris y Cayo Caulker en un corpus agrícola ficticio. Prueba si se conserva el topónimo al recuperar un fragmento.",
+    "field": "produce_pickup",
+    "unit": "place",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "W01-A",
+        "place_key": "W01",
+        "field": "produce_pickup",
+        "value": "Orange Walk",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "W01-B",
+        "place_key": "W01",
+        "field": "produce_pickup",
+        "value": "Belize City",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "W01-A",
+    "expected_value": "Orange Walk"
+  },
+  "W02": {
+    "place_en": "Guyana",
+    "place_es": "Guyana",
+    "task_en": "In a Georgetown shipment exercise, map “bank” to a riverbank or a financial institution from surrounding words. Verify the selected term against the record.",
+    "task_es": "En un ejercicio de envíos de Georgetown, interpreta «bank» como orilla o entidad financiera según el contexto. Verifica el sentido con el registro.",
+    "field": "bank_sense",
+    "unit": "category",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "W02-A",
+        "place_key": "W02",
+        "field": "bank_sense",
+        "value": "riverbank",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "W02-B",
+        "place_key": "W02",
+        "field": "bank_sense",
+        "value": "financial institution",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "W02-A",
+    "expected_value": "riverbank"
+  },
+  "W03": {
+    "place_en": "Suriname",
+    "place_es": "Surinam",
+    "task_en": "Use Paramaribo trade records to compare translation, text extraction and retrieval errors on separate tests. Record each document's language.",
+    "task_es": "Usa registros comerciales de Paramaribo para separar errores de traducción, extracción y recuperación. Registra el idioma de cada documento.",
+    "field": "document_language",
+    "unit": "language tag",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "W03-A",
+        "place_key": "W03",
+        "field": "document_language",
+        "value": "nl",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "W03-B",
+        "place_key": "W03",
+        "field": "document_language",
+        "value": "en",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "W03-A",
+    "expected_value": "nl"
+  },
+  "W04": {
+    "place_en": "French Guiana",
+    "place_es": "Guayana Francesa",
+    "task_en": "For a Cayenne bilingual form, compare a French field label and its translation. Keep the form's issuing authority attached when the label is reused.",
+    "task_es": "Para un formulario bilingüe de Cayena, compara una etiqueta en francés con su traducción. Conserva la autoridad emisora si se reutiliza la etiqueta.",
+    "field": "form_authority_code",
+    "unit": "record ID",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "W04-A",
+        "place_key": "W04",
+        "field": "form_authority_code",
+        "value": "CAY-2",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "W04-B",
+        "place_key": "W04",
+        "field": "form_authority_code",
+        "value": "CAY-1",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "W04-A",
+    "expected_value": "CAY-2"
+  },
+  "W05": {
+    "place_en": "Bermuda",
+    "place_es": "Bermudas",
+    "task_en": "A Hamilton office-hours case tests transfer to an Atlantic associate context. Use local date conventions and an independently sourced directory.",
+    "task_es": "Una consulta de horario en Hamilton prueba transferencia a un asociado atlántico. Usa convenciones locales y un directorio con fuente propia.",
+    "field": "counter_open_time",
+    "unit": "local HH:MM",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "W05-A",
+        "place_key": "W05",
+        "field": "counter_open_time",
+        "value": "09:15",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "W05-B",
+        "place_key": "W05",
+        "field": "counter_open_time",
+        "value": "09:00",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "W05-A",
+    "expected_value": "09:15"
+  },
+  "W06": {
+    "place_en": "Mexico",
+    "place_es": "México",
+    "task_en": "Keep mainland Quintana Roo, Cozumel and Isla Mujeres as distinct locations in a fictional transport dataset. Check date, direction and currency separately.",
+    "task_es": "Distingue Quintana Roo continental, Cozumel e Isla Mujeres en datos ficticios de transporte. Verifica fecha, dirección y moneda por separado.",
+    "field": "service_currency",
+    "unit": "currency code",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "W06-A",
+        "place_key": "W06",
+        "field": "service_currency",
+        "value": "MXN",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "W06-B",
+        "place_key": "W06",
+        "field": "service_currency",
+        "value": "USD",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "W06-A",
+    "expected_value": "MXN"
+  },
+  "W07": {
+    "place_en": "Guatemala",
+    "place_es": "Guatemala",
+    "task_en": "For a Puerto Barrios supply intake, preserve the named port and distinguish a departure record from a warehouse receipt.",
+    "task_es": "En un ingreso de suministros de Puerto Barrios, conserva el puerto indicado y distingue salida de recepción en bodega.",
+    "field": "port_of_departure",
+    "unit": "place",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "W07-A",
+        "place_key": "W07",
+        "field": "port_of_departure",
+        "value": "Puerto Barrios",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "W07-B",
+        "place_key": "W07",
+        "field": "port_of_departure",
+        "value": "Santo Tomás de Castilla",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "W07-A",
+    "expected_value": "Puerto Barrios"
+  },
+  "W08": {
+    "place_en": "Honduras",
+    "place_es": "Honduras",
+    "task_en": "Use Roatán, Utila and Guanaja as destination keys. Reject a ferry answer that retrieves the right date from the wrong island.",
+    "task_es": "Usa Roatán, Utila y Guanaja como claves. Rechaza una respuesta de ferri que encuentre la fecha correcta en otra isla.",
+    "field": "ferry_destination",
+    "unit": "place",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "W08-A",
+        "place_key": "W08",
+        "field": "ferry_destination",
+        "value": "Guanaja",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "W08-B",
+        "place_key": "W08",
+        "field": "ferry_destination",
+        "value": "Utila",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "W08-A",
+    "expected_value": "Guanaja"
+  },
+  "W09": {
+    "place_en": "El Salvador",
+    "place_es": "El Salvador",
+    "task_en": "As an ACS member on the Pacific, use a La Unión shipment exercise to test transfer of the evidence schema. Keep the coastal geography accurate.",
+    "task_es": "Como miembro de la AEC en el Pacífico, usa un envío de La Unión para probar la transferencia del esquema. Mantén correcta la geografía costera.",
+    "field": "cargo_event",
+    "unit": "category",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "W09-A",
+        "place_key": "W09",
+        "field": "cargo_event",
+        "value": "warehouse receipt",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "W09-B",
+        "place_key": "W09",
+        "field": "cargo_event",
+        "value": "port departure",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "W09-A",
+    "expected_value": "warehouse receipt"
+  },
+  "W10": {
+    "place_en": "Nicaragua",
+    "place_es": "Nicaragua",
+    "task_en": "For a Bluefields and Corn Islands supply exercise, keep Great Corn Island and Little Corn Island separate in a route table.",
+    "task_es": "En un ejercicio de suministros de Bluefields e islas del Maíz, separa isla Grande e isla Pequeña en la tabla de rutas.",
+    "field": "shipment_destination",
+    "unit": "place",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "W10-A",
+        "place_key": "W10",
+        "field": "shipment_destination",
+        "value": "Little Corn Island",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "W10-B",
+        "place_key": "W10",
+        "field": "shipment_destination",
+        "value": "Great Corn Island",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "W10-A",
+    "expected_value": "Little Corn Island"
+  },
+  "W11": {
+    "place_en": "Costa Rica",
+    "place_es": "Costa Rica",
+    "task_en": "In a Limón warehouse exercise, ask whether a reported cost is per box or per shipment. Keep the unit with every retrieved value.",
+    "task_es": "En un ejercicio de bodega de Limón, pregunta si el costo es por caja o envío. Conserva la unidad con cada valor recuperado.",
+    "field": "freight_charge_unit",
+    "unit": "unit",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "W11-A",
+        "place_key": "W11",
+        "field": "freight_charge_unit",
+        "value": "per box",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "W11-B",
+        "place_key": "W11",
+        "field": "freight_charge_unit",
+        "value": "per shipment",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "W11-A",
+    "expected_value": "per box"
+  },
+  "W12": {
+    "place_en": "Panama",
+    "place_es": "Panamá",
+    "task_en": "For Bocas del Toro, distinguish Isla Colón and Bastimentos from a mainland dispatch point. Require the origin and service date in a draft reply.",
+    "task_es": "En Bocas del Toro, distingue isla Colón y Bastimentos de un despacho continental. Exige origen y fecha de servicio en el borrador.",
+    "field": "ferry_origin",
+    "unit": "place",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "W12-A",
+        "place_key": "W12",
+        "field": "ferry_origin",
+        "value": "Isla Colón",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "W12-B",
+        "place_key": "W12",
+        "field": "ferry_origin",
+        "value": "Bastimentos",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "W12-A",
+    "expected_value": "Isla Colón"
+  },
+  "W13": {
+    "place_en": "Colombia",
+    "place_es": "Colombia",
+    "task_en": "Test San Andrés, Providencia and Santa Catalina as different keys in a fictional directory. Keep a Cartagena record out unless the question actually refers to it.",
+    "task_es": "Prueba San Andrés, Providencia y Santa Catalina como claves distintas. Excluye un registro de Cartagena si la pregunta no se refiere a esa ciudad.",
+    "field": "directory_location",
+    "unit": "place",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "W13-A",
+        "place_key": "W13",
+        "field": "directory_location",
+        "value": "Providencia",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "W13-B",
+        "place_key": "W13",
+        "field": "directory_location",
+        "value": "Cartagena",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "W13-A",
+    "expected_value": "Providencia"
+  },
+  "W14": {
+    "place_en": "Venezuela",
+    "place_es": "Venezuela",
+    "task_en": "Use Margarita, Coche and Cubagua in a transport-record matching exercise. Keep each place label explicit and ask for the requested route when ambiguous.",
+    "task_es": "Usa Margarita, Coche y Cubagua en un ejercicio de correspondencia de transporte. Identifica cada lugar y pide la ruta si hay ambigüedad.",
+    "field": "route_destination",
+    "unit": "place",
+    "provenance": "fictional teaching example",
+    "records": [
+      {
+        "id": "W14-A",
+        "place_key": "W14",
+        "field": "route_destination",
+        "value": "Coche",
+        "approved": true,
+        "issued_local": "2031-06-01T08:00"
+      },
+      {
+        "id": "W14-B",
+        "place_key": "W14",
+        "field": "route_destination",
+        "value": "Margarita",
+        "approved": false,
+        "issued_local": "2031-06-01T08:10"
+      }
+    ],
+    "as_of": "2031-06-01T08:30",
+    "expected_id": "W14-A",
+    "expected_value": "Coche"
+  }
+}

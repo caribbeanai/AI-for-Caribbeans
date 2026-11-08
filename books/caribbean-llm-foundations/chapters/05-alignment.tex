@@ -1,0 +1,102 @@
+\chapter{\B{Alignment and regional language}{Alineamiento y lenguas de la región}}
+\label{ch:alignment}
+
+\B{Two reviewers read a draft answer to \emph{Èske m ka pran dlo jodi a?} In this exercise, a person asks in Haitian Creole whether they can collect water today. One reviewer values the reply's language. The other checks whether it invents a time. Both judgements matter. The team has to decide what makes an answer acceptable and how that decision enters the training data or the application.}
+{Dos revisores leen un borrador para \emph{Èske m ka pran dlo jodi a?} En este ejercicio, una persona pregunta en criollo haitiano si puede recoger agua hoy. Un revisor valora el idioma de la respuesta. El otro comprueba si inventa una hora. Ambos juicios importan. El equipo debe decidir qué hace aceptable una respuesta y cómo incorporar esa decisión a los datos de entrenamiento o a la aplicación.}
+
+\section{\B{Demonstrate the behaviour you want}{Muestra el comportamiento que buscas}}
+
+\B{Instruction tuning uses examples of the form task, relevant input and target response. A pre-trained decoder might complete a question as if it were dialogue in a story. Supervised fine-tuning, or SFT, gives it demonstrations that show the response format. For a water notice with no stated time, a teaching target could say \emph{Avi a pa bay lè pou pran dlo}, meaning the notice gives no collection time. A human language reviewer should check whether that phrasing suits the deployment audience \citep{instruct,mit}.}
+{El ajuste con instrucciones usa ejemplos con tarea, entrada pertinente y respuesta objetivo. Un decodificador preentrenado podría continuar una pregunta como si fuera diálogo de un cuento. El ajuste fino supervisado, o SFT, le da demostraciones del formato esperado. Para un aviso de agua sin hora, una respuesta didáctica podría decir \emph{Avi a pa bay lè pou pran dlo}, es decir, el aviso no indica hora para recoger agua. Una persona con competencia lingüística debe comprobar si la frase es adecuada para el público \citep{instruct,mit}.}
+
+\begin{equation}
+ \mathcal L_{\mathrm{SFT}}
+ =-\frac{1}{M}\sum_{(x,y)}\sum_{t=1}^{|y|}
+       \ln p_\theta(y_t\mid x,y_{<t}).
+ \label{eq:sft}
+\end{equation}
+\B{The outer sum visits each training pair. The inner sum visits its target tokens. \(x\) is the prompt, \(y\) the target, \(|y|\) its length and \(M\) the total number of target tokens across pairs. Average the penalties over those tokens. This convention masks prompt tokens from the loss. For two target tokens with probability \(1/2\) each, the mean penalty is \(\ln 2\). An implementation that averages each example first would weight short examples differently. Inspect the training mask and denominator when reproducing results.}
+{La suma exterior recorre cada par de entrenamiento. La interior recorre sus tokens objetivo. \(x\) es la instrucción, \(y\) el objetivo, \(|y|\) su longitud y \(M\) el total de tokens objetivo en todos los pares. Promedia las penalizaciones de esos tokens. Esta convención excluye los tokens de la instrucción de la pérdida. Para dos tokens objetivo con probabilidad \(1/2\) cada uno, la penalización media es \(\ln 2\). Una implementación que promedie cada ejemplo primero daría otro peso a los ejemplos cortos. Inspecciona la máscara y el denominador al reproducir resultados.}
+
+\B{Write demonstrations for supported answers, missing evidence, contradictory records and requests outside scope. If the only examples always end with a time, the model sees no example of when to leave that field empty. Hold out a later bulletin and language variants. Separate writing quality from task correctness when reviewers compare outputs.}
+{Escribe demostraciones para respuestas respaldadas, evidencia ausente, registros contradictorios y peticiones fuera de alcance. Si todos los ejemplos terminan con una hora, el modelo no ve ejemplos de cuándo dejar ese campo vacío. Reserva un boletín posterior y variantes lingüísticas. Separa calidad de redacción y corrección de la tarea al comparar salidas.}
+
+\subsection{\B{Adjust fewer parameters with a low-rank update}{Ajusta menos parámetros con una actualización de rango bajo}}
+
+\B{Full fine-tuning changes all chosen base weights. Parameter-efficient fine-tuning changes a smaller set. Low-rank adaptation (LoRA) represents an update to a matrix as the product of two small trainable matrices, keeping the base matrix fixed \citep{lora}.}
+{El ajuste completo modifica todos los pesos base seleccionados. El ajuste eficiente en parámetros modifica un conjunto menor. La adaptación de rango bajo (LoRA) representa el cambio de una matriz como el producto de dos matrices entrenables pequeñas y mantiene fija la matriz base \citep{lora}.}
+\begin{equation}
+ W_{\mathrm{adapted}}=W_0+\frac{\alpha}{r}BA,\qquad
+ A\in\RR^{r\times d_{\mathrm{in}}},\quad B\in\RR^{d_{\mathrm{out}}\times r}.
+ \label{eq:lora}
+\end{equation}
+\B{A frozen base matrix \(W_0\) has \(d_{\mathrm{out}}\) rows and \(d_{\mathrm{in}}\) columns. The thin matrix \(A\) projects into \(r\) dimensions, and \(B\) projects back to the output width. Their product has the shape of \(W_0\) and rank at most \(r\). \(\alpha/r\) scales the update. For a \(512\)-by-\(512\) matrix and \(r=8\), full tuning of that matrix uses \(262{,}144\) trainable numbers. The two factors use \(8(512+512)=8{,}192\). This count concerns the chosen matrix only. The full model's weights and activations still need memory.}
+{Una matriz base fija \(W_0\) tiene \(d_{\mathrm{out}}\) filas y \(d_{\mathrm{in}}\) columnas. La matriz delgada \(A\) proyecta a \(r\) dimensiones y \(B\) vuelve al ancho de salida. Su producto tiene la forma de \(W_0\) y rango como máximo \(r\). \(\alpha/r\) escala la actualización. Para una matriz de \(512\) por \(512\) y \(r=8\), ajustar toda la matriz usa \(262\,144\) números entrenables. Los dos factores usan \(8(512+512)=8\,192\). El conteo solo corresponde a esa matriz. Los pesos y las activaciones del modelo completo todavía requieren memoria.}
+
+\section{\B{Collect a preference with reasons}{Recoge una preferencia con sus razones}}
+
+\B{Preference data give a prompt and two candidate responses, together with a judgement about which is better under a rubric. One answer can be better supported and less idiomatic. Record those dimensions separately before deciding the overall preference. Pay reviewers for the work and give them authority to flag ambiguity. Avoid forcing a single preference when both answers are wrong or the task is underspecified. A preference is a measurement under a particular rubric and reviewer group.}
+{Los datos de preferencias incluyen una instrucción, dos respuestas candidatas y un juicio sobre cuál es mejor según criterios explícitos. Una respuesta puede estar mejor respaldada y sonar menos natural. Registra esas dimensiones por separado antes de decidir la preferencia general. Remunera a quienes revisan y dales autoridad para señalar ambigüedades. Evita forzar una preferencia si las dos respuestas son erróneas o la tarea está incompleta. Una preferencia mide un juicio según criterios y un grupo de revisores concretos.}
+
+\begin{figure}[htbp]\centering
+\flow{\B{Same prompt and evidence}{Misma entrada y evidencia}}{\B{Two draft responses}{Dos respuestas preliminares}}{\B{Review claims and language}{Revisa afirmaciones e idioma}}{\B{Choose, tie or escalate}{Elige, empata o remite}}
+\caption{\B{The judgement applies to a particular evidence state. A fluent answer that invents a departure time can receive a lower score even if its wording is preferred.}{El juicio se aplica a un estado de evidencia concreto. Una respuesta fluida que inventa una salida puede recibir una puntuación inferior aunque guste más su redacción.}}
+\label{fig:preferences}
+\end{figure}
+
+\B{A reward model assigns a score \(r_\phi(x,y)\) to a response. One pairwise model converts the score difference into a probability of preference. Let \(y^+\) denote the response judged better and \(y^-\) the other one.}
+{Un modelo de recompensa asigna una puntuación \(r_\phi(x,y)\) a una respuesta. Un modelo por pares convierte la diferencia en una probabilidad de preferencia. Sea \(y^+\) la respuesta considerada mejor e \(y^-\) la otra.}
+\begin{equation}
+ P_\phi(y^+\succ y^-\mid x)=
+ \sigma\!\left(r_\phi(x,y^+)-r_\phi(x,y^-)\right),
+ \qquad \sigma(u)=\frac{1}{1+\exp(-u)} .
+ \label{eq:preference}
+\end{equation}
+\B{Subtract the second score from the first and apply the sigmoid \(\sigma\), which takes a real number and returns a value strictly between zero and one. Equal scores give \(0.5\). A difference of \(\ln 3\) gives \(1/(1+1/3)=0.75\). The score difference concerns preferences in the training comparison. It does not measure factual confidence for an individual claim \citep{instruct,dpo}.}
+{Resta la segunda puntuación de la primera y aplica la función sigmoide \(\sigma\), que toma un número real y devuelve un valor estrictamente entre cero y uno. Puntuaciones iguales dan \(0.5\). Una diferencia de \(\ln 3\) da \(1/(1+1/3)=0.75\). La diferencia se refiere a preferencias en la comparación de entrenamiento. La confianza factual de una afirmación requiere otra medida \citep{instruct,dpo}.}
+
+\section{\B{Compare reward optimisation and direct preferences}{Compara optimización de recompensa y preferencias directas}}
+
+\B{Reinforcement learning from human feedback (RLHF) can use a learned reward model to score sampled answers, then update the policy that generates those answers. A policy is a conditional distribution over responses. A common formulation penalises movement away from a reference policy. Write \(\pi_0\) for the reference, \(\pi_\theta\) for the policy being updated and \(\beta\) for the penalty strength \citep{instruct,dpo}.}
+{El aprendizaje por refuerzo con retroalimentación humana (RLHF) puede usar un modelo de recompensa aprendido para puntuar respuestas muestreadas y luego actualizar la política que las genera. Una política es una distribución condicional sobre respuestas. Una formulación habitual penaliza el alejamiento de una política de referencia. Escribe \(\pi_0\) para la referencia, \(\pi_\theta\) para la política que se actualiza y \(\beta\) para la intensidad de penalización \citep{instruct,dpo}.}
+\begin{equation}
+ J(\theta)=\E_{x\sim\mathcal D,\,y\sim\pi_\theta(\cdot\mid x)}[r_\phi(x,y)]
+ -\beta\,\E_{x\sim\mathcal D}\big[D_{\mathrm{KL}}(\pi_\theta(\cdot\mid x)\Vert\pi_0(\cdot\mid x))\big].
+ \label{eq:rlhf}
+\end{equation}
+\B{The first expectation averages over prompts drawn from a prompt distribution \(\mathcal D\) and responses sampled from the current policy. The second averages a penalty over prompts. Here \(D_{\mathrm{KL}}(p\Vert q)\) sums \(p(y)\ln[p(y)/q(y)]\) over responses with positive \(p(y)\). Assume \(q(y)>0\) for those responses. The divergence is zero when the distributions match. Raising \(\beta\) puts more emphasis on staying close to the reference. It cannot repair a reward model that gives high scores to plausible invented citations.}
+{La primera esperanza promedia sobre instrucciones de una distribución \(\mathcal D\) y respuestas muestreadas de la política actual. La segunda promedia una penalización sobre instrucciones. Aquí \(D_{\mathrm{KL}}(p\Vert q)\) suma \(p(y)\ln[p(y)/q(y)]\) sobre las respuestas con \(p(y)\) positiva. Suponemos \(q(y)>0\) en esas respuestas. La divergencia vale cero si las distribuciones coinciden. Aumentar \(\beta\) da más peso a permanecer cerca de la referencia. Eso no corrige un modelo de recompensa que puntúa bien citas inventadas pero plausibles.}
+
+\B{Direct preference optimisation (DPO) fits the policy using preferred and rejected responses relative to a fixed reference, without training a separate reward model for this objective. For one labelled pair, define a preference logit and its loss \citep{dpo}.}
+{La optimización directa de preferencias (DPO) ajusta la política con respuestas preferidas y rechazadas respecto de una referencia fija, sin entrenar un modelo de recompensa separado para ese objetivo. Para un par etiquetado, define un logit de preferencia y su pérdida \citep{dpo}.}
+\begin{align}
+ u &= \beta\!\left[
+ \ln\frac{\pi_\theta(y^+\mid x)}{\pi_0(y^+\mid x)}
+ -\ln\frac{\pi_\theta(y^-\mid x)}{\pi_0(y^-\mid x)}
+ \right],\notag\\
+ \ell_{\mathrm{DPO}}&=-\ln\sigma(u).
+ \label{eq:dpo}
+\end{align}
+\B{For each answer, divide its current probability by its reference probability and take the log. Subtract the rejected answer's log-ratio from the preferred one's, multiply by \(\beta\), then apply the sigmoid and the negative log. If the current policy gives \(0.6\) and \(0.3\) to the two answers and the reference gives \(0.4\) to each, their ratios are \(1.5\) and \(0.75\). With \(\beta=1\), the difference of the logs is \(\ln 2\), the sigmoid is \(2/3\) and the loss is \(\ln(3/2)\), about \(0.4055\). The loss favours improving the preferred answer's ratio relative to the rejected answer's.}
+{Para cada respuesta, divide su probabilidad actual por la de referencia y calcula el logaritmo. Resta el logaritmo del cociente de la respuesta rechazada del logaritmo del cociente de la preferida, multiplica por \(\beta\) y aplica la sigmoide y el logaritmo negativo. Si la política actual da \(0.6\) y \(0.3\) a las dos respuestas y la referencia da \(0.4\) a cada una, sus razones son \(1.5\) y \(0.75\). Con \(\beta=1\), la diferencia es \(\ln 2\), la sigmoide vale \(2/3\) y la pérdida es \(\ln(3/2)\), cerca de \(0.4055\). La pérdida favorece mejorar la razón de la preferida en relación con la rechazada.}
+
+\B{Preference methods can amplify a narrow annotation policy. A dataset that rewards every switch to formal English can teach the system to ignore a user's request for Haitian Creole. A feedback process should record whether the user asked for a language, what source supports the answer and which part of the reply a reviewer preferred. Synthetic feedback can help create test cases, but a model judging its own dialect output may share the same blind spots.}
+{Los métodos de preferencias pueden amplificar una política de anotación estrecha. Un conjunto que premie cada cambio al inglés formal puede enseñar al sistema a ignorar la petición de criollo haitiano. El proceso de revisión debe registrar si la persona pidió un idioma, qué fuente respalda la respuesta y qué parte prefirió el revisor. La retroalimentación sintética puede ayudar a crear pruebas, pero un modelo que juzga su propia producción dialectal puede compartir los mismos puntos ciegos.}
+
+\section{\B{Look for errors by group and by task}{Busca errores por grupo y por tarea}}
+
+\B{For a fictional audit, suppose 18 of 20 formal English tasks meet the acceptance rubric and 3 of 5 Jamaican Creole tasks do. The overall result is 21 of 25, or 84\%. The subgroup rates are 90\% and 60\%. These five Creole tasks do not establish a population rate. The counts give a reason to inspect the errors and expand the matched test, keeping task difficulty and source availability comparable. A single new successful Creole case would give 4 of 6, about 67\%, which shows how much a small sample can move.}
+{En una auditoría ficticia, supón que 18 de 20 tareas en inglés formal y 3 de 5 en criollo jamaicano cumplen el criterio. El total es 21 de 25, o 84\%. Las tasas por grupo son 90\% y 60\%. Cinco tareas en criollo no establecen una tasa poblacional. Los conteos dan motivo para inspeccionar errores y ampliar la prueba emparejada con dificultad y fuentes comparables. Un solo caso nuevo exitoso en criollo daría 4 de 6, cerca de 67\%, lo que muestra cuánto puede variar una muestra pequeña.}
+
+\B{Build matched pairs around the same intent. In Puerto Rico, \emph{¿A qué hora pasa la guagua?} might appear alongside a wording using \emph{autobús}. Use an identical source and test whether both yield the same route and time. Keep translation quality, the source lookup and the final facts as separate scores. Give reviewers a way to mark a prompt as ambiguous. Include ambiguous cases when reporting abstentions.}
+{Construye pares con la misma intención. En Puerto Rico, \emph{¿A qué hora pasa la guagua?} puede aparecer junto a una versión con \emph{autobús}. Usa la misma fuente y comprueba si ambas dan la misma ruta y hora. Puntúa por separado la traducción, la consulta de fuentes y los hechos finales. Permite que los revisores marquen una pregunta como ambigua. Incluye esos casos al informar abstenciones.}
+
+\checklist{
+\item \B{Separate a demonstration, a comparison and a deployment rule.}{Distinguir una demostración, una comparación y una regla de uso.}
+\item \B{Explain the reference policy in RLHF and DPO.}{Explicar la política de referencia en RLHF y DPO.}
+\item \B{Report language-specific counts with their denominators and task limits.}{Informar conteos por idioma con sus denominadores y límites.}}
+\exercises{
+\item \B{A reward model assigns identical scores to two candidates. What is the implied preference probability?}{Un modelo de recompensa asigna puntuaciones iguales a dos candidatas. ¿Qué probabilidad de preferencia implica?}
+\item \B{Use \(d_{\mathrm{in}}=256\), \(d_{\mathrm{out}}=512\) and \(r=4\). Count the LoRA factors and full matrix parameters.}{Usa \(d_{\mathrm{in}}=256\), \(d_{\mathrm{out}}=512\) y \(r=4\). Cuenta los parámetros de los factores LoRA y los de la matriz completa.}
+\item \B{In the DPO example, swap which response is preferred. Find the new logit, sigmoid and loss.}{En el ejemplo DPO, intercambia cuál respuesta es preferida. Halla el nuevo logit, la sigmoide y la pérdida.}
+\item \B{A fluent water notice reply invents a time. A terse answer uses the supported facts. Write the preference judgement and describe a follow-up test.}{Una respuesta fluida a un aviso de agua inventa una hora. Otra breve usa los hechos respaldados. Escribe el juicio de preferencia y una prueba posterior.}}

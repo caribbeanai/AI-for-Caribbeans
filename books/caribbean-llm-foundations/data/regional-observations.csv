@@ -1,0 +1,15 @@
+record_id,source,measure,place,period,unit,value,source_key,source_locator
+T01,CTO,estimated_overnight_arrivals,Dominican Republic,2024,million arrivals,8.5,cto,28 April 2025 release Key Highlights
+T02,CTO,estimated_overnight_arrivals,Jamaica,2024,million arrivals,2.9,cto,28 April 2025 release Key Highlights
+T03,CTO,estimated_overnight_arrivals,Cuba,2024,million arrivals,2.2,cto,28 April 2025 release Key Highlights
+T04,CTO,estimated_overnight_arrivals,The Bahamas,2024,million arrivals,1.9,cto,28 April 2025 release Key Highlights
+T05,CTO,estimated_overnight_arrivals,Aruba,2024,million arrivals,1.4,cto,28 April 2025 release Key Highlights
+T06,CTO,estimated_overnight_arrivals,Puerto Rico,2024,million arrivals,1.0,cto,28 April 2025 release Key Highlights
+T07,CTO,estimated_overnight_arrivals,CTO regional aggregate,2024,million arrivals,34.2,cto,28 April 2025 release Key Highlights
+T08,CTO,reported_six_destination_share,CTO regional aggregate,2024,percent,56,cto,28 April 2025 release Key Highlights
+J01,STATIN,all_items_cpi,Jamaica,2025-08,index points,142.4,statin,September 2025 bulletin Table II
+J02,STATIN,all_items_cpi,Jamaica,2025-09,index points,143.5,statin,September 2025 bulletin Table II
+J03,STATIN,food_and_non_alcoholic_beverages_cpi,Jamaica,2025-08,index points,157.1,statin,September 2025 bulletin Table II
+J04,STATIN,food_and_non_alcoholic_beverages_cpi,Jamaica,2025-09,index points,158.6,statin,September 2025 bulletin Table II
+J05,STATIN,reported_monthly_all_items_change,Jamaica,2025-09,percent,0.8,statin,September 2025 bulletin Table II
+J06,STATIN,reported_monthly_food_and_non_alcoholic_beverages_change,Jamaica,2025-09,percent,0.9,statin,September 2025 bulletin Table II

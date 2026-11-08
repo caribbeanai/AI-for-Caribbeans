@@ -1,0 +1,54 @@
+case_id	field	unit	approved	distractor
+C01	counter_closing_time	local HH:MM	15:30	16:30
+C02	departure	local HH:MM	09:00	08:15
+C03	greeting	text	Bon dia	Bon nochi
+C04	appointment_window	local HH:MM	10:15	11:15
+C05	units_sold	count	18	180
+C06	island_scope	place	Saba	Bonaire
+C07	pickup_dock	place	Road Town	Spanish Town
+C08	clinic_island	place	Cayman Brac	Little Cayman
+C09	route_origin	place	Nueva Gerona	Cienfuegos
+C10	service_category	category	water	electricity
+C11	order_unit	unit	kilogram	box
+C12	measure_definition	category	overnight arrivals	room occupancy
+C13	carriacou_cap	crates	48	40
+C14	notice_language	language tag	fr	en
+C15	water_collection_time	local HH:MM	unknown	08:00
+C16	default_winning_site	record ID	K2	K1
+C17	campus_room	room code	L-12	L-21
+C18	directory_building	building code	BR-2	BR-1
+C19	departure_island	place	Vieques	Culebra
+C20	booking_currency	currency code	EUR	USD
+C21	office_island	place	Nevis	Saint Kitts
+C22	publication_day	ISO date	2031-06-01	2031-05-01
+C23	authority_area	place	Saint Martin	Sint Maarten
+C24	supply_destination	place	Mayreau	Bequia
+C25	authority_area	place	Sint Maarten	Saint Martin
+C26	appointment_island	place	Tobago	Trinidad
+C27	help_desk_island	place	South Caicos	Grand Turk
+C28	directory_island	place	Saint Croix	Saint Thomas
+I01	service_destination	place	Bimini	Grand Bahama
+I02	appointment_island	place	Inagua	Cat Island
+I03	notice_island	place	Rum Cay	Long Island
+I04	commune_scope	place	Terre-de-Bas	Terre-de-Haut
+I05	counter_open_time	local HH:MM	08:30	08:00
+I06	application_deadline	ISO date	2031-06-16	2031-06-09
+I07	training_room	room code	S-04	S-03
+I08	manifest_destination	place	Petit Saint Vincent	Palm Island
+I09	issuing_jurisdiction	place	Haiti	Dominican Republic
+I10	appointment_locality	place	Spanish Wells	Grand Cay
+I11	notice_cay	place	Ambergris Cay	Parrot Cay
+W01	produce_pickup	place	Orange Walk	Belize City
+W02	bank_sense	category	riverbank	financial institution
+W03	document_language	language tag	nl	en
+W04	form_authority_code	record ID	CAY-2	CAY-1
+W05	counter_open_time	local HH:MM	09:15	09:00
+W06	service_currency	currency code	MXN	USD
+W07	port_of_departure	place	Puerto Barrios	Santo Tomás de Castilla
+W08	ferry_destination	place	Guanaja	Utila
+W09	cargo_event	category	warehouse receipt	port departure
+W10	shipment_destination	place	Little Corn Island	Great Corn Island
+W11	freight_charge_unit	unit	per box	per shipment
+W12	ferry_origin	place	Isla Colón	Bastimentos
+W13	directory_location	place	Providencia	Cartagena
+W14	route_destination	place	Coche	Margarita

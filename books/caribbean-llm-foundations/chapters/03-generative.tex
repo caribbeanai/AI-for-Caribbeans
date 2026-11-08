@@ -1,0 +1,115 @@
+\chapter{\B{Generative models at scale}{Modelos generativos a gran escala}}
+\label{ch:generative}
+
+\B{A utility team in Curaçao wants to classify incoming messages, draft replies and translate approved notices. These jobs can share components while posing different prediction problems. A classifier needs a label for the whole message. A reply model needs to produce a sequence. A translation system may benefit from reading the whole source sentence before producing the first output token. Architecture determines which information each prediction can see.}
+{Un equipo de servicios públicos en Curazao quiere clasificar mensajes, redactar respuestas y traducir avisos aprobados. Estas tareas pueden compartir componentes y plantear problemas de predicción distintos. Un clasificador necesita una etiqueta para el mensaje completo. Un modelo de respuestas necesita producir una secuencia. Un traductor puede beneficiarse de leer toda la oración de origen antes de producir el primer token de salida. La arquitectura determina qué información puede ver cada predicción.}
+
+\section{\B{Choose an objective and an architecture}{Elige un objetivo y una arquitectura}}
+
+\B{A decoder-only language model uses causal attention. It predicts the next token from the prefix. During training, one forward pass can score many positions in parallel. The recorded prefixes are available and the causal mask prevents information from later positions leaking into the prediction. During generation, the next prefix depends on the token just chosen. This is why a single response usually grows one token at a time \citep{xiao,gpt3}.}
+{Un modelo de lenguaje con solo decodificador usa atención causal. Predice el siguiente token a partir del prefijo. Durante el entrenamiento, un pase puede puntuar muchas posiciones en paralelo. Los prefijos registrados están disponibles y la máscara causal impide que la predicción reciba información de posiciones posteriores. Durante la generación, el siguiente prefijo depende del token recién elegido. Por eso una respuesta normalmente crece un token a la vez \citep{xiao,gpt3}.}
+
+\B{An encoder-only model can use context on both sides of an input position. A masked language objective hides or alters selected tokens and asks the model to recover the originals. BERT combined a masked-token task with a next-sentence task. A classification head can later read an encoded sequence to choose a label. For instance, authorised utility tickets could train a head to distinguish electricity, water and billing reports \citep{bert}.}
+{Un modelo de solo codificador puede usar contexto a ambos lados de una posición. Un objetivo de lenguaje enmascarado oculta o modifica tokens seleccionados y pide recuperar los originales. BERT combinó una tarea de tokens enmascarados con otra de oración siguiente. Una cabeza de clasificación puede leer después una secuencia codificada y elegir una etiqueta. Por ejemplo, solicitudes autorizadas podrían entrenar una cabeza para distinguir reportes de electricidad, agua y facturación \citep{bert}.}
+
+\B{An encoder--decoder system has an encoder that reads the source. The decoder uses causal attention over its output prefix and cross-attention to the encoder's representations. T5 trained on corrupted text, asking its decoder to produce missing spans marked in the source. For a classroom example in Belize, replace \emph{tomorrow} and \emph{Orange Walk} with markers in a produce notice. The decoder has to recover both spans from the remaining words and marker positions \citep{t5}.}
+{Un sistema codificador--decodificador tiene un codificador que lee el origen. El decodificador usa atención causal sobre su prefijo de salida y atención cruzada a las representaciones del codificador. T5 se entrenó con texto alterado y un decodificador que producía fragmentos faltantes señalados en el origen. Para un ejercicio en Belice, sustituye \emph{mañana} y \emph{Orange Walk} por marcas en un aviso agrícola. El decodificador debe recuperar los dos fragmentos a partir de las palabras restantes y las posiciones de las marcas \citep{t5}.}
+
+\begin{figure}[htbp]\centering
+\begin{tikzpicture}[node distance=5mm]
+\foreach \y/\src/\body/\outcome in {
+ 0/{\B{Visible context}{Contexto visible}}/{\B{Bidirectional encoder}{Codificador bidireccional}}/{\B{Representations}{Representaciones}},
+ -1.22/{\B{Output prefix}{Prefijo de salida}}/{\B{Causal decoder}{Decodificador causal}}/{\B{Next-token scores}{Puntuaciones del siguiente token}},
+ -2.44/{\B{Source and prefix}{Origen y prefijo}}/{\B{Encode and cross-attend}{Codifica y aplica atención cruzada}}/{\B{Target scores}{Puntuaciones del objetivo}}}{
+ \node[nodebox,fill=softgrey] (s) at (0,\y){\src};
+ \node[nodebox] (m) at (4.55,\y){\body};
+ \node[nodebox,fill=softgreen] (o) at (9.10,\y){\outcome};
+ \draw[mainarr](s)--(m);\draw[mainarr](m)--(o);
+}
+\end{tikzpicture}
+\caption{\B{The rows contrast which tokens are visible. An encoder can also feed a prediction head, and a decoder can classify by generating a label.}{Las filas contrastan qué tokens están visibles. Un codificador también puede alimentar una cabeza de predicción y un decodificador puede clasificar generando una etiqueta.}}
+\label{fig:architectures}
+\end{figure}
+
+\section{\B{Multiply conditional probabilities}{Multiplica probabilidades condicionales}}
+
+\B{Write a proposed continuation as tokens \(y_1,\ldots,y_m\). The prompt is \(x\). At each step the model conditions on \(x\) and the prefix \(y_{<t}\) of already generated tokens. The chain rule gives the probability of the specified continuation.}
+{Escribe una continuación propuesta como tokens \(y_1,\ldots,y_m\). La instrucción es \(x\). En cada paso, el modelo se condiciona a \(x\) y al prefijo \(y_{<t}\) de tokens ya generados. La regla de la cadena da la probabilidad de esa continuación.}
+\begin{equation}
+ p_\theta(y_1,\ldots,y_m\mid x)=
+ \prod_{t=1}^{m}p_\theta(y_t\mid x,y_{<t}).
+ \label{eq:chain}
+\end{equation}
+\B{Multiply the probability of each specified token given the preceding tokens. Include an end marker to score the probability of ending at that point. Changing the first token can change every distribution after it. A likelihood belongs to a particular model, tokenisation and context. The factual accuracy of the resulting text requires a separate check.}
+{Multiplica la probabilidad de cada token dado lo anterior. Incluye una marca de fin para puntuar la probabilidad de terminar en ese punto. Cambiar el primer token puede alterar todas las distribuciones posteriores. Una verosimilitud corresponde a un modelo, tokenización y contexto específicos. La exactitud factual del texto requiere otra comprobación.}
+
+\lab{\B{A short reply in Saint Vincent}{Una respuesta breve en San Vicente}}
+\B{An assistant drafts a reply to a practice question about a produce shipment. Suppose the model gives \emph{ready}, \emph{today} and the end marker conditional probabilities \(0.6,0.5,0.8\) in a toy tokenizer. The complete reply has probability \(0.24\). The two-token prefix has probability \(0.30\). The gap comes from the chance of continuing after \emph{today}. Before sending the reply, a person checks the shipment record.}
+{Un asistente redacta una respuesta a una pregunta de práctica sobre un envío agrícola. Supón que el modelo da probabilidades condicionales \(0.6,0.5,0.8\) a \emph{listo}, \emph{hoy} y la marca de fin con un tokenizador didáctico. La respuesta completa tiene probabilidad \(0.24\). El prefijo de dos tokens tiene probabilidad \(0.30\). La diferencia proviene de la posibilidad de continuar después de \emph{hoy}. Antes de enviar la respuesta, una persona consulta el registro del envío.}
+
+\B{Multiplying many probabilities below one can produce numbers too small for the machine representation. Add their logarithms when comparing candidates. The logarithm preserves the order and converts the product into a sum. Long responses often accumulate more negative terms. A decoder that adjusts scores by length uses a different search criterion. Record that choice when comparing settings.}
+{Multiplicar muchas probabilidades menores que uno puede dar cifras demasiado pequeñas para la representación de la máquina. Suma sus logaritmos al comparar candidatos. El logaritmo conserva el orden y convierte el producto en una suma. Las respuestas largas suelen acumular más términos negativos. Un decodificador que ajusta por longitud usa un criterio de búsqueda distinto. Registra esa decisión al comparar configuraciones.}
+
+\section{\B{Allocate data and compute}{Distribuye datos y cómputo}}
+
+\B{A model with many parameters costs more per training token. Processing more tokens also increases cost. For a rough dense Transformer estimate, let \(N\) denote the parameter count under a stated convention, \(D\) the number of training tokens processed and \(C\) the floating-point operations. A common approximation counts about two operations per weight per token for a forward matrix multiply and about twice that again for backward computation \citep{hoffmann}.}
+{Un modelo con muchos parámetros cuesta más por token de entrenamiento. Procesar más tokens también aumenta el costo. Para una estimación de un Transformer denso, sea \(N\) el número de parámetros según una convención declarada, \(D\) los tokens de entrenamiento procesados y \(C\) las operaciones de punto flotante. Una aproximación cuenta unas dos operaciones por peso y token en una multiplicación matricial hacia delante y aproximadamente el doble de eso en los cálculos hacia atrás \citep{hoffmann}.}
+\begin{equation}
+ C\approx 6ND .
+ \label{eq:compute}
+\end{equation}
+\B{Multiply parameters by processed tokens and by about six operations per parameter-token pair. For \(N=10^8\) and \(D=2\times10^9\), the approximation gives \(1.2\times10^{18}\) operations. \(2\times10^8\) parameters and \(10^9\) tokens give the same estimate. Those plans can give different results. Long attention windows, embeddings, padding and device efficiency can move actual costs away from this estimate. Wall-clock time needs a throughput measurement.}
+{Multiplica los parámetros por los tokens procesados y por unas seis operaciones por par parámetro-token. Para \(N=10^8\) y \(D=2\times10^9\), la aproximación da \(1.2\times10^{18}\) operaciones. Con \(2\times10^8\) parámetros y \(10^9\) tokens obtienes la misma estimación. Los planes pueden dar resultados distintos. Las ventanas de atención largas, las representaciones, el relleno y la eficiencia del equipo pueden alejar los costos reales de la estimación. Para estimar el tiempo transcurrido hace falta medir el rendimiento.}
+
+\B{Scaling studies fit relationships between model size, training tokens and loss over a measured regime. One possible form is}
+{Los estudios de escalamiento ajustan relaciones entre tamaño del modelo, tokens de entrenamiento y pérdida dentro de un régimen medido. Una forma posible es}
+\begin{equation}
+ L(N,D)\approx L_\infty + A N^{-\alpha}+B D^{-\beta}.
+ \label{eq:scaling}
+\end{equation}
+\B{Here \(L\) is the loss, \(L_\infty\) a fitted floor, \(A,B\) positive fitted amplitudes and \(\alpha,\beta\) positive exponents. Increasing either \(N\) or \(D\) shrinks the corresponding term, with diminishing changes along the curve. If \(\alpha=1/2\), quadrupling \(N\) halves the model-size term while leaving the data term fixed. A new language mixture or repeated passes over a small corpus can break the fit's assumptions. Count unique material as well as processed tokens \citep{hoffmann}.}
+{Aquí \(L\) es la pérdida, \(L_\infty\) un piso ajustado, \(A,B\) amplitudes positivas ajustadas y \(\alpha,\beta\) exponentes positivos. Aumentar \(N\) o \(D\) reduce el término correspondiente, con cambios menores a lo largo de la curva. Si \(\alpha=1/2\), cuadruplicar \(N\) reduce a la mitad el término del tamaño y mantiene fijo el de datos. Una mezcla nueva de idiomas o repeticiones sobre un corpus pequeño pueden romper los supuestos del ajuste. Cuenta material único además de tokens procesados \citep{hoffmann}.}
+
+\B{To improve an assistant's handling of multilingual trade documents in Suriname, distinguish missing documents, poor optical character recognition, fragmented tokenisation and weak translation. A larger model can still miss a scan that was never indexed. Use held-out documents in each supported language and compare a simple baseline with the proposed change. Preserve permissions and provenance when combining sources.}
+{Para mejorar cómo un asistente maneja documentos comerciales multilingües en Surinam, distingue documentos ausentes, reconocimiento óptico deficiente, tokenización fragmentada y traducción débil. Un modelo mayor todavía puede pasar por alto un escaneo sin indexar. Usa documentos reservados de cada idioma admitido y compara una referencia sencilla con el cambio. Conserva permisos y procedencia al combinar fuentes.}
+
+\section{\B{Split the work across devices}{Reparte el trabajo entre dispositivos}}
+
+\B{Data parallelism gives replicas different samples and combines gradients before updating shared parameters. With \(g\) replicas, \(b\) sequences per replica per microbatch and \(a\) accumulated microbatches per update, the effective sequence batch is}
+{El paralelismo de datos da muestras distintas a las réplicas y combina gradientes antes de actualizar los parámetros compartidos. Con \(g\) réplicas, \(b\) secuencias por réplica y microlote, y \(a\) microlotes acumulados por actualización, el lote efectivo de secuencias es}
+\begin{equation}
+ B_{\mathrm{seq}}=g\,b\,a .
+ \label{eq:batch}
+\end{equation}
+\B{Multiply the three counts. With \(4\) replicas, \(2\) sequences per replica and \(8\) accumulation steps, one update covers 64 sequences. If each contributes 512 unmasked loss positions, that is 32,768 scored tokens. Variable lengths or padding change the token count. For a per-token objective, add token penalties and divide by the total unmasked token count across replicas and accumulated microbatches.}
+{Multiplica los tres conteos. Con \(4\) réplicas, \(2\) secuencias por réplica y \(8\) pasos de acumulación, una actualización abarca 64 secuencias. Si cada una aporta 512 posiciones de pérdida sin máscara, son 32\,768 tokens puntuados. Las longitudes variables o el relleno cambian el conteo. Para un objetivo por token, suma penalizaciones y divide por el total de tokens sin máscara entre réplicas y microlotes acumulados.}
+
+\B{Tensor parallelism divides an operation across devices. If you split output columns of a matrix product, each device computes its assigned columns. A later operation may need to combine them. Pipeline parallelism places different blocks on different devices and passes activations between stages. Stages can sit idle under some schedules. Sharding can also partition weights, gradients and optimiser state to fit a model. More devices can increase communication. Measure a small batch on the intended network before deciding \citep{xiao}.}
+{El paralelismo tensorial divide una operación entre dispositivos. Si repartes las columnas de salida de un producto matricial, cada equipo calcula sus columnas. Una operación posterior puede tener que combinarlas. El paralelismo de tubería coloca bloques distintos en distintos equipos y pasa activaciones entre etapas. Algunas etapas pueden quedar a la espera con ciertos calendarios. También puedes repartir pesos, gradientes y estado del optimizador para que el modelo quepa. Más equipos pueden aumentar la comunicación. Mide un lote pequeño en la red prevista antes de decidir \citep{xiao}.}
+
+\begin{figure}[htbp]\centering
+\flow{\B{Replica 1\\Microbatch A}{Réplica 1\\Microlote A}}{\B{Gradients from A}{Gradientes de A}}{\B{Combine with gradients from B}{Combina con gradientes de B}}{\B{Apply a shared update}{Aplica un paso común}}
+\caption{\B{A second replica processes B. The merge indicates the communication that keeps the replicas in sync.}{Una segunda réplica procesa B. La unión indica la comunicación que mantiene sincronizadas las réplicas.}}
+\label{fig:parallel}
+\end{figure}
+
+\section{\B{Read longer text within a memory budget}{Lee textos largos con un presupuesto de memoria}}
+
+\B{A full attention score grid for \(n\) positions has \(n^2\) entries per head. A causal mask permits \(n(n+1)/2\) pairs. Doubling \(n\) quadruples the full grid. A simple implementation may store all scores. FlashAttention changes how the exact attention computation moves data between memory levels and avoids storing the full score matrix in high-bandwidth memory. The pairwise arithmetic for full attention still grows quadratically \citep{flash}.}
+{Una cuadrícula completa de atención para \(n\) posiciones tiene \(n^2\) entradas por cabeza. Una máscara causal permite \(n(n+1)/2\) pares. Duplicar \(n\) cuadruplica la cuadrícula completa. Una implementación sencilla puede guardar todas las puntuaciones. FlashAttention cambia cómo el cálculo exacto mueve datos entre niveles de memoria y evita guardar toda la matriz de puntuaciones en memoria de gran ancho de banda. La aritmética por pares de la atención completa sigue creciendo cuadráticamente \citep{flash}.}
+
+\B{A sliding window restricts the prior positions each query can use in one layer. A 256-position window at each of 2,048 positions permits at most \(2{,}048\times256=524{,}288\) pairs if the current position counts. Early rows permit fewer pairs. Stacked layers can relay information over several windows. Some systems combine local and global attention. Others retrieve selected text before generation.}
+{Una ventana deslizante restringe las posiciones anteriores que puede usar una consulta en una capa. Una ventana de 256 posiciones para cada una de 2\,048 permite como máximo \(2{,}048\times256=524{,}288\) pares si incluye la posición actual. Las primeras filas permiten menos pares. Capas sucesivas pueden transmitir información a través de varias ventanas. Algunos sistemas combinan atención local y global. Otros recuperan texto seleccionado antes de generar.}
+
+\B{An extended positional scheme can let a model accept longer inputs. Check what it uses at that length. Move a dated ship notice between the beginning, middle and end of a long prompt, holding other content fixed. In a separate test, change one date in a distractor without moving the applicable notice. Measure how often retrieval finds the right record and how often the final answer uses it. These are separate outcomes \citep{lostmiddle}.}
+{Un esquema posicional extendido puede permitir entradas más largas. Comprueba qué usa el modelo a esa longitud. Mueve un aviso marítimo fechado entre el principio, el medio y el final de una instrucción larga y mantén fijo el resto. En otra prueba, cambia una fecha en un distractor sin mover el aviso aplicable. Mide con qué frecuencia la recuperación encuentra el registro adecuado y con qué frecuencia la respuesta final lo usa. Son resultados distintos \citep{lostmiddle}.}
+
+\checklist{
+\item \B{Choose an objective and identify its visible context.}{Elegir un objetivo e identificar su contexto visible.}
+\item \B{Separate an operations estimate, device memory and elapsed time.}{Distinguir una estimación de operaciones, memoria del equipo y tiempo transcurrido.}
+\item \B{Design a test for use of evidence in a long prompt.}{Diseñar una prueba del uso de evidencia en una entrada larga.}}
+\exercises{
+\item \B{A reply uses three tokens with conditional probabilities \(0.4,0.5,0.5\), with the last token marking the end. Compute the complete and two-token prefix probabilities.}{Una respuesta usa tres tokens de probabilidades condicionales \(0.4,0.5,0.5\), con el último como marca de fin. Calcula las probabilidades de la respuesta completa y del prefijo de dos tokens.}
+\item \B{Under Equation~\eqref{eq:compute}, hold \(C\) fixed and triple \(N\). How must \(D\) change? Give a reason measured time could still differ.}{En la ecuación~\eqref{eq:compute}, fija \(C\) y triplica \(N\). ¿Cómo debe cambiar \(D\)? Da una razón por la que el tiempo medido aún podría diferir.}
+\item \B{Use three replicas, two sequences per replica and four accumulation steps. If all sequences score 256 positions, how many scored tokens does an update cover?}{Usa tres réplicas, dos secuencias por réplica y cuatro pasos de acumulación. Si cada secuencia puntúa 256 posiciones, ¿cuántos tokens puntuados abarca una actualización?}
+\item \B{Why could a notice containing the answer still yield a wrong reply in a long prompt? Name a controlled test.}{¿Por qué un aviso con la respuesta podría generar una contestación errónea en una entrada larga? Indica una prueba controlada.}}

@@ -1,0 +1,157 @@
+\chapter{\B{Tokens and Transformer blocks}{Tokens y bloques Transformer}}
+\label{ch:tokens}
+
+\B{A lunch order comes through as \emph{Mi waan patty}. A person who reads Jamaican Creole can recover the intent. A decoder sees a sequence of integer IDs. Before looking at how those IDs influence one another, follow the decisions that turn the message into a sequence in the first place.}
+{Llega un pedido de almuerzo que dice \emph{Mi waan patty}. Una persona que lee criollo jamaicano puede recuperar la intención. Un decodificador ve una secuencia de identificadores enteros. Antes de examinar cómo se influyen entre sí, sigue las decisiones que convierten el mensaje en una secuencia.}
+
+\section{\B{Segment the text and keep its meaning}{Segmenta el texto y conserva su sentido}}
+
+\B{A tokenizer maps text to a sequence of tokens. A token can stand for a word, part of a word, whitespace, punctuation, a byte or a special marker. A vocabulary \(\mathcal V\) maps token forms to IDs. The number assigned to a token identifies its lookup row. An ID of 82 carries no intrinsic numerical meaning about a word. A detokenizer maps the sequence back to text under the tokenizer's rules. Some pipelines normalise text first. Save the original when accent marks, spelling choices or exact quotes matter.}
+{Un tokenizador convierte texto en una secuencia de tokens. Un token puede representar una palabra, parte de una palabra, un espacio, un signo, un byte o una marca especial. Un vocabulario \(\mathcal V\) asigna identificadores a las formas. El número de un token identifica su fila de consulta. El identificador 82 carece de significado numérico intrínseco sobre una palabra. Un destokenizador reconstruye el texto según las reglas del tokenizador. Algunos procesos normalizan el texto primero. Guarda el original cuando importen las tildes, las grafías o las citas exactas.}
+
+\begin{figure}[htbp]
+\centering
+\flow{\B{Original message}{Mensaje original}\\ Mi waan patty}
+{\B{Toy pieces}{Piezas didácticas}\\ \texttt{Mi | waan | patty}}
+{\B{Lookup IDs}{Identificadores}\\ \texttt{5, 18, 32}}
+{\B{One vector per ID}{Un vector por ID}}
+\caption{\B{The first three boxes can be inspected without running a model. At the last box, each ID retrieves a learned embedding. The IDs here are assigned for illustration.}{Los tres primeros cuadros se pueden inspeccionar sin ejecutar un modelo. En el último, cada identificador recupera una representación aprendida. Los identificadores son ilustrativos.}}
+\label{fig:tokens}
+\end{figure}
+
+\B{Table~\ref{tab:tokens} uses two invented tokenizers. They each scan left to right and take the longest available match inside each whitespace-delimited word. Spaces are retained separately in this exercise, so we exclude them from the count. The companion file lists the pieces. Use the union of the pieces in each column as its vocabulary. If no piece matches, mark the input unsupported for this exercise. This is a classroom rule. Byte-pair encoders and unigram tokenizers choose pieces differently \citep{bpe,sentencepiece}.}
+{El cuadro~\ref{tab:tokens} usa dos tokenizadores inventados. Ambos avanzan de izquierda a derecha y toman la coincidencia más larga dentro de cada palabra delimitada por espacios. En el ejercicio conservamos los espacios por separado y los excluimos del conteo. El archivo complementario enumera las piezas. Usa la unión de las piezas de cada columna como vocabulario. Si ninguna coincide, marca la entrada como no admitida en este ejercicio. Esta es una regla de aula. Los codificadores por pares de bytes y los tokenizadores unigramas eligen piezas de otra forma \citep{bpe,sentencepiece}.}
+
+\begin{table}[htbp]\centering\small
+\begin{tabularx}{\textwidth}{@{}L{.27\textwidth}YY@{}}
+\toprule
+\B{Teaching utterance}{Enunciado didáctico} & \B{Vocabulary A}{Vocabulario A} & \B{Vocabulary B}{Vocabulario B}\\
+\midrule
+\textit{Mi waan patty} & \texttt{Mi | waan | patty} & \texttt{Mi | wa | an | pat | ty}\\
+\textit{Mwen vle dlo} & \texttt{Mwen | vle | dlo} & \texttt{M | wen | vle | d | lo}\\
+\textit{Bon dia} & \texttt{Bon | dia} & \texttt{Bon | di | a}\\
+\textit{Bonjou} & \texttt{Bonjou} & \texttt{Bon | jou}\\
+\textit{La guagua llegó} & \texttt{La | guagua | llegó} & \texttt{La | gua | gua | lle | gó}\\
+\textit{Ah reach} & \texttt{Ah | reach} & \texttt{A | h | re | ach}\\
+\bottomrule
+\end{tabularx}
+\caption{\B{Pieces from authored classroom utterances and short greetings. The vocabularies were constructed from these inputs. Different rows can express different intents. A and B produce 14 and 24 pieces across these six inputs. The split counts depend on the specified vocabulary and rule.}{Piezas de enunciados redactados para clase y saludos breves. Los vocabularios se construyeron a partir de estas entradas. Las filas pueden expresar intenciones distintas. A y B producen 14 y 24 piezas para estas seis entradas. Los conteos dependen del vocabulario y la regla indicados.}}
+\label{tab:tokens}
+\end{table}
+
+\B{The lines mean, in order, “I want a patty”, “I want water”, “Good morning”, “Hello” or “Good morning” in this context, “The bus arrived” and “I have arrived”. The examples use Jamaican Creole, Haitian Creole, Aruban Papiamento, Saint Lucian Kwéyòl, Caribbean Spanish and Trinidadian English Creole. \emph{Guagua} can mean a bus in several Caribbean varieties. A label in this table never determines how a person from that place speaks. A Jamaican Creole inference dataset gives examples of more formal comparison tasks \citep{jampatois}. See the Jamaican Language Unit, MIT-Haiti, Aruba's language guide, the Kwéyòl Dictionary, ASALE, Winer and Mühleisen for context \citep{jlu,mit,aruba,kweyol,asale,winer,apics}.}
+{Las líneas significan, en orden, «Quiero un patty», «Quiero agua», «Buenos días», «Hola» o «Buenos días» en este contexto, «Llegó el autobús» y «Ya llegué». Los ejemplos usan criollo jamaicano, criollo haitiano, papiamento de Aruba, kwéyòl de Santa Lucía, español caribeño y criollo inglés de Trinidad. \emph{Guagua} puede significar autobús en varias variedades caribeñas. Una etiqueta de este cuadro nunca determina cómo habla una persona de ese lugar. Un conjunto de inferencia en criollo jamaicano muestra tareas de comparación más formales \citep{jampatois}. Para el contexto, consulta la Unidad de Lengua Jamaicana, MIT-Haiti, la guía de Aruba, el diccionario de kwéyòl, ASALE y las obras de Winer y Mühleisen \citep{jlu,mit,aruba,kweyol,asale,winer,apics}.}
+
+\B{A token count can affect whether a prompt fits into a context window. It can also affect processing and billing for services that count tokens. To compare two tokenizers, use the same raw inputs, count under documented settings and report per variety. Compare paraphrases of the same intent. A short text in one variety may convey fewer details than a longer translation, so record the comparison design. Fertility, one useful diagnostic, measures pieces per word for a chosen word segmentation.}
+{Un conteo de tokens puede afectar si una instrucción cabe en la ventana de contexto. También puede afectar el procesamiento y el cobro en servicios que cuentan tokens. Para comparar dos tokenizadores, usa las mismas entradas originales, cuenta con la configuración documentada e informa por variedad. Compara paráfrasis de la misma intención. Un texto corto en una variedad puede dar menos detalles que una traducción larga, así que registra el diseño de comparación. La fertilidad es un diagnóstico que mide piezas por palabra según una segmentación de palabras elegida.}
+\begin{equation}
+ F=\frac{\sum_{i=1}^{n}t_i}{\sum_{i=1}^{n}w_i}.
+ \label{eq:fertility}
+\end{equation}
+\B{Add token counts \(t_i\) for \(n\) inputs and divide by the sum of word counts \(w_i\) for those same inputs. The table has 14 words, so A gives \(14/14=1\) and B gives \(24/14\approx1.71\). Longer inputs contribute more words to this ratio. Reporting the average of per-input ratios would answer a different question. Neither statistic tells you whether a model understood a message. Compare task success separately \citep{petrov}.}
+{Suma los conteos de tokens \(t_i\) de \(n\) entradas y divide por la suma de los conteos de palabras \(w_i\) de esas mismas entradas. El cuadro tiene 14 palabras, así que A da \(14/14=1\) y B da \(24/14\approx1.71\). Las entradas más largas aportan más palabras a esta razón. Promediar las razones por entrada respondería otra pregunta. Para saber si un modelo entendió el mensaje, mide por separado el éxito de la tarea \citep{petrov}.}
+
+\subsection{\B{Learn a merge from repeated pairs}{Aprende una fusión de pares repetidos}}
+
+\B{A simplified byte-pair encoding exercise starts with characters inside words. Use \emph{guagua} three times, \emph{guante} once and \emph{agua} once. Count adjacent pairs, weighting each word by its frequency. Both \texttt{g u} and \texttt{u a} occur eight times. Fix a tie rule before counting. If \texttt{g u} wins, replace each occurrence with \texttt{gu}, then count again. The pair \texttt{gu a} occurs eight times and can merge into \texttt{gua}. The word \emph{guagua} becomes two \texttt{gua} tokens. A production BPE tokenizer usually applies a learned merge order, with implementation-specific pre-tokenisation, boundary markers and fallback choices \citep{bpe}.}
+{Un ejercicio simplificado de codificación por pares empieza con los caracteres dentro de las palabras. Usa \emph{guagua} tres veces, \emph{guante} una vez y \emph{agua} una vez. Cuenta pares adyacentes y pondera cada palabra por su frecuencia. Tanto \texttt{g u} como \texttt{u a} aparecen ocho veces. Fija una regla de desempate antes del conteo. Si gana \texttt{g u}, reemplaza cada aparición por \texttt{gu} y vuelve a contar. El par \texttt{gu a} aparece ocho veces y puede fusionarse en \texttt{gua}. La palabra \emph{guagua} queda en dos tokens \texttt{gua}. Un tokenizador BPE de producción suele aplicar un orden de fusión aprendido, con pretokenización, marcas de límite y opciones de respaldo propias de su implementación \citep{bpe}.}
+
+\B{A code point and a byte are different units. The precomposed \emph{ó} is one Unicode code point and takes two bytes in UTF-8. The decomposed spelling uses the code point for \emph{o} followed by the combining acute accent and takes three UTF-8 bytes. Both can display the same letter. Before measuring a difference, check whether the tokenizer normalises the two representations. Leave users' text intact in your records even if you normalise a search key.}
+{Un punto de código y un byte son unidades distintas. La \emph{ó} precompuesta es un punto de código Unicode y ocupa dos bytes en UTF-8. La forma descompuesta usa el punto de código de \emph{o} seguido del acento agudo combinante y ocupa tres bytes UTF-8. Ambas pueden mostrar la misma letra. Antes de medir la diferencia, comprueba si el tokenizador normaliza las dos representaciones. Conserva intacto el texto de los usuarios aunque normalices una clave de búsqueda.}
+
+\section{\B{Represent a token and its position}{Representa un token y su posición}}
+
+\B{An embedding table \(E\) has one row for each vocabulary entry. The row has \(d\) numbers. The model can learn that some directions in this space help with patterns such as an order, a place name or a time expression. Individual coordinates generally lack a fixed human-readable interpretation. A token can have the same lookup vector in two sentences and receive different contextual representations after attention.}
+{Una tabla de representaciones \(E\) tiene una fila para cada entrada del vocabulario. La fila contiene \(d\) números. El modelo puede aprender que ciertas direcciones en este espacio ayudan con patrones como un pedido, un topónimo o una expresión temporal. Las coordenadas individuales suelen carecer de una interpretación fija legible para las personas. Un token puede tener el mismo vector inicial en dos oraciones y recibir representaciones contextuales distintas después de la atención.}
+
+\begin{equation}
+ h_t^{(0)}=E[x_t]+P_t .
+ \label{eq:embedding}
+\end{equation}
+\B{One positional design starts by looking up the row for \(x_t\) and adding a position vector \(P_t\) component by component. A toy row \((0.2,0.4)\) at a position with vector \((0.1,0)\) becomes \((0.3,0.4)\). Two positions can then carry different signals for the same word. Other designs incorporate position inside attention instead of adding \(P_t\) at input. For example, rotary position embeddings rotate pairs of query and key coordinates by position-dependent angles \citep{transformer,rope}.}
+{Un diseño posicional busca la fila de \(x_t\) y suma el vector de posición \(P_t\) componente a componente. Una fila didáctica \((0.2,0.4)\) en una posición con vector \((0.1,0)\) pasa a \((0.3,0.4)\). Dos posiciones pueden aportar señales distintas para la misma palabra. Otros diseños incorporan la posición en la atención en vez de sumar \(P_t\) a la entrada. Por ejemplo, las representaciones posicionales rotatorias giran pares de coordenadas de consultas y claves con ángulos que dependen de la posición \citep{transformer,rope}.}
+
+\section{\B{Compute one row of attention}{Calcula una fila de atención}}
+
+\B{In a sentence about a bank, nearby words can give evidence for a riverbank or a financial institution. An attention head computes mixtures of information across positions. A \term{query} represents the current position's matching signal, a \term{key} represents a candidate position for matching, and a \term{value} carries information to mix. The layer learns linear projections \(W_Q,W_K,W_V\) that make those vectors from the same input matrix \(H\) in self-attention. Each row of \(H\) is one token's representation.}
+{En una oración en inglés con la palabra \emph{bank}, el contexto puede indicar si se trata de la orilla de un río o de una entidad financiera. Una cabeza de atención mezcla información entre posiciones. Una \term{consulta} representa la señal de búsqueda de la posición actual, una \term{clave} representa una posición candidata y un \term{valor} lleva la información que se mezcla. En la autoatención, la capa aprende proyecciones lineales \(W_Q,W_K,W_V\) que forman esos vectores a partir de la misma matriz de entrada \(H\). Cada fila de \(H\) representa un token.}
+\begin{align}
+ Q&=HW_Q,\quad K=HW_K,\quad V=HW_V,\notag\\
+ O&=\softmax\!\left(\frac{QK^\top}{\sqrt{d_k}}+M\right)V .
+ \label{eq:attention}
+\end{align}
+\B{Multiply \(H\) by each learned projection to form the query, key and value matrices. For each query, take the dot product with each key. That means multiplying corresponding components and adding the products. With \(d_k\) the number of components in each query and key, divide the scores by \(\sqrt{d_k}\) to control their typical scale, then add the mask \(M\). Softmax acts separately on each row, turning scores into weights that sum to one. Multiply those weights by the values to get an output row. A prohibited entry gets a mask value of negative infinity, which gives it weight zero. Each row here has at least one permitted entry \citep{transformer}.}
+{Multiplica \(H\) por cada proyección aprendida para formar las matrices de consultas, claves y valores. Para cada consulta, calcula el producto escalar con cada clave. Multiplica componentes correspondientes y suma los productos. Si \(d_k\) es el número de componentes de cada consulta y clave, divide las puntuaciones por \(\sqrt{d_k}\) para controlar su escala típica y añade la máscara \(M\). Softmax actúa en cada fila por separado y convierte las puntuaciones en pesos que suman uno. Multiplica esos pesos por los valores para obtener una fila de salida. Una entrada prohibida recibe infinito negativo en la máscara y queda con peso cero. Cada fila de este ejemplo tiene al menos una entrada permitida \citep{transformer}.}
+
+\begin{equation}
+ [\softmax(z)]_j =\frac{\exp(z_j)}{\sum_\ell \exp(z_\ell)}.
+ \label{eq:softmax}
+\end{equation}
+\B{Here \(z_j\) is the score in slot \(j\) of the row \(z\), and \(\ell\) visits every slot in the denominator. Exponentiate each score and divide by the sum of exponentials. Adding a constant to every score cancels from numerator and denominator, so software often subtracts the largest score before exponentiating. Identical unmasked scores get identical weights.}
+{Aquí \(z_j\) es la puntuación en la casilla \(j\) de la fila \(z\), y \(\ell\) recorre todas las casillas del denominador. Aplica la exponencial a cada puntuación y divide por la suma de exponenciales. Sumar la misma constante a todas las puntuaciones se cancela entre numerador y denominador. Por eso el software suele restar la mayor puntuación antes de aplicar la exponencial. Las puntuaciones iguales y permitidas reciben pesos iguales.}
+
+\lab{\B{Three source positions}{Tres posiciones de origen}}
+\B{Use \(d_k=1\), query \(q=1\), keys \(0,\ln 2,\ln 3\) and scalar values \(0,3,6\). The three dot products equal the keys. At position 3 all three keys are available under a causal mask. Softmax gives \(1/6,2/6,3/6\). The weighted value is \(0(1/6)+3(2/6)+6(3/6)=4\). At position 2, with the same query for this comparison, the third key is forbidden, so the weights are \(1/3,2/3,0\) and the result is 2. Figure~\ref{fig:mask} shows where the available keys come from.}
+{Usa \(d_k=1\), consulta \(q=1\), claves \(0,\ln 2,\ln 3\) y valores escalares \(0,3,6\). Los tres productos escalares son iguales a las claves. En la posición 3, las tres claves están disponibles con una máscara causal. Softmax da \(1/6,2/6,3/6\). El valor ponderado es \(0(1/6)+3(2/6)+6(3/6)=4\). En la posición 2, con la misma consulta para comparar, la tercera clave está prohibida. Los pesos son \(1/3,2/3,0\) y el resultado es 2. La figura~\ref{fig:mask} muestra de dónde salen las claves disponibles.}
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}
+\foreach \row in {1,2,3}{
+ \node[tag,anchor=east] at (-.52,-\row+.5) {\B{Query}{Consulta} \row};
+ \foreach \col in {1,2,3}{
+  \ifnum\col>\row\relax\def\fillcell{softgrey}\def\entry{\(\times\)}
+  \else\def\fillcell{softblue}\def\entry{\(\checkmark\)}\fi
+  \draw[draw=navy,fill=\fillcell] (\col-1,-\row) rectangle (\col,-\row+1);
+  \node at (\col-.5,-\row+.5) {\entry};
+ }
+}
+\foreach \col in {1,2,3}{\node[tag] at (\col-.5,.27) {\B{Key}{Clave} \col};}
+\node[tag,anchor=west] at (3.3,-1.1) {\(\checkmark\) \B{permitted}{permitida}};
+\node[tag,anchor=west] at (3.3,-1.8) {\(\times\) \B{masked}{oculta}};
+\end{tikzpicture}
+\caption{\B{A causal mask allows each query to use the current and earlier positions. Each crossed cell gets zero attention weight, even if the unmasked score would be large.}{Una máscara causal permite a cada consulta usar la posición actual y las anteriores. Cada celda tachada recibe peso cero, aunque la puntuación sin máscara fuese alta.}}
+\label{fig:mask}
+\end{figure}
+
+\B{Both the shop score and the attention example use weighted sums. The shop owner chooses fixed weights for a decision with a stated goal. Attention weights depend on the input and on the head's learned projections. A large attention weight alone gives limited evidence about why a whole model answered as it did. The other heads, value vectors and later layers can change the result.}
+{Tanto la puntuación del local como el ejemplo de atención usan sumas ponderadas. El dueño del negocio elige pesos fijos para una decisión con un objetivo declarado. Los pesos de atención dependen de la entrada y de las proyecciones aprendidas de la cabeza. Un peso de atención alto por sí solo ofrece poca evidencia sobre por qué el modelo completo respondió de cierta manera. Otras cabezas, valores y capas posteriores pueden cambiar el resultado.}
+
+\section{\B{Build a block and read its output}{Construye un bloque y lee su salida}}
+
+\B{Several heads can use different learned projections. A block concatenates the head outputs and mixes them with an output projection. A feed-forward network then transforms each token's vector separately, usually expanding to a larger intermediate width before mapping back. A residual connection adds a sublayer's change to its input. Normalisation helps keep the scale of activations manageable. One pre-normalisation block uses}
+{Varias cabezas pueden usar proyecciones aprendidas distintas. Un bloque concatena sus salidas y las mezcla con una proyección de salida. Luego una red de propagación hacia delante transforma por separado el vector de cada token, normalmente ampliándolo a un ancho intermedio antes de volver al ancho inicial. Una conexión residual suma a la entrada el cambio de una subcapa. La normalización ayuda a mantener una escala manejable de activaciones. Un bloque con normalización previa usa}
+\begin{align}
+ U &= H+\mathrm{Attn}(\mathrm{Norm}(H)),\notag\\
+ H_{\mathrm{next}} &= U+\mathrm{FFN}(\mathrm{Norm}(U)).
+ \label{eq:block}
+\end{align}
+\B{Normalise the input \(H\), apply attention and add its change to \(H\) to obtain \(U\). Then normalise \(U\), apply the position-wise feed-forward network \(\mathrm{FFN}\) and add that change to \(U\). These additions require matched shapes. If either sublayer returns all zeros, its residual addition passes the preceding representation through. The original Transformer used a different placement of normalisation. Keep the convention explicit when reading code or diagrams \citep{transformer,xiao}.}
+{Normaliza la entrada \(H\), aplica atención y suma su cambio a \(H\) para obtener \(U\). Después normaliza \(U\), aplica la red \(\mathrm{FFN}\) por posición y suma ese cambio a \(U\). Las sumas requieren dimensiones compatibles. Si una subcapa devuelve solo ceros, su suma residual conserva la representación precedente. El Transformer original colocaba la normalización en otro punto. Identifica la convención al leer código o diagramas \citep{transformer,xiao}.}
+
+\begin{figure}[htbp]\centering
+\begin{tikzpicture}[node distance=7mm]
+\node[nodebox] (a) {\(H\)\\\B{Input rows}{Filas de entrada}};
+\node[nodebox,fill=softgreen,right=of a] (b) {\B{Norm, attention}{Normalización, atención}};
+\node[nodebox,fill=softgold,right=of b] (c) {\B{Norm, feed-forward}{Normalización, red densa}};
+\node[nodebox,fill=softgrey,right=of c] (d) {\(H_{\mathrm{next}}\)\\\B{Output rows}{Filas de salida}};
+\draw[mainarr] (a)--(b);\draw[mainarr] (b)--node[above,tag]{\(U\)}(c);\draw[mainarr] (c)--(d);
+\draw[mainarr] (a.south) -- ++(0,-.53) -| node[near start,below,tag]{\B{add \(H\)}{suma \(H\)}} (b.south);
+\draw[mainarr] ($(b.east)!.50!(c.west)$) -- ++(0,-.96) -| node[near start,below,tag]{\B{add \(U\)}{suma \(U\)}} (c.south);
+\end{tikzpicture}
+\caption{\B{The lower arrows indicate residual additions at the outputs of the two sublayers. Only attention mixes information across positions in this block.}{Las flechas inferiores indican sumas residuales a la salida de las dos subcapas. Solo la atención mezcla información entre posiciones en este bloque.}}
+\label{fig:block}
+\end{figure}
+
+\B{After the final block, an output projection gives one logit per vocabulary entry for the position used to predict the next token. Equation~\eqref{eq:softmax} makes a distribution from the logits. During training, the recorded next token supplies the target. During generation, a decoding rule picks a token from the distribution and feeds its ID into the sequence for the next step.}
+{Después del último bloque, una proyección de salida da un logit por entrada del vocabulario en la posición que predice el siguiente token. La ecuación~\eqref{eq:softmax} convierte los logits en una distribución. Durante el entrenamiento, el siguiente token registrado aporta el objetivo. Durante la generación, una regla de decodificación elige un token de la distribución e incorpora su identificador a la secuencia para el próximo paso.}
+
+\checklist{
+\item \B{Explain why changing a tokenizer can change context length.}{Explicar por qué cambiar un tokenizador puede cambiar la longitud del contexto.}
+\item \B{Follow a query through scores, masking, weights and a value sum.}{Seguir una consulta por puntuaciones, máscara, pesos y suma de valores.}
+\item \B{Identify the two residual additions in a pre-normalisation block.}{Identificar las dos sumas residuales de un bloque con normalización previa.}}
+\exercises{
+\item \B{Use the two invented tokenizers on the single Spanish row. Calculate fertility for each and give a reason the result might change with another input.}{Usa los dos tokenizadores inventados en la fila de español. Calcula la fertilidad de cada uno y da una razón por la que podría cambiar con otra entrada.}
+\item \B{Compute the masked weights and weighted value at position 1 of the worked attention example.}{Calcula los pesos enmascarados y el valor ponderado en la posición 1 del ejemplo de atención.}
+\item \B{Set every allowed logit in row 3 to zero. With values \(0,3,6\), find the output. Explain what happens if every value instead equals 7.}{Fija en cero todos los logits permitidos de la fila 3. Con valores \(0,3,6\), halla la salida. Explica qué pasa si todos los valores son 7.}
+\item \B{Explain where in Figure~\ref{fig:block} two token positions can influence each other. Give one operation that acts on each position separately.}{Explica en qué punto de la figura~\ref{fig:block} dos posiciones se pueden influir. Da una operación que actúe por separado en cada posición.}}
