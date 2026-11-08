@@ -1,13 +1,21 @@
 \chapter{\B{Inference under local constraints}{Inferencia con restricciones locales}}
 \label{ch:inference}
 
-\B{A cooperative on Carriacou asks for a short packing summary that staff can read on a phone. The connection may drop after the first lines arrive. A good interface puts the task ID and source date near the beginning, keeps the official record available in a lightweight format and tells staff when an old copy is all it has. These choices depend on how the system processes a prompt and sends an answer.}
-{Una cooperativa de Carriacou pide un resumen de empaque que el personal pueda leer en un teléfono. La conexión puede caer después de las primeras líneas. Una buena interfaz pone el identificador de tarea y la fecha de la fuente al principio, mantiene el registro oficial disponible en un formato ligero y avisa si solo tiene una copia antigua. Estas decisiones dependen de cómo el sistema procesa una entrada y envía una respuesta.}
+\B{You run the packing desk at a cooperative on Carriacou. A driver is waiting for the list of crates on a phone. The connection drops and only the first line of the assistant's message comes through. That line says hello. The driver still needs the order number and the date.
+
+You decide what the phone shows first and when staff switch to an approved paper list. The person who packed the crates signs the count. Try two versions. One gives the order number and date first. The other opens with a greeting. Judge each one by what the driver sees before the connection drops.}
+{Estás a cargo de la mesa de empaque de una cooperativa de Carriacou. Un conductor espera la lista de cajas en el teléfono. Se cae la conexión y solo llega la primera línea del mensaje del asistente. Esa línea es un saludo. Al conductor todavía le faltan el número de pedido y la fecha.
+
+Tú decides qué muestra primero el teléfono y cuándo el personal pasa a la lista en papel aprobada. Quien empacó las cajas firma el conteo. Prueba dos versiones. Una da primero el número de pedido y la fecha. La otra empieza con un saludo. Juzga cada una por lo que ve el conductor antes de que se caiga la conexión.}
 
 \section{\B{Separate prefill from decoding}{Separa el procesamiento inicial de la decodificación}}
 
-\B{Inference applies a trained model to a new input. In a decoder-only model, \term{prefill} processes the prompt positions together under a causal mask. It creates keys and values for those positions and computes logits for the first generated token. After choosing that token, the \term{decode} phase processes new tokens as they become available. Caching keys and values saves recomputing the previous positions' projections. Each new query still compares with allowed cached keys \citep{xiao,paged}.}
-{La inferencia aplica un modelo entrenado a una entrada nueva. En un modelo de solo decodificador, el \term{procesamiento inicial} procesa juntas las posiciones de la entrada con una máscara causal. Crea claves y valores para esas posiciones y calcula logits para el primer token generado. Tras elegirlo, la fase de \term{decodificación} procesa tokens nuevos conforme aparecen. Guardar claves y valores evita recalcular las proyecciones de posiciones anteriores. Cada consulta nueva todavía se compara con las claves guardadas que estén permitidas \citep{xiao,paged}.}
+\B{When you ask a trained model to answer a new request, you are using it for \term{inference}. First the model reads the prompt. This step is called \term{prefill}. It gets the scores it needs to pick the first piece of the reply. The next step is \term{decoding}. The model picks a piece, adds it to what it has written and uses that text to pick the next one.
+
+The model can save some of its work as it goes. It keeps the keys and values from Chapter~\ref{ch:tokens} in a store called a \term{cache}. A new piece can still look back at the old keys. Keeping them saves the work of making the old lists all over again \citep{xiao,paged}.}
+{Cuando le pides a un modelo entrenado que conteste una solicitud nueva, lo usas para la \term{inferencia}. Primero lee la instrucción. Es el \term{procesamiento inicial}, o \emph{prefill}. Obtiene las puntuaciones que necesita para elegir la primera pieza de la respuesta. El siguiente paso es la \term{decodificación}. El modelo elige una pieza, la añade a lo que escribió y usa ese texto para elegir otra.
+
+El modelo puede guardar parte de su trabajo mientras escribe. Conserva las claves y los valores del capítulo~\ref{ch:tokens} en un espacio llamado \term{caché}. Una pieza nueva aún puede mirar las claves anteriores. Guardarlas ahorra el trabajo de volver a hacer esas listas \citep{xiao,paged}.}
 
 \begin{figure}[htbp]\centering
 \begin{tikzpicture}[x=1cm,y=1cm]
@@ -25,22 +33,32 @@
 \label{fig:ttft}
 \end{figure}
 
-\B{For an approximate user wait, let \(t_{\mathrm{first}}\) be the measured time to first token, \(m\) the output length and \(r\) the average subsequent rate in tokens per second. Assume \(m\ge1\) and \(r>0\).}
-{Para una espera aproximada, sea \(t_{\mathrm{first}}\) el tiempo medido hasta el primer token, \(m\) la longitud de salida y \(r\) la tasa posterior promedio en tokens por segundo. Supón \(m\ge1\) y \(r>0\).}
+\B{Start a timer when the driver asks for the list. Keep it running. Record when the first token arrives and again when the complete list arrives. To estimate the wait, add the time to the first token and the time for all the tokens that follow.
+
+Let \(t_{\mathrm{first}}\) be the time to the first token. \(m\) is the total number of tokens in the reply and \(r\) is the rate for the later pieces in tokens per second. This estimate uses \(m\ge1\) and \(r>0\).}
+{Pon un cronómetro cuando el conductor pida la lista. Déjalo correr. Anota cuándo llega el primer token y cuándo llega la lista completa. Para calcular la espera, suma el tiempo hasta el primer token y el tiempo de los que llegan después.
+
+Sea \(t_{\mathrm{first}}\) el tiempo hasta el primer token. \(m\) es el total de tokens de la respuesta y \(r\) la velocidad de las piezas siguientes en tokens por segundo. Esta estimación usa \(m\ge1\) y \(r>0\).}
 \begin{equation}
  t_{\mathrm{total}}\approx t_{\mathrm{first}}+\frac{m-1}{r}.
  \label{eq:latency}
 \end{equation}
-\B{The first token is already included in the first wait. Divide the remaining \(m-1\) tokens by tokens per second to get seconds. At \(1.2\) seconds to first token and \(20\) tokens per second for the remaining \(79\) tokens of an 80-token answer, the estimate is \(5.15\) seconds. One-token output has no additional decode delay in this model. Measure from the user's device to include queue and network time.}
-{El primer token ya está incluido en la espera inicial. Divide los \(m-1\) tokens restantes por la tasa de tokens por segundo para obtener segundos. Con \(1.2\) segundos hasta el primer token y \(20\) tokens por segundo para los \(79\) restantes de una respuesta de 80, la estimación es \(5.15\) segundos. Una salida de un token carece de demora adicional de decodificación en este modelo. Mide desde el dispositivo del usuario para incluir cola y red.}
+\B{The first token is already included in the first wait. Divide the remaining \(m-1\) tokens by tokens per second to get seconds. At \(1.2\) seconds to first token and \(20\) tokens per second for the remaining \(79\) tokens of an 80-token answer, the estimate is \(1.2+79/20=5.15\) seconds. One-token output has no additional decode delay in this model. Measure from the user's device to include queue and network time.}
+{El primer token ya está incluido en la espera inicial. Divide los \(m-1\) tokens restantes por la tasa de tokens por segundo para obtener segundos. Con \(1.2\) segundos hasta el primer token y \(20\) tokens por segundo para los \(79\) restantes de una respuesta de 80, la estimación es \(1.2+79/20=5.15\) segundos. Una salida de un token carece de demora adicional de decodificación en este modelo. Mide desde el dispositivo del usuario para incluir cola y red.}
 
 \section{\B{Choose how to pick a token}{Elige cómo seleccionar un token}}
 
 \B{Greedy decoding chooses the token with highest current probability, with a tie rule if needed. It can miss the most probable complete sequence. In a toy tree, the first branches have probabilities \(0.60\) and \(0.40\). The best completion under the first has conditional probability \(0.50\), and the best completion under the second has \(0.90\). The best paths through the two branches have probabilities \(0.30\) and \(0.36\). Greedy goes down the first. Beam search keeps several partial sequences and uses their scores to decide which to extend. A finite beam can still prune the eventual best answer, and length penalties change the criterion \citep{xiao}.}
 {La decodificación voraz elige el token de mayor probabilidad actual, con una regla de desempate si hace falta. Puede perder la secuencia completa más probable. En un árbol didáctico, las primeras ramas tienen probabilidades \(0.60\) y \(0.40\). La mejor continuación de la primera tiene probabilidad condicional \(0.50\), y la de la segunda \(0.90\). Las mejores rutas por cada rama tienen probabilidades \(0.30\) y \(0.36\). La decodificación voraz toma la primera. La búsqueda por haz conserva varias secuencias parciales y usa sus puntuaciones para decidir cuáles extender. Un haz finito todavía puede podar la mejor respuesta y las penalizaciones por longitud cambian el criterio \citep{xiao}.}
 
-\B{Sampling draws a token from a distribution. A temperature parameter \(\tau>0\) rescales logits \(z_i\) before softmax.}
-{El muestreo elige un token de una distribución. Un parámetro de temperatura \(\tau>0\) cambia la escala de los logits \(z_i\) antes de softmax.}
+\B{You can let the model draw a piece by chance. Think of a bag of slips where some pieces have more slips than others. The odds come from the model's scores. The \term{temperature} \(\tau\) changes how strongly it favours the pieces with the highest scores.
+
+\moremath
+Divide each score \(z_i\) by the same positive \(\tau\) before you use softmax. The formula gives the new chance of piece \(i\).}
+{Puedes dejar que el modelo saque una pieza al azar. Piensa en una bolsa en la que unas piezas tienen más papelitos que otras. Las probabilidades salen de las puntuaciones del modelo. La \term{temperatura} \(\tau\) cambia cuánto favorece a las piezas con las puntuaciones más altas.
+
+\moremath
+Divide cada puntuación \(z_i\) entre la misma \(\tau\) positiva antes de usar softmax. La fórmula da la probabilidad nueva de la pieza \(i\).}
 \begin{equation}
  p_i(\tau)=\frac{\exp(z_i/\tau)}{\sum_j\exp(z_j/\tau)} .
  \label{eq:temperature}
@@ -48,8 +66,8 @@
 \B{Divide each logit by the same temperature and convert the result to probabilities. At \(\tau=1\), the distribution stays at its original scale. Lowering \(\tau\) gives the larger logits more relative weight. With two logits \(0,\ln 3\), the probabilities are \(1/4,3/4\) at \(\tau=1\) and \(1/10,9/10\) at \(\tau=0.5\). As temperature grows without bound, the probabilities for a finite set of finite logits approach a uniform distribution. Some interfaces label greedy mode as temperature zero. Equation~\eqref{eq:temperature} itself requires positive temperature.}
 {Divide cada logit por la misma temperatura y convierte el resultado en probabilidades. Con \(\tau=1\), la distribución conserva su escala original. Reducir \(\tau\) da mayor peso relativo a los logits grandes. Con dos logits \(0,\ln 3\), las probabilidades son \(1/4,3/4\) para \(\tau=1\) y \(1/10,9/10\) para \(\tau=0.5\). Si la temperatura crece sin límite, las probabilidades de un conjunto finito de logits finitos se acercan a una distribución uniforme. Algunas interfaces llaman temperatura cero al modo voraz. La ecuación~\eqref{eq:temperature} requiere temperatura positiva.}
 
-\B{Top-\(k\) sampling keeps the \(k\) highest-probability tokens and renormalises. Top-\(p\), also called nucleus sampling, sorts tokens by probability and keeps the smallest prefix whose cumulative mass reaches a threshold \(p\). Decide the order of filtering operations and tie rules when reproducing a result \citep{nucleus}.}
-{El muestreo top-\(k\) conserva los \(k\) tokens más probables y vuelve a normalizar. Top-\(p\), también llamado muestreo de núcleo, ordena los tokens por probabilidad y conserva el prefijo más corto cuya masa acumulada alcanza el umbral \(p\). Define el orden de filtros y los desempates al reproducir un resultado \citep{nucleus}.}
+\B{You can also narrow the list before you draw. Top-\(k\) keeps a fixed number \(k\) of the most likely pieces. Top-\(p\) starts at the top of the list and keeps adding pieces until their chances add up to at least \(p\), the share you chose. Divide each chance you kept by the sum of those chances. The new shares then add to one. Write down how you break ties and which rule you apply first \citep{nucleus}.}
+{También puedes acortar la lista antes de sacar una pieza. Top-\(k\) guarda una cantidad fija \(k\) de las piezas más probables. Top-\(p\) empieza por arriba y añade piezas hasta que sus probabilidades sumen al menos \(p\), la parte que elegiste. Divide cada probabilidad que guardaste entre la suma de esas probabilidades. Así las partes nuevas suman uno. Anota cómo resuelves los empates y qué regla aplicas primero \citep{nucleus}.}
 
 \lab{\B{A small nucleus}{Un núcleo pequeño}}
 \B{Use four sorted probabilities \(0.50,0.25,0.15,0.10\). A threshold of \(0.70\) retains the first two, since the first alone falls short and together they total \(0.75\). The retained probabilities are \(0.50/0.75=2/3\) and \(0.25/0.75=1/3\). A threshold of \(0.50\) keeps only the first token under the reach-or-exceed rule. A distribution choice changes the variety of generated answers. Accuracy still depends on evidence and verification.}
@@ -60,8 +78,14 @@
 \B{Model weights consume memory before a prompt arrives. A model with seven billion weights at two bytes each uses 14 billion bytes for the weights, about 13.0 GiB. Four-bit storage has an ideal weight payload of 3.5 billion bytes. Scales, metadata, temporary buffers and parts kept at higher precision add to it. Quantisation changes which numbers can be represented. Evaluate the actual model on your tasks after quantising.}
 {Los pesos consumen memoria antes de que llegue la entrada. Un modelo con siete mil millones de pesos de dos bytes usa 14 mil millones de bytes solo para los pesos, unos 13.0 GiB. El almacenamiento de cuatro bits tiene una carga ideal de 3.5 mil millones de bytes. Escalas, metadatos, búferes y partes de mayor precisión se añaden a la cifra. La cuantización cambia qué números se pueden representar. Evalúa el modelo en tus tareas después de cuantizarlo.}
 
-\B{The key--value (KV) cache grows with tokens stored per active sequence. For a single sequence and fixed dimensions across layers, an idealised cache payload is}
-{La caché de claves y valores (KV) crece con los tokens guardados por secuencia activa. Para una sola secuencia y dimensiones fijas entre capas, una carga idealizada es}
+\B{Each piece the model keeps needs space for a key and a value. A longer message or reply can take more space in that \term{key--value cache}, or KV cache. A store with several requests open at once also needs room for each request's notes.
+
+\moremath
+The formula counts the bytes for one sequence when all its layers use the same sizes.}
+{Cada pieza que el modelo guarda necesita espacio para una clave y un valor. Un mensaje o una respuesta más largos pueden ocupar más espacio en esa \term{caché de claves y valores}, o caché KV. Si hay varias solicitudes abiertas a la vez, también hace falta espacio para las notas de cada una.
+
+\moremath
+La fórmula cuenta los bytes de una secuencia cuando todas sus capas usan los mismos tamaños.}
 \begin{equation}
  B_{\mathrm{KV}}=2Lnh_{\mathrm{kv}}d_hb .
  \label{eq:kv}
@@ -82,19 +106,32 @@
 \label{fig:kvmemory}
 \end{figure}
 
-\B{Grouped-query attention shares key and value heads across several query heads, which reduces the payload for a given query head count. Some servers reuse a cached prefix across identical authorised prompts. A cache key needs to distinguish model, tokenizer, prefix and permission boundary. Batching can process more requests per second while adding queue time. Paged allocation can reduce waste from variable sequence lengths. Record active requests, input lengths and output lengths with your latency results \citep{paged,gqa}.}
-{La atención de consultas agrupadas comparte cabezas de claves y valores entre varias cabezas de consulta, lo que reduce la carga para una cantidad dada de cabezas de consulta. Algunos servidores reutilizan un prefijo guardado entre entradas autorizadas idénticas. Una clave de caché debe distinguir modelo, tokenizador, prefijo y límite de permisos. Los lotes pueden procesar más peticiones por segundo y añadir espera en cola. La asignación por páginas puede reducir desperdicio con longitudes variables. Registra peticiones activas y longitudes de entrada y salida junto a los tiempos \citep{paged,gqa}.}
+\B{Several queries can share the same set of keys and values. This is called \term{grouped-query attention}, and it can save space. A server can also keep the notes for the same first part of a prompt. Share those notes only if the model, tokenizer, text and access rules match.
 
-\B{Speculative decoding proposes several tokens with a cheaper process and checks them with the target model. Under the method's acceptance and correction rules, sampling can preserve the target distribution. Copying a draft without that check changes the procedure and may change the distribution. Measure speedups at the intended batch size, since checks and rejected drafts also consume work \citep{specdec}.}
-{La decodificación especulativa propone varios tokens con un proceso de menor costo y los comprueba con el modelo objetivo. Con las reglas de aceptación y corrección del método, el muestreo puede conservar la distribución objetivo. Copiar un borrador sin esa comprobación cambia el procedimiento y puede alterar la distribución. Mide las mejoras con el tamaño de lote previsto, porque las comprobaciones y los borradores rechazados también consumen trabajo \citep{specdec}.}
+Serving several requests at once can finish more work in a minute. It may make one driver wait longer for the first line. Systems can split memory into small blocks so messages of different lengths leave less space empty. Write down how many requests were active and how long their messages were when you timed the tool \citep{paged,gqa}.}
+{Varias consultas pueden compartir las mismas claves y valores. Es la \term{atención de consultas agrupadas} y puede ahorrar espacio. Un servidor también puede guardar las notas de la misma parte inicial de una instrucción. Comparte esas notas solo si coinciden el modelo, el tokenizador, el texto y las reglas de acceso.
+
+Atender varias solicitudes a la vez puede terminar más trabajo en un minuto. También puede hacer que un conductor espere más por la primera línea. Algunos sistemas dividen la memoria en bloques pequeños para que los mensajes de distinto largo dejen menos espacio vacío. Anota cuántas solicitudes estaban abiertas y cuánto medían sus mensajes cuando tomaste el tiempo \citep{paged,gqa}.}
+
+\B{A faster model can guess the next few pieces as a draft. The main model checks the draft and decides which pieces to keep. This method is called \term{speculative decoding}. With the full check and correction rule, it can keep the same chances as the main model. A draft that gets rejected still takes work. Measure time with the number of requests you expect to serve \citep{specdec}.}
+{Un modelo más rápido puede proponer las próximas piezas como borrador. El modelo principal lo revisa y decide cuáles guardar. El método se llama \term{decodificación especulativa}. Con la regla completa de revisión y corrección, puede conservar las mismas probabilidades del modelo principal. Un borrador rechazado igual cuesta trabajo. Mide el tiempo con la cantidad de solicitudes que esperas atender \citep{specdec}.}
 
 \section{\B{Measure the service where people use it}{Mide el servicio donde se utiliza}}
 
-\B{A team in the Turks and Caicos Islands tests a public information assistant under a fast connection and a constrained one. Record time to first token, completion time, failure to complete and reply size. Throughput measures total completed work per unit time across requests. Latency measures a request's wait. A service can improve throughput and worsen the wait for a person in the queue. Report median and high-percentile delays, sample counts, prompt lengths and test conditions. Report the percentile for completed responses alongside the completion and timeout rates.}
-{Un equipo en las Islas Turcas y Caicos prueba un asistente de información pública con una conexión rápida y otra limitada. Registra tiempo hasta el primer token, tiempo total, respuestas inconclusas y tamaño. El rendimiento mide trabajo total completado por unidad de tiempo entre solicitudes. La latencia mide la espera de una petición. Un servicio puede mejorar el rendimiento y empeorar la espera de quien está en cola. Informa la mediana y percentiles altos, cantidades de muestras, longitudes y condiciones. Informa el percentil de respuestas completadas junto con las tasas de finalización y espera agotada.}
+\B{Test on a phone with a good connection, then try a weaker one. A public desk in the Turks and Caicos Islands could use the same test. Write down when the first piece arrived, when the reply ended, how much text arrived and which replies stopped early. The wait for one person is \term{latency}. The amount of work done per minute across everyone is \term{throughput}.
+
+Put the times for finished replies in order. Report the middle time, or \term{median}, and a time near the slow end. A \term{percentile} tells you what share of those replies finished by a certain time. Say how many times you tested, which requests did not finish and how long the messages were.}
+{Prueba en un teléfono con buena conexión y luego con una señal más débil. Una oficina pública de las Islas Turcas y Caicos podría hacer la misma prueba. Anota cuándo llegó la primera pieza, cuándo terminó la respuesta, cuánto texto llegó y qué respuestas se cortaron. La espera de una persona es la \term{latencia}. El trabajo total por minuto entre todas las personas es el \term{rendimiento}.
+
+Ordena los tiempos de las respuestas que terminaron. Indica el tiempo del medio, o \term{mediana}, y un tiempo cerca del extremo lento. Un \term{percentil} indica qué parte de esas respuestas terminó antes de cierto tiempo o justo en él. Di cuántas veces hiciste la prueba, qué solicitudes quedaron sin terminar y cuánto medían los mensajes.}
 
 \B{For a clinic appointment directory or an island office with a weak connection, a compact list of dated records may work during outages. Store only approved information for offline access. Show when it was last updated and which questions need a live check. Provide an equivalent route by phone, desk or printed sheet when the task calls for it. A generative answer can follow after the person receives the record they need.}
 {Para un directorio de citas o una oficina insular con mala conexión, una lista compacta de registros fechados puede servir durante fallas. Guarda solo información aprobada para acceso sin conexión. Muestra la fecha de actualización y qué preguntas requieren una consulta actual. Cuando la tarea lo requiera, ofrece una vía equivalente por teléfono, ventanilla o papel. Una respuesta generativa puede llegar después de que la persona reciba el registro que necesita.}
+
+\lesson{\B{Set the rule for a weak signal}
+{Fija la regla para una señal débil}}
+\B{Put the order number and date on the first line. Time how long it takes to see both, even if some text arrives sooner. In the worked example, the full reply would take about 5.15 seconds. If the driver can wait only 4 seconds, or the list is cut off or out of date, use the current signed paper list for that order. If you cannot find it, hold the load and ask the packer to confirm the count.}
+{Pon el número de pedido y la fecha en la primera línea. Mide cuánto tardan en verse los dos datos, aunque llegue texto antes. En el ejemplo resuelto, la respuesta completa tardaría unos 5.15 segundos. Si el conductor solo puede esperar 4 segundos, o si la lista llega cortada o está vieja, usa la lista de papel vigente y firmada de ese pedido. Si no aparece, detén la carga y pide a quien empacó que confirme el conteo.}
 
 \checklist{
 \item \B{Distinguish prefill, decode, cache and observed user latency.}{Distinguir procesamiento inicial, decodificación, caché y latencia observada.}

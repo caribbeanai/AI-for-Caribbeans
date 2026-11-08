@@ -1,14 +1,22 @@
 \chapter{\B{Data and pre-training}{Datos y preentrenamiento}}
 \label{ch:data}
 
-\B{Three prospective tenants stand in different parts of Kingston, counting people during the same lunch period. A landlord quotes monthly rent. A rider measures the route from a delivery hub. You have three columns in a spreadsheet, and someone asks a language model to pick the best location for a patty shop. Before asking for an answer, settle what \emph{best} means. You might favour the shop that can afford a slow month, the one that can reach more people on foot or the one a rider can get to first.}
-{Tres posibles arrendatarios cuentan personas durante el mismo horario de almuerzo en distintas zonas de Kingston. Un propietario indica el alquiler mensual. Un repartidor mide la ruta desde un centro de distribución. Tienes tres columnas en una hoja de cálculo y alguien le pide a un modelo de lenguaje que elija el mejor local para vender patties. Antes de pedir una respuesta, decide qué significa \emph{mejor}. Puedes favorecer al local que resista un mes de pocas ventas, al que pueda atraer a más clientes a pie o al primero al que pueda llegar el repartidor.}
+\B{You own a Jamaican patty franchise. Your first shop is doing well, and you have enough money to open one more. On Friday you visit three empty shops. Half-Way Tree has the biggest lunch crowd. Papine is in the middle for rent and distance. Cross Roads has the lowest rent, but your rider has the farthest trip from the place where deliveries start.
+
+Your staff count people who walk past at lunchtime. A rider checks the distance, and you ask each landlord for the monthly rent. You decide what matters most and whether to sign a lease, the contract for renting a shop. You can send your team back for more counts. Before you look at the numbers, pick the shop you would visit again and name one fact that could change your mind.}
+{Eres dueño de una franquicia de patties en Jamaica. Tu primer local va bien y tienes dinero para abrir uno más. El viernes visitas tres locales vacíos. En Half-Way Tree pasa más gente a la hora del almuerzo. Papine queda en un punto medio de alquiler y distancia. Cross Roads tiene el alquiler más bajo, pero el repartidor tendría que recorrer más desde el punto de salida.
+
+Tu equipo cuenta a quienes pasan a pie al mediodía. Un repartidor comprueba la distancia y tú le preguntas a cada propietario por el alquiler mensual. Tú decides qué pesa más y si firmas el contrato. También puedes pedir otro conteo. Antes de mirar las cifras, elige el local que volverías a visitar y di qué dato podría hacerte cambiar de opinión.}
 
 \section{\B{Choose a patty site from a table}{Escoge un local a partir de una tabla}}
 \label{sec:patty}
 
-\B{Table~\ref{tab:patty} names areas to make the exercise easy to picture. The candidate sites, counts and rents are fictional. The lunch count is a proxy for demand, meaning an observable quantity that might move with the quantity you care about. People walking past have yet to buy anything. A field study could count at comparable times, separate weekdays from weekends and check how many people buy at a trial counter.}
-{El cuadro~\ref{tab:patty} nombra zonas para que puedas imaginar el ejercicio. Los locales, conteos y alquileres son ficticios. El conteo al mediodía es un indicador indirecto de la demanda, es decir, una cantidad observable que podría variar junto con la que te interesa. Las personas que pasan todavía no han comprado nada. Un estudio de campo podría contar en horarios comparables, separar los días laborables de los fines de semana y comprobar cuántas personas compran en un puesto de prueba.}
+\B{Your team's notes are in Table~\ref{tab:patty}. Each row is one shop. The last column is how far the rider has to go from the delivery hub, where the trips start. The shops and figures are made up for this story.
+
+\emph{Demand} means how many patties people would buy. You can count people who walk past before you open. That gives a clue about sales. A clue that stands in for a number you cannot yet measure is called a \term{proxy}. You can test the clue by setting up a trial counter and comparing walkers with buyers. Count on different days at the same time of day.}
+{Las notas de tu equipo están en el cuadro~\ref{tab:patty}. Cada fila es un local. La última columna dice cuánto recorre el repartidor desde el punto de salida. Los locales y las cifras se inventaron para esta historia.
+
+La \emph{demanda} es la cantidad de patties que la gente compraría. Antes de abrir, puedes contar a quienes pasan. Eso te da una pista sobre las ventas. Una pista que usas en lugar de una cifra que aún no puedes medir se llama \term{indicador indirecto}. Puedes probarla con un puesto temporal y comparar cuánta gente pasa y cuánta compra. Cuenta en días distintos a la misma hora.}
 
 \begin{table}[htbp]
 \centering\small
@@ -25,30 +33,44 @@ K3 & Cross Roads & 65 & 100,000 & 4\\
 \label{tab:patty}
 \end{table}
 
-\B{Let \(N_i\) be the lunch count for site \(i\), \(r_i\) its monthly rent in Jamaican dollars and \(d_i\) the distance in kilometres. Express the three quantities as scores from 0 to 100. Write \(\mathrm{clip}(a)\) for limiting \(a\) to that interval.}
-{Sea \(N_i\) el conteo al mediodía del local \(i\), \(r_i\) su alquiler mensual en dólares jamaiquinos y \(d_i\) la distancia en kilómetros. Expresa las tres cantidades en una escala de 0 a 100. Escribimos \(\mathrm{clip}(a)\) para limitar \(a\) a ese intervalo.}
+\B{The table has people, dollars and kilometres. Put them on the same points scale before you add them. Give a higher score for more people, cheaper rent or a shorter trip.}
+{El cuadro mezcla personas, dólares y kilómetros. Pasa las tres medidas a la misma escala de puntos antes de sumarlas. Da más puntos si pasa más gente, el alquiler es más barato o el viaje es más corto.}
+\B{For demand \(D_i\), give one point per person counted. For rent \(R_i\), start at 100 points at JMD 80,000. Take away one point for each JMD 2,000 above that price. For delivery \(A_i\), take away ten points for each kilometre.
+
+At Papine, rent is JMD 80,000 above your starting price. So the rent score is \(100-40=60\). At 3 km from the hub, the delivery score is \(100-30=70\). A rent below your starting price still gets 100 points. You can change these rules before you compare the shops.}
+{Para demanda \(D_i\), da un punto por persona contada. Para alquiler \(R_i\), parte de 100 puntos con JMD 80\,000. Quita un punto por cada JMD 2\,000 por encima de ese precio. Para reparto \(A_i\), quita diez puntos por cada kilómetro.
+
+En Papine, el alquiler supera en JMD 80\,000 tu precio de partida. Su puntuación de alquiler es \(100-40=60\). A 3 km del punto de salida, la puntuación de reparto es \(100-30=70\). Un alquiler por debajo del precio de partida sigue recibiendo 100 puntos. Tú puedes cambiar estas reglas antes de comparar los locales.}
+
+\B{The letters in the formula refer to one row at a time. \(N_i\) is the lunch count, \(r_i\) is the rent in Jamaican dollars and \(d_i\) is the distance in kilometres. The word \(\mathrm{clip}\) means to use 0 if the result goes below 0 and 100 if it goes above 100.}
+{Las letras de la fórmula se refieren a una fila a la vez. \(N_i\) es el conteo del mediodía, \(r_i\) es el alquiler en dólares jamaicanos y \(d_i\) es la distancia en kilómetros. La palabra \(\mathrm{clip}\) indica que debes usar 0 si el resultado queda por debajo de 0, y 100 si supera 100.}
 \begin{align}
  D_i&=\mathrm{clip}(N_i), & A_i&=\mathrm{clip}(100-10d_i),\notag\\
  R_i&=\mathrm{clip}\!\left(100-\frac{r_i-80{,}000}{2{,}000}\right).
  \label{eq:patty-scores}
 \end{align}
-\B{Demand \(D_i\) takes one point per person counted. Rent affordability \(R_i\) starts at 100 at JMD 80,000 and loses one point for every JMD 2,000 above that. Delivery access \(A_i\) loses ten points per kilometre from the hub. At Papine, rent is JMD 80,000 above the baseline, so affordability is \(100-40=60\). A distance of 3 km gives access \(100-30=70\). A rent below the baseline still scores 100. The shop owner can revise these rules.}
-{La demanda \(D_i\) asigna un punto por persona contada. La asequibilidad del alquiler \(R_i\) empieza en 100 con JMD 80\,000 y pierde un punto por cada JMD 2\,000 adicionales. El acceso para el reparto \(A_i\) pierde diez puntos por kilómetro desde el centro. En Papine, el alquiler supera la referencia por JMD 80\,000, así que la puntuación es \(100-40=60\). Una distancia de 3 km da \(100-30=70\) puntos de acceso. Un alquiler inferior a la referencia conserva 100 puntos. El dueño del negocio puede revisar estas reglas.}
+
+\Needspace{6\baselineskip}
+\B{Now decide how much each score counts. A \term{weight} gives one score a share of the total. Think of splitting a whole pie. A share of 0.55 means 55\% of the pie. In the formula, \(w_D\) is the share for demand, \(w_R\) the share for rent and \(w_A\) the share for delivery. The three shares must add up to one whole pie.}
+{Ahora decide cuánto cuenta cada puntuación. Un \term{peso} le da a cada puntuación una parte del total. Piensa en repartir una tarta. Una parte de 0.55 equivale al 55\% de la tarta. En la fórmula, \(w_D\) es la parte de demanda, \(w_R\) la de alquiler y \(w_A\) la de reparto. Las tres deben sumar una tarta entera.}
 
 \begin{equation}
  S_i=w_DD_i+w_RR_i+w_AA_i,\qquad
  w_D+w_R+w_A=1,\quad w_D,w_R,w_A\ge 0.
  \label{eq:patty-weight}
 \end{equation}
-\B{Multiply each score by the weight you assign it and add the three contributions. With nonnegative weights that sum to one, the result stays in the 0 to 100 range. For demand, rent and access weights of \(0.55,0.25,0.20\), Papine receives \(44+15+14=73.00\) points. Cross Roads receives \(70.25\) and Half-Way Tree \(68.60\). Here the site with the largest lunch count finishes third.}
-{Multiplica cada puntuación por el peso que le asignas y suma las tres contribuciones. Con pesos no negativos que suman uno, el resultado permanece en la escala de 0 a 100. Con pesos de \(0.55,0.25,0.20\) para demanda, alquiler y acceso, Papine recibe \(44+15+14=73.00\) puntos. Cross Roads recibe \(70.25\) y Half-Way Tree \(68.60\). Aquí el local con el mayor conteo al mediodía queda tercero.}
+\B{Try Papine first. Multiply 80 by 0.55 to get 44 for the lunch count. Multiply 60 by 0.25 to get 15 for rent. Multiply 70 by 0.20 to get 14 for delivery. Each result is that score's contribution to the total.}
+{Prueba primero con Papine. Multiplica 80 por 0.55 para obtener 44 por el conteo al mediodía. Multiplica 60 por 0.25 para obtener 15 por el alquiler. Multiplica 70 por 0.20 para obtener 14 por el reparto. Cada resultado es lo que aporta esa puntuación al total.}
+
+\B{Multiply each score by its share. Add the results to get \(S_i\), the total for that shop. With shares that add to one and stay at zero or above, the total stays in the 0 to 100 range. For demand, rent and delivery weights of \(0.55,0.25,0.20\), Papine receives \(44+15+14=73.00\) points. Cross Roads receives \(70.25\) and Half-Way Tree \(68.60\). Half-Way Tree has the most people and the shortest ride. Its high rent puts it third.}
+{Multiplica cada puntuación por su parte. Suma los resultados para obtener \(S_i\), el total del local. Si las partes suman uno y ninguna es menor que cero, el total queda entre 0 y 100. Con pesos de \(0.55,0.25,0.20\) para demanda, alquiler y reparto, Papine recibe \(44+15+14=73.00\) puntos. Cross Roads recibe \(70.25\) y Half-Way Tree \(68.60\). Half-Way Tree tiene más gente y el viaje más corto. Su alquiler alto lo deja en tercer lugar.}
 
 \begin{figure}[htbp]
 \centering
 \begin{tikzpicture}
 \begin{axis}[
  width=.92\textwidth,height=58mm,ybar,ymin=0,ymax=100,bar width=13pt,
- symbolic x coords={K1,K2,K3},xtick=data,ytick={0,25,50,75,100},
+ symbolic x coords={K1,K2,K3},xtick=data,xticklabels={Half-Way Tree,Papine,Cross Roads},ytick={0,25,50,75,100},
  ylabel={\B{Score (points)}{Puntuación (puntos)}},legend style={font=\small,draw=none,at={(.5,1.05)},anchor=south,legend columns=2},
  axis x line*=bottom,axis y line*=left,enlarge x limits=.25,ymajorgrids,grid style={softgrey}]
  \addplot[draw=navy,fill=softblue] coordinates {(K1,68.60) (K2,73) (K3,70.25)};
@@ -60,19 +82,31 @@ K3 & Cross Roads & 65 & 100,000 & 4\\
 \label{fig:patty}
 \end{figure}
 
-\B{Figure~\ref{fig:patty} varies priorities with inputs fixed. This is a \term{sensitivity analysis}. Now vary an input. If the estimates are 80 visitors on a dry day with probability 0.7 and 30 on a wet day with probability 0.3, the expected count is \(0.7(80)+0.3(30)=65\) visitors per window. A single window can still yield 30 or 80 in this two-scenario exercise. A field study would estimate both rates and the mix of conditions.}
-{La figura~\ref{fig:patty} cambia las prioridades y mantiene fijas las entradas. Es un \term{análisis de sensibilidad}. Ahora cambia una entrada. Si las estimaciones son 80 visitantes en un día seco con probabilidad 0.7 y 30 en un día lluvioso con probabilidad 0.3, el conteo esperado es \(0.7(80)+0.3(30)=65\) visitantes por intervalo. En este ejercicio de dos escenarios, un solo intervalo todavía puede dar 30 u 80. Un estudio de campo estimaría ambas tasas y la frecuencia de las condiciones.}
+\B{Try a second set of weights with the same shop records. Find Papine and Cross Roads on the bottom of Figure~\ref{fig:patty}. Compare the tops of the bars in each set. Cross Roads moves ahead when you give rent a bigger share. Checking how a result changes when you change a choice is called \term{sensitivity analysis}.
 
-\B{An LLM can explain the ranking if it sees the records, weights and computed scores. Ask it to state the winning ID, cite the rows and describe the effect of a weight change. Keep the arithmetic in a spreadsheet or a tested tool. To evaluate the answer, trace the explanation back to the inputs. A claim about a competitor's lease would require another source.}
-{Un modelo grande de lenguaje puede explicar la clasificación si ve los registros, los pesos y las puntuaciones calculadas. Pídele que indique el identificador ganador, cite las filas y describa el efecto de cambiar un peso. Deja la aritmética en una hoja de cálculo o una herramienta probada. Para evaluar la respuesta, rastrea la explicación hasta las entradas. Una afirmación sobre el alquiler de un competidor requeriría otra fuente.}
+Try a separate rain exercise with made-up counts for a test corner. If the estimates are 80 passers-by on a dry day with probability 0.7 and 30 on a wet day with probability 0.3, the expected count is \(0.7(80)+0.3(30)=65\) passers-by per lunch period. This is an average based on how often each type of day occurs. A single lunch period can still bring 30 or 80 people past the corner in this example.}
+{Prueba otros pesos con los mismos registros. Busca Papine y Cross Roads en la parte de abajo de la figura~\ref{fig:patty}. Compara la altura de las barras de cada grupo. Cross Roads pasa al frente cuando le das más peso al alquiler. Comprobar cómo cambia un resultado al cambiar una decisión se llama \term{análisis de sensibilidad}.
+
+Haz una prueba aparte sobre la lluvia, con conteos inventados para una esquina. Si calculas que pasan 80 personas en un día seco con probabilidad 0.7 y 30 en un día lluvioso con probabilidad 0.3, el conteo esperado es \(0.7(80)+0.3(30)=65\) personas que pasan durante el almuerzo. Es un promedio que tiene en cuenta la frecuencia de cada tipo de día. En este ejemplo, en un solo almuerzo aún pueden pasar 30 u 80 personas.}
+
+\B{Give a large language model, or LLM, the table, your weights and the scores you worked out. Ask it to explain which shop came first and show the rows it used. Compare the reply with the table and your own sums. If the model mentions a rival's rent, ask where it got that number. You have the records and the power to make the decision.}
+{Dale a un modelo grande de lenguaje, o LLM, el cuadro, tus pesos y las puntuaciones que calculaste. Pídele que explique qué local quedó primero y muestre qué filas usó. Compara la respuesta con el cuadro y tus cuentas. Si el modelo menciona el alquiler de un rival, pregunta de dónde salió la cifra. Tú tienes los registros y puedes tomar la decisión.}
 
 \section{\B{Turn records into learning problems}{Convierte registros en problemas de aprendizaje}}
 
-\B{A scoring rule uses settings chosen before the calculation. A learning system estimates some of its settings from examples. To predict tomorrow's sales, start with a baseline such as the median for the same weekday. A supervised model sees inputs paired with targets, for example weather, price and day of week paired with the number of patties sold. It adjusts parameters to reduce the discrepancy between predictions and targets. The outcome for tomorrow becomes available after the prediction.}
-{Una regla de puntuación usa parámetros elegidos antes del cálculo. Un sistema que aprende estima parte de su configuración a partir de ejemplos. Para predecir las ventas de mañana, empieza con una referencia como la mediana del mismo día de la semana. Un modelo supervisado ve entradas junto con objetivos, por ejemplo clima, precio y día de la semana junto con la cantidad de patties vendidos. Ajusta parámetros para reducir la discrepancia entre predicciones y objetivos. El resultado de mañana se conoce después de la predicción.}
+\B{Tomorrow you have to decide how many patties to bake. You set the weights for the shops yourself. To guess tomorrow's sales, you can learn from what the first shop sold. Start with a simple guess you can compare against. Put the past sales for that day of the week in order and use the middle value, called the \term{median}. If there are two middle values, average them.
 
-\B{An unsupervised task has no target label supplied for each item. You might group messages from produce sellers in Belize City by similarities in phrasing, then read samples to name the groups. In self-supervised learning, the system constructs prediction targets from the input. A sentence about a box of mangoes can provide the word after \emph{box of} or a phrase to restore. Figure~\ref{fig:supervision} shows how the recorded sentence supplies that target.}
-{Una tarea no supervisada carece de etiquetas objetivo para cada elemento. Podrías agrupar mensajes de vendedores de productos agrícolas en Ciudad de Belice por semejanzas de redacción y luego leer muestras para nombrar los grupos. En el aprendizaje autosupervisado, el sistema construye objetivos de predicción a partir de la entrada. Una oración sobre una caja de mangos puede proporcionar la palabra después de \emph{caja de} o un fragmento que hay que restaurar. La figura~\ref{fig:supervision} muestra cómo la oración registrada aporta ese objetivo.}
+A model can look at records that list the weather, price and day next to the number of patties sold. We call the facts you give the model \term{inputs} and the answer it practises guessing the \term{target}. Learning from examples with targets is \term{supervised learning}. The model adjusts its settings, or \term{parameters}, to make smaller errors on the examples. Tomorrow's actual sales arrive after you make the guess.}
+{Mañana tienes que decidir cuántos patties hornear. Para los locales, tú fijaste los pesos. Para calcular las ventas de mañana, puedes aprender de lo que vendió el primer local. Empieza con una estimación sencilla que te sirva para comparar. Ordena las ventas anteriores de ese día de la semana y toma el valor del centro, llamado \term{mediana}. Si hay dos valores centrales, calcula su promedio.
+
+Un modelo puede mirar registros con el clima, el precio y el día junto a la cantidad de patties que se vendieron. Los datos que le das son las \term{entradas}. La respuesta que practica adivinar es el \term{objetivo}. Aprender con ejemplos que tienen un objetivo se llama \term{aprendizaje supervisado}. El modelo cambia sus ajustes, o \term{parámetros}, para cometer menos errores con los ejemplos. Las ventas de mañana se conocen después de hacer la estimación.}
+
+\B{Suppose you have messages from produce sellers in Belize City. You could look for groups of messages that use similar words, then read some and give the groups names. That is an \term{unsupervised} task because you start without a correct label for each message.
+
+In \term{self-supervised learning}, the saved text supplies the answer to a practice question. Cover the last word in “We packed a box of mangoes.” The model guesses what follows “box of”. The saved message lets you check the guess. Figure~\ref{fig:supervision} shows the two paths.}
+{Supón que tienes mensajes de vendedores de productos agrícolas en la Ciudad de Belice. Puedes buscar grupos que usen palabras parecidas, leer algunos mensajes y ponerles nombres a los grupos. Es una tarea \term{no supervisada} porque empiezas sin una etiqueta correcta para cada mensaje.
+
+En el \term{aprendizaje autosupervisado}, el texto guardado trae la respuesta a una pregunta de práctica. Tapa la última palabra de «Empacamos una caja de mangos». El modelo adivina qué sigue a «caja de». Con el mensaje guardado puedes comprobar la respuesta. La figura~\ref{fig:supervision} muestra los dos caminos.}
 
 \begin{figure}[htbp]
 \centering
@@ -90,42 +124,72 @@ K3 & Cross Roads & 65 & 100,000 & 4\\
 \label{fig:supervision}
 \end{figure}
 
-\B{Pre-training makes model parameters useful across later tasks. An encoder can learn to represent a ticket or review. A decoder can learn to predict continuations. Later you can fine-tune parameters, attach trainable modules or supply a task and examples in the prompt. Updated ferry hours belong in a source you can revise. A lasting preference for concise answers may suit adaptation. Chapters~\ref{ch:generative} and \ref{ch:alignment} separate these routes \citep{xiao,bert,t5}.}
-{El preentrenamiento hace que los parámetros del modelo sirvan para tareas posteriores. Un codificador puede aprender a representar una solicitud o reseña. Un decodificador puede aprender a predecir continuaciones. Después puedes ajustar parámetros, añadir módulos entrenables o incluir una tarea y ejemplos en la instrucción. Conviene guardar los nuevos horarios de un ferri en una fuente actualizable. Una preferencia duradera por respuestas concisas puede servir para la adaptación. Los capítulos~\ref{ch:generative} y \ref{ch:alignment} distinguen estas rutas \citep{xiao,bert,t5}.}
+\B{The model's first round of practice is called \term{pre-training}. It can learn to turn text into numbers that keep useful clues about the message. The part that reads and makes this record is an \term{encoder}. Another part can guess the next piece of text to build a reply. This part is a \term{decoder}.
+
+Later you can give the model examples for your task, change some of its settings, or tell it what to do in a message called a \term{prompt}. If a ferry time changes, update the timetable the model reads. If you want the same short answer style for many tasks, examples of that style can help. Chapters~\ref{ch:generative} and \ref{ch:alignment} show these choices \citep{xiao,bert,t5}.}
+{La primera ronda de práctica del modelo se llama \term{preentrenamiento}. Puede aprender a convertir un texto en números que conservan pistas útiles sobre el mensaje. La parte que lo lee y crea ese registro se llama \term{codificador}. Otra parte adivina el siguiente fragmento para armar una respuesta. Esa parte es el \term{decodificador}.
+
+Más adelante puedes darle ejemplos de tu tarea, cambiar algunos de sus ajustes o indicarle qué hacer en un mensaje llamado \term{instrucción}, o \emph{prompt}. Si cambia la hora de un ferri, actualiza el horario que lee el modelo. Si quieres respuestas cortas en muchas tareas, puedes darle ejemplos de ese estilo. Los capítulos~\ref{ch:generative} y \ref{ch:alignment} muestran estas opciones \citep{xiao,bert,t5}.}
 
 \section{\B{Predict the next token and measure the miss}{Predice el siguiente token y mide el error}}
 
-\B{For tokens \(x_1,\ldots,x_T\), the decoder sees the prefix \(x_{<t}\) at position \(t\). Its parameters are \(\theta\). The recorded next token is \(x_t\). The mean negative log-likelihood measures the penalty for the probabilities the model assigns to those recorded tokens.}
-{Para los tokens \(x_1,\ldots,x_T\), el decodificador ve el prefijo \(x_{<t}\) en la posición \(t\). Sus parámetros son \(\theta\). El siguiente token registrado es \(x_t\). La media de los logaritmos negativos de verosimilitud mide la penalización por las probabilidades que el modelo asigna a esos tokens registrados.}
+\B{Try completing the order “I want a \ldots”. In this small example, each word is a piece the model can read. A piece is called a \term{token}. If the saved order ends in “patty”, the model gets a smaller penalty when it gives “patty” a better chance. The \term{loss} is the penalty we use to measure how well it guessed.
+
+\moremath
+The tokens are \(x_1,\ldots,x_T\). At spot \(t\), the decoder has seen \(x_{<t}\), the pieces that come before it. The next piece in the saved text is \(x_t\). The symbol \(\theta\) stands for the model's settings. The equation takes the average penalty over all the spots we score.}
+{Intenta completar el pedido «Quiero un \ldots». En este ejemplo pequeño, cada palabra es un fragmento que puede leer el modelo. Un fragmento se llama \term{token}. Si el pedido guardado termina en «patty», el modelo recibe una penalización menor cuanto mayor es la probabilidad que le da a esa palabra. La \term{pérdida} es la penalización que usamos para medir qué tan bien adivinó.
+
+\moremath
+Los tokens son \(x_1,\ldots,x_T\). En el lugar \(t\), el decodificador ya vio \(x_{<t}\), los fragmentos que van antes. El siguiente fragmento del texto guardado es \(x_t\). El símbolo \(\theta\) representa los ajustes del modelo. La ecuación calcula la penalización promedio de todas las posiciones que puntuamos.}
 \begin{equation}
  \mathcal L(\theta)=-\frac{1}{T}\sum_{t=1}^T\ln p_\theta(x_t\mid x_{<t}),
  \qquad \mathrm{PPL}=\exp(\mathcal L).
  \label{eq:nll}
 \end{equation}
-\B{Here \(T\) counts the scored positions. Read each recorded token's assigned probability, take its natural logarithm and flip the sign. Average the penalties. A probability of 1 contributes zero. A probability near zero receives a large penalty. Ignore padding positions and decide whether to score the end token. \emph{Perplexity} (\(\mathrm{PPL}\)) exponentiates the average penalty. Think of it as an effective branching factor for the scored tokens, with a minimum of 1. Compare it on common data with the same tokenisation and scoring boundary \citep{xiao}.}
-{Aquí \(T\) cuenta las posiciones puntuadas. Lee la probabilidad asignada a cada token registrado, calcula su logaritmo natural y cambia el signo. Promedia las penalizaciones. Una probabilidad de 1 aporta cero. Una probabilidad cercana a cero recibe una penalización grande. Excluye el relleno y decide si puntuarás el token final. La \emph{perplejidad} (\(\mathrm{PPL}\)) aplica la exponencial a la penalización promedio. Puedes verla como un factor de ramificación efectivo para los tokens puntuados, con un mínimo de 1. Compárala con datos comunes y la misma tokenización y los mismos límites de puntuación \citep{xiao}.}
+\B{Read each chance the model gave the saved token. Press \(\ln\), the natural log button, on your calculator. Change the sign to make the penalty positive, or zero when the chance is 1. Then average the penalties by dividing their sum by \(T\), the number of spots you scored. A chance of \(1/2\) gives a penalty of about 0.693. A chance close to zero gives a much larger penalty.
+
+Skip any tokens that only pad the text to a fixed length. Decide whether to count the token that marks the end. To get \term{perplexity} (\(\mathrm{PPL}\)), use the \(\exp\) button on the average penalty. A perplexity of four has the same average penalty as a guess among four equally likely choices. A lower score is better when both tests use the same text, token splits and scoring rules \citep{xiao}.}
+{Lee la probabilidad que el modelo dio al token guardado. Pulsa \(\ln\), el botón de logaritmo natural, en la calculadora. Cambia el signo para que la penalización sea positiva, o cero si la probabilidad es 1. Suma las penalizaciones y divide entre \(T\), la cantidad de posiciones puntuadas. Una probabilidad de \(1/2\) da una penalización cercana a 0.693. Una probabilidad cercana a cero da una penalización mucho mayor.
+
+Omite los tokens de relleno, que solo sirven para igualar el largo. Decide si contarás el token que marca el final. Para obtener la \term{perplejidad} (\(\mathrm{PPL}\)), pulsa \(\exp\) sobre la penalización promedio. Una perplejidad de cuatro tiene la misma penalización promedio que adivinar entre cuatro opciones igual de probables. Una cifra menor es mejor cuando ambas pruebas usan el mismo texto, los mismos tokens y las mismas reglas de puntuación \citep{xiao}.}
 
 \lab{\B{Three observed tokens}{Tres tokens observados}}
 \B{Say the recorded tokens receive probabilities \(1/2,1/4,1/8\) under their respective prefixes. Their penalties are \(\ln 2,\ln 4,\ln 8\). The exponents on 2 are 1, 2 and 3. Their average is 2, so the loss is \(\ln 4\), about \(1.3863\), and perplexity is 4. Check by multiplying the probabilities. Their product is \(1/64\), its cube root is \(1/4\) and its reciprocal is 4.}
 {Supón que los tokens registrados reciben probabilidades \(1/2,1/4,1/8\) con sus respectivos prefijos. Sus penalizaciones son \(\ln 2,\ln 4,\ln 8\). Los exponentes de 2 son 1, 2 y 3. Su promedio es 2, así que la pérdida es \(\ln 4\), aproximadamente \(1.3863\), y la perplejidad es 4. Verifica multiplicando las probabilidades. Su producto es \(1/64\), su raíz cúbica es \(1/4\) y su inverso es 4.}
 
+\B{The loss tells you how the model did. Now change one setting a little and see which way the loss moves. Its \term{slope} says how fast the loss is changing at that setting. Moving a small step downhill to cut the loss is called \term{gradient descent}.}
+{La pérdida te dice cómo le fue al modelo. Ahora cambia un poco un ajuste y observa hacia dónde se mueve la pérdida. Su \term{pendiente} indica qué tan rápido está cambiando en ese punto. Dar un paso corto cuesta abajo para reducir la pérdida se llama \term{descenso del gradiente}.}
+
 \begin{equation}
  \theta_{\mathrm{new}}=\theta-\eta\nabla_\theta\mathcal L(\theta).
  \label{eq:grad}
 \end{equation}
-\B{A gradient gives one slope per parameter. The learning rate \(\eta\) controls how far the basic gradient-descent update moves against that slope. For a single weight \(w\) with loss \(\tfrac12(w-0.75)^2\), the slope is \(w-0.75\). Start at \(w=0.25\) with step size 0.20. The slope is \(-0.50\), so the update adds 0.10 and gives \(0.35\). At \(w=0.75\), the slope is zero and the step leaves the weight in place. Training usually works with batches, many parameters and optimisers that adjust steps over time.}
-{Un gradiente da una pendiente por parámetro. La tasa de aprendizaje \(\eta\) controla cuánto avanza la actualización básica del descenso del gradiente en dirección contraria a esa pendiente. Para un peso \(w\) con pérdida \(\tfrac12(w-0.75)^2\), la pendiente es \(w-0.75\). Empieza en \(w=0.25\) con paso de 0.20. La pendiente es \(-0.50\), así que la actualización suma 0.10 y da \(0.35\). En \(w=0.75\), la pendiente es cero y el paso deja el peso en su lugar. El entrenamiento suele usar lotes, muchos parámetros y optimizadores que ajustan los pasos con el tiempo.}
+\B{The gradient collects one slope for each setting. The step size is controlled by \(\eta\), the \term{learning rate}. For a single weight \(w\) with loss \(\tfrac12(w-0.75)^2\), the slope is \(w-0.75\). Start at \(w=0.25\) with step size 0.20. The slope is \(-0.50\), so the update adds 0.10 and gives \(0.35\). That moves the weight closer to the target. At \(w=0.75\), the slope is zero and the weight stays where it is. Large models update many weights at once.}
+{El gradiente reúne una pendiente por cada ajuste. El tamaño del paso depende de \(\eta\), la \term{tasa de aprendizaje}. Para un solo peso \(w\) con pérdida \(\tfrac12(w-0.75)^2\), la pendiente es \(w-0.75\). Empieza en \(w=0.25\) con un paso de 0.20. La pendiente es \(-0.50\), así que el cambio suma 0.10 y da \(0.35\). Eso acerca el peso al objetivo. En \(w=0.75\), la pendiente es cero y el peso se queda donde está. Los modelos grandes cambian muchos pesos a la vez.}
 
 \section{\B{Decide what belongs in the training set}{Decide qué incluir en el conjunto de entrenamiento}}
 
-\B{Start a dataset sheet before collecting text. Identify the purpose, source owner, permitted uses, access conditions and steps needed to protect personal data. A private order message gives a shop information to fill an order. Reuse for training requires its own permission or other applicable basis. Removing names can leave enough details to identify someone in a small community. Use authorised material or write synthetic examples without customer details. Record whether collection covered handwritten forms, mobile messages or only formal websites \citep{datasheets}.}
-{Empieza una ficha de datos antes de recopilar texto. Identifica el propósito, el titular de la fuente, los usos permitidos, las condiciones de acceso y los pasos para proteger datos personales. Un pedido privado le da a una tienda datos para prepararlo. Reutilizarlo para entrenar requiere un permiso propio u otra base aplicable. Quitar nombres puede dejar suficientes detalles para identificar a alguien en una comunidad pequeña. Usa material autorizado o redacta ejemplos sintéticos sin datos de clientes. Registra si recopilaste formularios manuscritos, mensajes móviles o solo sitios formales \citep{datasheets}.}
+\B{Your shop has private order messages. A customer gave a name and an address so you could deliver a meal. Before anyone uses the messages to train a model, check who can allow that use and how to protect each customer. Even with names removed, an address or a rare order may point to a person in a small town.
 
-\B{A training split estimates parameters. A development split guides choices. A held-out test split estimates behaviour after those choices are fixed. Split by the unit that could leak. If copies of a Saint Lucia notice appear at different URLs, keep them in one split. If the assistant answers future questions, test with later notices. If it must transfer between islands, hold out places and report sample sizes. A random split by document can reward recognition of a familiar notice when you wanted to measure how the system reads an unfamiliar one.}
-{Una partición de entrenamiento estima parámetros. Una de desarrollo guía las decisiones. Una de prueba reservada estima el comportamiento después de fijarlas. Divide según la unidad que podría filtrar información. Si hay copias de un aviso de Santa Lucía en distintas direcciones web, mantenlas en la misma partición. Si el asistente responderá preguntas futuras, prueba con avisos posteriores. Si debe transferirse entre islas, reserva lugares e indica el tamaño de las muestras. Una división aleatoria por documento puede premiar el reconocimiento de un aviso conocido cuando querías medir cómo lee uno nuevo.}
+Start a \term{data sheet} before you collect examples. Write where the examples came from, who may use them and for what. In a school or shop trial, you can write made-up orders with no customer details. Note whether you used messages, handwritten slips or web pages \citep{datasheets}.}
+{Tu negocio tiene mensajes privados de pedidos. Un cliente dio su nombre y su dirección para que le llevaras la comida. Antes de que alguien use esos mensajes para entrenar un modelo, comprueba quién puede autorizar ese uso y cómo proteger a cada cliente. Aun sin el nombre, una dirección o un pedido poco común puede revelar quién es alguien en un pueblo pequeño.
 
-\B{Check representation at the document and token levels. Two communities may contribute the same number of documents while one has longer documents or more fragmented tokenisation. Record duplicate families, script, variety, date and source type. Sample common and rare cases. A deduplication rule that removes every accent can merge distinct names, so preserve a record of what was removed and why.}
-{Comprueba la representación en documentos y tokens. Dos comunidades pueden aportar la misma cantidad de documentos aunque una tenga documentos más largos o una tokenización más fragmentada. Registra familias de duplicados, escritura, variedad, fecha y tipo de fuente. Toma muestras de casos frecuentes y poco comunes. Una regla que quite todos los acentos puede fusionar nombres distintos. Conserva un registro de lo que se eliminó y por qué.}
+Prepara una \term{ficha de datos} antes de reunir ejemplos. Anota de dónde vienen, quién puede usarlos y para qué. En una prueba escolar o del negocio puedes inventar pedidos sin datos de clientes. Indica si usaste mensajes, notas a mano o páginas web \citep{datasheets}.}
+
+\B{Keep three piles of examples. Use the first pile to teach the model. Use the second to choose settings and fix problems. Put the last pile away until you are ready for the final test. These are the \term{training}, \term{development} and \term{test} sets.
+
+If two websites copy the same Saint Lucia notice, keep both copies in the same pile. Otherwise the model can see the test notice during practice. If the model has to answer next month's questions, save later notices for the test. To see how it works on a different island, save some examples from that island and say how many you tested.}
+{Separa los ejemplos en tres grupos. Usa el primero para enseñar al modelo. Usa el segundo para elegir ajustes y corregir problemas. Guarda el último hasta la prueba final. Son los conjuntos de \term{entrenamiento}, \term{desarrollo} y \term{prueba}.
+
+Si dos sitios web copian el mismo aviso de Santa Lucía, pon las dos copias en el mismo grupo. Si las separas, el modelo puede ver el aviso de prueba durante la práctica. Si debe responder preguntas del mes siguiente, guarda avisos más recientes para la prueba. Para ver cómo funciona en otra isla, reserva ejemplos de esa isla y di cuántos probaste.}
+
+\B{Check which people and places your examples cover. Two communities may have the same number of messages, but the messages from one may be longer or split into more tokens. Record the language, date and source of each group. Look at common and rare examples. If you remove accents when you look for copies, two different names can start to look the same. Keep a note of what you removed and why.}
+{Revisa a qué personas y lugares representan tus ejemplos. Dos comunidades pueden tener la misma cantidad de mensajes, pero los de una pueden ser más largos o dividirse en más tokens. Anota el idioma, la fecha y la fuente de cada grupo. Mira ejemplos comunes y poco frecuentes. Si quitas las tildes al buscar copias, dos nombres distintos pueden parecer iguales. Anota qué quitaste y por qué.}
+
+\lesson{\B{Before you sign}
+{Antes de firmar}}
+\B{Papine leads under your first set of weights. Cross Roads leads when you give rent more weight. The starting price in the points rule helps you score the shops. You set your rent limit separately. If your budget has a hard rent limit, take out any shop above that limit before you score the rest. You can approve a second visit today. Compare lunch counts on several days at the same hour. Then check what people buy at a trial counter before you decide whether to sign. Write the name of the shop you would check next and what you want your team to find out.}
+{Papine queda primero con tus pesos iniciales. Cross Roads pasa al frente si le das más peso al alquiler. El precio de partida de la regla ayuda a puntuar los locales. Tú fijas el límite de alquiler por separado. Si tu presupuesto tiene un límite fijo de alquiler, descarta los locales que lo superen antes de puntuar el resto. Hoy puedes aprobar una segunda visita. Compara conteos de varios días a la misma hora del almuerzo. Luego revisa qué compra la gente en un puesto de prueba antes de decidir si firmas. Escribe cuál visitarías de nuevo y qué quieres que averigüe tu equipo.}
 
 \checklist{
 \item \B{Recompute the winning site when a weight or source row changes.}{Recalcular el local ganador al cambiar un peso o una fila de origen.}
@@ -134,5 +198,5 @@ K3 & Cross Roads & 65 & 100,000 & 4\\
 \exercises{
 \item \B{Use weights \(0.80,0.10,0.10\). Recompute the three scores and give the winning row ID.}{Usa pesos \(0.80,0.10,0.10\). Recalcula las tres puntuaciones e indica el identificador de la fila ganadora.}
 \item \B{Half-Way Tree has a sunny Wednesday count and Papine has a rainy Friday count. Name two collection changes before comparing them.}{Half-Way Tree tiene un conteo de un miércoles soleado y Papine uno de un viernes lluvioso. Indica dos cambios de recopilación antes de compararlos.}
-\item \B{Two scored tokens each have probability \(1/8\). Compute the mean negative log-likelihood and perplexity.}{Dos tokens puntuados tienen probabilidad \(1/8\) cada uno. Calcula la media de los logaritmos negativos y la perplejidad.}
+\item \B{Two scored tokens each have probability \(1/8\). Find the average penalty (mean negative log-likelihood). Then use it to find perplexity.}{Dos tokens puntuados tienen probabilidad \(1/8\) cada uno. Calcula la penalización promedio (media de los logaritmos negativos). Úsala para hallar la perplejidad.}
 \item \B{A transcript and its edited version appear in training and test respectively. How should the split change?}{Una transcripción y su versión editada aparecen en entrenamiento y prueba, respectivamente. ¿Cómo debe cambiar la partición?}}

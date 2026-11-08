@@ -1,13 +1,15 @@
 # Caribbean foundations of Large Language Models
 
-Adrian Dunkley. Published by the Caribbean AI Association. First edition, November 2026.
+Adrian Dunkley. Published by the Caribbean AI Association. Revised first edition (1.1), November 2026.
 
 | Edition | Download |
 | --- | --- |
 | English | [Caribbean foundations of Large Language Models](Caribbean-Foundations-of-Large-Language-Models-EN.pdf) |
 | Español | [Fundamentos caribeños de los grandes modelos de lenguaje](Fundamentos-Caribenos-de-los-Grandes-Modelos-de-Lenguaje-ES.pdf) |
 
-The book begins with a fictional Jamaican patty-shop decision and follows the mathematics from data and tokenisation through attention, pre-training, prompting, retrieval, alignment, inference and verification. Appendix B has a local case index. It covers the 28 UN M49 Caribbean reporting areas and adds constituent islands, mainland Caribbean and other regional contexts.
+You own a Jamaican patty franchise and need to pick its next shop. Use lunch counts, rent and delivery distance to compare Half-Way Tree, Papine and Cross Roads. Each chapter gives you a role and a decision. Start with the story and a worked example. The *More maths* sections show the same ideas with symbols. The first reading path is written for a 13-year-old beginner.
+
+Appendix B has a local case index. It covers the 28 UN M49 Caribbean reporting areas and adds constituent islands, mainland Caribbean and other regional contexts.
 
 ## Classroom files
 

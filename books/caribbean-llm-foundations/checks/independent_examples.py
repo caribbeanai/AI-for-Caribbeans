@@ -437,7 +437,7 @@ def chapter4(g):
     records = re.findall(r"^(N\d+) & (.*?) & (.*?) & (.*?) & (.*?) & (.*?)\\\\", g.ch[4], re.M)
     oracle = tuple((r["notice_id"], r["origin"], r["destination"], r["service_date"], r["issued_local"],
                     r["departure_local"], r["authority"], r["supersedes"]) for r in rows[:5])
-    labels = (("Dispatch", "Unverified", "Replaces"), ("Despacho", "Sin verificar", "Sustituye"))
+    labels = (("Dispatch", "Unverified", "Dispatch, replaces"), ("Despacho", "Sin verificar", "Despacho, sustituye"))
     for lang, (dispatch, unverified, replaces) in enumerate(labels):
         table = []
         for ident, route, service, issued, depart, status in records:
@@ -456,12 +456,12 @@ def chapter4(g):
     after = lookup("2031-05-18", "2031-05-18T07:15")
     g.check("Ch 4 dispatch result before, at, and after correction issuance", (before, boundary, after),
             ((("N02", "07:30"),), (("N03", "09:00"),), (("N03", "09:00"),)))
-    for lang, body in zip(("EN", "ES"), g.pair(4, "A supported practice answer")):
+    for lang, body in zip(("EN", "ES"), g.pair(4, "Keep only notices for the Antigua--Barbuda route")):
         ids = tuple(re.findall(r"N\d+", body))
         g.check(f"Ch 4 {lang} applicable and excluded records in prose", ids,
                 ("N01", "N04", "N05", boundary[0][0], before[0][0], after[0][0], boundary[0][0], before[0][0]))
         g.check(f"Ch 4 {lang} worked lookup times in prose", tuple(re.findall(r"\d\d:\d\d", body)),
-                ("07:15", after[0][1], "06:30"))
+                ("07:15", after[0][1], "06:30", before[0][1]))
     no_conflict_yet = lookup("2031-05-20", "2031-05-19T13:59")
     conflict = lookup("2031-05-20", "2031-05-19T14:00")
     jointly_issued = max(datetime.fromisoformat(r["issued_local"]) for r in rows
@@ -530,7 +530,8 @@ def chapter5(g):
 
 def chapter6(g):
     first, length, rate = F(6, 5), 80, 20
-    g.prose(6, "The first token is already included", 1, first, rate, length - 1, length, wait_seconds(first, length, rate))
+    g.prose(6, "The first token is already included", 1, first, rate, length - 1, length,
+            first, F(length - 1, rate), wait_seconds(first, length, rate))
     g.check("Ch 6 latency control: one output token", wait_seconds(first, 1, rate), first)
     branches, completions = tuple(map(F, (".60", ".40"))), tuple(map(F, (".50", ".90")))
     path = tuple(a * b for a, b in zip(branches, completions, strict=True))
@@ -666,7 +667,7 @@ def chapter8(g):
     g.check("Ch 8 CTO: 0.1m display rounding alone cannot reach reported rounded share",
             upper < published - F(".5"), True)
     ferry = read_csv(g.book / "data/ferry-notices.csv")
-    for anchor, as_of in (("Corrected time after", "2031-05-18T07:15"), ("Same request before", "2031-05-18T06:30")):
+    for anchor, as_of in (("Query at 07:15, 18 May", "2031-05-18T07:15"), ("Query at 06:30, 18 May", "2031-05-18T06:30")):
         line, = [line for line in block.splitlines() if anchor in line]
         _, expected_states, _ = tuple(bilingual_pairs(line))
         ids = tuple(re.findall(r"N\d+", text)[0] for text in expected_states)

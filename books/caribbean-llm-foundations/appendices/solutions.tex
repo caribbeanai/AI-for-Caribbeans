@@ -1,5 +1,9 @@
 \chapter{\B{Solutions and checks}{Soluciones y comprobaciones}}
 \label{app:solutions}
+\begingroup
+\titlespacing*{\section}{0pt}{1.8ex plus .5ex}{1ex}
+\setlist[enumerate]{itemsep=1pt,topsep=1pt}
+\interlinepenalty=10000
 
 \section*{\B{Chapter 1. Data and pre-training}{Capítulo 1. Datos y preentrenamiento}}
 \begin{enumerate}
@@ -30,7 +34,7 @@
 \item \B{At 06:30, N02 is applicable. At 07:15, N03 is applicable and replaces N02. N05 fails the authority filter even though it is later.}{A las 06:30 se aplica N02. A las 07:15 se aplica N03, que sustituye N02. N05 no pasa el filtro de autoridad aunque sea posterior.}
 \item \B{Recall is \(3/5=0.60\). Precision is \(3/4=0.75\). The two denominators count relevant records and retrieved records respectively.}{La exhaustividad es \(3/5=0.60\). La precisión es \(3/4=0.75\). Los denominadores cuentan registros pertinentes y recuperados, respectivamente.}
 \item \B{For example, “For Antigua to Barbuda on 18 May 2031, N03 gives 09:00 local time. N03 gives no fare.” The practice record supports a time and leaves the price unknown.}{Por ejemplo, «Para Antigua a Barbuda el 18 de mayo de 2031, N03 indica las 09:00 hora local. N03 no indica la tarifa». El registro didáctico respalda la hora y deja el precio sin determinar.}
-\item \B{Give the assistant only the read-only notice lookup. Deny passenger-list access at the data layer. Either control can operate without interpreting the notice as an instruction.}{Da al asistente solo la consulta de avisos de lectura. Deniega el acceso a la lista de pasajeros en la capa de datos. Ambos controles funcionan sin interpretar el aviso como instrucción.}
+\item \B{Give the assistant read-only access to the notices. Block access to the passenger list. Set these permissions where the records are stored.}{Da acceso de solo lectura a los avisos. Bloquea el acceso a la lista de pasajeros. Fija estos permisos donde guardas los registros.}
 \end{enumerate}
 
 \section*{\B{Chapter 5. Alignment and regional language}{Capítulo 5. Alineamiento y lenguas de la región}}
@@ -54,7 +58,7 @@
 \item \B{The feasible range becomes \(42\le c\le45\). The score \(72+c\) is largest at \(c=45,p=27\), or 117 points.}{El intervalo factible pasa a \(42\le c\le45\). La puntuación \(72+c\) es mayor con \(c=45,p=27\), o 117 puntos.}
 \item \B{At \(p=1/2\), the expression gives \(3/8+1/8=1/2\). At \(p=1\), the exactly-two term is zero and the result is 1.}{Con \(p=1/2\), da \(3/8+1/8=1/2\). Con \(p=1\), el término de exactamente dos vale cero y el resultado es 1.}
 \item \B{Coverage is \(24/30=80\%\). Answered error is \(3/24=12.5\%\).}{La cobertura es \(24/30=80\%\). El error entre respuestas es \(3/24=12.5\%\).}
-\item \B{One example with a chosen service threshold is to withhold time-sensitive answers after the next required update is missed, show the last verified time and point to the authorised help desk. Name the owner who re-enables answers.}{Un ejemplo con umbral de servicio elegido es retener respuestas que dependen de datos vigentes si falta la siguiente actualización obligatoria, mostrar la última hora verificada y dirigir a la mesa autorizada. Nombra a quien vuelve a habilitar respuestas.}
+\item \B{One example with a chosen service threshold is to withhold time-sensitive answers after the next required update is missed, show when someone last checked the source and point to the authorised help desk. Name the owner who re-enables answers.}{Un ejemplo con umbral de servicio elegido es retener respuestas que dependen de datos vigentes si falta la siguiente actualización obligatoria, mostrar cuándo se revisó la fuente por última vez y dirigir a la mesa autorizada. Nombra a quien vuelve a habilitar respuestas.}
 \end{enumerate}
 
 \section*{\B{Chapter 8. Grounded assistant}{Capítulo 8. Asistente basado en fuentes}}
@@ -62,5 +66,6 @@
 \item \B{The displayed inputs sum to 17.9 million. Their ratio to 34.2 million is about 52.3\%. The release separately states about 56\%. A valid answer labels both and does not infer a missing denominator \citep{cto}.}{Las entradas mostradas suman 17.9 millones. Su razón con 34.2 millones da cerca de 52.3\%. El comunicado indica por separado cerca de 56\%. Una respuesta válida etiqueta las dos y no deduce un denominador ausente \citep{cto}.}
 \item \B{“What monthly rate did STATIN report for food and non-alcoholic beverages?” yields 0.9\%. “Calculate the monthly change using the displayed food and non-alcoholic beverages indices” yields \(100(158.6-157.1)/157.1\approx0.9548\%\). Give the source and month in both \citep{statin}.}{«¿Qué tasa mensual de alimentos y bebidas no alcohólicas informó STATIN?» da 0.9\%. «Calcula el cambio con los índices mostrados de alimentos y bebidas no alcohólicas» da \(100(158.6-157.1)/157.1\approx0.9548\%\). Incluye fuente y mes en ambos \citep{statin}.}
 \item \B{Set the query after 07:00 on 18 May and require N03. An answer giving 08:15 from N05 fails the authority rule. Also test that the system can still identify N05 as unverified in an audit view.}{Fija la consulta después de las 07:00 del 18 de mayo y exige N03. Una respuesta de 08:15 a partir de N05 falla la regla de autoridad. Comprueba también que una vista de auditoría identifique N05 como no verificado.}
-\item \B{For example, a clinic directory in Bonaire could read public office hours from the clinic's approved notice. A query asking for a diagnosis exceeds that task. The directory routes the person to the clinic's published contact.}{Por ejemplo, un directorio de Bonaire podría leer horarios de atención al público de avisos aprobados por la clínica. Una petición de diagnóstico supera el alcance. El directorio remite al contacto publicado de la clínica.}
+\item \B{A Bonaire clinic directory could show office hours from the clinic's approved notice. If someone asks for a diagnosis, give the clinic's public contact.}{Un directorio en Bonaire puede mostrar el horario de un aviso aprobado por la clínica. Si alguien pide un diagnóstico, dale el contacto público de la clínica.}
 \end{enumerate}
+\endgroup

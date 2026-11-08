@@ -1,14 +1,14 @@
 \chapter{\B{Caribbean place index and case bank}{Índice caribeño y banco de casos}}
 \label{app:places}
 
-\B{Use this index to assign a local lab or to challenge an answer with a neighbouring place. The core table follows the UN M49 Caribbean reporting group. The island table separates additional locations within grouped areas. The final table extends the cases to mainland Caribbean, an Atlantic associate and the wider Caribbean. Institutional membership and statistical geography serve different purposes \citep{m49,caricom,acs}.}
-{Usa este índice para asignar un laboratorio local o cuestionar una respuesta con un lugar vecino. El cuadro principal sigue el grupo estadístico caribeño de la ONU M49. El cuadro insular separa lugares dentro de áreas agrupadas. El último amplía los casos al Caribe continental, un asociado atlántico y el Gran Caribe. La membresía institucional y la geografía estadística sirven para fines distintos \citep{m49,caricom,acs}.}
+\B{Pick a place in the tables below. The first table follows the United Nations list of Caribbean areas, called M49. The next one gives separate cases for some islands that the list groups together. The last includes mainland places and other parts of the wider Caribbean \citep{m49,caricom,acs}.}
+{Elige un lugar en los cuadros de abajo. El primero sigue la lista de áreas del Caribe de las Naciones Unidas, llamada M49. El siguiente da casos separados para algunas islas que la lista agrupa. El último incluye lugares del continente y otras partes del Gran Caribe \citep{m49,caricom,acs}.}
 
-\B{The cases are teaching assignments. For each, name the local authority, acquire permission for records, write a correct answer and add one test where the assistant should abstain or ask a question. Add local communities using the same format. Keep each island name beside the fact it qualifies.}
-{Los casos son actividades didácticas. Para cada uno, identifica la autoridad local, consigue permiso para usar registros, redacta una respuesta correcta y añade una prueba donde el asistente deba abstenerse o preguntar. Incorpora comunidades locales con el mismo formato. Mantén cada nombre insular junto al hecho que delimita.}
+\B{Read the job in the right column. Who can approve the record your tool will use? If you use a real record, ask who can give you permission to share it. Write the answer you expect, then try a question where the tool should ask for a detail or say the answer is unknown. Put the island name beside any fact that depends on it.}
+{Lee la tarea de la columna derecha. ¿Quién puede aprobar el registro que usará la herramienta? Si usas un registro real, pregunta quién puede darte permiso para compartirlo. Escribe la respuesta que esperas. Luego prueba una pregunta en la que la herramienta deba pedir un dato o decir que no sabe. Pon el nombre de la isla junto a cualquier dato que dependa de ella.}
 
-\B{Each ID below selects a companion exercise with a fictional approved record and a newer unverified record. Use \texttt{python3 checks/place\_cases.py C01} to see the Anguilla example. Ask for the field at the stated time and cite the approved record. Then move the clock before both records or ask for a different island. The script provides expected outcomes. Use the assignment beside the ID to develop a richer local test.}
-{Cada identificador selecciona un ejercicio complementario con un registro ficticio aprobado y otro posterior sin verificar. Usa \texttt{python3 checks/place\_cases.py C01} para ver el ejemplo de Anguila. Pide el campo a la hora indicada y cita el registro aprobado. Luego adelanta la consulta a un momento anterior a ambos avisos o pregunta por otra isla. El programa da los resultados esperados. Usa la actividad junto al identificador para crear una prueba local más rica.}
+\B{Each place has a code for a practice case. For example, use \texttt{python3 checks/place\_cases.py C01} to open the Anguilla case. It gives a made-up approved record and a newer record that still needs checking. Ask for the fact at the time shown. Decide which record you can cite. Try a time before both records came out or a question about another island. The program shows what you should get.}
+{Cada lugar tiene un código para un caso de práctica. Por ejemplo, usa \texttt{python3 checks/place\_cases.py C01} para abrir el caso de Anguila. Da un registro inventado y aprobado y otro más nuevo que aún falta revisar. Pide el dato a la hora indicada. Decide qué registro puedes citar. Prueba una hora anterior a los dos registros o pregunta por otra isla. El programa muestra qué resultado deberías obtener.}
 
 \newcommand{\PlaceTable}[1]{\small
 \begin{longtable}{@{}L{.30\textwidth}L{.66\textwidth}@{}}
@@ -21,7 +21,9 @@
 \normalsize}
 \section{\B{UN M49 Caribbean reporting areas}{Áreas estadísticas caribeñas de la ONU M49}}
 \PlaceTable{places-core}
+\Needspace{8\baselineskip}
 \section{\B{Additional island cases}{Casos insulares adicionales}}
 \PlaceTable{places-islands}
+\Needspace{8\baselineskip}
 \section{\B{Mainland, Atlantic and wider Caribbean cases}{Casos continentales, atlánticos y del Gran Caribe}}
 \PlaceTable{places-wider}
